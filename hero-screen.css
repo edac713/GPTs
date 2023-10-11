@@ -72,3 +72,63 @@
   justify-content: center;
   text-shadow: 0 1px 10px rgba(0, 0, 0, 0.75);
 }
+
+/* Get Started Button */
+.button-container {
+  position: absolute;
+  margin-top: -123px;
+  width: 100%;
+  height: 300px;
+  font-size: 28px;
+  display: flex;
+  color: var(--hat-builder-get-started-btn-text-color);
+  background: var(--hat-builder-get-started-btn-bg-color);
+  align-items: start;
+  justify-content: center;
+  border-radius: 40px;
+  border: 0px;
+  animation: bounce 1s infinite;
+  z-index: var(--zindex-button-container);
+}
+
+button.get-started {
+  position: absolute;
+  width: 100%;
+  height: 105px;
+  font-size: 28px;
+  display: block;
+  color: var(--hat-builder-get-started-btn-text-color);
+  background: transparent;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+  border: 0px;
+  animation: bounce 1s infinite;
+  z-index: 250;
+}
+
+.button-image {
+  position: relative;
+  top: 20px;
+  width: 50px;
+}
+
+.button-text {
+  margin-top: 10px;
+  position: relative;
+  font-weight: bold;
+  font-family: var(--font-body-family);
+  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+@keyframes bounce {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-6px);
+  }
+}
