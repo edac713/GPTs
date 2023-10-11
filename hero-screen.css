@@ -1,1 +1,74 @@
+/* CSS for background, CTA, & logo */
+.full-screen-bg {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 73vh;
+  z-index: 1;
+}
 
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.logo-image {
+  position: absolute;
+  top: 21%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: calc(215px + 2vh);
+  object-fit: contain;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta-overlay {
+  position: absolute;
+  bottom: 55px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  /* Set width and height according to your needs */
+}
+
+/* Updated CTA Header and Slogan Styles */
+
+.cta-instructions {
+  margin-top: -5px;  /* Reduced space between header and slogan */
+  font-size: 22px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: left;
+  list-style: number;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
+}
+
+.cta-instructions li {
+  margin-bottom: -2.5px;
+  justify-content: left;
+  display: absolute;
+}
+
+.cta-header {
+  margin-bottom: 10px;  /* Reduced space */
+  font-size: 36px;
+  font-weight: 600;
+  color: #FFFFFF;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.75);
+}
