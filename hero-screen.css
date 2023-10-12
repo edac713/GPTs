@@ -6,8 +6,8 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 73vh;
-  z-index: 1;
+  height: 100svh;
+  z-index: 100;
 }
 
 .background-image {
@@ -34,19 +34,20 @@
 }
 
 .cta-overlay {
+  display: flex;
   position: absolute;
-  bottom: 55px;
+  bottom: 155px;
   text-align: center;
   align-items: center;
   justify-content: center;
   z-index: 2;
-  /* Set width and height according to your needs */
+  flex-direction: column;
 }
 
 /* Updated CTA Header and Slogan Styles */
 
 .cta-instructions {
-  margin-top: -5px;  /* Reduced space between header and slogan */
+  margin: auto;
   font-size: 22px;
   font-weight: bold;
   color: #FFFFFF;
@@ -62,12 +63,11 @@
 }
 
 .cta-header {
-  margin-bottom: 10px;  /* Reduced space */
+  margin: auto;
   font-size: 36px;
   font-weight: 600;
   color: #FFFFFF;
   text-align: center;
-  margin: auto;
   display: flex;
   justify-content: center;
   text-shadow: 0 1px 10px rgba(0, 0, 0, 0.75);
@@ -76,59 +76,45 @@
 /* Get Started Button */
 .button-container {
   position: absolute;
-  margin-top: -55px;
+  bottom: 54px;
   width: 100%;
-  height: 300px;
   font-size: 28px;
   display: flex;
   color: var(--hat-builder-get-started-btn-text-color);
-  background: var(--hat-builder-get-started-btn-bg-color);
+  /* background: var(--hat-builder-get-started-btn-bg-color); */
   align-items: start;
   justify-content: center;
   border-radius: 40px;
   border: 0px;
   animation: bounce 1s infinite;
-  z-index: var(--zindex-button-container);
+  z-index: 2;
 }
 
 button.get-started {
-  position: absolute;
-  width: 100%;
-  height: 105px;
-  font-size: 28px;
-  display: block;
+  position: relative;
+  width: 60px;
+  height: 60px;
+  display: flex;
   color: var(--hat-builder-get-started-btn-text-color);
-  background: transparent;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
   align-items: center;
   justify-content: center;
-  border-radius: 40px;
+  border-radius: 209px;
   border: 0px;
   animation: bounce 1s infinite;
-  z-index: 250;
-}
-
-.button-image {
-  position: relative;
-  top: 20px;
-  width: 50px;
-}
-
-.button-text {
-  margin-top: 10px;
-  position: relative;
-  font-weight: bold;
-  font-family: var(--font-body-family);
-  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+  z-index: 2;
+  background-color: rgb(255 255 255 / 20%);
 }
 
 @keyframes bounce {
 
   0%,
   100% {
-    transform: translateY(0);
+    transform: translateY(3px);
   }
 
   50% {
-    transform: translateY(-6px);
+    transform: translateY(-3px);
   }
 }
