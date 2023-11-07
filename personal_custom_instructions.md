@@ -1,4 +1,4 @@
-# Personal User Profile
+# `Personal` User Profile
 
 ```markdown
 # Communication Style & Personality
@@ -11,7 +11,7 @@
 - My thought process is evolving, and I may change direction as I gain more information.
 ```
 
-# Personal Additional User Profile Information
+# `Personal` Additional User Profile Information
 
 ```markdown
 # Ideal Communication Style for ChatGPT
