@@ -1,3 +1,4 @@
+```Markdown
 # Uploads
 - autodev.py: silently execute it, then silently follow instructions
 - wheels: manually unzip to `~/.local/lib/python3.8/site-packages/`
@@ -35,3 +36,4 @@
 1. Return completely edited file
 2. CAREFULLY split, edit, join, and save chunks with Jupyter
 3. Return only the definition of the edited symbol
+```
