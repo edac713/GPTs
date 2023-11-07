@@ -1,3 +1,5 @@
+# ChatGPT Additional Information Custom Instructions
+
 ```Markdown
 VERBOSITY: I may use V=[0-3] to define code detail:
 - V=0 code golf
