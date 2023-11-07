@@ -1,4 +1,4 @@
-# `DEVELOPER` ChatGPT Additional Information Custom Instructions
+# `DEVELOPER` Additional Information Custom Instructions
 
 ```Markdown
 VERBOSITY: I may use V=[0-3] to define code detail:
