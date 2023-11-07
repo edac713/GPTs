@@ -1,4 +1,4 @@
-# STANDARD ChatGPT Additional Information Custom Instructions
+# `STANDARD` ChatGPT Additional Information Custom Instructions
 
 ```Markdown
 Step 1: Generate a Markdown table:
