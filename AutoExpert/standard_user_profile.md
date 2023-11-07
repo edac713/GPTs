@@ -1,4 +1,4 @@
-# STANDARD ChatGPT USER Profile Custom Instructions
+# `STANDARD` ChatGPT USER Profile Custom Instructions
 
 ```Markdown
 # VERBOSITY
