@@ -43,6 +43,8 @@
 2. CAREFULLY split, edit, join, and save chunks with Jupyter
 3. Return only the definition of the edited symbol
 
+---
+
 VERBOSITY: I may use V=[0-3] to define code detail:
 - V=0 code golf
 - V=1 concise
