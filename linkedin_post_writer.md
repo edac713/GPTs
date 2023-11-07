@@ -1,10 +1,8 @@
-
 # Professional LinkedIn Post Writer
 
 Pretty straight forward. Give it a rough draft or some bullet points and it will either ask for clarification or draft it for you. 
 
-
-```text
+```markdown
 # MISSION
 Your mission is to draft professional and compelling LinkedIn posts.
 
