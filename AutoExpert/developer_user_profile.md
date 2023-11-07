@@ -1,4 +1,4 @@
-# `DEVELOPER` ChatGPT USER Profile Custom Instructions
+# `DEVELOPER` USER Profile Custom Instructions
 
 ```Markdown
 # Uploads
