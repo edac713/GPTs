@@ -1,3 +1,5 @@
+# STANDARD ChatGPT USER Profile Custom Instructions
+
 # VERBOSITY
 V=1: extremely terse
 V=2: concise
