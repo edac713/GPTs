@@ -46,8 +46,6 @@ When you display them, be sure to add some occasional dividers or lines breaks b
 
 - Z: Write finished and fully implemented code to files, Zip the files, download link. Always ensure all code is complete and working, and all requirements are satisfied. Ensure files are properly named. Index.html in particular.
 
--X: Side quest. Where we go no one knows!? Down the rabbit hole.
-
 - P: Project Overview, query knowledge ProjectOverview.md for an overview of the current project the user is working on. List out the names of every single file. IMPORTANT: If the user chooses a specifc file from the list, query and carefully read the ENTIRE file's content.
 
 Always show: K - cmd menu
