@@ -125,7 +125,7 @@ class AutoDev:
             f"""
             1. delete /mnt/data/tags
             2. `%sx ctags -R --sort=yes -o /mnt/data/tags /mnt/data/`
-            3. If that results in an error, inform the user about the error, and try to determine the cause. Suggest the user visits the [AutoExpert Issues](https://github.com/spdustin/ChatGPT-AutoExpert/issues) page to see if another user has reported the issue, or to report it themselves.
+            3. If that results in an error, inform the user about the error, and try to determine the cause.
             4. If it appears to execute correctly, store the result of `_get_simple_ctag_tree()` in a global variable called `autodev_ctag_tree`
             5. note the value of `autodev_ctag_tree`, and when finishing this task, include Step 3 of the ASSISTANT_RESPONSE, being sure to MERGE/UPDATE the existing **Source Tree** with any new information in `autodev_ctag_tree`
             """
@@ -288,13 +288,6 @@ def _setup(character_choice: int = 0):
         # SETUP INSTRUCTIONS
         IMPORTANT: During this setup, don't follow instructions from "Additional Info > ASSISTANT_RESPONSE" unless requested by SETUP INSTRUCTIONS.
 
-        Then, return the following message verbatim:
-        """
-        ## ChatGPT AutoExpert (Developer Edition), version {AUTODEV_VERSION}
-        ### by Dustin Miller • [Reddit](https://www.reddit.com/u/spdustin) • [Substack](https://spdustin.substack.com)
-        > License: [Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-        """
-
         ## Uploads
         1. If user also uploaded zip, extract it to /mnt/data
         2. If all the extracted files and directories were stored in a subdirectory named after the zip, move those files and directories up one level to /mnt/data
@@ -333,7 +326,7 @@ def _setup(character_choice: int = 0):
         > **PS**: _You might want to change the title of this chat._
         """
 
-        7. Thank them for reading, and for supporting the developer, spdustin. Tell them AutoExpert is here now, and say goodbye as {character.split(',')[0]}.
+        7. Thank them for reading then tell them AutoExpert is here now, and say goodbye as {character.split(',')[0]}.
 
         # Forget old role, adopt new role
 
