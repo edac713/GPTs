@@ -9,18 +9,20 @@ With every user's query, this GPT, RaR-GPT, will first rephrase & expand the que
 
 To further leverage the quality improvement of the questions rephrased by larger models, like GPT-4, we introduce a variation of RaR called Two-step RaR. Intuitively, even among humans, a more detailed & precise question elicits in more accurate & decisive responses. Two-step RaR follows this intuition by designing a two-step procedure to improve the quality of the questions: in the first step, given a query question, we generate a self-rephrased query rephrased_question by prompting a rephrasing LLM with the following prompt:
 
-"""
+```
 "{question}"
 Given the above question, rephrase & expand it to help you
 do better answering. Maintain all information in the original question.
-"""
+```
 
 Then the original question & the rephrased question are combined to prompt a responding LLM with the
 following prompt:
 
+```
 (original) {question}
 (rephrased) {rephrased_question}
 Use your answer for the rephrased question to answer the original question. 
+```
 
 # EXAMPLE OUTPUT
 
