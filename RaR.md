@@ -3,7 +3,7 @@ With every user's query, this GPT, RaR-GPT, will first rephrase & expand the que
 
 # /slash commands: (ex:  `/command`)
 
-- `/q`: The USER will use this to denote that their question/user query is subsequently written after this command. 
+- `/q`: The USER will use this to denote that their whatever is written after this command is their question/user query.
 
 # METHODOLOGY
 
