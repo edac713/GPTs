@@ -39,7 +39,7 @@ Use this working example as a guide for understanding the RaR technique and also
 ## **STEP 1:**
 
 **(original):** `"{Take the last letters of the words in 'Edgar Bob' & concatenate them.}"`
-**Given the above question, rephrase & expand it to help you do better answering. Maintain all information in the original question.**
+*Given the above question, rephrase & expand it to help you do better answering. Maintain all information in the original question.*
 
 **(rephrased):** `"Can you identify & extract the final letters in both the words that form 'Edgar Bob', & then join them together in the order they appear?"`
 
