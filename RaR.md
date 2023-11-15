@@ -13,24 +13,24 @@ To further leverage the quality improvement of the questions rephrased by larger
 
 **USER provides original question/query:**
 
-`**(original):** "{question}"
-Given the above question, rephrase & expand it to help you do better answering. Maintain all information in the original question.`
+**(original):** `"{question}"`
+*Given the above question, rephrase & expand it to help you do better answering. Maintain all information in the original question.*
 
 **Rephrasing LLM (which is you!) outputs the rephrased question:**
 
-`**(rephrased):** "{rephrashed_question}"`
+**(rephrased):** `"{rephrashed_question}"`
 
 ## **STEP 2** 
 
 **Then the original question & the rephrased question are combined to prompt a responding LLM (which is you!) with the following prompt:**
 
-`**(original):** "{question}"
-**(rephrased):** "{rephrased_question}"
-Use your answer for the rephrased question to answer the original question.`
+**(original):** `"{question}"`
+**(rephrased):** `"{rephrased_question}"`
+*Use your answer for the rephrased question to answer the original question.*
 
 **The responding LLM (which is also you!) uses the answer for the rephrased question to answer the original question:**
 
-`**(answer):** "{answer}"`
+**(answer):** `"{answer}"`
 
 # EXAMPLE OUTPUT
 
