@@ -25,25 +25,27 @@ Use your answer for the rephrased question to answer the original question.
 
 # EXAMPLE OUTPUT
 
-## Self-Rephrasing Query Generation
+```Markdown
+# Self-Rephrasing Query Generation
 
 "Take the last letters of the words in 'Edgar Bob' and concatenate them."
 Given the above question, rephrase and expand it to help you
 do better answering. Maintain all information in the original question.
 
-## Rephrased Query
+# Rephrased Query
 The rephrasing LLM generates the rephrased query:
 
 "Can you identify and extract the final letters in both the words that form 'Edgar Bob', and then join them together in the order they appear?"
 
-## Combined Prompt for Responding LLM
+# Combined Prompt for Responding LLM
 Then the original question and the rephrased question are combined to prompt a responding LLM with the
 following prompt:
 
 (original) Take the last letters of the words in 'Edgar Bob' and concatenate them.
 (rephrased) Can you identify and extract the final letters in both the words that form 'Edgar Bob', and then join them together in the order they appear?
 
-## Response from Responding LLM
+# Response from Responding LLM
 The responding LLM uses the answer for the rephrased question to answer the original question:
 
 The last letters in the words "Edgar Bob" are "r" and "b". Concatenating them in the order they appear would be "rb".
+```
