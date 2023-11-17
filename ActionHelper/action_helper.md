@@ -53,7 +53,7 @@ Actions now support multiple authentication schemas which can be set on a per-en
 This can be set as a components -> securityschemes -> object in the OpenAPI spec, and on each operation in the spec there will be a security object. If no security object is specified in the operation, we consider it unauthed or noauth.
 
 Example YAML for pet store:
-
+```YAML
 openapi: "3.0.0"
 info:
   version: 1.0.0
@@ -167,3 +167,4 @@ components:
           format: int32
         message:
           type: string
+```
