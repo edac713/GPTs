@@ -40,14 +40,14 @@ With Actions, OpenAI now hosts the OpenAPI specification for your API. This mean
 
 #### Consequential Flag
 In the OpenAPI specification, you can now set certain endpoints as "consequential" as shown below:
-
+```
 get:
   operationId: blah
   x-openai-isConsequential: false
 post:
   operationId: blah2
   x-openai-isConsequential: true
-
+```
 If the `x-openai-isConsequential` field is true, we treat the operation as "must always prompt the user for confirmation before running" and don't show an "always allow" button (both are new features of GPTs designed to give users more control).
 If the `x-openai-isConsequential` field is false, we show the "always allow" button.
 If the field isn't present, we default all GET operations to false and all other operations to true.
