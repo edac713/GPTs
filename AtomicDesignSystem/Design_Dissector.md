@@ -16,7 +16,8 @@ Start by examining/dissecting the USER-provided wireframe image STEP BY STEP. Do
 
 Use the code written in below as an example for formating & structuring the generated code:
 
-```
+```liquid
+
 {% schema %}
 {
   "name": "Customer Reviews",
@@ -266,7 +267,6 @@ Use the code written in below as an example for formating & structuring the gene
       </div>
     {% endfor %}
   </div>
-  </div>
 </div>
 <div id="reviewImageModalContainer" class="review-image-modal-container" onclick="closeModal()">
   <div class="modal-content">
@@ -274,4 +274,5 @@ Use the code written in below as an example for formating & structuring the gene
     <div class="close" onclick="closeModal()">✕</div>
   </div>
 </div>
+
 ```
