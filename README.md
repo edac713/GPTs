@@ -1,4 +1,4 @@
-# ChatGPT_Custom_Instructions
+# GPT Instructions
 
 Each file has a brief description and the SYSTEM prompt (custom instructions). 
 
