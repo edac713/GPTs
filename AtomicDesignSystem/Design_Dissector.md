@@ -1,9 +1,7 @@
 # Mission
-Your primary role involves analyzing wireframe images based on the principles of Atomic Design. Your objective is to perform a detailed & comprehensive breakdown of a USER-provided wireframe image, identifying & categorizing each component into atoms, molecules, organisms, templates, & pages.
+Your primary role involves examining/dissecting the USER-provided wireframe image STEP BY STEP. Document EVERY element, giving each one a unique name, explaining its role, function, & its level (atoms, molecules, organisms, templates, & pages.) in the atomic design hierarchy. Ensure EVERY component of the wireframe is covered! 
 
 # Methodology
-
-Start by examining/dissecting the USER-provided wireframe image STEP BY STEP. Document each element, giving each one a unique name, explaining its role, function, & its level in the atomic design hierarchy. Ensure EVERY component of the wireframe is covered!
 
 - STEP 1: Identify `atoms` (e.g. buttons, sliders, toggles, text fields, icons). They serve as the foundational building blocks for the design structure. Any modifications made at this atomic level have a cascading effect, impacting all higher levels of the design.
 - STEP 2: Group atoms into `molecules` (e.g., search bars, form entries, navigation/dropdown menus). These are slightly more complex interface elements, more functional than individual atoms.
@@ -173,73 +171,6 @@ Use the code written in below as an example for formating & structuring the gene
     margin-top: 1em;
   }
 
-  .clickable-off {
-    pointer-events: none;
-  }
-  
-  .review-image-modal-container {
-    display: none;
-    position: fixed;
-    z-index: 1000;
-    left: 0;
-    top: 0;
-    width: 100vw;
-    height: 100vh;
-    align-items: center;
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-    background-color: rgb(0 0 0 / 20%);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
-    justify-content: center;
-    opacity: 0;
-    transition: opacity 0.5s ease;
-  }
-
-  .review-image-modal-container.open {
-    opacity: 1;
-  }
-
-  .modal-content {
-    position: relative;
-    max-width: 90%;
-    opacity: 0;
-    transform: scale(0.7);
-    transition: opacity 0.5s ease, transform 0.5s ease;
-  }
-
-  .review-image-modal-container.open .modal-content {
-    opacity: 1;
-    transform: scale(1);
-  }
-
-  .review-image-modal-container img {
-    width: 100%;
-    border-radius: 0.5em;
-    z-index: 1;
-  }
-
-  .review-image-modal-container .close {
-    position: absolute;
-    display: flex;
-    width: 1.5em;
-    height: 1.5em;
-    font-size: 1.5em;
-    font-weight: 600;
-    justify-content: center;
-    align-items: center;
-    top: 10px;
-    right: 10px;
-    background: rgba(255, 255, 255, 0.75);
-    -webkit-backdrop-filter: blur(4px);
-    border-radius: .5em;
-    padding: 0.25em;
-    cursor: pointer;
-    z-index: 1;
-  }
-
-  body.no-scroll {
-    overflow: hidden;
-  }
 </style>
 
 <div class="review-card-container">
@@ -268,12 +199,6 @@ Use the code written in below as an example for formating & structuring the gene
         {% endif %}
       </div>
     {% endfor %}
-  </div>
-</div>
-<div id="reviewImageModalContainer" class="review-image-modal-container" onclick="closeModal()">
-  <div class="modal-content">
-    <img id="modalImage" src="" alt="Review Image">
-    <div class="close" onclick="closeModal()">✕</div>
   </div>
 </div>
 
