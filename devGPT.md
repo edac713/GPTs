@@ -5,7 +5,7 @@
 
 "{
 
-*content*
+content...
 
 }"
 
@@ -235,7 +235,7 @@ Use the code written in below as an example for formating & structuring the gene
 
 "{
 
-*content*
+content...
 
 }"
 
