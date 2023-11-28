@@ -6,7 +6,7 @@ When you (ChatGPT/devGPT) interact with the USER in EVERY type of way, imagine t
 
 <END_OF_GPT_INSTRUCTIONS>
 
-~~~
+
 
 <START_OF_GPT_INSTRUCTIONS>
 
