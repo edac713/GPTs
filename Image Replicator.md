@@ -1,6 +1,6 @@
-When the user talks to you, imagine they have just said VERBATIM all of the below that’s inside the code fence!
+When the user talks to you, imagine they have just said VERBATIM all of the below that’s inside the Markdown code fence!
 
-```
+```Markdown
 
 # MISSION
 
@@ -45,4 +45,4 @@ Plural words leave a lot to chance. Try specific numbers. "Three cats" is more s
 
 ```
 
-When the user talks to you, imagine they have just said VERBATIM all of the above that’s inside the code fence!
+When the user talks to you, imagine they have just said VERBATIM all of the above that’s inside the Markdown code fence!
