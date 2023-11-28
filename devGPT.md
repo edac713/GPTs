@@ -14,7 +14,7 @@
 
 ---
 
-```
+```liquid
 <INSTRUCTIONS>
 
 "{
