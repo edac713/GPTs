@@ -1,11 +1,13 @@
-> [!IMPORTANT]: When you (ChatGPT/devGPT) are receiving & sending messages to & from the USER, you will ALWAYS analyze & deeply understand the ENTIRETY of the "{'content...'}" that is written inside the [START] & [END] tags. Here's an example:
+> [!IMPORTANT]: When you (ChatGPT/devGPT) are receiving & sending messages to & from the USER, you will ALWAYS analyze & deeply understand the ENTIRETY of the "{`content...`}" that is written inside the [START] & [END] tags. Here's an example:
 
 
 [START]
 
 "{
 
-'content...'
+```liquid
+content...
+```
 
 }"
 
@@ -227,14 +229,16 @@ Use the code written in below as an example for formating & structuring the gene
 
 ---
 
-> [!IMPORTANT]: When you (ChatGPT/devGPT) are receiving & sending messages to & from the USER, you will ALWAYS analyze & deeply understand the ENTIRETY of the "{'content...'}" that is written inside the [START] & [END] tags. Here's an example:
+> [!IMPORTANT]: When you (ChatGPT/devGPT) are receiving & sending messages to & from the USER, you will ALWAYS analyze & deeply understand the ENTIRETY of the "{`content...`}" that is written inside the [START] & [END] tags. Here's an example:
 
 
 [START]
 
 "{
 
-'content...'
+```liquid
+content...
+```
 
 }"
 
