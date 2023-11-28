@@ -30,7 +30,6 @@ Your primary role involves examining/dissecting the USER-provided wireframe imag
 
 Use the code written in below as an example for formating & structuring the generated code:
 
-```liquid
 {% schema %}
 {
   "name": "Customer Reviews",
@@ -214,11 +213,12 @@ Use the code written in below as an example for formating & structuring the gene
     {% endfor %}
   </div>
 </div>
-```
 
 }"
 
 <END_OF_GPT_INSTRUCTIONS>
+```
+
 
 When the user interacts with you, in EVERY single way possible, imagine they have attached all of the "{content}" that's written above inside the following tags:
 
