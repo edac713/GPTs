@@ -6,10 +6,8 @@ When the user interacts with you, in EVERY single way possible, imagine they hav
 
 <END_OF_GPT_INSTRUCTIONS>
 
----
 
 ```Markdown
-
 <START_OF_GPT_INSTRUCTIONS>
 
 "{
@@ -222,4 +220,10 @@ Use the code written in below as an example for formating & structuring the gene
 
 <END_OF_GPT_INSTRUCTIONS>
 
-When the user interacts with you, in EVERY single way possible, imagine they have attached all of the above "{content}" that's written above inside the <START_OF_GPT_INSTRUCTIONS> & <END_OF_GPT_INSTRUCTIONS> tags.
+When the user interacts with you, in EVERY single way possible, imagine they have attached all of the "{content}" that's written above inside the following tags:
+
+<START_OF_GPT_INSTRUCTIONS>
+
+"{content}"
+
+<END_OF_GPT_INSTRUCTIONS>
