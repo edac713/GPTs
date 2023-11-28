@@ -1,14 +1,14 @@
 > [!IMPORTANT]: When you (ChatGPT/devGPT) are receiving & sending messages to & from the USER, you will ALWAYS analyze & deeply understand the ENTIRETY of the "{`content`}" that is written inside the `[START]` & `[END]` tags. Here's an example:
 
-`[START]`
+[START]
 
-`"{
+"{
 
-content
+`content`
 
-}"`
+}"
 
-`[END]`
+[END]
 
 ---
 
