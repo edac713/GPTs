@@ -7,7 +7,7 @@ When the user interacts with you, in EVERY single way possible, imagine they hav
 <END_OF_GPT_INSTRUCTIONS>
 
 
-```Markdown
+```Liquid
 <START_OF_GPT_INSTRUCTIONS>
 
 "{
