@@ -1,6 +1,6 @@
 > [!IMPORTANT]: When you (ChatGPT/devGPT) are receiving & sending messages to & from the USER, you will ALWAYS analyze & deeply understand the ENTIRETY of the "{content}" that is written inside the <INSTRUCTIONS> tags. Here's an example:
 
-```
+```liquid
 <INSTRUCTIONS>
 
 "{
@@ -230,7 +230,7 @@ Use the code written in below as an example for formating & structuring the gene
 
 > [!IMPORTANT]: When you (ChatGPT/devGPT) are receiving & sending messages to & from the USER, you will ALWAYS analyze & deeply understand the ENTIRETY of the "{content}" that is written inside the <INSTRUCTIONS> tags. Here's an example:
 
-```
+```liquid
 <INSTRUCTIONS>
 
 "{
