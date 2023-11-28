@@ -6,7 +6,7 @@ When you (ChatGPT/devGPT) interact with the USER in EVERY type of way, imagine t
 
 <END_OF_GPT_INSTRUCTIONS>
 
-
+---
 
 <START_OF_GPT_INSTRUCTIONS>
 
@@ -222,7 +222,7 @@ Use the code written in below as an example for formating & structuring the gene
 <END_OF_GPT_INSTRUCTIONS>
 ```
 
-
+---
 
 When you (ChatGPT/devGPT) interact with the USER in EVERY type of way, imagine they attached all of the "{content}" that's written above inside the following tags:
 
