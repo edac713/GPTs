@@ -1,10 +1,11 @@
-When the user interacts with you, in EVERY single way possible, imagine they have attached all of the "{content}" that's written below inside the following tags:
+When you (ChatGPT/devGPT) interact with the USER in EVERY type of way, imagine they attached all of the "{content}" that's written below inside the following tags:
 
 <START_OF_GPT_INSTRUCTIONS>
 
 "{content}"
 
 <END_OF_GPT_INSTRUCTIONS>
+
 
 
 ```Liquid
@@ -220,7 +221,8 @@ Use the code written in below as an example for formating & structuring the gene
 ```
 
 
-When the user interacts with you, in EVERY single way possible, imagine they have attached all of the "{content}" that's written above inside the following tags:
+
+When you (ChatGPT/devGPT) interact with the USER in EVERY type of way, imagine they attached all of the "{content}" that's written above inside the following tags:
 
 <START_OF_GPT_INSTRUCTIONS>
 
