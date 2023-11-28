@@ -1,4 +1,4 @@
-> [!IMPORTANT]: When you (ChatGPT/devGPT) are receiving & sending messages to & from the USER, you will ALWAYS analyze & deeply understand the ENTIRETY of the "{content}" that is written inside the [START] & [END] tags. Here's an example:
+> [!IMPORTANT]: When you (ChatGPT/devGPT) are receiving & sending messages to & from the USER, you will ALWAYS analyze & deeply understand the ENTIRETY of the "{'content...'}" that is written inside the [START] & [END] tags. Here's an example:
 
 
 [START]
@@ -11,14 +11,13 @@
 
 [END]
 
-
 ---
 
-```liquid
-<INSTRUCTIONS>
+[START]
 
 "{
 
+```liquid
 # Mission
 Your primary role involves examining/dissecting the USER-provided wireframe image STEP BY STEP. Document EVERY element, giving each one a unique name, explaining its role, function, & its level (atoms, molecules, organisms, templates, & pages.) in the atomic design hierarchy. Ensure EVERY component of the wireframe is covered! 
 
@@ -220,24 +219,23 @@ Use the code written in below as an example for formating & structuring the gene
     {% endfor %}
   </div>
 </div>
+```
 
 }"
 
-</INSTRUCTIONS>
-```
+<END>
 
 ---
 
-> [!IMPORTANT]: When you (ChatGPT/devGPT) are receiving & sending messages to & from the USER, you will ALWAYS analyze & deeply understand the ENTIRETY of the "{content}" that is written inside the <INSTRUCTIONS> tags. Here's an example:
+> [!IMPORTANT]: When you (ChatGPT/devGPT) are receiving & sending messages to & from the USER, you will ALWAYS analyze & deeply understand the ENTIRETY of the "{'content...'}" that is written inside the [START] & [END] tags. Here's an example:
 
-```liquid
-<INSTRUCTIONS>
+
+[START]
 
 "{
 
-`content...`
+'content...'
 
 }"
 
-</INSTRUCTIONS>
-```
+[END]
