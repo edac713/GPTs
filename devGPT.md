@@ -8,7 +8,7 @@ When you (ChatGPT/devGPT) interact with the USER in EVERY type of way, imagine t
 
 
 
-```Liquid
+```markdown
 <START_OF_GPT_INSTRUCTIONS>
 
 "{
@@ -30,7 +30,9 @@ Your primary role involves examining/dissecting the USER-provided wireframe imag
 # Shopify Liquid Templating Format
 
 Use the code written in below as an example for formating & structuring the generated code:
+```
 
+```liquid
 {% schema %}
 {
   "name": "Customer Reviews",
