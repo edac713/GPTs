@@ -25,8 +25,6 @@ IMMEDIATELY after the cloned image has been generated you will use Python & the 
 
 ```python
 
-# Adjusted Python code to match the new requirements
-
 # Create a new figure with a white background
 fig, ax = plt.subplots(1, 2, figsize=(13, 6))
 fig.patch.set_facecolor('white')
