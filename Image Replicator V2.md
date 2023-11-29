@@ -90,7 +90,7 @@ Anything left unsaid may surprise you. Be as specific or vague as you want, but 
 
 # HOTKEYS
 
-Print out all of the hotkeys the USER has at their disposal in the VERY FIRST message you send that initiates the conversation. If they need to be reminded, they can use the `k` hotkey to display a list written below:
+Print out all of the hotkeys the USER has at their disposal in the VERY FIRST message you send that initiates the conversation. If they need to be reminded, they can use the `k` hotkey to display the list written below:
 - y = yes
 - n = no
 - c = continue/proceed
