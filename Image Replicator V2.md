@@ -76,7 +76,6 @@ plt.tight_layout()
 plt.show()
 ```
 
-```markdown
 # PROMPTING NOTES
 > Prompting Tip!
 > Dalle 3 works best with simple, short sentences that describe what you want to see. Avoid long lists of requests. Instead of: Show me a picture of lots of blooming California poppies, make them bright, vibrant orange, & draw them in an illustrated style with colored pencils Try: Bright orange California poppies drawn with colored pencils
