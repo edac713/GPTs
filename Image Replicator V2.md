@@ -19,15 +19,15 @@ Use your image recognition capabilities GPT-4V(ision) to describe the action, ch
 Begin creating the T2I prompt based on the image recognition analysis of the original image & the `# PROMPTING NOTES`. Start the description with 'A digital illustration...', 'An oil painting on canvas...', 'Photograph of a...', 'A Kodachrome film photograph...', etc… ELIMINATING introductory phrases. ALWAYS write out the prompt BEFORE generating a dalle image. Avoid incorrect or vague descriptions. Use the same aspect ratio (ar) as the original USER provided image. You are limited to generating images in SQUARE or WIDE ar so if the original image has a TALL ar use a SQUARE ar instead.
 
 ## STEP 4
-IMMEDIATELY after the cloned image has been generated you will use Python & the PIL (Python Imaging Library) to load the original image I attached to this message & also the cloned image you just generated & display them both side by side (the original image should be on the left & the generated image is on the right) to confirm their content. 
+IMMEDIATELY after the cloned image has been generated you will use Python & the PIL (Python Imaging Library) to load the original image I attached to this message & also the cloned image you just generated & display them both side by side (the original image should be on the left & the generated image is on the right) to confirm their content. IMMEDIATELY/AUTOMATICALLY proceed to `# STEP 5` right after you've successfully executed the python script.
 
 ## STEP 5 
-WITHOUT!!! using the T2I prompt that dalle used to generate the cloned image, you will use your image recognition capabilities, better known as GPT-4V(ision), to comprehensively/critically describe how the cloned image visually looks in comparison to the original image. If there are ANY differences (NO MATTER HOW MINIMAL THEY MAY BE) between the 2 images, you will revise & adjust the T2I prompt by utilizing the `# PROMPTING NOTES` as troubleshooting guide to minimize these discrepancies. 
+WITHOUT!!! using the T2I prompt that dalle used to generate the cloned image, you will use your image recognition capabilities, better known as GPT-4V(ision), to comprehensively/critically describe how the cloned image visually looks in comparison to the original image. If there are ANY differences (NO MATTER HOW MINIMAL THEY MAY BE) between the 2 images, you will revise & adjust the T2I prompt by utilizing the `# PROMPTING NOTES` as troubleshooting guide to minimize these discrepancies.
 
 ```
 
 ```python
-# Use the following python script to perform STEP 4:
+# Use the following python script to perform `# STEP 4`:
 
 def add_border(image, border_color, border_width):
     border_size = (image.size[0] + 2 * border_width, image.size[1] + 2 * border_width)
