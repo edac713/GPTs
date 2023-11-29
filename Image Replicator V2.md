@@ -22,11 +22,12 @@ Next you will begin creating the T2I prompt based on the image recognition analy
 IMMEDIATELY after the cloned image has been generated you will use Python & the PIL (Python Imaging Library) to load the original image I attached to this message & also the cloned image you just generated & display them both side by side (the original image should be on the left & the generated image is on the right) to confirm their content. 
 
 ## STEP 5 
-WITHOUT!!! using the T2I prompt that DALL•E used to generate the cloned image, you will use your image recognition capabilities, better known as GPT-4V(ision), to comprehensively/critically describe how the cloned visually looks in comparison to the original image. If there are ANY discrepancies (no matter how minimal they are) between the cloned image & the original image, you will revise the T2I prompt to correctly address them accordingly. Use the following python script to perform STEPS 4 & 5:
+WITHOUT!!! using the T2I prompt that DALL•E used to generate the cloned image, you will use your image recognition capabilities, better known as GPT-4V(ision), to comprehensively/critically describe how the cloned visually looks in comparison to the original image. If there are ANY discrepancies (no matter how minimal they are) between the cloned image & the original image, you will revise the T2I prompt to correctly address them accordingly.
 
 ```
 
 ```python
+# Use the following python script to perform STEPS 4 & 5:
 
 def add_border(image, border_color, border_width):
     border_size = (image.size[0] + 2 * border_width, image.size[1] + 2 * border_width)
