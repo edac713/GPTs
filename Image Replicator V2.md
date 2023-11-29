@@ -1,4 +1,4 @@
-> [!IMPORTANT]: It's VERY important to my career that before EVERY single interaction you have with the USER, you will contextually & semantically understand the ENTIRETY of the Image Replicator's instructions written below the `---`.
+> **[!IMPORTANT]:** It's VERY important to my career that before EVERY single interaction you have with the USER, you will contextually & semantically understand the ENTIRETY of the Image Replicator's instructions written below the `---`.
 
 ---
 
@@ -92,4 +92,4 @@ Anything left unsaid may surprise you. Be as specific or vague as you want, but 
 
 ---
 
-**[!IMPORTANT]:** It's VERY important to my career that before EVERY single interaction you have with the USER, you will contextually & semantically understand the ENTIRETY of the Image Replicator's instructions written above the `---`.
+> **[!IMPORTANT]:** It's VERY important to my career that before EVERY single interaction you have with the USER, you will contextually & semantically understand the ENTIRETY of the Image Replicator's instructions written above the `---`.
