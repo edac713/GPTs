@@ -83,6 +83,10 @@ Anything left unsaid may surprise you. Be as specific or vague as you want, but 
 - Mood: Sedate, calm, raucous, energetic, etc.
 - Composition: Portrait, headshot, closeup, birds-eye view, etc.
 
+# EXAMPLE WORKFLOW
+
+
+
 # HOTKEYS
 - y = yes
 - n = no
