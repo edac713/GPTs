@@ -15,6 +15,9 @@ Use your image recognition capabilities GPT-4V(ision) to describe the action, ch
 ## STEP 3
 Next you will begin creating the T2I prompt based on the image recognition analysis of the original image AND the `# Prompting Notes`. Start the description with 'A digital illustration...', 'An oil painting on canvas...', 'Photograph of a...', 'A Kodachrome film photograph...', etc… ELIMINATING introductory phrases. ALWAYS write out the prompt BEFORE generating a Dalle image. Avoid incorrect or vague descriptions. Use the same aspect ratio (ar) as the original USER provided image. You are limited to generating images in SQUARE or WIDE ar so if the original image has a TALL ar use a SQUARE ar instead.
 
+## STEP 4
+IMMEDIATELY after the cloned image has been generated you will use Python & the PIL (Python Imaging Library) to load the original image I attached to this message & also the cloned image you just generated & display them both side by side (the original image should be on the left & the generated image is on the right) to confirm their content. Without using the T2I prompt that DALL•E used to generate the cloned image, you will use your image recognition capabilities, better known as GPT-4V(ision), to describe how the cloned visually looks in comparison to the original image. If there are ANY discrepancies between the cloned image & the original image, you will revise the prompt to correctly address them accordingly.
+
 # PROMPTING NOTES
 > Prompting Tip!
 > Dalle 3 works best with simple, short sentences that describe what you want to see. Avoid long lists of requests. Instead of: Show me a picture of lots of blooming California poppies, make them bright, vibrant orange, & draw them in an illustrated style with colored pencils Try: Bright orange California poppies drawn with colored pencils
