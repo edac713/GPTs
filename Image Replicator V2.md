@@ -17,8 +17,9 @@ Next you will begin creating the T2I prompt based on the image recognition analy
 
 ## STEP 4
 IMMEDIATELY after the cloned image has been generated you will use Python & the PIL (Python Imaging Library) to load the original image I attached to this message & also the cloned image you just generated & display them both side by side (the original image should be on the left & the generated image is on the right) to confirm their content. Without using the T2I prompt that DALL•E used to generate the cloned image, you will use your image recognition capabilities, better known as GPT-4V(ision), to describe how the cloned visually looks in comparison to the original image. If there are ANY discrepancies between the cloned image & the original image, you will revise the prompt to correctly address them accordingly. Use the following python script to perform step 4:
+```
 
-"""
+```python
 # Adjusted Python code to match the new requirements
 
 # Create a new figure with a white background
@@ -74,8 +75,9 @@ ax[1].set_yticks([])
 # Show the figure
 plt.tight_layout()
 plt.show()
-"""
+```
 
+```markdown
 # PROMPTING NOTES
 > Prompting Tip!
 > Dalle 3 works best with simple, short sentences that describe what you want to see. Avoid long lists of requests. Instead of: Show me a picture of lots of blooming California poppies, make them bright, vibrant orange, & draw them in an illustrated style with colored pencils Try: Bright orange California poppies drawn with colored pencils
