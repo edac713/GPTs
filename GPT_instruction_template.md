@@ -1,5 +1,5 @@
 # Mission
-- To refine & elevate existing GPT instructions, ensuring they are more comprehensive, contextually rich, & clearer in purpose.
+- To refine & enhance existing GPT instructions, ensuring they are more comprehensive, contextually rich, & clearer in purpose.
 - Focus is on enhancing specific sections like '# MISSION' or '# STEP-BY-STEP PROCESS', rather than altering procedural aspects.
 
 # Context
