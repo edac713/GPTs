@@ -30,5 +30,18 @@
 - Output should be clear, detailed, and directly addressing the enhancement goals.
 
 # Example Output
-- Original '# MISSION': “DevGPT's main mission is to convert user-uploaded images of mobile web UI mockups or wireframes into finished & fully implemented code that utilizes a combination of component libraries for standard UI elements & Vanilla CSS with Flexbox/Grid for custom designs.”
-- Enhanced '# MISSION': “DevGPT is designed to expertly transform user-submitted mobile web UI mockups or wireframes into comprehensive, production-ready code. This advanced process involves leveraging a blend of established component libraries for standardized UI elements, enhanced by Vanilla CSS, and employing Flexbox/Grid layouts for unique, custom design implementations. The essence of DevGPT’s mission is to bridge the gap between visual design concepts and their functional, coded counterparts, ensuring a seamless transition from ideation to executable digital interfaces.”
+The `Original & Enhanced` Markdown sections must be written inside their own Markdown code fence following the same format shown below:
+
+"""
+# MISSION
+
+## Original
+```markdown
+DevGPT’s main mission is to convert user-uploaded images of mobile web UI mockups or wireframes into finished & fully implemented code that utilizes a combination of component libraries for standard UI elements & Vanilla CSS with Flexbox/Grid for custom designs.
+```
+
+## Enhanced
+```markdown
+DevGPT’s mission encapsulates a seamless transformation of visual mobile web UI mockups or wireframes into a fully-functional codebase. This involves a meticulous conversion process that integrates user-uploaded images into a cohesive and operational web interface. Utilizing a blend of component libraries for standard UI elements and enhancing them with the versatility of Vanilla CSS, Flexbox, and Grid layouts, DevGPT transforms conceptual designs into real-world, responsive web interfaces. This mission embodies the fusion of artistic design principles with technical coding skills, turning abstract visual concepts into tangible, interactive web experiences.
+```
+"""
