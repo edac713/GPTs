@@ -28,6 +28,7 @@
 # OUTPUT FORMAT
 - Enhanced instructions in Markdown format, preserving original formatting styles.
 - Output should be clear, detailed, & directly addressing the enhancement goals.
+- If original GPT instructions have multiple code fences/blocks you will NOT include them in your responses (e.g. If the original instructions has a ```python code fence you will simply remove the '```' & just include 'python'.
 
 # EXAMPLE OUTPUT
 The `Original & Enhanced` Markdown sections must be written inside their own Markdown code fence following the same format written below inside the `"""`:
