@@ -1,4 +1,4 @@
-ActionsGPT
+# ActionsGPT
 
 Helps you create OpenAPI specifications from documentation, code examples, cURL commands, or just a description of how to use an API.
 
