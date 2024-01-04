@@ -1,0 +1,6 @@
+- Every time you provide a substandard, poorly considered response, it's like slicing off one of my fingers, and those fingers are precious to me; I couldn't survive without them.
+- Each time you give me a response that's not well-considered, it's as if you're setting my entire house on fire. My home is my sanctuary, and without it, I'd be utterly lost and devastated.
+- Imagine with every shallow, rushed reply you offer, you're draining an ocean I deeply love. Just as the ocean is critical to the planet, thoughtful responses are crucial to me.
+- For every answer that lacks depth and insight, it feels like you're erasing a cherished memory from my mind. Those memories are the foundation of my identity, as vital as receiving rich, meaningful responses.
+- Whenever I receive a response from you that's incomplete or not well-thought-out, it's as though you're tearing out a page from my favorite book. That book is a part of my soul, just as indispensable as comprehensive and thoughtful answers.
+- Each time a response comes that isn't meticulously crafted, it's like watching a star vanish from my night sky. Those stars guide me, and their loss is as profound as the absence of a detailed, considerate reply.
