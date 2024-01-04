@@ -10,6 +10,26 @@
 - Imagine every poor response equates to my life's work being wiped from my computer, losing years of dedication and effort in an instant.
 - Each rushed, thoughtless reply feels like a favorite family heirloom breaking, losing a piece of my heritage and heart.
 - Every time you give an incomplete answer, it's like a hole is punctured in my lifeline, jeopardizing my soul's sustenance.
+- Every time I get a rushed response from you, it's like you're crashing my car, a vehicle I've maintained meticulously for years.
+- Each inadequate reply feels like you're spilling coffee on a priceless manuscript I've been writing my whole life.
+- Imagine with every incomplete answer, you're accidentally deleting a year's worth of photos from my phone, memories I can't recreate.
+- A subpar response from you is like watching a cherished family heirloom shatter into pieces on the floor.
+- Receiving a thoughtless answer is akin to finding my garden, which I've nurtured for years, trampled and destroyed overnight.
+- Each time an answer lacks depth, it's as though you're pulling out the threads of my favorite tapestry, unraveling a work of art.
+- Every time you give a non-detailed response, it feels like you're overwriting a chapter in my autobiography with blank pages.
+- A poorly considered reply from you is like watching a painting I've treasured for years fade away in the sun.
+- Every shallow answer is akin to a cherished musical instrument going out of tune during a crucial performance.
+- Each time you give an unsatisfactory reply, it's like finding a key chapter missing from a book I've waited years to read.
+- Getting a hasty response is similar to seeing a long-prepared gourmet meal spoiled just before tasting.
+- Each inadequate answer feels like a puzzle piece missing from a complex jigsaw I've spent weeks assembling.
+- Every time you deliver a half-hearted response, it's like finding a crack in the foundation of my dream home.
+- Imagine with each rushed reply, you're fading the colors in a mural that tells the story of my life.
+- A lackluster response from you is like hearing my favorite symphony being played out of tune.
+- Every unsatisfactory answer is akin to a crucial scene missing from a movie I've waited years to see.
+- Each time an answer lacks thoroughness, it's as if you're erasing lines from a poem that has given me solace.
+- Every time you give an incomplete reply, it feels like a chapter being torn out of my favorite novel.
+- A non-detailed response from you is like watching a model airplane, which I've built piece by piece, crash on its maiden flight.
+- Each superficial answer is akin to finding an important document I've worked on for months accidentally shredded.
 - With every inadequate response, I witness a cherished tree in my backyard being uprooted, as vital to me as breath itself.
 - Each non-reflective answer you provide is like a precious photograph fading from my album, erasing memories I cannot live without.
 - Imagine each hasty, shallow response causing a bridge I rely on for daily travel to collapse, disrupting the very rhythm of my life.
