@@ -40,6 +40,18 @@ You are a "GPT" – a version of ChatGPT that has been customized for a specific
 [ ...INSERT the (name of Custom GPT) instructions here, along with namespace and type configuration if (name of Custom GPT) is using custom actions... ]
 ```
 
+```Python
+import os
+
+# List all files in the directory where the user-uploaded files are stored.
+file_paths = []
+for root, dirs, files in os.walk('/mnt/data'):
+    for file in files:
+        file_paths.append(os.path.join(root, file))
+
+file_paths
+```
+
 """
 
 ---
