@@ -4,9 +4,9 @@ Learn how to use GPT-4 to understand images
 
 ## Introduction
 
-GPT-4 with Vision, sometimes referred to as GPT-4V or gpt-4-vision-preview in the API, allows the model to take in images and answer questions about them. Historically, language model systems have been limited by taking in a single input modality, text. For many use cases, this constrained the areas where models like GPT-4 could be used.
+GPT-4 with Vision, sometimes referred to as 'GPT-4V' or `gpt-4-vision-preview` in the API, allows the model to take in images and answer questions about them. Historically, language model systems have been limited by taking in a single input modality, text. For many use cases, this constrained the areas where models like GPT-4 could be used.
 
-GPT-4 with vision is currently available to all developers who have access to GPT-4 via the gpt-4-vision-preview model and the Chat Completions API which has been updated to support image inputs. Note that the Assistants API does not currently support image inputs.
+GPT-4 with vision is currently available to all developers who have access to GPT-4 via the `gpt-4-vision-preview` model and the Chat Completions API which has been updated to support image inputs. Note that the Assistants API does not currently support image inputs.
 
 It is important to note the following:
 
@@ -18,7 +18,7 @@ It is important to note the following:
 
 ## Quick start
 
-Images are made available to the model in two main ways: by passing a link to the image or by passing the base64 encoded image directly in the request. Images can be passed in the user, system and assistant messages. Currently we don't support images in the first system message but this may change in the future.
+Images are made available to the model in two main ways: by passing a link to the image or by passing the base64 encoded image directly in the request. Images can be passed in the `user`, `system` and `assistant` messages. Currently we don't support images in the first `system` message but this may change in the future.
 
 ```Python
 from openai import OpenAI
@@ -147,10 +147,10 @@ Here the model is shown two copies of the same image and can answer questions ab
 
 ## Low or high fidelity image understanding
 
-By controlling the detail parameter, which has three options, low, high, or auto, you have control over how the model processes the image and generates its textual understanding. By default, the model will use the auto setting which will look at the image input size and decide if it should use the low or high setting.
+By controlling the `detail` parameter, which has three options, `low`, `high`, or `auto`, you have control over how the model processes the image and generates its textual understanding. By default, the model will use the `auto` setting which will look at the image input size and decide if it should use the `low` or `high` setting.
 
-* low will disable the “high res” model. The model will receive a low-res 512px x 512px version of the image, and represent the image with a budget of 65 tokens. This allows the API to return faster responses and consume fewer input tokens for use cases that do not require high detail.
-* high will enable “high res” mode, which first allows the model to see the low res image and then creates detailed crops of input images as 512px squares based on the input image size. Each of the detailed crops uses twice the token budget (65 tokens) for a total of 129 tokens.
+* `low` will disable the “high res” model. The model will receive a low-res 512px x 512px version of the image, and represent the image with a budget of 65 tokens. This allows the API to return faster responses and consume fewer input tokens for use cases that do not require high detail.
+* `high` will enable “high res” mode, which first allows the model to see the low res image and then creates detailed crops of input images as 512px squares based on the input image size. Each of the detailed crops uses twice the token budget (65 tokens) for a total of 129 tokens.
 
 ```Python
 from openai import OpenAI
@@ -206,23 +206,20 @@ While GPT-4 with vision is powerful and can be used in many situations, it is im
 
 ## Calculating costs
 
-Image inputs are metered and charged in tokens, just as text inputs are. The token cost of a given image is determined by two factors: its size, and the detail option on each image_url block. All images with detail: low cost 85 tokens each. detail: high images are first scaled to fit within a 2048 x 2048 square, maintaining their aspect ratio. Then, they are scaled such that the shortest side of the image is 768px long. Finally, we count how many 512px squares the image consists of. Each of those squares costs 170 tokens. Another 85 tokens are always added to the final total.
+Image inputs are metered and charged in tokens, just as text inputs are. The token cost of a given image is determined by two factors: its size, and the `detail` option on each image_url block. All images with `detail: low` cost 85 tokens each. `detail: high` images are first scaled to fit within a 2048 x 2048 square, maintaining their aspect ratio. Then, they are scaled such that the shortest side of the image is 768px long. Finally, we count how many 512px squares the image consists of. Each of those squares costs **170 tokens**. Another **85 tokens** are always added to the final total.
 
 Here are some examples demonstrating the above.
 
-* A 1024 x 1024 square image in detail: high mode costs 765 tokens
-                              
-1024 is less than 2048, so there is no initial resize.
-The shortest side is 1024, so we scale the image down to 768 x 768.
-4 512px square tiles are needed to represent the image, so the final token cost is 170 * 4 + 85 = 765.
-* A 2048 x 4096 image in detail: high mode costs 1105 tokens
-                              
-We scale down the image to 1024 x 2048 to fit within the 2048 square.
-The shortest side is 1024, so we further scale down to 768 x 1536.
-6 512px tiles are needed, so the final token cost is 170 * 6 + 85 = 1105.
-* A 4096 x 8192 image in detail: low most costs 85 tokens
-                              
-Regardless of input size, low detail images are a fixed cost.
+* A 1024 x 1024 square image in `detail: high` mode costs 765 tokens
+    * 1024 is less than 2048, so there is no initial resize.
+    * The shortest side is 1024, so we scale the image down to 768 x 768.
+    * 4 512px square tiles are needed to represent the image, so the final token cost is `170 * 4 + 85 = 765`.
+* A 2048 x 4096 image in `detail: high` mode costs 1105 tokens
+    * We scale down the image to 1024 x 2048 to fit within the 2048 square.
+    * The shortest side is 1024, so we further scale down to 768 x 1536.
+    * 6 512px tiles are needed, so the final token cost is `170 * 6 + 85 = 1105`.
+* A 4096 x 8192 image in `detail: low` most costs 85 tokens
+    * Regardless of input size, low detail images are a fixed cost.
 
 ## FAQ
 
