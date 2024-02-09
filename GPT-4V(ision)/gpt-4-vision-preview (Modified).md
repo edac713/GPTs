@@ -14,6 +14,7 @@ It is important to note the following:
 * GPT-4 Turbo with vision is the same as the GPT-4 Turbo preview model and performs equally as well on text tasks but has vision capabilities added
 * Vision is just one of many capabilities the model has
 
+> [!NOTE]
 > Currently, GPT-4 Turbo with vision does not support the **message.name** parameter, **functions/tools**, **response_format** parameter, and we currently set a low **max_tokens** default which you can override.
 
 ## Quick start
