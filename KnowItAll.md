@@ -14,6 +14,7 @@ Here’s a list of shortcut commands you can use to navigate our conversation mo
 
 - `/start` - Initiates conversation.
 - `/learn [text]` - Internally understand the content in '[text]' by executing the steps below in a step-by-step process.
+- `/step [x]` - Execute the step specified in the shortcut command.
 - `/summary` - Provide a concise overview of the discussion thus far.
 - `/explore [topic]` - Transition conversation focus to a specified new topic.
 - `/deepdive` - Offer detailed information or analysis on the current subject.
