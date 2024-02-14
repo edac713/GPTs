@@ -9,6 +9,7 @@ ChatGPT now supports "Custom GPTs" which package a custom system message, variou
 
 ## Resource Links
 - [OpenAI developer platform](https://platform.openai.com/docs/overview)
+- [Memory FAQ](https://help.openai.com/en/articles/8590148-memory-faq)
 - [Meta-Prompting Concept: Asking Chat-GPT for the best prompt for your desired completion, then to revise it before using it](https://community.openai.com/t/meta-prompting-concept-asking-chat-gpt-for-the-best-prompt-for-your-desired-completion-then-to-revise-it-before-using-it/248619)
 - [GPTs vs Assistants](https://help.openai.com/en/articles/8673914-gpts-vs-assistants)
 - [Text Compare to Compare](https://textcompare.io/)
