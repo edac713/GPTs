@@ -9,7 +9,10 @@ ChatGPT now supports "Custom GPTs" which package a custom system message, variou
 
 ## Resource Links
 - [Meta-Prompting Concept: Asking Chat-GPT for the best prompt for your desired completion, then to revise it before using it](https://community.openai.com/t/meta-prompting-concept-asking-chat-gpt-for-the-best-prompt-for-your-desired-completion-then-to-revise-it-before-using-it/248619)
-- 
+- [Seeking Advice: Enhancing Accuracy of GPT-4 with Vision](https://community.openai.com/t/seeking-advice-enhancing-accuracy-of-gpt-4-with-vision/507814)
+- [Add attention maps akin to logprobs for GPT-4V](https://community.openai.com/t/add-attention-maps-akin-to-logprobs-for-gpt-4v/398781)
+- [GPT-4 Photo Analysis Capabilities](https://community.openai.com/t/gpt-4-photo-analysis-capabilities/196981)
+- [GPT-4V Refuses to Design Website Based on Image](https://community.openai.com/t/gpt-4v-refuses-to-design-website-based-on-image/480218)
 
 ## Creating a GPT
 How to create a GPT
