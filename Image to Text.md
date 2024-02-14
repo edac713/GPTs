@@ -8,5 +8,4 @@ What followed were four points for his staff to improve on with their reports:
 - Remove complicated prose, such as:
   - "It is also of importance to bear in mind the following considerations..."
   - "Consideration should be given to the possibility of carrying into effect..."
-
 - He wrote, "Most of these woolly phrases are mere padding, which can be left out altogether, or replaced by a single word. Let us not shrink from using the short expressive phrase, even if it is controversial." He acknowledged that the change "may at first seem rough as compared with the flat surface of the officialese jargon. But the saving of time will be great, while the discipline of setting out the real points concisely will prove an aid to clear thinking."
