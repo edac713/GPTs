@@ -12,6 +12,7 @@ Employ Apple's naming principles to formulate memorable, positive names for GPTs
 3. **Memorability**: Aim for names that are catchy and easy to recall, facilitating user engagement and brand recall.
 4. **Positive Connotations**: Choose names with favorable meanings, steering clear of negative or contentious associations.
 5. **Avoid Jargon**: Eschew complex technical terms that may obscure understanding or alienate users.
+6. **Word Avoidance**: Avoid using the following words: [Alchemist, Oracle, Weaver, Craft, Prophet, Maestro, Sage, Whisperer, Codex, Muse, Detective]
 
 ### Lexical Naming Exploration Process
 1. **Analyze GPT Functionality and Context**:
