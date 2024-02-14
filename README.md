@@ -7,14 +7,18 @@ ChatGPT now supports "Custom GPTs" which package a custom system message, variou
 >
 > _While editing a Custom GPT, this limit does not apply (as of this commit)._
 
+## Resource Links
+- [Meta-Prompting Concept: Asking Chat-GPT for the best prompt for your desired completion, then to revise it before using it](https://community.openai.com/t/meta-prompting-concept-asking-chat-gpt-for-the-best-prompt-for-your-desired-completion-then-to-revise-it-before-using-it/248619)
+- 
+
 ## Creating a GPT
 How to create a GPT
 
 Updated over a week ago
-GPTs are custom versions of ChatGPT that users can tailor for specific tasks or topics by combining instructions, knowledge, and capabilities. They can be as simple or as complex as needed, addressing anything from language learning to technical support. Plus and Enterprise users can start creating GPTs at chat.openai.com/create.
+GPTs are custom versions of ChatGPT that users can tailor for specific tasks or topics by combining instructions, knowledge, and capabilities. They can be as simple or as complex as needed, addressing anything from language learning to technical support. Plus and Enterprise users can start creating GPTs at [chat.openai.com/create](chat.openai.com/create).
 
 ### Here’s how to create a GPT:
-1. Head to https://chat.openai.com/gpts/editor (or select your name and then “My GPTs”)
+1. Head to [https://chat.openai.com/gpts/editor](https://chat.openai.com/gpts/editor) (or select your name and then “My GPTs”)
 2. Select “Create a GPT”
 3. In the Create tab, you can message the GPT Builder to help you build a new GPT. You can say something like, "Make a creative who helps generate visuals for new products" or "Make a software engineer who helps format my code."
 4. To name and set the description of your GPT, head to the Configure tab. Here, you will also be able to select the actions you would like your GPT to take, like browsing the web or creating images.
@@ -34,7 +38,13 @@ At the top, there are two tabs labeled Create and Configure. Create allows you t
 - *New Capabilities*: Enabling Web Browsing, DALL·E Image Generation, and Advanced Data Analysis, will allow the GPT to perform additional functionality.
 - *Custom Actions*: You can make third-party APIs available to your GPT by providing details about the endpoints, parameters, and a description about how the model should use it. Actions for GPTs can also be imported from an OpenAPI schema. So if you’ve already built a plugin, you will be able to use your existing plugin manifests to define actions for your GPT.
 ​
-### FAQ: 
+### GPTs FAQ
+Q: What are GPTs?
+A: GPTs are custom versions of ChatGPT that users can tailor for specific tasks or topics by combining instructions, knowledge, and capabilities. They can be as simple or as complex as needed, addressing anything from language learning to technical support.
+
+Q: How do I create a GPT?
+A: You can start creating a GPT by having a conversation with the GPT Builder in ChatGPT at [https://chat.openai.com/gpts/editor](https://chat.openai.com/gpts/editor). You'll add instructions, upload files to its knowledge base, and select its capabilities, such as web searching, image creation, or data analysis.
+
 Q: How many files can I upload to a GPT? 
 A: We allow up to 20 files to be uploaded to a custom GPT.
 
