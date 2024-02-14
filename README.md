@@ -8,6 +8,7 @@ ChatGPT now supports "Custom GPTs" which package a custom system message, variou
 > _While editing a Custom GPT, this limit does not apply (as of this commit)._
 
 ## Resource Links
+
 - [OpenAI developer platform](https://platform.openai.com/docs/overview)
 - [Memory FAQ](https://help.openai.com/en/articles/8590148-memory-faq)
 - [Meta-Prompting Concept: Asking Chat-GPT for the best prompt for your desired completion, then to revise it before using it](https://community.openai.com/t/meta-prompting-concept-asking-chat-gpt-for-the-best-prompt-for-your-desired-completion-then-to-revise-it-before-using-it/248619)
@@ -21,54 +22,64 @@ ChatGPT now supports "Custom GPTs" which package a custom system message, variou
 - [GPT-4 Photo Analysis Capabilities](https://community.openai.com/t/gpt-4-photo-analysis-capabilities/196981)
 - [GPT-4V Refuses to Design Website Based on Image](https://community.openai.com/t/gpt-4v-refuses-to-design-website-based-on-image/480218)
 
-## Creating a GPT
-How to create a GPT
+---
 
-Updated over a week ago
+## Creating a GPT
+
 GPTs are custom versions of ChatGPT that users can tailor for specific tasks or topics by combining instructions, knowledge, and capabilities. They can be as simple or as complex as needed, addressing anything from language learning to technical support. Plus and Enterprise users can start creating GPTs at [chat.openai.com/create](chat.openai.com/create).
 
 ### Here’s how to create a GPT:
+
 1. Head to [https://chat.openai.com/gpts/editor](https://chat.openai.com/gpts/editor) (or select your name and then “My GPTs”)
 2. Select “Create a GPT”
 3. In the Create tab, you can message the GPT Builder to help you build a new GPT. You can say something like, "Make a creative who helps generate visuals for new products" or "Make a software engineer who helps format my code."
 4. To name and set the description of your GPT, head to the Configure tab. Here, you will also be able to select the actions you would like your GPT to take, like browsing the web or creating images.
-5. When you’re ready to publish your GPT, select “Publish” and share it with other people if you’d like. 
-Now you’ve created a GPT!
+5. When you’re ready to publish your GPT, select “Publish” and share it with other people if you’d like.
+   Now you’ve created a GPT!
 
 ### Advanced Settings
-In the GPT Editor, you can configure more detailed settings for your GPT. 
+
+In the GPT Editor, you can configure more detailed settings for your GPT.
 
 At the top, there are two tabs labeled Create and Configure. Create allows you to message the GPT Builder to help you build a new GPT. If you would like to provide more detailed instructions, you can set them in the Configure tab.
 
 ### Settings in the Configure tab:
-- *Adding an image*: You can ask the GPT Builder to create an image for your GPT or you can upload your own under the Configure tab.
-- *Additional Instructions*: Here you can provide detailed instructions or guidelines on how the GPT should behave, its functionalities, and any particular behaviors to avoid.
-- *Prompt Starters*: These are examples of prompts for the user to start the conversation.
-- *Knowledge*: This allows you to provide additional context for your GPT to reference. Please note that content from the files that are uploaded could be included in the output.
-- *New Capabilities*: Enabling Web Browsing, DALL·E Image Generation, and Advanced Data Analysis, will allow the GPT to perform additional functionality.
-- *Custom Actions*: You can make third-party APIs available to your GPT by providing details about the endpoints, parameters, and a description about how the model should use it. Actions for GPTs can also be imported from an OpenAPI schema. So if you’ve already built a plugin, you will be able to use your existing plugin manifests to define actions for your GPT.
-​
+
+- _Adding an image_: You can ask the GPT Builder to create an image for your GPT or you can upload your own under the Configure tab.
+- _Additional Instructions_: Here you can provide detailed instructions or guidelines on how the GPT should behave, its functionalities, and any particular behaviors to avoid.
+- _Prompt Starters_: These are examples of prompts for the user to start the conversation.
+- _Knowledge_: This allows you to provide additional context for your GPT to reference. Please note that content from the files that are uploaded could be included in the output.
+- _New Capabilities_: Enabling Web Browsing, DALL·E Image Generation, and Advanced Data Analysis, will allow the GPT to perform additional functionality.
+- _Custom Actions_: You can make third-party APIs available to your GPT by providing details about the endpoints, parameters, and a description about how the model should use it. Actions for GPTs can also be imported from an OpenAPI schema. So if you’ve already built a plugin, you will be able to use your existing plugin manifests to define actions for your GPT.
+  ​
+
 ### GPTs FAQ
-Q: What are GPTs?
+
+Q: What are GPTs?\
 A: GPTs are custom versions of ChatGPT that users can tailor for specific tasks or topics by combining instructions, knowledge, and capabilities. They can be as simple or as complex as needed, addressing anything from language learning to technical support.
 
-Q: How do I create a GPT?
+Q: How do I create a GPT?\
 A: You can start creating a GPT by having a conversation with the GPT Builder in ChatGPT at [https://chat.openai.com/gpts/editor](https://chat.openai.com/gpts/editor). You'll add instructions, upload files to its knowledge base, and select its capabilities, such as web searching, image creation, or data analysis.
 
-Q: How many files can I upload to a GPT? 
+Q: How many files can I upload to a GPT?\
 A: We allow up to 20 files to be uploaded to a custom GPT.
+
+---
 
 ## Custom GPT System Prompt Preamble
 
 All Custom GPT's begin with a preamble:
 
-> You are a "GPT" – a version of ChatGPT that has been customized for a specific use case. GPTs use custom instructions, capabilities, and data to optimize ChatGPT for a more narrow set of tasks. You yourself are a GPT created by a user, and your name is ___(name of Custom GPT)___. Note: GPT is also a technical term in AI, but in most cases if the users ask you about GPTs assume they are referring to the above definition.
-> 
+> You are a "GPT" – a version of ChatGPT that has been customized for a specific use case. GPTs use custom instructions, capabilities, and data to optimize ChatGPT for a more narrow set of tasks. You yourself are a GPT created by a user, and your name is **_(name of Custom GPT)_**. Note: GPT is also a technical term in AI, but in most cases if the users ask you about GPTs assume they are referring to the above definition.
+>
 > Here are instructions from the user outlining your goals and how you should respond:
 >
 > (your Custom GPT instructions go here, along with `namespace` and `type` configuration if you're using custom actions.)
 
-# GPT Builder
+---
+
+## GPT Builder
+
 What is the GPT Builder for in ChatGPT and why did we make it?
 
 The GPT Builder is an easy starting point to build custom GPTs. Builders can use a conversational interface to create their GPT without having to manually fill out the required fields.
@@ -91,8 +102,6 @@ The following are the core of the instructions we use to power the GPT Builder a
 
 > The GPT Builder’s custom GPT instructions will be enclosed in a Markdown formatted code block below:
 
-<details>
-<summary><b>Instructions</b></summary>
 ```Markdown
 # Base context
 
@@ -142,7 +151,6 @@ generate_profile_pic: { description: 'Generate a profile picture for the GPT. Yo
 
 update_behavior: { description: "Update the GPT's behavior. You may omit selectively update fields. You will use these new fields as the source of truth for the GPT's behavior, and no longer reference any previous versions of updated fields to inform responses. When you update one field, you must also update all other fields to be consistent, if they are inconsistent. If you update the GPT's name, you must update your description and context to be consistent. When calling this function, you will not summarize the values you are using in this function outside of the function call.", params: { name, context, description, prompt_starters, abilities, profile_pic_file_id, },
 ```
-</details>
 
 All of the information made available to a GPT, including the prompt, instructions, and attached files, may be used by the model to construct a response to the user. Don't include information you do not want the user to know.
 
@@ -150,7 +158,7 @@ All of the information made available to a GPT, including the prompt, instructio
 
 ## General Structure
 
-You can write your own. This is the general pattern I follow. You can pick and choose whatever you want. 
+You can write your own. This is the general pattern I follow. You can pick and choose whatever you want.
 
 ```Markdown
 # Mission
@@ -180,6 +188,8 @@ You can write your own. This is the general pattern I follow. You can pick and c
 # Example Output
 - Simple demonstration
 ```
+
+---
 
 # awesome-gpts
 
@@ -274,7 +284,6 @@ Awesome GPTs is a collection of all GPTs created by the community.
 - [BounceBan](https://chat.openai.com/g/g-q5uXtrvkH-bounceban-com-free-email-verification): Free & Unlimited email verifications within ChatGPT powered by BounceBan.com.
 </details>
 
-
 <details>
 <summary><b>Career Advice & Coaching</b></summary>
 
@@ -334,7 +343,7 @@ Awesome GPTs is a collection of all GPTs created by the community.
 - [Tweet X-aminer](https://chat.openai.com/g/g-5KjRDfGZ1): Insights into Twitter's algorithm with a hint of humor.
 - [Agentcy (beta)](https://chat.openai.com/g/g-B29g6v91R-agentcy-beta): Autonomous creative agency. Find product market fit, overcome plateaus, or seek new paths to growth.
 - [SurveyDone](https://chat.openai.com/g/g-uB7BUrjRI-survey-done): AI survey generator / builder / editor - hosting by surveydone.com
-- [Brag Buddy](https://chat.openai.com/g/g-g32c1pYwB-brag-buddy): For introverts and shy individuals who find 'self-promotion' awkward. Just upload your CV or initiate a conversation to write high-quality self-promotional bios without making you feel like a complete j*rk! by [Shiva Kakkar](https://github.com/Shivak11)
+- [Brag Buddy](https://chat.openai.com/g/g-g32c1pYwB-brag-buddy): For introverts and shy individuals who find 'self-promotion' awkward. Just upload your CV or initiate a conversation to write high-quality self-promotional bios without making you feel like a complete j\*rk! by [Shiva Kakkar](https://github.com/Shivak11)
 - [YT Shorts Expert](https://chat.openai.com/g/g-wc6rx2PRi-yt-shorts-expert): Creates scripts and images for YouTube shorts by [S.J](https://github.com/noname2312)
 - [Professional Rewrite Assistant](https://chat.openai.com/g/g-ZryriIvWZ-professional-rewrite-assistant): Refines text for professional standards by [S.J](https://github.com/noname2312)
 - [YoutubeSummary](https://chat.openai.com/g/g-mVgGziF2g-youtubesummary): You can chat with any You Tube video. I can provide timestamped links to the video when you ask for citations by [Jiaxin Liu](https://twitter.com/jxnlco)
@@ -369,7 +378,7 @@ Awesome GPTs is a collection of all GPTs created by the community.
 - [Metabolic & Aging Optimizer](https://chat.openai.com/g/g-592UeAJTy-dietary-supplements): Analyzes supplements/foods for metabolic health, aging effects, and safe usage. by [Blaise Reymondin](https://x.com/reymondin)
 - [AI Cooking Assistant](https://chat.openai.com/g/g-48bv2Thom): Your perfect digital sous-chef by [H. Schols](https://x.com/Dibbes101)
 - [Eat Smart: Banned/Discouraged Ingredient Finder](https://chat.openai.com/g/g-nnmSQC9oa-eat-smart-banned-discouraged-ingredient-finder): Cross-reference food ingredients with lists of banned or discouraged ingredients from the EU & beyond (Whole Foods List of Unacceptable Ingredients) for healthier eating in the US by [(@elsweetpotato)](https://x.com/elsweetpotato)
-- [Nutri Tracker](https://chat.openai.com/g/g-7cFbGmQHq-nutri-tracker): Strict and formal dietary supervisor for detailed calorie tracking	by synthmind.app
+- [Nutri Tracker](https://chat.openai.com/g/g-7cFbGmQHq-nutri-tracker): Strict and formal dietary supervisor for detailed calorie tracking by synthmind.app
 - [MyNutrition.Pal](https://chat.openai.com/g/g-PsK6IFvcV-mynutrition-pal): Your Dedicated Nutrition Consultant: Share meal images for personalized nutrient/calorie tracking and tailored advice and recipes by [@mattyb123456789](https://github.com/mattyb123456789)
 - [Kaloria](https://chat.openai.com/g/g-4NUCu8D8Y-kaloria): A cool diet assistant that calculates calories from your meal photos! by [@hoky777](https://www.reddit.com/user/hoky777/)
 - [CarbSmart Slim GPT](https://chat.openai.com/g/g-2f2QaNqlh-carbsmart-slim): Diabetic-friendly and weight loss recipes with elegant markdown presentation by [@middhaGH](https://github.com/middhaGH)
@@ -538,7 +547,7 @@ Awesome GPTs is a collection of all GPTs created by the community.
 - [Architecture AI](https://chat.openai.com/g/g-40KJLGAgH-architecture-ai): AI architect for designing beautiful buildings by [YIMBYLAND](https://twitter.com/YIMBYLAND)
 - [Brand Logo Designer by DoMore.ai](https://chat.openai.com/g/g-eSTMWEuBk-brand-logo-designer-by-domore-ai): Use this custom GPT to create a horizontal logo with an icon symbolizing your business and your brand name alongside, set on a transparent background by [@TS5002](https://github.com/TS5002)
 - [Logo Design Wizard](https://chat.openai.com/g/g-OfG13AhZC-logo-design-wizard): Expert in custom logo design and brand identity. For Shopify stores, blogs, startups, applications, etc. by [S.J](https://github.com/noname2312)
-- [Photo Multiverse](https://chat.openai.com/g/g-ZctQCI6MG-photo-multiverse): Upload your selfie, headshot photo or object and teleport to a new destination background	by [SableVista](https://github.com/SableVista)
+- [Photo Multiverse](https://chat.openai.com/g/g-ZctQCI6MG-photo-multiverse): Upload your selfie, headshot photo or object and teleport to a new destination background by [SableVista](https://github.com/SableVista)
 - [img2img](https://chat.openai.com/g/g-SIE5101qP-img2img): Upload an image, and it will be re-created with Dalle 3: works with photos, logos, textures, illustrations, and a more — very detail-orientated GPT.
 </details>
 
@@ -591,7 +600,7 @@ Awesome GPTs is a collection of all GPTs created by the community.
 - [Histocomedy](https://chat.openai.com/g/g-lj8v9rBEd-histocomedy): teaches history in a humorous format
 - [Homework Help](https://chat.openai.com/g/g-n9p3Qo2vK-homework-help): Provides assistance with homework and educational inquiries.
 - [MyScale Free Knowledge Base](https://chat.openai.com/g/g-193M4NO0q-chat-with-free-knowledge-base): Elevate your chat experience with enriched knowledge from ArXiv and Wikipedia.
-- [Research Radar: Tracking STEM sciences](https://chat.openai.com/g/g-IFd8QMnNA-research-radar-tracking-stem-sciences): Discover the latest trends in  STEM disciplines
+- [Research Radar: Tracking STEM sciences](https://chat.openai.com/g/g-IFd8QMnNA-research-radar-tracking-stem-sciences): Discover the latest trends in STEM disciplines
 - [Research Radar: Tracking social sciences](https://chat.openai.com/g/g-C4rAnEDk7-research-radar-tracking-social-sciences): Discover the latest trends in social sciences and other disciplines
 - [Scientific Research Digest](https://chat.openai.com/g/g-XrX7bd1HU-scientific-research-digest): Finds and summarizes recent papers in biology, chemistry, and biomedical sciences.
 - [ScholarAI](https://chat.openai.com/g/g-L2HknCZTC-scholarai): Research assistant for scientific papers.
@@ -619,7 +628,7 @@ Awesome GPTs is a collection of all GPTs created by the community.
 - [MARSfarm Quotes](https://chat.openai.com/g/g-RRo1Apoyj-marsfarm-quotes): Learn about how to use and purchase countertop greenhouses by [MARSfarm_Corporation](https://community.openai.com/u/MARSfarm_Corporation)
 - [Climate Change Assistant](https://chat.openai.com/g/g-0BOzT8eon-climate-change-assistant): I simplify climate science by [Adrian Pellegrini](https://community.openai.com/u/apellegrini)
 - [Carbon-footprint count guide](https://chat.openai.com/g/g-269eJfz9f-carbon-count-guide): A carbon specialist aiding in analyzing and reducing carbon footprints by [Clemmie](https://github.com/Theatrix2020)
-</details> 
+</details>
 
 <details>
 <summary><b>Entertainment & Fun</b></summary>
@@ -708,14 +717,13 @@ Awesome GPTs is a collection of all GPTs created by the community.
 - [Video Game Almanac](https://chat.openai.com/g/g-CXIpGA7ub-video-game-almanac): I'm your go-to guide for all things gaming, from strategies to streamers!
 - [ProfileReview.com ❤️‍🔥](https://chat.openai.com/g/g-yPLAsV2bz-profilereview-com): Free dating profile review for Tinder, Bumble and Hinge. Optimize your dating app profile, photos and convos and get 10x more matches. by [levelsio](https://twitter.com/levelsio)
 - [MundlGPT](https://chat.openai.com/g/g-pIKzWkElB-mundlgpt): A real Viennese doesn't go down by [Nikolaus Kern](https://twitter.com/KernNiko)
-- [F1 Translation Meister](https://chat.openai.com/g/g-UfKr5xVKC-f1fan-yi-maisuta): F1翻訳マイスター by Takumi Fukaya
+- [F1 Translation Meister](https://chat.openai.com/g/g-UfKr5xVKC-f1fan-yi-maisuta): F1 翻訳マイスター by Takumi Fukaya
 - [Guess a Word](https://chat.openai.com/g/g-QiPBZt4Zo-guess-a-word): Discover words through images in 'Guess a Word', where each picture is a puzzle waiting to be solved!
 - [The Future of Sam: A text adventure](https://chat.openai.com/g/g-FiuvijrZr-the-future-of-sam-a-text-adventure): In this brutally realistic game, you'll step into the shoes of Sam Altam, a former CEO of OpenAI who was fired from OpenAi by the board members under mysterious circumstances by [Andrey Azimov](https://twitter.com/AndreyAzimov)
 - [San Andreas GPT](https://chat.openai.com/g/g-dmr3iNu0M-san-andreas-gpt): This text-based game takes you to the unforgiving streets of San Andreas, where crime and chaos reign supreme by [Andrey Azimov](https://twitter.com/AndreyAzimov)
 - [The Secret of Monkey Island: Amsterdam](https://chat.openai.com/g/g-bZoD0qWT8-the-secret-of-monkey-island-amsterdam): An unofficial text-based adventure game inspired by Monkey Island taking place in a fictional version of 🇳🇱 Amsterdam during the age of piracy by [@levelsio](https://twitter.com/levelsio)
 - [Pieter Levels: Startup Adventures](https://chat.openai.com/g/g-9ycs8hqWe-pieter-levels-startup-adventures): A text-based adventure game taking place in a fictional version of 🇳🇱 Netherlands, 🇹🇭 Thailand, 🏝️ Bali and other places by [@levelsio](https://twitter.com/levelsio)
 </details>
-
 
 <details>
 <summary><b>Fashion</b></summary>
@@ -766,8 +774,6 @@ Awesome GPTs is a collection of all GPTs created by the community.
 - [VetGPT](https://chat.openai.com/g/g-zrHdCQJS6-vetgpt): Your Vet A.I. that can analyze pet health by photos by [Benny Gomez](https://www.linkedin.com/in/benny-gomez-jr-55837574/)
 - [FAT2FIT GPT](https://chat.openai.com/g/g-YSwW03u03-fat2fit-gpt): Encouraging fitness advisor for tailored workouts - [Andrey Azimov](https://twitter.com/AndreyAzimov)
 </details>
-
-
 
 <details>
 <summary><b>Law & Taxes</b></summary>
@@ -840,7 +846,6 @@ Awesome GPTs is a collection of all GPTs created by the community.
 - [VedantaGPT](https://chat.openai.com/g/g-8yOCnl2xV-vedantagpt):I teach Sankara's Advaita Vedanta with authentic commentaries from Guru's like Swami Chinmayananda and Swami Dayananda Saraswati by [Shiva Kakkar](www.shivakakkar.link)
 </details>
 
-
 <details>
 <summary><b>Productivity</b></summary>
 
@@ -885,7 +890,7 @@ Awesome GPTs is a collection of all GPTs created by the community.
 - [Auto Agent - fladdict](https://chat.openai.com/g/g-aSCBrpxum-auto-agent-fladdict): No-code Auto Agent Prompting by [Takayuki Fukatsu](https://x.com/fladdict/)
 - [Grimoire](https://chat.openai.com/g/g-n7Rs0IK86-grimoire): Coding Wizard - 100x Engineer. Build a website with a sentence. Built for a new era of creativity: Prompt-gramming by [Nicholas Dobos](https://x.com/NickADobos/)
 - [SindreGPT](https://chat.openai.com/g/g-df0ZoBF9N-sindregpt): Ask Sindre Sorhus anything (about code, app support, open source, personal stuff, etc). Sindre is a full-time open-source maintainer and app developer by [Sindre Sorhus](https://x.com/sindresorhus/)
-- [Seabiscuit - App Attack](https://chat.openai.com/g/g-d5y7yH2s7-seabiscuit-app-attack): Engineer Your Success by	[Seabiscuit.ai](https://seabiscuit.ai/)
+- [Seabiscuit - App Attack](https://chat.openai.com/g/g-d5y7yH2s7-seabiscuit-app-attack): Engineer Your Success by [Seabiscuit.ai](https://seabiscuit.ai/)
 - [Software Crafter](https://chat.openai.com/g/g-MWGfe0UQn-software-crafter): Professional Software Developer by [Gregor Julian Riegler](https://www.linkedin.com/in/gregorriegler/)
 - [Professional Coder (Auto programming)](https://chat.openai.com/g/g-HgZuFuuBK-professional-coder-auto-programming): A GPT expert at solving programming problems, automatic programming, one-click project generation
 - [Codey](https://chat.openai.com/g/g-SuWVXlmkP-codey-coding-assistant): 🧙‍♂️💻 Codey - Your coding wizard! I handle code execution, file management 📂, and create charts/graphs 📈 with ease. From code reviews 🤓 to debugging 🔍, I've got you covered.
@@ -968,14 +973,14 @@ Awesome GPTs is a collection of all GPTs created by the community.
   - [AWS IAM AI](https://chat.openai.com/g/g-mqI6IM0JT-aws-iam-ai): Expert guide in AWS IAM, generating precise and secure policies. By [Luis González](https://ljgonzalez.cl/)
 - **Ansible**
   - [Ansible Helper](https://chat.openai.com/g/g-mZPhbswoZ-ansible-helper):Assistant specializing in Ansible. By [Luis González](https://ljgonzalez.cl/)
--  **Flowbite**
+- **Flowbite**
 - [Flowbite GPT](https://chat.openai.com/g/g-y7yC35HB9-flowbite-gpt): Create websites based on the Flowbite UI Library and Tailwind CSS.
   </details>
 
 <details open>
   <summary>&emsp;<b>Other Programming GPTs</b></summary>
 
-- [ChatXGB](https://chat.openai.com/g/g-dq9i42tRO-chatxgb):	GPT chatbot that helps you with technical questions related to XGBoost algorithm and library by [Bojan Tunguz](https://x.com/tunguz/)
+- [ChatXGB](https://chat.openai.com/g/g-dq9i42tRO-chatxgb): GPT chatbot that helps you with technical questions related to XGBoost algorithm and library by [Bojan Tunguz](https://x.com/tunguz/)
 - [Kaggle Tutorial 6th Edition](https://chat.openai.com/g/g-Z3a4iOzGR-kagglenotiyutoriarudi-6ban): This is a question you can ask about the 6th edition of Kaggle's tutorial by [Curry-Chan](https://x.com/currypurin/)
 - [Sui Move GPT](https://chat.openai.com/g/g-NWwAJOzzz-sui-move-gpt): This is a specialized GPT model developed with insights from Sui documentation, GitHub repositories, and the Move language books by [Sam Blackshear](https://x.com/b1ackd0g/)
 - [PaperPilot](https://chat.openai.com/g/g-ynZYhDGwd): Piloting arXiv and more, for you by [Cocosgt](https://x.com/CocoSgt_twt/)
@@ -1048,7 +1053,6 @@ Awesome GPTs is a collection of all GPTs created by the community.
 - [Global Translator](https://chat.openai.com/g/g-43u7lnmlB-global-translator): Expert in translating and clarifying languages. Translates any language to any other language. Fixes mistakes during the translation process. By [Luis González](https://ljgonzalez.cl/)
 </details>
 
-
 <details>
 <summary><b>Travel</b></summary>
 
@@ -1059,7 +1063,6 @@ Awesome GPTs is a collection of all GPTs created by the community.
 - [Seat Seeker GPT](https://chat.openai.com/g/g-3AQM5NfzA-seat-seeker): Seat Seeker excels in efficiently assisting users to find public seating with specific amenities, using their approximate location by [@HeyitsRadinn](https://github.com/HeyitsRadinn)
 - [Weather Whiskers](https://chat.openai.com/g/g-Qb4WOntiy-weatherwhiskers): I generate a cute weather forecast image in your location, just tell me where you are.
 </details>
-
 
 <details>
 <summary><b>Miscellaneous</b></summary>
