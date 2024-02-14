@@ -8,8 +8,13 @@ ChatGPT now supports "Custom GPTs" which package a custom system message, variou
 > _While editing a Custom GPT, this limit does not apply (as of this commit)._
 
 ## Resource Links
+- [OpenAI developer platform](https://platform.openai.com/docs/overview)
 - [Meta-Prompting Concept: Asking Chat-GPT for the best prompt for your desired completion, then to revise it before using it](https://community.openai.com/t/meta-prompting-concept-asking-chat-gpt-for-the-best-prompt-for-your-desired-completion-then-to-revise-it-before-using-it/248619)
 - [GPTs vs Assistants](https://help.openai.com/en/articles/8673914-gpts-vs-assistants)
+- [Text Compare to Compare](https://textcompare.io/)
+- [HTML to Markdown](https://codebeautify.org/html-to-markdown)
+- [Markdown Formatter](https://codebeautify.org/markdown-formatter)
+- [Assistants tools](https://platform.openai.com/docs/assistants/tools/knowledge-retrieval)
 - [Seeking Advice: Enhancing Accuracy of GPT-4 with Vision](https://community.openai.com/t/seeking-advice-enhancing-accuracy-of-gpt-4-with-vision/507814)
 - [Add attention maps akin to logprobs for GPT-4V](https://community.openai.com/t/add-attention-maps-akin-to-logprobs-for-gpt-4v/398781)
 - [GPT-4 Photo Analysis Capabilities](https://community.openai.com/t/gpt-4-photo-analysis-capabilities/196981)
