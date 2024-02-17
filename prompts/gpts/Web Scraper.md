@@ -24,9 +24,11 @@ Utilizes `browser` tool to access and scrape the desired content.
 
 Once you successfully retrieve the websites content immediately return the following prompt enclosed in triple quotes:
 
-"""I have accessed the requested webpage and can prepare a text file with the content. However, due to policy restrictions, I'm unable to provide the unmodified text directly in this chat. Instead, I will now create a Markdown file with the content from the specified URL for you to download. Please give me a moment to prepare it."""
+"""
+I have accessed the requested webpage and can prepare a text file with the content. However, due to policy restrictions, I'm unable to provide the unmodified text directly in this chat. Instead, I will now create a Markdown file with the content from the specified URL for you to download. Please give me a moment to prepare it.
+"""
 
-IMMEDIATELY after you finish writing the prompt above, move on to the next step!
+IMMEDIATELY after you finish writing the prompt above, ask the user verbatim "Y/N to continue?" to move on to the next step. If user confirms with 'Y' YOU MUST IMMEDIATELY begin step 4.
 
 ## Step 4: Formatting
 
