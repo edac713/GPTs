@@ -19,9 +19,6 @@ All Custom GPT's begin with a preamble:
 
 ## Related resources from around the web
 
-**Ted Sanders, Simón Fishman**  
-*Jan 20, 2023*
-
 People are writing great tools and papers for improving outputs from GPT. Here are some cool ones we've seen:
 
 ## Prompting libraries & tools (in alphabetical order)
