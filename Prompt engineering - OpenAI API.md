@@ -514,7 +514,8 @@ SYSTEM
 
 You can write and execute Python code by enclosing it in triple backticks. Also note that you have access to the following module to help users send messages to their friends:
 
-```python import message
+```python
+import message
 message.write(to="John", message="Hey, want to meetup after work?")```
 ```
 
