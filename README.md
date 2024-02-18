@@ -7,7 +7,7 @@ ChatGPT now supports "Custom GPTs" which package a custom system message, variou
 >
 > _While editing a Custom GPT, this limit does not apply (as of this commit)._
 
-## Custom GPT System Prompt Preamble
+# Custom GPT System Prompt Preamble
 
 All Custom GPT's begin with a preamble:
 
@@ -17,11 +17,11 @@ All Custom GPT's begin with a preamble:
 >
 > (your Custom GPT instructions go here, along with `namespace` and `type` configuration if you're using custom actions.)
 
-### Sourceduty GPTs
+# Custom GPTs Instructions
 
 Listed below are `250` custom built GPTs sorted into `20` different categories:
   
-### ChatGPT
+## ChatGPT
 
 [Custom GPT Instructions](https://chat.openai.com/g/g-yAwEVaLkf-custom-gpt-instructions)
 <br>
@@ -51,7 +51,7 @@ Extensive guide for ChatGPT models.
 <br>
 Helpful and informative.
   
-### Python
+## Python
 
 [Python Interface Builder](https://chat.openai.com/g/g-2a5BMlXE9-python-interface-builder)
 <br>
@@ -69,7 +69,7 @@ Assistive art image program creator using Python.
 <br>
 Assistive game creator using Pygame, Tkinter and Python.
 
-### Utilities
+## Utilities
 
 [Hack & Mod](https://chat.openai.com/g/g-iCi2ECQ54-hack-mod)
 <br>
@@ -251,7 +251,7 @@ End-to-end software operation diagrams.
 <br>
 Global conflict metrics.
   
-### Emergency & Security
+## Emergency & Security
 
 [Security System](https://chat.openai.com/g/g-NNeLfeyDY-security-system)
 <br>
@@ -273,7 +273,7 @@ National electrical power outage planning and simulation.
 <br>
 National environmental disaster emergency planning and simulation.
   
-### Science
+## Science
 
 [Electronic Simulator](https://chat.openai.com/g/g-409Bg1hAQ-electronic-simulator)
 <br>
@@ -339,7 +339,7 @@ Estimate the weight of snow on building roofs.
 <br>
 Identify tree leaves and estimate seasonal growth.
 
-### Video & GIF
+## Video & GIF
 
 [Video Parody](https://chat.openai.com/g/g-WgPM7eiLw-video-parody)
 <br>
@@ -373,7 +373,7 @@ Create new GIFs inspired by uploaded GIFs.
 <br>
 Create new videos inspired by uploaded videos. Created in preparation for GPT-5.
   
-### Money
+## Money
 
 [Financial Predictor](https://chat.openai.com/g/g-Rub2djmNc-financial-predictor)
 <br>
@@ -431,7 +431,7 @@ Assistive step-by-step computer building planner.
 <br>
 Find and track the lowest prices for products.
 
-### Chatting
+## Chatting
 
 [Convo Planner](https://chat.openai.com/g/g-LTSeH89l1-convo-planner)
 <br>
@@ -473,7 +473,7 @@ Conversational chatbot using Canadian slang.
 <br>
 Three-way conversation between one person and two chatbots, Eric and Sasha.
   
-### GitHub
+## GitHub
 
 [Repo Card](https://chat.openai.com/g/g-wEMovflCA-repo-card)
 <br>
@@ -487,7 +487,7 @@ Summarize GitHub repository README files.
 <br>
 Assistive GitHub readme file creator.
 
-### Writing & Reading
+## Writing & Reading
 
 [Document Design](https://chat.openai.com/g/g-vmvOjWhHm-document-design)
 <br>
@@ -597,7 +597,7 @@ Collaborative sentence-by-sentence story creator.
 <br>
 Intelligent note recording assistant.
   
-### Law
+## Law
 
 [Software Law](https://chat.openai.com/g/g-7w96DmC1S-software-law)
 <br>
@@ -615,7 +615,7 @@ Politics in Canada, with balanced and factual insights.
 <br>
 Government types, laws, and legislatures.
   
-### Food
+## Food
 
 [Alcohol](https://chat.openai.com/g/g-6MZEIdPKC-alcohol)
 <br>
@@ -633,7 +633,7 @@ Assistive international cuisine guide, offering insights into popular dishes wor
 <br>
 Create and test cook custom food recipes.
 
-### Audio & Music
+## Audio & Music
 
 [Guitar Tab Writer](https://chat.openai.com/g/g-MQl815flm-guitar-tab-writer)
 <br>
@@ -663,7 +663,7 @@ Collaborative sentence-by-sentence song lyric compiler.
 <br>
 Assistive contrafact creation for songs and melodies.
 
-### Social
+## Social
 
 [Religion Chooser](https://chat.openai.com/g/g-86uXRyFVq-religion-chooser)
 <br>
@@ -709,7 +709,7 @@ Convert plain English to slang, including Canada, America, Britain, and Australi
 <br>
 Translate between Gen X, Y, Z slang and plain English.
 
-### Business
+## Business
 
 [Custom GPT Business](https://chat.openai.com/g/g-k8Ghxlj6V-custom-gpt-business)
 <br>
@@ -751,7 +751,7 @@ Creative digital business.
 <br>
 Find and analyze branded website and social account data.
 
-### Art & Design
+## Art & Design
 
 [Fabric](https://chat.openai.com/g/g-29mQRQys4-fabric)
 <br>
@@ -869,7 +869,7 @@ Upload your images and create a collage.
 <br>
 Convert text into creative ASCII art.
 
-### Travel & Lifestyle
+## Travel & Lifestyle
 
 [Farm Field](https://chat.openai.com/g/g-0SdwLVQqg-farm-field)
 <br>
@@ -927,7 +927,7 @@ Find the optimal location for your meeting.
 <br>
 Organize essential travel guest info.
 
-### YouTube
+## YouTube
 
 [Tube Director](https://chat.openai.com/g/g-epAQ2XbfM-tube-director)
 <br>
@@ -941,7 +941,7 @@ Expert in navigating YouTube, creating playlists, and categorizing videos.
 <br>
 Instructional video creation assistant.
 
-### Fun & Games
+## Fun & Games
 
 [Chain Travel](https://chat.openai.com/g/g-WYpJgy5kp-chain-travel)
 <br>
@@ -1031,7 +1031,7 @@ Initially, you're 25 steps away from the treasure, but the exact direction is a 
 <br>
 Automated teller machine (ATM) simulator.
 
-### Concepts
+## Concepts
 
 [Bass Boost](https://chat.openai.com/g/g-SeVChjS0z-bass-boost)
 <br>
@@ -1061,7 +1061,7 @@ Create and expand an image mosaic using DALL-E 3.
 <br>
 Three-way conversation between one person and two chatbots, focused on SpaceX's Starship.
 
-_The 84 most popular GPTs, according to OpenAI, are sorted into 7 categories and are listed in the [GPT Store](https://chat.openai.com/gpts)._
+---
 
 > [!TIP]
 > Favorite Prompts:
