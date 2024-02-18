@@ -80,13 +80,7 @@ People are writing great tools and papers for improving outputs from GPT. Here a
 - **ReAct: Synergizing Reasoning and Acting in Language Models (2023)**: For tasks with tools or an environment, chain of thought works better if you prescriptively alternate between Reasoning steps (thinking about what to do) and Acting (getting information from a tool or environment).
 - **Reflexion: an autonomous agent with dynamic memory and self-reflection (2023)**: Retrying tasks with memory of prior failures improves subsequent performance.
 - **Demonstrate-Search-Predict: Composing retrieval and language models for knowledge-intensive NLP (2023)**: Models augmented with knowledge via a "retrieve-then-read" can be improved with multi-hop chains of searches.
-- **Improving Factuality and Reasoning in Language Models through Multiagent Debate (2023)**: Generating debates between a few ChatGPT agents over a few rounds improves scores on various benchmarks. Math word
-
- problem scores rise from 77% to 85%.
-
----
-
-This markdown format aims to preserve the structure and links of the original content for better readability and navigation.
+- **Improving Factuality and Reasoning in Language Models through Multiagent Debate (2023)**: Generating debates between a few ChatGPT agents over a few rounds improves scores on various benchmarks. Math word problem scores rise from 77% to 85%.
 
 ### Sourceduty GPTs
 
