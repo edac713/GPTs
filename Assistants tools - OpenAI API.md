@@ -2,6 +2,7 @@
 
 Give Assistants access to OpenAI-hosted tools like Code Interpreter and Knowledge Retrieval, or build your own tools using Function calling. Usage of OpenAI-hosted tools comes at an additional fee — visit our help center article to learn more about how these tools are priced.
 
+> [!NOTE]
 > The Assistants API is in **beta** and we are actively working on adding more functionality. Share your feedback in our Developer Forum!
 
 ## Code Interpreter
