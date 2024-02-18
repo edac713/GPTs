@@ -13,7 +13,7 @@ Code Interpreter is charged at $0.03 per session. If your Assistant calls Code I
 
 ### Enabling Code Interpreter
 
-Pass the `code_interpreter`in the `tools` parameter of the Assistant object to enable Code Interpreter:
+Pass the `code_interpreter` in the `tools` parameter of the Assistant object to enable Code Interpreter:
 
 ```python
 assistant = client.beta.assistants.create(
