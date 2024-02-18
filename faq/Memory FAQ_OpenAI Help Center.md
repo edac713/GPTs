@@ -38,7 +38,7 @@ Memory brings additional privacy and safety considerations, such as what type of
 
 ### How long are memories retained for?
 
-Memories are kept separately from your chat history. This means that even if a chat is over, the memories created during that conversation can still be used in future interactions. 
+Memories are kept separately from your chat history. This means that even if a chat is over, the memories created during that conversation can still be used in future interactions.
 
 You can have the model forget memories at any time as explained above. If you ask the model to forget a memory, that memory should no longer be used to inform future responses or part of your viewable memory. Memories will also be deleted if you delete your account. If a memory was previously de-identified and disassociated from your account, we may still use that memory for training to improve model performance. Learn more about your choices on how we use your content to improve model performance.
 
