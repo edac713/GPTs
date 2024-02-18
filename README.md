@@ -20,12 +20,8 @@ All Custom GPT's begin with a preamble:
 ### Sourceduty GPTs
 
 Listed below are `250` custom built GPTs sorted into `20` different categories:
-
-<details><summary>
   
 ### ChatGPT
-
-</summary>
 
 [Custom GPT Instructions](https://chat.openai.com/g/g-yAwEVaLkf-custom-gpt-instructions)
 <br>
@@ -54,13 +50,8 @@ Extensive guide for ChatGPT models.
 [GPT Creation Guide](https://chat.openai.com/g/g-GoLkguGSc-gpt-guide)
 <br>
 Helpful and informative.
-
-</details>
-<details><summary>
   
 ### Python
-
-</summary>
 
 [Python Interface Builder](https://chat.openai.com/g/g-2a5BMlXE9-python-interface-builder)
 <br>
@@ -78,12 +69,7 @@ Assistive art image program creator using Python.
 <br>
 Assistive game creator using Pygame, Tkinter and Python.
 
-</details>
-<details><summary>
-
 ### Utilities
-
-</summary>
 
 [Hack & Mod](https://chat.openai.com/g/g-iCi2ECQ54-hack-mod)
 <br>
@@ -264,13 +250,8 @@ End-to-end software operation diagrams.
 [War World](https://chat.openai.com/g/g-UHBJztUGs-war-world)
 <br>
 Global conflict metrics.
-
-</details>
-<details><summary>
   
 ### Emergency & Security
-
-</summary>
 
 [Security System](https://chat.openai.com/g/g-NNeLfeyDY-security-system)
 <br>
@@ -291,13 +272,8 @@ National electrical power outage planning and simulation.
 [Disaster Crisis](https://chat.openai.com/g/g-QQUg3dzIf-disaster-crisis)
 <br>
 National environmental disaster emergency planning and simulation.
-
-</details>
-<details><summary>
   
 ### Science
-
-</summary>
 
 [Electronic Simulator](https://chat.openai.com/g/g-409Bg1hAQ-electronic-simulator)
 <br>
@@ -363,12 +339,7 @@ Estimate the weight of snow on building roofs.
 <br>
 Identify tree leaves and estimate seasonal growth.
 
-</details>
-<details><summary>
-  
 ### Video & GIF
-
-</summary>
 
 [Video Parody](https://chat.openai.com/g/g-WgPM7eiLw-video-parody)
 <br>
@@ -401,13 +372,8 @@ Create new GIFs inspired by uploaded GIFs.
 [Emulated Video](https://chat.openai.com/g/g-NPtn9zP1V-emulated-video)
 <br>
 Create new videos inspired by uploaded videos. Created in preparation for GPT-5.
-
-</details>
-<details><summary>
   
 ### Money
-
-</summary>
 
 [Financial Predictor](https://chat.openai.com/g/g-Rub2djmNc-financial-predictor)
 <br>
@@ -465,12 +431,7 @@ Assistive step-by-step computer building planner.
 <br>
 Find and track the lowest prices for products.
 
-</details>
-<details><summary>
-  
 ### Chatting
-
-</summary>
 
 [Convo Planner](https://chat.openai.com/g/g-LTSeH89l1-convo-planner)
 <br>
@@ -511,13 +472,8 @@ Conversational chatbot using Canadian slang.
 [Artificial Group Chat](https://chat.openai.com/g/g-r7eMW75w4-artificial-group-chat)
 <br>
 Three-way conversation between one person and two chatbots, Eric and Sasha.
-
-</details>
-<details><summary>
   
 ### GitHub
-
-</summary>
 
 [Repo Card](https://chat.openai.com/g/g-wEMovflCA-repo-card)
 <br>
@@ -531,12 +487,7 @@ Summarize GitHub repository README files.
 <br>
 Assistive GitHub readme file creator.
 
-</details>
-<details><summary>
-  
 ### Writing & Reading
-
-</summary>
 
 [Document Design](https://chat.openai.com/g/g-vmvOjWhHm-document-design)
 <br>
@@ -645,13 +596,8 @@ Collaborative sentence-by-sentence story creator.
 [Smart Notes](https://chat.openai.com/g/g-VBafvJ21q-smart-notes)
 <br>
 Intelligent note recording assistant.
-
-</details>
-<details><summary>
   
 ### Law
-
-</summary>
 
 [Software Law](https://chat.openai.com/g/g-7w96DmC1S-software-law)
 <br>
@@ -668,13 +614,8 @@ Politics in Canada, with balanced and factual insights.
 [Govern](https://chat.openai.com/g/g-KwFofUds3-govern)
 <br>
 Government types, laws, and legislatures.
-
-</details>
-<details><summary>
   
 ### Food
-
-</summary>
 
 [Alcohol](https://chat.openai.com/g/g-6MZEIdPKC-alcohol)
 <br>
@@ -692,12 +633,7 @@ Assistive international cuisine guide, offering insights into popular dishes wor
 <br>
 Create and test cook custom food recipes.
 
-</details>
-<details><summary>
-  
 ### Audio & Music
-
-</summary>
 
 [Guitar Tab Writer](https://chat.openai.com/g/g-MQl815flm-guitar-tab-writer)
 <br>
@@ -727,12 +663,7 @@ Collaborative sentence-by-sentence song lyric compiler.
 <br>
 Assistive contrafact creation for songs and melodies.
 
-</details>
-<details><summary>
-  
 ### Social
-
-</summary>
 
 [Religion Chooser](https://chat.openai.com/g/g-86uXRyFVq-religion-chooser)
 <br>
@@ -778,12 +709,7 @@ Convert plain English to slang, including Canada, America, Britain, and Australi
 <br>
 Translate between Gen X, Y, Z slang and plain English.
 
-</details>
-<details><summary>  
-  
 ### Business
-
-</summary>
 
 [Custom GPT Business](https://chat.openai.com/g/g-k8Ghxlj6V-custom-gpt-business)
 <br>
@@ -825,12 +751,7 @@ Creative digital business.
 <br>
 Find and analyze branded website and social account data.
 
-</details>
-<details><summary>
-  
 ### Art & Design
-
-</summary>
 
 [Fabric](https://chat.openai.com/g/g-29mQRQys4-fabric)
 <br>
@@ -948,12 +869,7 @@ Upload your images and create a collage.
 <br>
 Convert text into creative ASCII art.
 
-</details>
-<details><summary>
-  
 ### Travel & Lifestyle
-
-</summary>
 
 [Farm Field](https://chat.openai.com/g/g-0SdwLVQqg-farm-field)
 <br>
@@ -1011,12 +927,7 @@ Find the optimal location for your meeting.
 <br>
 Organize essential travel guest info.
 
-</details>
-<details><summary>
-  
 ### YouTube
-
-</summary>
 
 [Tube Director](https://chat.openai.com/g/g-epAQ2XbfM-tube-director)
 <br>
@@ -1030,12 +941,7 @@ Expert in navigating YouTube, creating playlists, and categorizing videos.
 <br>
 Instructional video creation assistant.
 
-</details>
-<details><summary>
-  
 ### Fun & Games
-
-</summary>
 
 [Chain Travel](https://chat.openai.com/g/g-WYpJgy5kp-chain-travel)
 <br>
@@ -1125,12 +1031,7 @@ Initially, you're 25 steps away from the treasure, but the exact direction is a 
 <br>
 Automated teller machine (ATM) simulator.
 
-</details>
-<details><summary>
-  
 ### Concepts
-
-</summary>
 
 [Bass Boost](https://chat.openai.com/g/g-SeVChjS0z-bass-boost)
 <br>
@@ -1160,15 +1061,7 @@ Create and expand an image mosaic using DALL-E 3.
 <br>
 Three-way conversation between one person and two chatbots, focused on SpaceX's Starship.
 
-</details>
-
-#
-
 _The 84 most popular GPTs, according to OpenAI, are sorted into 7 categories and are listed in the [GPT Store](https://chat.openai.com/gpts)._
-
----
-
----
 
 > [!TIP]
 > Favorite Prompts:
@@ -1216,11 +1109,7 @@ _The 84 most popular GPTs, according to OpenAI, are sorted into 7 categories and
 
 ---
 
-<details><summary>
-
 ### Related Links
-
-</summary>
 
 [Predicting the Future of Tech](https://chat.openai.com/share/2ff4096b-0ab2-430f-a7b7-bbafd2461141)
 
@@ -1279,28 +1168,3 @@ _The 84 most popular GPTs, according to OpenAI, are sorted into 7 categories and
 [Marketplace Value: Example](https://chat.openai.com/share/d6cb6bde-4e68-4bc5-b009-62f97df8cad6)
 
 [Buy custom GPTs from Sourceduty](https://chat.openai.com/share/ee5bd907-13c7-407a-bb38-2c52f68144c0)
-
----
-
-Sourceduty also shares files using [OneDrive](https://1drv.ms/u/s!AumZxqj6wFkfhxSi1JbL7tJmhDCR?e=Rp0Jnr).
-
----
-
-> [!CAUTION]
-> Copyright (C) 2023, Sourceduty - All Rights Reserved.
-> <br>
-> THE CONTENTS OF THIS PROJECT ARE PROPRIETARY.
-> <br>
-> OpenAI updated it's [Terms of use](https://openai.com/policies/terms-of-use) which included adding a Copyright Complaints section.
-
-> Sourceduty won't use ChatGPT without also using GitHub. This repository will be used to prove and dispute the originality of Sourceduty GPTs. Sourceduty continues to competively exert a strong effort to build and expand original copyright-protected custom GPTs.
-
-> AI-generated content can be copyrighted by custom GPT users. ChatGPT does not own the content that it generates and neither do it's developers.
-
----
-
-_"I'm really impressed by the versatility of GPT-4. The AI tools I've been working on are turning out to be quite useful, and I'm excited about what lies ahead. It's clear that AI is poised to have a significant impact on our daily lives, and I can't wait to see how it continues to evolve and make things even better in the future."_
-
-#
-
-**Thanks to all the folks behind OpenAI, ChatGPT, and more. Your efforts are greatly appreciated!**
