@@ -12,12 +12,12 @@ These models can’t read your mind. If outputs are too long, ask for brief repl
 
 Tactics:
 
-  * [Include details in your query to get more relevant answers](/docs/guides/prompt-engineering/tactic-include-details-in-your-query-to-get-more-relevant-answers)
-  * [Ask the model to adopt a persona](/docs/guides/prompt-engineering/tactic-ask-the-model-to-adopt-a-persona)
-  * [Use delimiters to clearly indicate distinct parts of the input](/docs/guides/prompt-engineering/tactic-use-delimiters-to-clearly-indicate-distinct-parts-of-the-input)
-  * [Specify the steps required to complete a task](/docs/guides/prompt-engineering/tactic-specify-the-steps-required-to-complete-a-task)
-  * [Provide examples](/docs/guides/prompt-engineering/tactic-provide-examples)
-  * [Specify the desired length of the output](/docs/guides/prompt-engineering/tactic-specify-the-desired-length-of-the-output)
+* [Include details in your query to get more relevant answers](/docs/guides/prompt-engineering/tactic-include-details-in-your-query-to-get-more-relevant-answers)
+* [Ask the model to adopt a persona](/docs/guides/prompt-engineering/tactic-ask-the-model-to-adopt-a-persona)
+* [Use delimiters to clearly indicate distinct parts of the input](/docs/guides/prompt-engineering/tactic-use-delimiters-to-clearly-indicate-distinct-parts-of-the-input)
+* [Specify the steps required to complete a task](/docs/guides/prompt-engineering/tactic-specify-the-steps-required-to-complete-a-task)
+* [Provide examples](/docs/guides/prompt-engineering/tactic-provide-examples)
+* [Specify the desired length of the output](/docs/guides/prompt-engineering/tactic-specify-the-desired-length-of-the-output)
 
 ### [Provide reference text
 
@@ -27,8 +27,8 @@ Language models can confidently invent fake answers, especially when asked about
 
 Tactics:
 
-  * [Instruct the model to answer using a reference text](/docs/guides/prompt-engineering/tactic-instruct-the-model-to-answer-using-a-reference-text)
-  * [Instruct the model to answer with citations from a reference text](/docs/guides/prompt-engineering/tactic-instruct-the-model-to-answer-with-citations-from-a-reference-text)
+* [Instruct the model to answer using a reference text](/docs/guides/prompt-engineering/tactic-instruct-the-model-to-answer-using-a-reference-text)
+* [Instruct the model to answer with citations from a reference text](/docs/guides/prompt-engineering/tactic-instruct-the-model-to-answer-with-citations-from-a-reference-text)
 
 ### [Split complex tasks into simpler subtasks
 
@@ -38,9 +38,9 @@ Just as it is good practice in software engineering to decompose a complex syste
 
 Tactics:
 
-  * [Use intent classification to identify the most relevant instructions for a user query](/docs/guides/prompt-engineering/tactic-use-intent-classification-to-identify-the-most-relevant-instructions-for-a-user-query)
-  * [For dialogue applications that require very long conversations, summarize or filter previous dialogue](/docs/guides/prompt-engineering/tactic-for-dialogue-applications-that-require-very-long-conversations-summarize-or-filter-previous-dialogue)
-  * [Summarize long documents piecewise and construct a full summary recursively](/docs/guides/prompt-engineering/tactic-summarize-long-documents-piecewise-and-construct-a-full-summary-recursively)
+* [Use intent classification to identify the most relevant instructions for a user query](/docs/guides/prompt-engineering/tactic-use-intent-classification-to-identify-the-most-relevant-instructions-for-a-user-query)
+* [For dialogue applications that require very long conversations, summarize or filter previous dialogue](/docs/guides/prompt-engineering/tactic-for-dialogue-applications-that-require-very-long-conversations-summarize-or-filter-previous-dialogue)
+* [Summarize long documents piecewise and construct a full summary recursively](/docs/guides/prompt-engineering/tactic-summarize-long-documents-piecewise-and-construct-a-full-summary-recursively)
 
 ### [Give the model time to "think"
 
@@ -50,9 +50,9 @@ If asked to multiply 17 by 28, you might not know it instantly, but can still wo
 
 Tactics:
 
-  * [Instruct the model to work out its own solution before rushing to a conclusion](/docs/guides/prompt-engineering/tactic-instruct-the-model-to-work-out-its-own-solution-before-rushing-to-a-conclusion)
-  * [Use inner monologue or a sequence of queries to hide the model's reasoning process](/docs/guides/prompt-engineering/tactic-use-inner-monologue-or-a-sequence-of-queries-to-hide-the-model-s-reasoning-process)
-  * [Ask the model if it missed anything on previous passes](/docs/guides/prompt-engineering/tactic-ask-the-model-if-it-missed-anything-on-previous-passes)
+* [Instruct the model to work out its own solution before rushing to a conclusion](/docs/guides/prompt-engineering/tactic-instruct-the-model-to-work-out-its-own-solution-before-rushing-to-a-conclusion)
+* [Use inner monologue or a sequence of queries to hide the model's reasoning process](/docs/guides/prompt-engineering/tactic-use-inner-monologue-or-a-sequence-of-queries-to-hide-the-model-s-reasoning-process)
+* [Ask the model if it missed anything on previous passes](/docs/guides/prompt-engineering/tactic-ask-the-model-if-it-missed-anything-on-previous-passes)
 
 ### [Use external tools
 
@@ -62,9 +62,9 @@ Compensate for the weaknesses of the model by feeding it the outputs of other to
 
 Tactics:
 
-  * [Use embeddings-based search to implement efficient knowledge retrieval](/docs/guides/prompt-engineering/tactic-use-embeddings-based-search-to-implement-efficient-knowledge-retrieval)
-  * [Use code execution to perform more accurate calculations or call external APIs](/docs/guides/prompt-engineering/tactic-use-code-execution-to-perform-more-accurate-calculations-or-call-external-apis)
-  * [Give the model access to specific functions](/docs/guides/prompt-engineering/tactic-give-the-model-access-to-specific-functions)
+* [Use embeddings-based search to implement efficient knowledge retrieval](/docs/guides/prompt-engineering/tactic-use-embeddings-based-search-to-implement-efficient-knowledge-retrieval)
+* [Use code execution to perform more accurate calculations or call external APIs](/docs/guides/prompt-engineering/tactic-use-code-execution-to-perform-more-accurate-calculations-or-call-external-apis)
+* [Give the model access to specific functions](/docs/guides/prompt-engineering/tactic-give-the-model-access-to-specific-functions)
 
 ### [Test changes systematically
 
@@ -74,7 +74,7 @@ Improving performance is easier if you can measure it. In some cases a modificat
 
 Tactic:
 
-  * [Evaluate model outputs with reference to gold-standard answers](/docs/guides/prompt-engineering/tactic-evaluate-model-outputs-with-reference-to-gold-standard-answers)
+* [Evaluate model outputs with reference to gold-standard answers](/docs/guides/prompt-engineering/tactic-evaluate-model-outputs-with-reference-to-gold-standard-answers)
 
 ## [Tactics
 
@@ -115,7 +115,7 @@ The system message can be used to specify the persona used by the model in its r
 
 SYSTEM
 
-When I ask for help to write something, you will reply with a document that contains at least one joke or playful comment in every paragraph. 
+When I ask for help to write something, you will reply with a document that contains at least one joke or playful comment in every paragraph.
 
 USER
 
@@ -137,7 +137,7 @@ Summarize the text delimited by triple quotes with a haiku. """insert text here"
 
 SYSTEM
 
-You will be provided with a pair of articles (delimited with XML tags) about the same topic. First summarize the arguments of each article. Then indicate which of them makes a better argument and explain why. 
+You will be provided with a pair of articles (delimited with XML tags) about the same topic. First summarize the arguments of each article. Then indicate which of them makes a better argument and explain why.
 
 USER
 
@@ -147,7 +147,7 @@ USER
 
 SYSTEM
 
-You will be provided with a thesis abstract and a suggested title for it. The thesis title should give the reader a good idea of the topic of the thesis but should also be eye-catching. If the title does not meet these criteria, suggest 5 alternatives. 
+You will be provided with a thesis abstract and a suggested title for it. The thesis title should give the reader a good idea of the topic of the thesis but should also be eye-catching. If the title does not meet these criteria, suggest 5 alternatives.
 
 USER
 
@@ -165,7 +165,7 @@ Some tasks are best specified as a sequence of steps. Writing the steps out expl
 
 SYSTEM
 
-Use the following step-by-step instructions to respond to user inputs. Step 1 - The user will provide you with text in triple quotes. Summarize this text in one sentence with a prefix that says "Summary: ". Step 2 - Translate the summary from Step 1 into Spanish, with a prefix that says "Translation: ". 
+Use the following step-by-step instructions to respond to user inputs. Step 1 - The user will provide you with text in triple quotes. Summarize this text in one sentence with a prefix that says "Summary: ". Step 2 - Translate the summary from Step 1 into Spanish, with a prefix that says "Translation: ".
 
 USER
 
@@ -181,15 +181,15 @@ Providing general instructions that apply to all examples is generally more effi
 
 SYSTEM
 
-Answer in a consistent style. 
+Answer in a consistent style.
 
 USER
 
-Teach me about patience. 
+Teach me about patience.
 
 ASSISTANT
 
-The river that carves the deepest valley flows from a modest spring; the grandest symphony originates from a single note; the most intricate tapestry begins with a solitary thread. 
+The river that carves the deepest valley flows from a modest spring; the grandest symphony originates from a single note; the most intricate tapestry begins with a solitary thread.
 
 USER
 
@@ -233,7 +233,7 @@ If we can provide a model with trusted information that is relevant to the curre
 
 SYSTEM
 
-Use the provided articles delimited by triple quotes to answer questions. If the answer cannot be found in the articles, write "I could not find an answer." 
+Use the provided articles delimited by triple quotes to answer questions. If the answer cannot be found in the articles, write "I could not find an answer."
 
 USER
 
@@ -251,7 +251,7 @@ If the input has been supplemented with relevant knowledge, it's straightforward
 
 SYSTEM
 
-You will be provided with a document delimited by triple quotes and a question. Your task is to answer the question using only the provided document and to cite the passage(s) of the document used to answer the question. If the document does not contain the information needed to answer this question then simply write: "Insufficient information." If an answer to the question is provided, it must be annotated with a citation. Use the following format for to cite relevant passages ({"citation": …}). 
+You will be provided with a document delimited by triple quotes and a question. Your task is to answer the question using only the provided document and to cite the passage(s) of the document used to answer the question. If the document does not contain the information needed to answer this question then simply write: "Insufficient information." If an answer to the question is provided, it must be annotated with a citation. Use the following format for to cite relevant passages ({"citation": …}).
 
 USER
 
@@ -273,7 +273,7 @@ Suppose for example that for a customer service application, queries could be us
 
 SYSTEM
 
-You will be provided with customer service queries. Classify each query into a primary category and a secondary category. Provide your output in json format with the keys: primary and secondary. Primary categories: Billing, Technical Support, Account Management, or General Inquiry. Billing secondary categories: - Unsubscribe or upgrade - Add a payment method - Explanation for charge - Dispute a charge Technical Support secondary categories: - Troubleshooting - Device compatibility - Software updates Account Management secondary categories: - Password reset - Update personal information - Close account - Account security General Inquiry secondary categories: - Product information - Pricing - Feedback - Speak to a human 
+You will be provided with customer service queries. Classify each query into a primary category and a secondary category. Provide your output in json format with the keys: primary and secondary. Primary categories: Billing, Technical Support, Account Management, or General Inquiry. Billing secondary categories: - Unsubscribe or upgrade - Add a payment method - Explanation for charge - Dispute a charge Technical Support secondary categories: - Troubleshooting - Device compatibility - Software updates Account Management secondary categories: - Password reset - Update personal information - Close account - Account security General Inquiry secondary categories: - Product information - Pricing - Feedback - Speak to a human
 
 USER
 
@@ -325,11 +325,11 @@ Sometimes we get better results when we explicitly instruct the model to reason 
 
 SYSTEM
 
-Determine if the student's solution is correct or not. 
+Determine if the student's solution is correct or not.
 
 USER
 
-Problem Statement: I'm building a solar power installation and I need help working out the financials. - Land costs $100 / square foot - I can buy solar panels for $250 / square foot - I negotiated a contract for maintenance that will cost me a flat $100k per year, and an additional $10 / square foot What is the total cost for the first year of operations as a function of the number of square feet. Student's Solution: Let x be the size of the installation in square feet. 1. Land cost: 100x 2. Solar panel cost: 250x 3. Maintenance cost: 100,000 + 100x Total cost: 100x + 250x + 100,000 + 100x = 450x + 100,000 
+Problem Statement: I'm building a solar power installation and I need help working out the financials. - Land costs $100 / square foot - I can buy solar panels for $250 / square foot - I negotiated a contract for maintenance that will cost me a flat $100k per year, and an additional $10 / square foot What is the total cost for the first year of operations as a function of the number of square feet. Student's Solution: Let x be the size of the installation in square feet. 1. Land cost: 100x 2. Solar panel cost: 250x 3. Maintenance cost: 100,000 + 100x Total cost: 100x + 250x + 100,000 + 100x = 450x + 100,000
 
 ASSISTANT
 
@@ -341,11 +341,11 @@ But the student's solution is actually not correct! We can get the model to succ
 
 SYSTEM
 
-First work out your own solution to the problem. Then compare your solution to the student's solution and evaluate if the student's solution is correct or not. Don't decide if the student's solution is correct until you have done the problem yourself. 
+First work out your own solution to the problem. Then compare your solution to the student's solution and evaluate if the student's solution is correct or not. Don't decide if the student's solution is correct until you have done the problem yourself.
 
 USER
 
-Problem Statement: I'm building a solar power installation and I need help working out the financials. - Land costs $100 / square foot - I can buy solar panels for $250 / square foot - I negotiated a contract for maintenance that will cost me a flat $100k per year, and an additional $10 / square foot What is the total cost for the first year of operations as a function of the number of square feet. Student's Solution: Let x be the size of the installation in square feet. 1. Land cost: 100x 2. Solar panel cost: 250x 3. Maintenance cost: 100,000 + 100x Total cost: 100x + 250x + 100,000 + 100x = 450x + 100,000 
+Problem Statement: I'm building a solar power installation and I need help working out the financials. - Land costs $100 / square foot - I can buy solar panels for $250 / square foot - I negotiated a contract for maintenance that will cost me a flat $100k per year, and an additional $10 / square foot What is the total cost for the first year of operations as a function of the number of square feet. Student's Solution: Let x be the size of the installation in square feet. 1. Land cost: 100x 2. Solar panel cost: 250x 3. Maintenance cost: 100,000 + 100x Total cost: 100x + 250x + 100,000 + 100x = 450x + 100,000
 
 ASSISTANT
 
@@ -363,7 +363,7 @@ Inner monologue is a tactic that can be used to mitigate this. The idea of inner
 
 SYSTEM
 
-Follow these steps to answer the user queries. Step 1 - First work out your own solution to the problem. Don't rely on the student's solution since it may be incorrect. Enclose all your work for this step within triple quotes ("""). Step 2 - Compare your solution to the student's solution and evaluate if the student's solution is correct or not. Enclose all your work for this step within triple quotes ("""). Step 3 - If the student made a mistake, determine what hint you could give the student without giving away the answer. Enclose all your work for this step within triple quotes ("""). Step 4 - If the student made a mistake, provide the hint from the previous step to the student (outside of triple quotes). Instead of writing "Step 4 - ..." write "Hint:". 
+Follow these steps to answer the user queries. Step 1 - First work out your own solution to the problem. Don't rely on the student's solution since it may be incorrect. Enclose all your work for this step within triple quotes ("""). Step 2 - Compare your solution to the student's solution and evaluate if the student's solution is correct or not. Enclose all your work for this step within triple quotes ("""). Step 3 - If the student made a mistake, determine what hint you could give the student without giving away the answer. Enclose all your work for this step within triple quotes ("""). Step 4 - If the student made a mistake, provide the hint from the previous step to the student (outside of triple quotes). Instead of writing "Step 4 - ..." write "Hint:".
 
 USER
 
@@ -385,7 +385,7 @@ Next, we can have the model use all available information to assess the correctn
 
 SYSTEM
 
-Compare your solution to the student's solution and evaluate if the student's solution is correct or not. 
+Compare your solution to the student's solution and evaluate if the student's solution is correct or not.
 
 USER
 
@@ -397,7 +397,7 @@ Finally, we can let the model use its own analysis to construct a reply in the p
 
 SYSTEM
 
-You are a math tutor. If the student made an error, offer a hint to the student in a way that does not reveal the answer. If the student did not make an error, simply offer them an encouraging comment. 
+You are a math tutor. If the student made an error, offer a hint to the student in a way that does not reveal the answer. If the student did not make an error, simply offer them an encouraging comment.
 
 USER
 
@@ -413,15 +413,15 @@ Suppose that we are using a model to list excerpts from a source which are relev
 
 SYSTEM
 
-You will be provided with a document delimited by triple quotes. Your task is to select excerpts which pertain to the following question: "What significant paradigm shifts have occurred in the history of artificial intelligence." Ensure that excerpts contain all relevant context needed to interpret them - in other words don't extract small snippets that are missing important context. Provide output in JSON format as follows: [{"excerpt": "..."}, ... {"excerpt": "..."}] 
+You will be provided with a document delimited by triple quotes. Your task is to select excerpts which pertain to the following question: "What significant paradigm shifts have occurred in the history of artificial intelligence." Ensure that excerpts contain all relevant context needed to interpret them - in other words don't extract small snippets that are missing important context. Provide output in JSON format as follows: [{"excerpt": "..."}, ... {"excerpt": "..."}]
 
 USER
 
-"""<insert document here>""" 
+"""<insert document here>"""
 
 ASSISTANT
 
-[{"excerpt": "the model writes an excerpt here"}, ... {"excerpt": "the model writes another excerpt here"}] 
+[{"excerpt": "the model writes an excerpt here"}, ... {"excerpt": "the model writes another excerpt here"}]
 
 USER
 
@@ -451,7 +451,7 @@ Language models cannot be relied upon to perform arithmetic or long calculations
 
 SYSTEM
 
-You can write and execute Python code by enclosing it in triple backticks, e.g. ```code goes here```. Use this to perform calculations. 
+You can write and execute Python code by enclosing it in triple backticks, e.g. ```code goes here```. Use this to perform calculations.
 
 USER
 
@@ -483,9 +483,9 @@ Sometimes it can be hard to tell whether a change — e.g., a new instruction or
 
 Evaluation procedures (or "evals") are useful for optimizing system designs. Good evals are:
 
-  * Representative of real-world usage (or at least diverse)
-  * Contain many test cases for greater statistical power (see table below for guidelines)
-  * Easy to automate or repeat
+* Representative of real-world usage (or at least diverse)
+* Contain many test cases for greater statistical power (see table below for guidelines)
+* Easy to automate or repeat
 
 Difference to detectSample size needed for 95% confidence
 
@@ -605,9 +605,9 @@ Question: """What event is Neil Armstrong most famous for and on what date did i
 
 For more inspiration, visit the [OpenAI Cookbook](https://cookbook.openai.com), which contains example code and also links to third-party resources such as:
 
-  * [Prompting libraries & tools](https://cookbook.openai.com/related_resources#prompting-libraries--tools)
-  * [Prompting guides](https://cookbook.openai.com/related_resources#prompting-guides)
-  * [Video courses](https://cookbook.openai.com/related_resources#video-courses)
-  * [Papers on advanced prompting to improve reasoning](https://cookbook.openai.com/related_resources#papers-on-advanced-prompting-to-improve-reasoning)
+* [Prompting libraries & tools](https://cookbook.openai.com/related_resources#prompting-libraries--tools)
+* [Prompting guides](https://cookbook.openai.com/related_resources#prompting-guides)
+* [Video courses](https://cookbook.openai.com/related_resources#video-courses)
+* [Papers on advanced prompting to improve reasoning](https://cookbook.openai.com/related_resources#papers-on-advanced-prompting-to-improve-reasoning)
 
 Was this page useful?‍‍
