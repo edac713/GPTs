@@ -1,94 +1,12 @@
-You need to enable JavaScript to run this app.
-
-[Playground
-
-](/playground)
-
-[Assistants
-
-](/assistants)
-
-[Fine-tuning
-
-](/finetune)
-
-[API keys
-
-](/api-keys)
-
-[Files
-
-](/files)
-
-[Usage
-
-](/usage)
-
-[Settings
-
-](/account)
-
-[Documentation
-
-](/docs)
-
-Help
-
-All products
-
-![Profile](https://lh3.googleusercontent.com/a/ACg8ocJI3xcvJ8COhIk-LT76JI5uord4HDDQS8J8WtIkn-SiyA=s96-c)
-
-Personal
-
-Documentation
-
-[Forum‍](https://community.openai.com/categories)Help‍
-
-Search⌘K
-
-Get started
-
-[Overview](/docs/overview)[Introduction](/docs/introduction)[Quickstart](/docs/quickstart)[Models](/docs/models)[Tutorials](/docs/tutorials)[Changelog](/docs/changelog)
-
-Capabilities
-
-[Text generation](/docs/guides/text-generation)[Function calling](/docs/guides/function-calling)[Embeddings](/docs/guides/embeddings)[Fine-tuning](/docs/guides/fine-tuning)[Image generation](/docs/guides/images)[Vision](/docs/guides/vision)[Text-to-speech](/docs/guides/text-to-speech)[Speech-to-text](/docs/guides/speech-to-text)[Moderation](/docs/guides/moderation)
-
-Assistants
-
-[Overview](/docs/assistants/overview)[How Assistants work](/docs/assistants/how-it-works)[Tools](/docs/assistants/tools)
-
-Guides
-
-[Prompt engineering](/docs/guides/prompt-engineering)[Six strategies for getting better results](/docs/guides/prompt-engineering/six-strategies-for-getting-better-results)[Write clear instructions](/docs/guides/prompt-engineering/strategy-write-clear-instructions)[Provide reference text](/docs/guides/prompt-engineering/strategy-provide-reference-text)[Split complex tasks into simpler subtasks](/docs/guides/prompt-engineering/strategy-split-complex-tasks-into-simpler-subtasks)[Give the model time to "think"](/docs/guides/prompt-engineering/strategy-give-models-time-to-think)[Use external tools](/docs/guides/prompt-engineering/strategy-use-external-tools)[Test changes systematically](/docs/guides/prompt-engineering/strategy-test-changes-systematically)[Other resources](/docs/guides/prompt-engineering/other-resources)[Production best practices](/docs/guides/production-best-practices)[Safety best practices](/docs/guides/safety-best-practices)[Rate limits](/docs/guides/rate-limits)[Error codes](/docs/guides/error-codes)[Libraries](/docs/libraries)[Deprecations](/docs/deprecations)[Policies](/policies)
-
-ChatGPT
-
-[Actions](/docs/actions)[Plugins](/docs/plugins/introduction)
-
-# [Prompt engineering
-
-](/docs/guides/prompt-engineering/prompt-engineering)
+# Prompt engineering
 
 This guide shares strategies and tactics for getting better results from large language models (sometimes referred to as GPT models) like GPT-4. The methods described here can sometimes be deployed in combination for greater effect. We encourage experimentation to find the methods that work best for you.
 
 Some of the examples demonstrated here currently work only with our most capable model, `gpt-4`. In general, if you find that a model fails at a task and a more capable model is available, it's often worth trying again with the more capable model.
 
-You can also explore example prompts which showcase what our models are capable of:
+## Six strategies for getting better results
 
-[Prompt examples
-
-Explore prompt examples to learn what GPT models can do
-
-](/examples)
-
-## [Six strategies for getting better results
-
-](/docs/guides/prompt-engineering/six-strategies-for-getting-better-results)
-
-### [Write clear instructions
-
-](/docs/guides/prompt-engineering/write-clear-instructions)
+### Write clear instructions
 
 These models can’t read your mind. If outputs are too long, ask for brief replies. If outputs are too simple, ask for expert-level writing. If you dislike the format, demonstrate the format you’d like to see. The less the model has to guess at what you want, the more likely you’ll get it.
 
