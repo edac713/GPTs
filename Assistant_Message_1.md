@@ -21,7 +21,6 @@ Given the detailed objectives and aspirations you've outlined, we'll now proceed
 ### Potential Research Directions
 
 - **Dataset Creation and Model Training**: Creating comprehensive datasets that pair design screenshots with high-quality, annotated web code. Training AI models on these datasets would improve their accuracy in translating visual designs into code.
-  
 - **User Interface Design Patterns**: Researching common design patterns and user interface components to teach AI models about recurring design elements and how they are implemented in web development.
 
 - **Interactive AI-assisted Design Tools**: Developing tools that allow designers and developers to interactively work with AI to refine and adjust the generated code, ensuring it meets the project's requirements and standards.
