@@ -1,14 +1,6 @@
-
-![Tools](https://github.com/sourceduty/ChatGPT/assets/123030236/41771c77-fb5a-406c-9c3f-ee26af305544)
-
-***
-***
-
 ### Sourceduty GPTs
 
 Listed below are `250` custom built GPTs sorted into `20` different categories:
-
-#
 
 <details><summary>
   
@@ -1153,10 +1145,11 @@ Three-way conversation between one person and two chatbots, focused on SpaceX's 
 
 #
 
-*The 84 most popular GPTs, according to OpenAI, are sorted into 7 categories and are listed in the [GPT Store](https://chat.openai.com/gpts).*
+_The 84 most popular GPTs, according to OpenAI, are sorted into 7 categories and are listed in the [GPT Store](https://chat.openai.com/gpts)._
 
-***
-***
+---
+
+---
 
 > [!TIP]
 > Favorite Prompts:
@@ -1186,7 +1179,7 @@ Three-way conversation between one person and two chatbots, focused on SpaceX's 
 > ```
 > - OpenAI allows Python code privacy using instructions that request keeping private and confidential code files.
 > - Python can be used to provide insights, calculate math, processing, analysis, web scraping, algorithms and custom interactions in custom GPTs.
-> - A lot of libraries are supported, but not every Python library is supported in the ChatGPT environment. 
+> - A lot of libraries are supported, but not every Python library is supported in the ChatGPT environment.
 > - Libraries such as PyQt5, Tkinter and Plotly are not supported. Libraries such as Numpy, PIL and Matplotlib are supported.
 > - Custom GPT codes are protected by copyright law.
 > ```
@@ -1194,15 +1187,15 @@ Three-way conversation between one person and two chatbots, focused on SpaceX's 
 > ChatGPT Limits:
 >
 > ```
-> - Using plain English text, users can typically input up to around 2000 words of English text. 
+> - Using plain English text, users can typically input up to around 2000 words of English text.
 > - ChatGPT will output up to around 2000 words of English text.
 > - Knowledge can contain up to 10 files limited to 20 MB per file.
 > - Using the DALL-E tool, users can input up to 400 characters or 60 words of English text.
 > - The maximum uploaded file size for GPT-4 is 512 MB.
-> - There isn't a specified limit on the number of files you can upload to GPT-4 as long as each individual file does not exceed the 100 MB size limit. 
+> - There isn't a specified limit on the number of files you can upload to GPT-4 as long as each individual file does not exceed the 100 MB size limit.
 > ```
-  
-***
+
+---
 
 <details><summary>
 
@@ -1268,11 +1261,11 @@ Three-way conversation between one person and two chatbots, focused on SpaceX's 
 
 [Buy custom GPTs from Sourceduty](https://chat.openai.com/share/ee5bd907-13c7-407a-bb38-2c52f68144c0)
 
-</details>
+---
 
-***
 Sourceduty also shares files using [OneDrive](https://1drv.ms/u/s!AumZxqj6wFkfhxSi1JbL7tJmhDCR?e=Rp0Jnr).
-***
+
+---
 
 > [!CAUTION]
 > Copyright (C) 2023, Sourceduty - All Rights Reserved.
@@ -1285,9 +1278,9 @@ Sourceduty also shares files using [OneDrive](https://1drv.ms/u/s!AumZxqj6wFkfhx
 
 > AI-generated content can be copyrighted by custom GPT users. ChatGPT does not own the content that it generates and neither do it's developers.
 
-***
+---
 
-*"I'm really impressed by the versatility of GPT-4. The AI tools I've been working on are turning out to be quite useful, and I'm excited about what lies ahead. It's clear that AI is poised to have a significant impact on our daily lives, and I can't wait to see how it continues to evolve and make things even better in the future."*
+_"I'm really impressed by the versatility of GPT-4. The AI tools I've been working on are turning out to be quite useful, and I'm excited about what lies ahead. It's clear that AI is poised to have a significant impact on our daily lives, and I can't wait to see how it continues to evolve and make things even better in the future."_
 
 #
 
