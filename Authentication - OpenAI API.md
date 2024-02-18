@@ -1,110 +1,114 @@
-You need to enable JavaScript to run this app.
+# Plugin authentication
 
-[Playground
+> **GPTs and custom Actions are here!**
+>
+> We’re rolling out custom versions of ChatGPT that you can create for a specific purpose—called GPTs. GPTs are a new way for anyone to create a tailored version of ChatGPT to be more helpful in their daily life, at specific tasks, at work, or at home—and then share that creation with others. We are excited to announce Actions, which build on plugins. Actions take many of the core ideas of plugins while also introducing many new features builders have been asking for.
 
-](/playground)
+Plugins offer numerous authentication schemas to accommodate various use cases. To specify the authentication schema for your plugin, use the manifest file. Our plugin domain policy outlines our strategy for addressing domain security issues. For examples of available authentication options, refer to the examples section, which showcases all the different choices.
 
-[Assistants
+The `ai-plugin.json` file requires an `auth` schema to be set. Even if you elect to use no authentication, it is still required to specify `"auth": { "type": "none" }`.
 
-](/assistants)
+If you want to use service, user, or OAuth authentication, you need to set up a remote server.
 
-[Fine-tuning
+## Service level
 
-](/finetune)
+> We suggest service level auth as it gives developers control over how their plugin is being used but also doesn't introduce overhead for users.
 
-[API keys
+If you want to specifically enable OpenAI plugins to work with your API, you can provide a client secret during the plugin installation flow. This means that all traffic from OpenAI plugins will be authenticated but not on a user level. This flow benefits from a simple end user experience but less control from an API perspective.
 
-](/api-keys)
+- To start, select "Develop your own plugin" in the ChatGPT plugin store, and enter the domain where your plugin is hosted.
+- In `ai-plugin.json`, set `auth.type` to `"service_http"` as is shown in our service level auth example.
+- You will be prompted for your service access token, which is a string specified in your code.
+  - We securely store an encrypted copy of your service access token to enable plugin installation without additional authentication.
+  - The service access token is sent in the `Authorization` header for plugin requests.
+- Once you add your service access token into the ChatGPT UI, you will be presented with a verification token.
+- Add the verification token to your `ai-plugin.json` file under the auth section as shown below.
 
-[Files
+```json
+"auth": {
+  "type": "service_http",
+  "authorization_type": "bearer",
+  "verification_tokens": {
+    "openai": "Replace_this_string_with_the_verification_token_generated_in_the_ChatGPT_UI"
+  }
+},
+```
 
-](/files)
+The verification tokens are designed to support multiple applications. You can simply add the additional applications you want your plugin to support:
 
-[Usage
+```json
+"verification_tokens": {
+    "openai": "Replace_this_string_with_the_verification_token_generated_in_the_ChatGPT_UI",
+    "other_service": "abc123"
+  }
+```
 
-](/usage)
+## OAuth
 
-[Settings
+The plugin protocol is compatible with OAuth. A simple example of the OAuth flow we are expecting should look something like the following:
 
-](/account)
+- To start, select "Develop your own plugin" in the ChatGPT plugin store, and enter the domain where your plugin is hosted.
+- In `ai-plugin.json`, set `auth.type` to `"oauth"` as is shown in our OAuth example.
+- Then, you will be prompted to enter the OAuth client ID and client secret.
+  - The client ID and secret can be simple text strings but should follow OAuth best practices.
+  - We store an encrypted version of the client secret, while the client ID is available to end users.
+- Once you add your client ID and client secret into the ChatGPT UI, you will be presented with a verification token.
+- Add the verification token to your `ai-plugin.json` file under the auth section as shown below.
+- OAuth requests will include the following information: `request={'grant_type': 'authorization_code', 'client_id': 'id_set_by_developer', 'client_secret': 'secret_set_by_developer', 'code': 'abc123', 'redirect_uri': 'https://chat.openai.com/aip/plugin-some_plugin_id/oauth/callback'}`
+- In order for someone to use a plugin with OAuth, they will need to install the plugin and then be presented with a "Sign in with" button in the ChatGPT UI.
+- The `authorization_url` endpoint should return a response that looks like: `{ "access_token": "example_token", "token_type": "bearer", "refresh_token": "example_token", "expires_in": 59 }`
+- During the user sign in process, ChatGPT makes a request to your `authorization_url` using the specified `authorization_content_type`, we expect to get back an access token and optionally a refresh token which we use to periodically fetch a new access token.
+- Each time a user makes a request to the plugin, the user’s token will be passed in the Authorization header: (“Authorization”: “\[Bearer/Basic\]\[user’s token\]”).
 
-[Documentation
+> We require that OAuth applications make use of the state parameter for security reasons.
 
-](/docs)
+Below is an example of what the OAuth configuration inside of the `ai-plugin.json` file might look like:
 
-Help
+```json
+"auth": {
+  "type": "oauth",
+  "client_url": "https://example.com/authorize",
+  "scope": "",
+  "authorization_url": "https://example.com/auth/",
+  "authorization_content_type": "application/json",
+  "verification_tokens": {
+    "openai": "Replace_this_string_with_the_verification_token_generated_in_the_ChatGPT_UI"
+  }
+},
+```
 
-All products
+To better understand the URL structure for OAuth, here is a short description of the fields:
 
-![Profile](https://lh3.googleusercontent.com/a/ACg8ocJI3xcvJ8COhIk-LT76JI5uord4HDDQS8J8WtIkn-SiyA=s96-c)
+- When you set up your plugin with ChatGPT, you will be asked to provide your OAuth `client_id` and `client_secret`.
+- When a user logs into the plugin, ChatGPT will direct the user’s browser to `"[client_url]?response_type=code&client_id=[client_id]&scope=[scope]&state=xyz123&redirect_uri=https%3A%2F%2Fchat.openai.com%2Faip%2F[plugin_id]%2Foauth%2Fcallback"`
+- The `plugin_id` is passed via the request made to your OAuth endpoint (note that it is not visible in the ChatGPT UI today but may be in the future). You can inspect the request there to see the `plugin_id`. We expect the `state` to be passed along when you redirect back to `redirect_uri`. If the `state` doesn't match the initial `state`, or has expired, the authentication flow will fail.
+- After your plugin redirects back to the given `redirect_uri`, ChatGPT will complete the OAuth flow by making a POST request to the `authorization_url` with content type `authorization_content_type` and parameters `{ “grant_type”: “authorization_code”, “client_id”: [client_id], “client_secret”: [client_secret], “code”: [the code that was returned with the redirect], “redirect_uri”: [the same redirect uri as before] }`.
 
-Personal
+## No authentication
 
-Documentation
+> We do not recommend the use of "no authentication", consider using "service authentication".
 
-[Forum‍](https://community.openai.com/categories)Help‍
+We support no-auth flow for applications that do not require authentication, where a user is able to send requests directly to your API without any restrictions. This is particularly useful if you have an open API that you want to make available to everyone, as it allows traffic from sources other than just OpenAI plugin requests.
 
-Search⌘K
+```json
+"auth": {
+  "type": "none"
+},
+```
 
-Get started
+## User level
 
-[Overview](/docs/overview)[Introduction](/docs/introduction)[Quickstart](/docs/quickstart)[Models](/docs/models)[Tutorials](/docs/tutorials)[Changelog](/docs/changelog)
+> Due to current UI limitations, we are not allowing plugins with "user authentication" into the plugin store. We expect this may change in the future.
 
-Capabilities
+Just like how a user might already be using your API, we allow user level authentication through enabling end users to copy and paste their secret API key into the ChatGPT UI during plugin install. While we encrypt the secret key when we store it in our database, we do not recommend this approach given the poor user experience.
 
-[Text generation](/docs/guides/text-generation)[Function calling](/docs/guides/function-calling)[Embeddings](/docs/guides/embeddings)[Fine-tuning](/docs/guides/fine-tuning)[Image generation](/docs/guides/images)[Vision](/docs/guides/vision)[Text-to-speech](/docs/guides/text-to-speech)[Speech-to-text](/docs/guides/speech-to-text)[Moderation](/docs/guides/moderation)
+- To start, a user pastes in their access token when installing the plugin
+- We store an encrypted version of the token
+- We then pass it in the Authorization header when making requests to the plugin (“Authorization”: “\[Bearer/Basic\]\[user’s token\]”)
 
-Assistants
-
-[Overview](/docs/assistants/overview)[How Assistants work](/docs/assistants/how-it-works)[Tools](/docs/assistants/tools)
-
-Guides
-
-[Prompt engineering](/docs/guides/prompt-engineering)[Production best practices](/docs/guides/production-best-practices)[Safety best practices](/docs/guides/safety-best-practices)[Rate limits](/docs/guides/rate-limits)[Error codes](/docs/guides/error-codes)[Libraries](/docs/libraries)[Deprecations](/docs/deprecations)[Policies](/policies)
-
-ChatGPT
-
-[Actions](/docs/actions)[Introduction](/docs/actions/introduction)[Getting started](/docs/actions/getting-started)[Authentication](/docs/actions/authentication)[Policies](https://openai.com/policies/usage-policies#:~:text=or%20educational%20purposes.-,Building%20with%20ChatGPT,-Shared%20GPTs%20allow)[Plugins](/docs/plugins/introduction)
-
-# [Action authentication
-
-](/docs/actions/authentication/action-authentication)
-
-Actions offer different authentication schemas to accommodate various use cases. To specify the authentication schema for your action, use the GPT editor and select "None", "API Key", or "OAuth".
-
-By default, the authentication method for all actions is set to "None", but you can change this and allow different actions to have different authentication methods.
-
-## [No authentication
-
-](/docs/actions/authentication/no-authentication)
-
-We support flows without authentication for applications where users can send requests directly to your API without needing an API key or signing in with OAuth.
-
-Consider using no authentication for initial user interactions as you might experience a user drop off if they are forced to sign into an application. You can create a "signed out" experience and then move users to a "signed in" experience by enabling a separate action.
-
-## [API key authentication
-
-](/docs/actions/authentication/api-key-authentication)
-
-Just like how a user might already be using your API, we allow API key authentication through the GPT editor UI. We encrypt the secret key when we store it in our database to keep your API key secure.
-
-This approach is useful if you have an API that takes slightly more consequential actions than the no authentication flow but does not require an individual user to sign in. Adding API key authentication can protect your API and give you more fine-grained access controls along with visibility into where requests are coming from.
-
-## [OAuth
-
-](/docs/actions/authentication/oauth)
-
-Actions allow OAuth sign in for each user. This is the best way to provide personalized experiences and make the most powerful actions available to users. A simple example of the OAuth flow with actions will look like the following:
-
-  * To start, select "Authentication" in the GPT editor UI, and select "OAuth".
-  * You will be prompted to enter the OAuth client ID, client secret, authorization URL, token URL, and scope.
-    * The client ID and secret can be simple text strings but should [follow OAuth best practices](https://www.oauth.com/oauth2-servers/client-registration/client-id-secret/).
-    * We store an encrypted version of the client secret, while the client ID is available to end users.
-  * OAuth requests will include the following information: `request={'grant_type': 'authorization_code', 'client_id': 'YOUR_CLIENT_ID', 'client_secret': 'YOUR_CLIENT_SECRET', 'code': 'abc123', 'redirect_uri': 'https://chat.openai.com/aip/g-some_gpt_id/oauth/callback'}`
-  * In order for someone to use an action with OAuth, they will need to send a message that invokes the action and then the user will be presented with a "Sign in to [domain]" button in the ChatGPT UI.
-  * The `authorization_url` endpoint should return a response that looks like: `{ "access_token": "example_token", "token_type": "bearer", "refresh_token": "example_token", "expires_in": 59 }`
-  * During the user sign in process, ChatGPT makes a request to your `authorization_url` using the specified `authorization_content_type`, we expect to get back an access token and optionally a [refresh token](https://auth0.com/learn/refresh-tokens) which we use to periodically fetch a new access token.
-  * Each time a user makes a request to the action, the user’s token will be passed in the Authorization header: (“Authorization”: “[Bearer/Basic][user’s token]”).
-  * We require that OAuth applications make use of the [state parameter](https://auth0.com/docs/secure/attack-protection/state-parameters#set-and-compare-state-parameter-values) for security reasons.
-
-Was this page useful?‍‍
+```json
+"auth": {
+  "type": "user_http",
+  "authorization_type": "bearer",
+},
+```
