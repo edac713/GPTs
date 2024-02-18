@@ -15,11 +15,11 @@ Code Interpreter is charged at $0.03 per session. If your Assistant calls Code I
 Pass the `code_interpreter`in the `tools` parameter of the Assistant object to enable Code Interpreter:
 
 ```python
-    assistant = client.beta.assistants.create(
-      instructions="You are a personal math tutor. When asked a math question, write and run code to answer the question.",
-      model="gpt-4-turbo-preview",
-      tools=[{"type": "code_interpreter"}]
-    )
+assistant = client.beta.assistants.create(
+  instructions="You are a personal math tutor. When asked a math question, write and run code to answer the question.",
+  model="gpt-4-turbo-preview",
+  tools=[{"type": "code_interpreter"}]
+)
 ```
 
 The model then decides when to invoke Code Interpreter in a Run based on the nature of the user request. This behavior can be promoted by prompting in the Assistant's instructions (e.g., “write code to solve this problem”).
