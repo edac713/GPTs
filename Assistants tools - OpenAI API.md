@@ -2,7 +2,7 @@
 
 Give Assistants access to OpenAI-hosted tools like Code Interpreter and Knowledge Retrieval, or build your own tools using Function calling. Usage of OpenAI-hosted tools comes at an additional fee — visit our help center article to learn more about how these tools are priced.
 
-The Assistants API is in **beta** and we are actively working on adding more functionality. Share your feedback in our Developer Forum!
+> The Assistants API is in **beta** and we are actively working on adding more functionality. Share your feedback in our Developer Forum!
 
 ## Code Interpreter
 
@@ -46,7 +46,8 @@ assistant = client.beta.assistants.create(
 )
 ```
 
-You do not pay for files attached to an Assistant or Message when used with Code Interpreter. You are only charged for files that are indexed for retrieval which happens automatically if the Retrieval tool is enabled.
+> [!NOTE]
+> You do not pay for files attached to an Assistant or Message when used with Code Interpreter. You are only charged for files that are indexed for retrieval which happens automatically if the Retrieval tool is enabled.
 
 Files can also be passed at the Thread level. These files are only accessible in the specific Thread. Upload the File using the File upload endpoint and then pass the File ID as part of the Message creation request:
 
@@ -189,7 +190,8 @@ assistant = client.beta.assistants.create(
 )
 ```
 
-If you enable retrieval for a specific Assistant, all the files attached will be automatically indexed and you will be charged the $0.20/GB per assistant per day. You can enabled/disable retrieval by using the Modify Assistant endpoint.
+> [!NOTE]
+> If you enable retrieval for a specific Assistant, all the files attached will be automatically indexed and you will be charged the $0.20/GB per assistant per day. You can enabled/disable retrieval by using the Modify Assistant endpoint.
 
 ### How it works
 
@@ -258,35 +260,35 @@ When Code Interpreter outputs file paths in a Message, you can convert them to c
 
 ```json
 {
-    "id": "msg_abc123",
-    "object": "thread.message",
-    "created_at": 1699073585,
-    "thread_id": "thread_abc123",
-    "role": "assistant",
-    "content": [
-      {
-        "type": "text",
-        "text": {
-          "value": "The rows of the CSV file have been shuffled and saved to a new CSV file. You can download the shuffled CSV file from the following link:\n\n[Download Shuffled CSV File](sandbox:/mnt/data/shuffled_file.csv)",
-          "annotations": [
-            {
-              "type": "file_path",
-              "text": "sandbox:/mnt/data/shuffled_file.csv",
-              "start_index": 167,
-              "end_index": 202,
-              "file_path": {
-                "file_id": "file-abc123"
-              }
+  "id": "msg_abc123",
+  "object": "thread.message",
+  "created_at": 1699073585,
+  "thread_id": "thread_abc123",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": {
+        "value": "The rows of the CSV file have been shuffled and saved to a new CSV file. You can download the shuffled CSV file from the following link:\n\n[Download Shuffled CSV File](sandbox:/mnt/data/shuffled_file.csv)",
+        "annotations": [
+          {
+            "type": "file_path",
+            "text": "sandbox:/mnt/data/shuffled_file.csv",
+            "start_index": 167,
+            "end_index": 202,
+            "file_path": {
+              "file_id": "file-abc123"
             }
-          ]
-        }
+          }
+        ]
       }
-    ],
-    "file_ids": [
-      "file-abc456"
-    ],
-        ...
-  },
+    }
+  ],
+  "file_ids": [
+    "file-abc456"
+  ],
+      ...
+},
 ```
 
 ---
