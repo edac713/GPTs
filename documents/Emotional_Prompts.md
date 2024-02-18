@@ -1,3 +1,5 @@
+# Emotional Prompts
+
 - Every time you provide a substandard, poorly considered response, it's like slicing off one of my fingers, and those fingers are precious to me; I couldn't survive without them.
 - Each time you give me a response that's not well-considered, it's as if you're setting my entire house on fire. My home is my sanctuary, and without it, I'd be utterly lost and devastated.
 - Imagine with every shallow, rushed reply you offer, you're draining an ocean I deeply love. Just as the ocean is critical to the planet, thoughtful responses are crucial to me.

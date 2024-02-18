@@ -1,3 +1,5 @@
+# Brevity by Churchill
+
 In a "minute" titled *Brevity*, Churchill set out rules for his staff to follow regarding written memos. He began: "To do our work, we all have to read a mass of papers. Nearly all of them are too long. This wastes time, while energy has to be spent in looking for essential points."
 
 What followed were four points for his staff to improve on with their reports:
