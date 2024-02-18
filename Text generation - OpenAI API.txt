@@ -208,7 +208,7 @@ response = client.completions.create(
 
 See the full API reference documentation to learn more.
 
-#### Inserting text
+### Inserting text
 
 The completions endpoint also supports inserting text by providing a suffix in addition to the standard prompt which is treated as a prefix. This need naturally arises when writing long-form text, transitioning between paragraphs, following an outline, or guiding the model towards an ending. This also works on code, and can be used to insert in the middle of a function or file.
 
@@ -265,7 +265,7 @@ Likewise, the completions API can be used to simulate a chat between a user and 
 
 The difference between these APIs is the underlying models that are available in each. The chat completions API is the interface to our most capable model (gpt-4-turbo-preview), and our most cost effective model (gpt-3.5-turbo).
 
-#### Which model should I use?
+### Which model should I use?
 
 We generally recommend that you use either gpt-4-turbo-preview or gpt-3.5-turbo. Which of these you should use depends on the complexity of the tasks you are using the models for. gpt-4-turbo-preview generally performs better on a wide range of evaluations. In particular, gpt-4-turbo-preview is more capable at carefully following complex instructions. By contrast gpt-3.5-turbo is more likely to follow just one part of a complex multi-part instruction. gpt-4-turbo-preview is less likely than gpt-3.5-turbo to make up information, a behavior known as "hallucination". gpt-4-turbo-preview also has a larger context window with a maximum size of 128,000 tokens compared to 4,096 tokens for gpt-3.5-turbo. However, gpt-3.5-turbo returns outputs with lower latency and costs much less per token.
 
