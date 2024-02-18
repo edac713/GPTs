@@ -12,6 +12,7 @@ If you want to use service, user, or OAuth authentication, you need to set up a 
 
 ## Service level
 
+> [!NOTE]
 > We suggest service level auth as it gives developers control over how their plugin is being used but also doesn't introduce overhead for users.
 
 If you want to specifically enable OpenAI plugins to work with your API, you can provide a client secret during the plugin installation flow. This means that all traffic from OpenAI plugins will be authenticated but not on a user level. This flow benefits from a simple end user experience but less control from an API perspective.
@@ -60,6 +61,7 @@ The plugin protocol is compatible with OAuth. A simple example of the OAuth flow
 - During the user sign in process, ChatGPT makes a request to your `authorization_url` using the specified `authorization_content_type`, we expect to get back an access token and optionally a refresh token which we use to periodically fetch a new access token.
 - Each time a user makes a request to the plugin, the user’s token will be passed in the Authorization header: (“Authorization”: “\[Bearer/Basic\]\[user’s token\]”).
 
+> [!NOTE]
 > We require that OAuth applications make use of the state parameter for security reasons.
 
 Below is an example of what the OAuth configuration inside of the `ai-plugin.json` file might look like:
@@ -86,6 +88,7 @@ To better understand the URL structure for OAuth, here is a short description of
 
 ## No authentication
 
+> [!NOTE]
 > We do not recommend the use of "no authentication", consider using "service authentication".
 
 We support no-auth flow for applications that do not require authentication, where a user is able to send requests directly to your API without any restrictions. This is particularly useful if you have an open API that you want to make available to everyone, as it allows traffic from sources other than just OpenAI plugin requests.
@@ -98,6 +101,7 @@ We support no-auth flow for applications that do not require authentication, whe
 
 ## User level
 
+> [!NOTE]
 > Due to current UI limitations, we are not allowing plugins with "user authentication" into the plugin store. We expect this may change in the future.
 
 Just like how a user might already be using your API, we allow user level authentication through enabling end users to copy and paste their secret API key into the ChatGPT UI during plugin install. While we encrypt the secret key when we store it in our database, we do not recommend this approach given the poor user experience.

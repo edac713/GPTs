@@ -169,7 +169,7 @@ run_steps = client.beta.threads.runs.steps.list(
                   "logs": "4"
                 }
                         ...
-  }
+}
 ```
 
 ---
