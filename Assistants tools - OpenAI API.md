@@ -396,7 +396,7 @@ After submitting outputs, the run will enter the queued state before it continue
 
 ## Supported files
 
-*For `text/` MIME types, the encoding must be one of `utf-8`, `utf-16`, or `ascii`.* ❌
+*For `text/` MIME types, the encoding must be one of `utf-8`, `utf-16`, or `ascii`.*
 
 | File format | MIME type                                                                 | Code Interpreter | Retrieval |
 | ----------- | ------------------------------------------------------------------------- | ---------------- | --------- |
