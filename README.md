@@ -7,10 +7,6 @@ ChatGPT now supports "Custom GPTs" which package a custom system message, variou
 >
 > _While editing a Custom GPT, this limit does not apply (as of this commit)._
 
-## Resource Links
-
-- [OpenAI developer platform](https://platform.openai.com/docs/overview)
-
 ## Custom GPT System Prompt Preamble
 
 All Custom GPT's begin with a preamble:
@@ -21,38 +17,76 @@ All Custom GPT's begin with a preamble:
 >
 > (your Custom GPT instructions go here, along with `namespace` and `type` configuration if you're using custom actions.)
 
-## General Structure
+## Related resources from around the web
 
-You can write your own. This is the general pattern I follow. You can pick and choose whatever you want.
+**Ted Sanders, Simón Fishman**  
+*Jan 20, 2023*
 
-```Markdown
-# Mission
-- Outcome or goal
-- Not procedure
+People are writing great tools and papers for improving outputs from GPT. Here are some cool ones we've seen:
 
-# Context
-- Background info
-- Where in the process are you
-- Why does it need to be done
+## Prompting libraries & tools (in alphabetical order)
 
-# Rules
-- Boundaries and constraints
-- Specific subgoals and objectives
+- **Arthur Shield**: A paid product for detecting toxicity, hallucination, prompt injection, etc.
+- **Chainlit**: A Python library for making chatbot interfaces.
+- **Embedchain**: A Python library for managing and syncing unstructured data with LLMs.
+- **FLAML (A Fast Library for Automated Machine Learning & Tuning)**: A Python library for automating selection of models, hyperparameters, and other tunable choices.
+- **Guardrails.ai**: A Python library for validating outputs and retrying failures. Still in alpha, so expect sharp edges and bugs.
+- **Guidance**: A handy looking Python library from Microsoft that uses Handlebars templating to interleave generation, prompting, and logical control.
+- **Haystack**: Open-source LLM orchestration framework to build customizable, production-ready LLM applications in Python.
+- **HoneyHive**: An enterprise platform to evaluate, debug, and monitor LLM apps.
+- **LangChain**: A popular Python/JavaScript library for chaining sequences of language model prompts.
+- **LiteLLM**: A minimal Python library for calling LLM APIs with a consistent format.
+- **LlamaIndex**: A Python library for augmenting LLM apps with data.
+- **LMQL**: A programming language for LLM interaction with support for typed prompting, control flow, constraints, and tools.
+- **OpenAI Evals**: An open-source library for evaluating task performance of language models and prompts.
+- **Outlines**: A Python library that provides a domain-specific language to simplify prompting and constrain generation.
+- **Parea AI**: A platform for debugging, testing, and monitoring LLM apps.
+- **Portkey**: A platform for observability, model management, evals, and security for LLM apps.
+- **Promptify**: A small Python library for using language models to perform NLP tasks.
+- **PromptPerfect**: A paid product for testing and improving prompts.
+- **Prompttools**: Open-source Python tools for testing and evaluating models, vector DBs, and prompts.
+- **Scale Spellbook**: A paid product for building, comparing, and shipping language model apps.
+- **Semantic Kernel**: A Python/C#/Java library from Microsoft that supports prompt templating, function chaining, vectorized memory, and intelligent planning.
+- **Weights & Biases**: A paid product for tracking model training and prompt engineering experiments.
+- **YiVal**: An open-source GenAI-Ops tool for tuning and evaluating prompts, retrieval configurations, and model parameters using customizable datasets, evaluation methods, and evolution strategies.
 
-# Instructions
-- Do X, Y, and Z
+## Prompting guides
 
-# Expected Input
-- What to anticipate and why
-- Variability
+- **Brex's Prompt Engineering Guide**: Brex's introduction to language models and prompt engineering.
+- **learnprompting.org**: An introductory course to prompt engineering.
+- **Lil'Log Prompt Engineering**: An OpenAI researcher's review of the prompt engineering literature (as of March 2023).
+- **OpenAI Cookbook: Techniques to improve reliability**: A slightly dated (Sep 2022) review of techniques for prompting language models.
+- **promptingguide.ai**: A prompt engineering guide that demonstrates many techniques.
+- **Xavi Amatriain's Prompt Engineering 101 Introduction to Prompt Engineering and 202 Advanced Prompt Engineering**: A basic but opinionated introduction to prompt engineering and a follow-up collection with many advanced methods starting with CoT.
 
-# Output Format
-- Formatting, type of output, length
-- JSON, XML, lists, etc
+## Video courses
 
-# Example Output
-- Simple demonstration
-```
+- **Andrew Ng's DeepLearning.AI**: A short course on prompt engineering for developers.
+- **Andrej Karpathy's Let's build GPT**: A detailed dive into the machine learning underlying GPT.
+- **Prompt Engineering by DAIR.AI**: A one-hour video on various prompt engineering techniques.
+- **Scrimba course about Assistants API**: A 30-minute interactive course about the Assistants API.
+- **LinkedIn course: Introduction to Prompt Engineering: How to talk to the AIs**: Short video introduction to prompt engineering
+
+## Papers on advanced prompting to improve reasoning
+
+- **Chain-of-Thought Prompting Elicits Reasoning in Large Language Models (2022)**: Using few-shot prompts to ask models to think step by step improves their reasoning. PaLM's score on math word problems (GSM8K) rises from 18% to 57%.
+- **Self-Consistency Improves Chain of Thought Reasoning in Language Models (2022)**: Taking votes from multiple outputs improves accuracy even more. Voting across 40 outputs raises PaLM's score on math word problems further, from 57% to 74%, and code-davinci-002's from 60% to 78%.
+- **Tree of Thoughts: Deliberate Problem Solving with Large Language Models (2023)**: Searching over trees of step by step reasoning helps even more than voting over chains of thought. It lifts GPT-4's scores on creative writing and crosswords.
+- **Language Models are Zero-Shot Reasoners (2022)**: Telling instruction-following models to think step by step improves their reasoning. It lifts text-davinci-002's score on math word problems (GSM8K) from 13% to 41%.
+- **Large Language Models Are Human-Level Prompt Engineers (2023)**: Automated searching over possible prompts found a prompt that lifts scores on math word problems (GSM8K) to 43%, 2 percentage points above the human-written prompt in Language Models are Zero-Shot Reasoners.
+- **Reprompting: Automated Chain-of-Thought Prompt Inference Through Gibbs Sampling (2023)**: Automated searching over possible chain-of-thought prompts improved ChatGPT's scores on a few benchmarks by 0–20 percentage points.
+- **Faithful Reasoning Using Large Language Models (2022)**: Reasoning can be improved by a system that combines: chains of thought generated by alternative selection and inference prompts, a halter model that chooses when to halt selection-inference loops, a value function to search over multiple reasoning paths, and sentence labels that help avoid hallucination.
+- **STaR: Bootstrapping Reasoning With Reasoning (2022)**: Chain of thought reasoning can be baked into models via fine-tuning. For tasks with an answer key, example chains of thoughts can be generated by language models.
+- **ReAct: Synergizing Reasoning and Acting in Language Models (2023)**: For tasks with tools or an environment, chain of thought works better if you prescriptively alternate between Reasoning steps (thinking about what to do) and Acting (getting information from a tool or environment).
+- **Reflexion: an autonomous agent with dynamic memory and self-reflection (2023)**: Retrying tasks with memory of prior failures improves subsequent performance.
+- **Demonstrate-Search-Predict: Composing retrieval and language models for knowledge-intensive NLP (2023)**: Models augmented with knowledge via a "retrieve-then-read" can be improved with multi-hop chains of searches.
+- **Improving Factuality and Reasoning in Language Models through Multiagent Debate (2023)**: Generating debates between a few ChatGPT agents over a few rounds improves scores on various benchmarks. Math word
+
+ problem scores rise from 77% to 85%.
+
+---
+
+This markdown format aims to preserve the structure and links of the original content for better readability and navigation.
 
 ### Sourceduty GPTs
 
