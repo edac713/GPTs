@@ -7,17 +7,18 @@ ChatGPT now supports "Custom GPTs" which package a custom system message, variou
 >
 > _While editing a Custom GPT, this limit does not apply (as of this commit)._
 
-## Custom GPT System Prompt Preamble
+## DIRECTORIES
 
-All Custom GPT's begin with a preamble:
-
-> You are a "GPT" – a version of ChatGPT that has been customized for a specific use case. GPTs use custom instructions, capabilities, and data to optimize ChatGPT for a more narrow set of tasks. You yourself are a GPT created by a user, and your name is **_(name of Custom GPT)_**. Note: GPT is also a technical term in AI, but in most cases if the users ask you about GPTs assume they are referring to the above definition.
->
-> Here are instructions from the user outlining your goals and how you should respond:
->
-> (your Custom GPT instructions go here, along with `namespace` and `type` configuration if you're using custom actions.)
-
-## Custom GPTs Instructions
+1. [Easy With AI (All GPTs Directory)](https://www.easywithai.com/all-gpts)
+2. [ShareGPTs](https://www.sharegpts.net)
+3. [GPTsDex](https://www.gptsdex.com)
+4. [GPTsHunter](https://ai.ls/en/gptshunter/)
+5. [GPT Directory](https://gptdirectory.cc)
+6. [JustGPTs](https://justgpts.com)
+7. [GPT Directory](https://gptdirectory.ai)
+8. [GPTSTore](https://www.gptstore.ai)
+9. [Awesome GPT Store](https://github.com/sourceduty/Awesome-GPT-Store)
+10. [Sourceduty](https://github.com/sourceduty/ChatGPT)
 
 Listed below are `250` custom built GPTs sorted into `20` different categories:
 
@@ -150,38 +151,6 @@ Create animated GIF images using DALL-E 3.
 
 [Word-to-GIF](https://chat.openai.com/g/g-1GNmLQpwU-word-to-gif)  
 Word-for-word GIF image generator.
-  
-## Money
-
-[Financial Predictor](https://chat.openai.com/g/g-Rub2djmNc-financial-predictor)  
-Forecast the price of futures, stocks and currencies using trends, historical data, and current news.
-
-[Cash](https://chat.openai.com/g/g-RmcIsOs3w-cash)  
-Banknote sizes, storage and transportation.
-
-[Fortune](https://chat.openai.com/g/g-2NkyUDxCx-fortune)  
-Net worth statistics for individuals and businesses.
-
-[Properties](https://chat.openai.com/g/g-VPxnvz7m1-properties)  
-Assistive real-estate advisor.
-
-[Couponer](https://chat.openai.com/g/g-UiFsed8n5-couponer)  
-Find current coupons for online shopping.
-
-[Currency Insight](https://chat.openai.com/g/g-eGhUZlmUs-currency-insight)  
-Assistive currency trading with market insights and suggestions.
-
-[Desktop Value](https://chat.openai.com/g/g-oNBIuFtkv-desktop-value)  
-Estimate the current price of custom desktop computers and hardware.
-
-[Marketplace Value](https://chat.openai.com/g/g-QSn6POMKH-marketplace-value)  
-Estimate prices for used items in any currency.
-
-[PC Build Plan](https://chat.openai.com/g/g-W9wTtIyiJ-pc-build-plan)  
-Assistive step-by-step computer building planner.
-
-[Lowest Priced](https://chat.openai.com/g/g-R0zmXmfcw-lowest-priced)  
-Find and track the lowest prices for products.
 
 ## Chatting
 
@@ -263,25 +232,6 @@ Unbiased disinformation analyzer.
 
 [Smart Notes](https://chat.openai.com/g/g-VBafvJ21q-smart-notes)  
 Intelligent note recording assistant.
-  
-## Law
-
-[Software Law](https://chat.openai.com/g/g-7w96DmC1S-software-law)  
-Assistive intellectual property law guide.
-
-[Law Simple](https://chat.openai.com/g/g-nGrf808nn-law-simple)  
-Simplify legal documents for easy reading.
-
-[Govern](https://chat.openai.com/g/g-KwFofUds3-govern)  
-Government types, laws, and legislatures.
-  
-## Food
-
-[Alcohol](https://chat.openai.com/g/g-6MZEIdPKC-alcohol)  
-Make alcohol, specifically focusing on beer and wine.
-
-[Recipe Kitchen](https://chat.openai.com/g/g-YzeT6O6jD-recipe-kitchen)  
-Create and test cook custom food recipes.
 
 ## Social
 
