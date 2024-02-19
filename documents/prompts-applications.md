@@ -1,20 +1,23 @@
 # Prompt Applications
 
-In this guide, we will cover some advanced and interesting ways we can use prompt engineering to perform useful and more advanced tasks. 
+In this guide, we will cover some advanced and interesting ways we can use prompt engineering to perform useful and more advanced tasks.
 
 **Note that this section is under heavy development.**
 Topics:
+
 - [Prompt Applications](#prompt-applications)
   - [Generating Data](#generating-data)
   - [PAL (Program-Aided Language Models)](#pal-program-aided-language-models)
   - [Python Notebooks](#python-notebooks)
 
-
 ---
+
 ## Generating Data
+
 LLMs have strong capabilities to generate text. Using effective prompt strategies can steer the model to produce better, more consistent, and more factual responses. LLMs can also be especially useful for generating data which is useful to run all sorts of experiments. For example, we can use it to generate quick samples for a sentiment classifier like so:
 
 *Prompt:*
+
 ```
 Produce 10 exemplars for sentiment analysis. Examples are categorized as either positive or negative. Produce 2 negative examples and 8 positive examples. Use this format for the examples:
 Q: <sentence>
@@ -22,6 +25,7 @@ A: <sentiment>
 ```
 
 *Output:*
+
 ```
 Q: I just got the best news ever!
 A: Positive
@@ -59,11 +63,13 @@ This is very useful. We use this example for a different test in another section
 Here is another prompt example showing how to leverage the LLM for data labeling/augmentation task.
 
 *Prompt:*
+
 ```
 produce 3 wine reviews and label taste, flavor, aroma related token; present the result as a json file, in addition add the coordinate of each term for NER task
 ```
 
 *Output:*
+
 ```
 [
   {
@@ -104,15 +110,16 @@ produce 3 wine reviews and label taste, flavor, aroma related token; present the
     ]
   }
 ```
+
 ---
 
 ## PAL (Program-Aided Language Models)
- 
+
 [Gao et al., (2022)](https://arxiv.org/abs/2211.10435) presents a method that uses LLMs to read natural language problems and generate programs as the intermediate reasoning steps. Coined, program-aided language models (PAL), differ from chain-of-thought prompting in that instead of using free-form text to obtain a solution it offloads the solution step to a programmatic runtime such as a Python interpreter.
 
 ![](../img/pal.png)
 
-Let's look at an example using LangChain and OpenAI GPT-3. We are interested to develop a simple application that's able to interpret the question being asked and provide an answer by leveraging the Python interpreter. 
+Let's look at an example using LangChain and OpenAI GPT-3. We are interested to develop a simple application that's able to interpret the question being asked and provide an answer by leveraging the Python interpreter.
 
 Specifically, we are interested to create a function that allows the use of the LLM to answer questions that require date understanding. We will provide the LLM a prompt that includes a few exemplars that are adopted from [here](https://github.com/reasoning-machines/pal/blob/main/pal/prompt/date_understanding_prompt.py).  
 
@@ -208,6 +215,7 @@ print(born)
 This will output the following: `02/27/1998`
 
 ---
+
 ## Python Notebooks
 
 |Description|Notebook|
