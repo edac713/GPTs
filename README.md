@@ -20,50 +20,34 @@ All Custom GPT's begin with a preamble:
 # Custom GPTs Instructions
 
 Listed below are `250` custom built GPTs sorted into `20` different categories:
-  
+
 ## ChatGPT
 
-[Custom GPT Instructions](https://chat.openai.com/g/g-yAwEVaLkf-custom-gpt-instructions)
-<br>
-Custom GPT instruction creation guide.
+| Name | Description |
+| --- | --- |
+| [Custom GPT Instructions](https://chat.openai.com/g/g-yAwEVaLkf-custom-gpt-instructions) | Custom GPT instruction creation guide. |
+| [Custom Response](https://chat.openai.com/g/g-hQUalsSXM-custom-response) | Create instructions for customizing ChatGPT's responses. |
+| [Custom GPT Collab](https://chat.openai.com/g/g-IluPscax8-custom-gpt-collab) | Combine custom GPTs for collaborations. |
+| [Custom GPT Actions Expert](https://chat.openai.com/g/g-xyr2NrOeq-custom-gpt-actions-expert) | Guidance for actions, schema and authentication. |
+| [User Training Quiz](https://chat.openai.com/g/g-j0Orf127K-user-training-quiz) | ChatGPT user training. |
+|[GPT-Info](https://chat.openai.com/g/g-ntdzmhh6s-gpt-info) |Extensive guide for ChatGPT models. |
+|[GPT Creation Guide](https://chat.openai.com/g/g-GoLkguGSc-gpt-guide) |Helpful and informative. |
 
-[Custom Response](https://chat.openai.com/g/g-hQUalsSXM-custom-response)
-<br>
-Create instructions for customizing ChatGPT's responses.
-
-[Custom GPT Collab](https://chat.openai.com/g/g-IluPscax8-custom-gpt-collab)
-<br>
-Combine custom GPTs for collaborations.
-
-[Custom GPT Actions Expert](https://chat.openai.com/g/g-xyr2NrOeq-custom-gpt-actions-expert)
-<br>
-Guidance for actions, schema and authentication.
-
-[User Training Quiz](https://chat.openai.com/g/g-j0Orf127K-user-training-quiz)
-<br>
-ChatGPT user training.
-
-[GPT-Info](https://chat.openai.com/g/g-ntdzmhh6s-gpt-info)
-<br>
-Extensive guide for ChatGPT models.
-
-[GPT Creation Guide](https://chat.openai.com/g/g-GoLkguGSc-gpt-guide)
-<br>
-Helpful and informative.
-  
 ## Python
 
-[Python Interface Builder](https://chat.openai.com/g/g-2a5BMlXE9-python-interface-builder)
-<br>
-Assistive GUI application creator for Python.
+| Name | Description |
+| --- | --- |
+|[Python Interface Builder](https://chat.openai.com/g/g-2a5BMlXE9-python-interface-builder)|Assistive GUI application creator for Python.|
+|[Python Chatbot Builder](https://chat.openai.com/g/g-GC2m3MG5I-python-chatbot-builder)|Assistive Python chatbot developer.|
+|[Python Art Builder](https://chat.openai.com/g/g-uxNhtCN0u-python-art-builder)|Assistive art image program creator using Python.|
+|[Python Game Builder](https://chat.openai.com/g/g-4hbrahdr4-python-game-builder)|Assistive game creator using Pygame, Tkinter and Python.|
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
 
-[Python Chatbot Builder](https://chat.openai.com/g/g-GC2m3MG5I-python-chatbot-builder)
-<br>
-Assistive Python chatbot developer.
-
-[Python Art Builder](https://chat.openai.com/g/g-uxNhtCN0u-python-art-builder)
-<br>
-Assistive art image program creator using Python.
 
 [Python Game Builder](https://chat.openai.com/g/g-4hbrahdr4-python-game-builder)
 <br>
