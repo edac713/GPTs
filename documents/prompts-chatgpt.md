@@ -5,6 +5,7 @@ In this section, we cover the latest prompt engineering techniques for ChatGPT, 
 **Note that this section is under heavy development.**
 
 Topics:
+
 - [ChatGPT Prompt Engineering](#chatgpt-prompt-engineering)
   - [ChatGPT Introduction](#chatgpt-introduction)
   - [Reviewing The Conversation Task](#reviewing-the-conversation-task)
@@ -16,22 +17,25 @@ Topics:
   - [References](#references)
 
 ---
+
 ## ChatGPT Introduction
 
 ChatGPT is a new model [trained by OpenAI](https://openai.com/blog/chatgpt) that can interact conversationally. This model is trained to follow instructions in a prompt to provide appropriate responses in the context of a dialogue. ChatGPT can help with answering questions, suggesting recipes, writing lyrics in a certain style, generating code, and much more.
 
-ChatGPT is trained using Reinforcement Learning from Human Feedback (RLHF). While this model is a lot more capable than previous GPT iterations (and also trained to reduce harmful and untruthful outputs), it still comes with limitations. Let's cover some of the capabilities and limitations with concrete examples. 
+ChatGPT is trained using Reinforcement Learning from Human Feedback (RLHF). While this model is a lot more capable than previous GPT iterations (and also trained to reduce harmful and untruthful outputs), it still comes with limitations. Let's cover some of the capabilities and limitations with concrete examples.
 
 You can use the research preview of ChatGPT [here](https://chat.openai.com) but for the examples below we will use the `Chat` mode on the OpenAI Playground.
 
 ---
+
 ## Reviewing The Conversation Task
 
 In one of the [previous guides](https://github.com/dair-ai/Prompt-Engineering-Guide/blob/main/guides/prompts-basic-usage.md#conversation), we covered a bit about conversation capabilities and role prompting. We covered how to instruct the LLM to have a conversation in a specific style, with a specific intent, behavior, and identity.
 
-Let's review our previous basic example where we created a conversational system that's able to generate more technical and scientific responses to questions. 
+Let's review our previous basic example where we created a conversational system that's able to generate more technical and scientific responses to questions.
 
 *Prompt:*
+
 ```
 The following is a conversation with an AI research assistant. The assistant tone is technical and scientific.
 
@@ -42,21 +46,24 @@ AI:
 ```
 
 From the example above, you can see two important components:
+
 - the **intent** or explanation of what the chatbot is
 - the **identity** which instructs the style or tone the chatbot will use to respond
 
-The simple example above works well with the text completion APIs that use `text-davinci-003`. More recently, OpenAI [announced the ChatGPT APIs](https://openai.com/blog/introducing-chatgpt-and-whisper-apis), which is a more powerful and cheaper model called `gpt-3.5-turbo` was specifically built for this type of functionality (chat completions). OpenAI recommends this as their best model even for non-chat use cases.  Other benefits of using the ChatGPT APIs are significant cost reduction (90%) and efficiency. 
+The simple example above works well with the text completion APIs that use `text-davinci-003`. More recently, OpenAI [announced the ChatGPT APIs](https://openai.com/blog/introducing-chatgpt-and-whisper-apis), which is a more powerful and cheaper model called `gpt-3.5-turbo` was specifically built for this type of functionality (chat completions). OpenAI recommends this as their best model even for non-chat use cases.  Other benefits of using the ChatGPT APIs are significant cost reduction (90%) and efficiency.
 
 Big companies like Snap Inc. and Instacart are already integrating conversational features powered by ChatGPT on their products that range from personalized recommendations to open-ended shopping goals.
 
 ---
+
 ## Conversations with ChatGPT
 
 ### Multi-turn Conversations
 
-To begin demonstrating the capabilities of ChatGPT, we will use the chatbot assistant example above and discuss the results. Compared to `text-davinci-003`, the `gpt-3.5-turbo` model that powers ChatGPT uses a chat format as input. The model expects a series of messages as input and uses those to generate a response. 
+To begin demonstrating the capabilities of ChatGPT, we will use the chatbot assistant example above and discuss the results. Compared to `text-davinci-003`, the `gpt-3.5-turbo` model that powers ChatGPT uses a chat format as input. The model expects a series of messages as input and uses those to generate a response.
 
 *Input:*
+
 ```
 SYSTEM: You are an AI research assistant. You use a tone that is technical and scientific.
 USER: Hello, who are you?
@@ -65,6 +72,7 @@ USER: Can you tell me about the creation of black holes?
 ```
 
 *Output:*
+
 ```
 ASSISTANT: Of course! Black holes are created when a massive star runs out of fuel and collapses under its own gravity. This collapse causes the star to become incredibly dense, with a gravitational field so strong that not even light can escape it. This point of no return is known as the event horizon. Once a star crosses the event horizon, it is considered a black hole...
 ```
@@ -88,6 +96,7 @@ openai.ChatCompletion.create(
     ]
 )
 ```
+
 The way developers interact with ChatGPT in the future is expected to be done via the [Chat Markup Language](https://github.com/openai/openai-python/blob/main/chatml.md) (ChatML for short).
 
 ### Single-turn tasks
@@ -95,6 +104,7 @@ The way developers interact with ChatGPT in the future is expected to be done vi
 The chat format enables multi-turn conversations but it also supports single-turn tasks similar to what we used with `text-davinci-003`. This means we can use ChatGPT to perform similar tasks as what we have demonstrated for the original GPT models. For example, let's try to perform the following question-answering task using ChatGPT:
 
 *Input:*
+
 ```
 USER: Answer the question based on the context below. Keep the answer short and concise. Respond "Unsure about answer" if not sure about the answer.
 
@@ -106,6 +116,7 @@ Answer:
 ```
 
 *Output:*
+
 ```
 ASSISTANT: Mice.
 ```
@@ -137,11 +148,12 @@ response = openai.ChatCompletion.create(
 
 ### Instructing Chat Models
 
-According to the official OpenAI docs, snapshots of the `gpt-3.5-turbo` model will also be made available. For example, we can access the snapshot from March 1 `gpt-3.5-turbo-0301`. This allows developers to opt for specific model versions. This also means that the best practices for instructing models may change from version to version. 
+According to the official OpenAI docs, snapshots of the `gpt-3.5-turbo` model will also be made available. For example, we can access the snapshot from March 1 `gpt-3.5-turbo-0301`. This allows developers to opt for specific model versions. This also means that the best practices for instructing models may change from version to version.
 
-The current recommendation for `gpt-3.5-turbo-0301` is to add instructions in the `user` message as opposed to the available `system` message. 
+The current recommendation for `gpt-3.5-turbo-0301` is to add instructions in the `user` message as opposed to the available `system` message.
 
 ---
+
 ## Python Notebooks
 
 |Description|Notebook|
@@ -150,6 +162,7 @@ The current recommendation for `gpt-3.5-turbo-0301` is to add instructions in th
 |Learn how to use ChatGPT features using the `LangChain` library. |[ChatGPT API with LangChain](../notebooks/pe-chatgpt-langchain.ipynb)|
 
 ---
+
 ## References
 
 - [Seeing ChatGPT Through Students' Eyes: An Analysis of TikTok Data](https://arxiv.org/abs/2303.05349) (March 2023)
