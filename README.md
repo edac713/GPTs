@@ -22,8 +22,6 @@ ChatGPT now supports "Custom GPTs" which package a custom system message, variou
 
 Listed below are `250` custom built GPTs sorted into `20` different categories:
 
----
-
 ## ChatGPT
 
 [Custom GPT Instructions](https://chat.openai.com/g/g-yAwEVaLkf-custom-gpt-instructions)  
@@ -56,8 +54,6 @@ Helpful and informative.
 </p>
 </details>
 
----
-
 ## Python
 
 [Python Interface Builder](https://chat.openai.com/g/g-2a5BMlXE9-python-interface-builder)  
@@ -80,8 +76,6 @@ Assistive game creator using Pygame, Tkinter and Python.
 That's all for now, more to come soon...
 </p>
 </details>
-
----
 
 ## Utilities
 
@@ -136,8 +130,6 @@ Expand simple text searches with multiple related search options.
 </p>
 </details>
 
----
-
 ## Science
 
 [Physics Simulator](https://chat.openai.com/g/g-jdGow4iV3-physics-simulator)  
@@ -182,8 +174,6 @@ Identify tree leaves and estimate seasonal growth.
 </p>
 </details>
 
----
-
 ## Video & GIF
 
 [Video Edit](https://chat.openai.com/g/g-3WU0tMQmV-video-edit)  
@@ -207,8 +197,6 @@ That's all for now, more to come soon...
 </p>
 </details>
 
----
-
 ## GitHub
 
 [Repo Card](https://chat.openai.com/g/g-wEMovflCA-repo-card)  
@@ -228,8 +216,6 @@ Assistive GitHub readme file creator.
 That's all for now, more to come soon...
 </p>
 </details>
-
----
 
 ## Writing & Reading
 
@@ -302,8 +288,6 @@ Intelligent note recording assistant.
 </p>
 </details>
 
----
-
 ## Social
 
 [Shoutouts](https://chat.openai.com/g/g-BRN5AXPbf-shoutouts)  
@@ -326,8 +310,6 @@ Create comments and comment replies for Facebook, Instagram, X and more.
 That's all for now, more to come soon...
 </p>
 </details>
-
----
 
 ## Business
 
@@ -357,8 +339,6 @@ Compare a business to it's industry competitors and leaders.
 
 </p>
 </details>
-
----
 
 ## Art & Design
 
