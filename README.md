@@ -22,6 +22,8 @@ ChatGPT now supports "Custom GPTs" which package a custom system message, variou
 
 Listed below are `250` custom built GPTs sorted into `20` different categories:
 
+---
+
 <details>
 <summary>
 
