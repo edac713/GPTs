@@ -46,7 +46,7 @@ Guidance for actions, schema and authentication.
 </summary>
 <p>
 
-[User Training Quiz](https://chat.openai.com/g/g-j0Orf127K-user-training-quiz)  
+<h4>[User Training Quiz](https://chat.openai.com/g/g-j0Orf127K-user-training-quiz)</h4>  
 ChatGPT user training.
 
 [GPT-Info](https://chat.openai.com/g/g-ntdzmhh6s-gpt-info)  
