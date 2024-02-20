@@ -9,7 +9,9 @@ ChatGPT now supports "Custom GPTs" which package a custom system message, variou
 
 ## DIRECTORIES
 
-1. [**Easy With AI (All GPTs Directory)**](https://www.easywithai.com/all-gpts)
+<b>
+
+1. [Easy With AI (All GPTs Directory)](https://www.easywithai.com/all-gpts)
 2. [ShareGPTs](https://www.sharegpts.net)
 3. [GPTsDex](https://www.gptsdex.com)
 4. [GPTsHunter](https://ai.ls/en/gptshunter/)
@@ -19,6 +21,10 @@ ChatGPT now supports "Custom GPTs" which package a custom system message, variou
 8. [GPTSTore](https://www.gptstore.ai)
 9. [Awesome GPT Store](https://github.com/sourceduty/Awesome-GPT-Store)
 10. [Sourceduty](https://github.com/sourceduty/ChatGPT)
+
+</b>
+
+---
 
 Listed below are `250` custom built GPTs sorted into `20` different categories:
 
