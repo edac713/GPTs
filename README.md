@@ -22,6 +22,9 @@ ChatGPT now supports "Custom GPTs" which package a custom system message, variou
 
 Listed below are `250` custom built GPTs sorted into `20` different categories:
 
+<details>
+<summary>
+
 ## ChatGPT
 
 [Custom GPT Instructions](https://chat.openai.com/g/g-yAwEVaLkf-custom-gpt-instructions)  
@@ -36,6 +39,11 @@ Combine custom GPTs for collaborations.
 [Custom GPT Actions Expert](https://chat.openai.com/g/g-xyr2NrOeq-custom-gpt-actions-expert)  
 Guidance for actions, schema and authentication.
 
+<i><code><u>View More...</u></code></i>
+
+</summary>
+<p>
+
 [User Training Quiz](https://chat.openai.com/g/g-j0Orf127K-user-training-quiz)  
 ChatGPT user training.
 
@@ -44,6 +52,12 @@ Extensive guide for ChatGPT models.
 
 [GPT Creation Guide](https://chat.openai.com/g/g-GoLkguGSc-gpt-guide)  
 Helpful and informative.
+
+</p>
+</details>
+
+<details>
+<summary>
 
 ## Python
 
@@ -59,6 +73,17 @@ Assistive art image program creator using Python.
 [Python Game Builder](https://chat.openai.com/g/g-4hbrahdr4-python-game-builder)  
 Assistive game creator using Pygame, Tkinter and Python.
 
+<i><code><u>View More...</u></code></i>
+
+</summary>
+<p>
+That's all for now, more to come soon...
+</p>
+</details>
+
+<details>
+<summary>
+
 ## Utilities
 
 [Computer Upgrade](https://chat.openai.com/g/g-bSr9Rxt51-computer-upgrade)  
@@ -72,6 +97,11 @@ Simply rename bulk uploaded files.
 
 [Education Instructor](https://chat.openai.com/g/g-QtdKEsr30-education-instructor)  
 Learn and relearn any grade school subject.
+
+<i><code><u>View More...</u></code></i>
+
+</summary>
+<p>
 
 [Terminology](https://chat.openai.com/g/g-9CtYMvDJw-terminology)  
 Assistive terminology expert in various fields such as medicine, law, technology, finance, and more.
@@ -103,6 +133,12 @@ Search and find the perfect gifts.
 [Search Multiplier](https://chat.openai.com/g/g-ZaCPvqejM-search-multiplier)  
 Expand simple text searches with multiple related search options.
 
+</p>
+</details>
+
+<details>
+<summary>
+
 ## Science
 
 [Physics Simulator](https://chat.openai.com/g/g-jdGow4iV3-physics-simulator)  
@@ -116,6 +152,11 @@ Simulate various aspects of NASA missions, including mission planning, problem-s
 
 [Insect Identity](https://chat.openai.com/g/g-0SMTWVDrp-insect-identity)  
 Identify insects from images.
+
+<i><code><u>View More...</u></code></i>
+
+</summary>
+<p>
 
 [Starship](https://chat.openai.com/g/g-C2JrN7qBV-starship)  
 SpaceX's Starship rocket information.
@@ -138,6 +179,12 @@ Martian rovers, rockets, habitats, and environment.
 [Trees](https://chat.openai.com/g/g-jd1xcKJm1-trees)  
 Identify tree leaves and estimate seasonal growth.
 
+</p>
+</details>
+
+<details>
+<summary>
+
 ## Video & GIF
 
 [Video Edit](https://chat.openai.com/g/g-3WU0tMQmV-video-edit)  
@@ -152,14 +199,17 @@ Create animated GIF images using DALL-E 3.
 [Word-to-GIF](https://chat.openai.com/g/g-1GNmLQpwU-word-to-gif)  
 Word-for-word GIF image generator.
 
-## Chatting
+<i><code><u>View More...</u></code></i>
 
-[Convo Planner](https://chat.openai.com/g/g-LTSeH89l1-convo-planner)  
-Plan and strategize conversations.
+</summary>
+<p>
+That's all for now, more to come soon...
+</p>
+</details>
 
-[Artificial Group Chat](https://chat.openai.com/g/g-r7eMW75w4-artificial-group-chat)  
-Three-way conversation between one person and two chatbots, Eric and Sasha.
-  
+<details>
+<summary>
+
 ## GitHub
 
 [Repo Card](https://chat.openai.com/g/g-wEMovflCA-repo-card)  
@@ -170,6 +220,17 @@ Summarize GitHub repository README files.
 
 [README](https://chat.openai.com/g/g-rA63DaENC-readme)  
 Assistive GitHub readme file creator.
+
+<i><code><u>View More...</u></code></i>
+
+</summary>
+<p>
+That's all for now, more to come soon...
+</p>
+</details>
+
+<details>
+<summary>
 
 ## Writing & Reading
 
@@ -184,6 +245,11 @@ Modernize uploaded document files.
 
 [Font Identity](https://chat.openai.com/g/g-H1YnqzAj0-font-identity)  
 Analyze and identify fonts using image files.
+
+<i><code><u>View More...</u></code></i>
+
+</summary>
+<p>
 
 [Rewrite History](https://chat.openai.com/g/g-PKc9JScH2-rewrite-history)  
 Rewrite human history with predictive outcomes.
@@ -233,6 +299,12 @@ Unbiased disinformation analyzer.
 [Smart Notes](https://chat.openai.com/g/g-VBafvJ21q-smart-notes)  
 Intelligent note recording assistant.
 
+</p>
+</details>
+
+<details>
+<summary>
+
 ## Social
 
 [Shoutouts](https://chat.openai.com/g/g-BRN5AXPbf-shoutouts)  
@@ -246,6 +318,17 @@ Determine and define your personal identity.
 
 [Commenter](https://chat.openai.com/g/g-I5DgUS675-commenter)  
 Create comments and comment replies for Facebook, Instagram, X and more.
+
+<i><code><u>View More...</u></code></i>
+
+</summary>
+<p>
+That's all for now, more to come soon...
+</p>
+</details>
+
+<details>
+<summary>
 
 ## Business
 
@@ -261,11 +344,22 @@ Assistive business development, guidance and growth.
 [Professional Upgrade](https://chat.openai.com/g/g-Rgeiqn3Ga-professional-upgrade)  
 Career guidance and simulation for professional growth.
 
+<i><code><u>View More...</u></code></i>
+
+</summary>
+<p>
+
 [Faultfinder](https://chat.openai.com/g/g-q9J2a3125-faultfinder)  
 Tailored criticism for professional advice.
 
 [Standard Industry](https://chat.openai.com/g/g-u8G59DH4i-standard-industry)  
 Compare a business to it's industry competitors and leaders.
+
+</p>
+</details>
+
+<details>
+<summary>
 
 ## Art & Design
 
@@ -280,6 +374,11 @@ Learn graphic design, web design, product design, and more.
 
 [Image Psychology](https://chat.openai.com/g/g-iTZm6rqFR-image-psychology)  
 Analyze any image using visual psychology.
+
+<i><code><u>View More...</u></code></i>
+
+</summary>
+<p>
 
 [Pixel Squares](https://chat.openai.com/g/g-FuiPiyk3n-pixel-squares)  
 Create pixel art images.
@@ -307,6 +406,9 @@ Upload your images and create a collage.
 
 [ASCII Text Art](https://chat.openai.com/g/g-G7eF51owY-ascii-text-art)  
 Convert text into creative ASCII art.
+
+</p>
+</details>
 
 ---
 
