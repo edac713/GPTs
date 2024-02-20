@@ -43,7 +43,6 @@ Guidance for actions, schema and authentication.
 
 <details>
 <summary>
-
 <i><u><code>View More...</code></u></i>
 
 </summary>
