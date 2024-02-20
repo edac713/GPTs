@@ -22,8 +22,7 @@ ChatGPT now supports "Custom GPTs" which package a custom system message, variou
 
 Listed below are `250` custom built GPTs sorted into `20` different categories:
 
-ChatGPT
-=======
+# ChatGPT
 
 [Custom GPT Instructions](https://chat.openai.com/g/g-yAwEVaLkf-custom-gpt-instructions)  
 Custom GPT instruction creation guide.
@@ -36,8 +35,6 @@ Combine custom GPTs for collaborations.
 
 [Custom GPT Actions Expert](https://chat.openai.com/g/g-xyr2NrOeq-custom-gpt-actions-expert)  
 Guidance for actions, schema and authentication.
-
-<br>
 
 <details>
   <summary>
@@ -74,9 +71,10 @@ Assistive art image program creator using Python.
 Assistive game creator using Pygame, Tkinter and Python.
 
 <details>
-<summary>
-<i><code><u>View More...</u></code></i>
-</summary>
+  <summary>
+    <strong><em>View More...</em></strong>
+  </summary>
+
 <p>
 That's all for now, more to come soon...
 </p>
@@ -98,9 +96,10 @@ Simply rename bulk uploaded files.
 Learn and relearn any grade school subject.
 
 <details>
-<summary>
-<i><code><u>View More...</u></code></i>
-</summary>
+  <summary>
+    <strong><em>View More...</em></strong>
+  </summary>
+
 <p>
 
 [Terminology](https://chat.openai.com/g/g-9CtYMvDJw-terminology)  
@@ -152,9 +151,10 @@ Simulate various aspects of NASA missions, including mission planning, problem-s
 Identify insects from images.
 
 <details>
-<summary>
-<i><code><u>View More...</u></code></i>
-</summary>
+  <summary>
+    <strong><em>View More...</em></strong>
+  </summary>
+
 <p>
 
 [Starship](https://chat.openai.com/g/g-C2JrN7qBV-starship)  
@@ -197,9 +197,10 @@ Create animated GIF images using DALL-E 3.
 Word-for-word GIF image generator.
 
 <details>
-<summary>
-<i><code><u>View More...</u></code></i>
-</summary>
+  <summary>
+    <strong><em>View More...</em></strong>
+  </summary>
+
 <p>
 That's all for now, more to come soon...
 </p>
@@ -218,9 +219,10 @@ Summarize GitHub repository README files.
 Assistive GitHub readme file creator.
 
 <details>
-<summary>
-<i><code><u>View More...</u></code></i>
-</summary>
+  <summary>
+    <strong><em>View More...</em></strong>
+  </summary>
+
 <p>
 That's all for now, more to come soon...
 </p>
@@ -242,9 +244,10 @@ Modernize uploaded document files.
 Analyze and identify fonts using image files.
 
 <details>
-<summary>
-<i><code><u>View More...</u></code></i>
-</summary>
+  <summary>
+    <strong><em>View More...</em></strong>
+  </summary>
+
 <p>
 
 [Rewrite History](https://chat.openai.com/g/g-PKc9JScH2-rewrite-history)  
@@ -314,9 +317,10 @@ Determine and define your personal identity.
 Create comments and comment replies for Facebook, Instagram, X and more.
 
 <details>
-<summary>
-<i><code><u>View More...</u></code></i>
-</summary>
+  <summary>
+    <strong><em>View More...</em></strong>
+  </summary>
+
 <p>
 That's all for now, more to come soon...
 </p>
@@ -338,9 +342,10 @@ Assistive business development, guidance and growth.
 Career guidance and simulation for professional growth.
 
 <details>
-<summary>
-<i><code><u>View More...</u></code></i>
-</summary>
+  <summary>
+    <strong><em>View More...</em></strong>
+  </summary>
+
 <p>
 
 [Faultfinder](https://chat.openai.com/g/g-q9J2a3125-faultfinder)  
@@ -368,9 +373,10 @@ Learn graphic design, web design, product design, and more.
 Analyze any image using visual psychology.
 
 <details>
-<summary>
-<i><code><u>View More...</u></code></i>
-</summary>
+  <summary>
+    <strong><em>View More...</em></strong>
+  </summary>
+
 <p>
 
 [Pixel Squares](https://chat.openai.com/g/g-FuiPiyk3n-pixel-squares)  
