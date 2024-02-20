@@ -37,9 +37,10 @@ Combine custom GPTs for collaborations.
 Guidance for actions, schema and authentication.
 
 <details>
-<summary>
-<u>View More...</u>
-</summary>
+  <summary>
+    <em>View More...</em>
+  </summary>
+
 <p>
 
 [User Training Quiz](https://chat.openai.com/g/g-j0Orf127K-user-training-quiz)  
