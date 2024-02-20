@@ -41,7 +41,7 @@ Combine custom GPTs for collaborations.
 [Custom GPT Actions Expert](https://chat.openai.com/g/g-xyr2NrOeq-custom-gpt-actions-expert)  
 Guidance for actions, schema and authentication.
 
-<i><code><u><b>View More...</b></u></code></i>
+> <i><code><u><b>View More...</b></u></code></i>
 
 </summary>
 <p>
