@@ -39,7 +39,7 @@ Combine custom GPTs for collaborations.
 [Custom GPT Actions Expert](https://chat.openai.com/g/g-xyr2NrOeq-custom-gpt-actions-expert)  
 Guidance for actions, schema and authentication.
 
-<center><i><code><u>View More...</u></code></i></center>
+<i><code><u>View More...</u></code></i>
 
 </summary>
 <p>
@@ -55,6 +55,8 @@ Helpful and informative.
 
 </p>
 </details>
+
+---
 
 <details>
 <summary>
@@ -80,6 +82,8 @@ Assistive game creator using Pygame, Tkinter and Python.
 That's all for now, more to come soon...
 </p>
 </details>
+
+---
 
 <details>
 <summary>
@@ -136,6 +140,8 @@ Expand simple text searches with multiple related search options.
 </p>
 </details>
 
+---
+
 <details>
 <summary>
 
@@ -182,6 +188,8 @@ Identify tree leaves and estimate seasonal growth.
 </p>
 </details>
 
+---
+
 <details>
 <summary>
 
@@ -207,6 +215,8 @@ That's all for now, more to come soon...
 </p>
 </details>
 
+---
+
 <details>
 <summary>
 
@@ -228,6 +238,8 @@ Assistive GitHub readme file creator.
 That's all for now, more to come soon...
 </p>
 </details>
+
+---
 
 <details>
 <summary>
@@ -302,6 +314,8 @@ Intelligent note recording assistant.
 </p>
 </details>
 
+---
+
 <details>
 <summary>
 
@@ -326,6 +340,8 @@ Create comments and comment replies for Facebook, Instagram, X and more.
 That's all for now, more to come soon...
 </p>
 </details>
+
+---
 
 <details>
 <summary>
@@ -357,6 +373,8 @@ Compare a business to it's industry competitors and leaders.
 
 </p>
 </details>
+
+---
 
 <details>
 <summary>
