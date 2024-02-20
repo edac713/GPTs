@@ -42,6 +42,7 @@ Combine custom GPTs for collaborations.
 Guidance for actions, schema and authentication.
 
 <i><code><u>View More...</u></code></i>
+<b>
 
 </summary>
 <p>
