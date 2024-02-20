@@ -24,9 +24,6 @@ Listed below are `250` custom built GPTs sorted into `20` different categories:
 
 ---
 
-<details>
-<summary>
-
 ## ChatGPT
 
 [Custom GPT Instructions](https://chat.openai.com/g/g-yAwEVaLkf-custom-gpt-instructions)  
@@ -44,7 +41,6 @@ Guidance for actions, schema and authentication.
 <details>
 <summary>
 <i><u><code>View More...</code></u></i>
-
 </summary>
 <p>
 
@@ -62,9 +58,6 @@ Helpful and informative.
 
 ---
 
-<details>
-<summary>
-
 ## Python
 
 [Python Interface Builder](https://chat.openai.com/g/g-2a5BMlXE9-python-interface-builder)  
@@ -79,8 +72,9 @@ Assistive art image program creator using Python.
 [Python Game Builder](https://chat.openai.com/g/g-4hbrahdr4-python-game-builder)  
 Assistive game creator using Pygame, Tkinter and Python.
 
+<details>
+<summary>
 <i><code><u>View More...</u></code></i>
-
 </summary>
 <p>
 That's all for now, more to come soon...
@@ -88,9 +82,6 @@ That's all for now, more to come soon...
 </details>
 
 ---
-
-<details>
-<summary>
 
 ## Utilities
 
@@ -106,8 +97,9 @@ Simply rename bulk uploaded files.
 [Education Instructor](https://chat.openai.com/g/g-QtdKEsr30-education-instructor)  
 Learn and relearn any grade school subject.
 
+<details>
+<summary>
 <i><code><u>View More...</u></code></i>
-
 </summary>
 <p>
 
@@ -146,9 +138,6 @@ Expand simple text searches with multiple related search options.
 
 ---
 
-<details>
-<summary>
-
 ## Science
 
 [Physics Simulator](https://chat.openai.com/g/g-jdGow4iV3-physics-simulator)  
@@ -163,8 +152,9 @@ Simulate various aspects of NASA missions, including mission planning, problem-s
 [Insect Identity](https://chat.openai.com/g/g-0SMTWVDrp-insect-identity)  
 Identify insects from images.
 
+<details>
+<summary>
 <i><code><u>View More...</u></code></i>
-
 </summary>
 <p>
 
@@ -194,9 +184,6 @@ Identify tree leaves and estimate seasonal growth.
 
 ---
 
-<details>
-<summary>
-
 ## Video & GIF
 
 [Video Edit](https://chat.openai.com/g/g-3WU0tMQmV-video-edit)  
@@ -211,8 +198,9 @@ Create animated GIF images using DALL-E 3.
 [Word-to-GIF](https://chat.openai.com/g/g-1GNmLQpwU-word-to-gif)  
 Word-for-word GIF image generator.
 
+<details>
+<summary>
 <i><code><u>View More...</u></code></i>
-
 </summary>
 <p>
 That's all for now, more to come soon...
@@ -220,9 +208,6 @@ That's all for now, more to come soon...
 </details>
 
 ---
-
-<details>
-<summary>
 
 ## GitHub
 
@@ -235,8 +220,9 @@ Summarize GitHub repository README files.
 [README](https://chat.openai.com/g/g-rA63DaENC-readme)  
 Assistive GitHub readme file creator.
 
+<details>
+<summary>
 <i><code><u>View More...</u></code></i>
-
 </summary>
 <p>
 That's all for now, more to come soon...
@@ -244,9 +230,6 @@ That's all for now, more to come soon...
 </details>
 
 ---
-
-<details>
-<summary>
 
 ## Writing & Reading
 
@@ -262,8 +245,9 @@ Modernize uploaded document files.
 [Font Identity](https://chat.openai.com/g/g-H1YnqzAj0-font-identity)  
 Analyze and identify fonts using image files.
 
+<details>
+<summary>
 <i><code><u>View More...</u></code></i>
-
 </summary>
 <p>
 
@@ -320,9 +304,6 @@ Intelligent note recording assistant.
 
 ---
 
-<details>
-<summary>
-
 ## Social
 
 [Shoutouts](https://chat.openai.com/g/g-BRN5AXPbf-shoutouts)  
@@ -337,8 +318,9 @@ Determine and define your personal identity.
 [Commenter](https://chat.openai.com/g/g-I5DgUS675-commenter)  
 Create comments and comment replies for Facebook, Instagram, X and more.
 
+<details>
+<summary>
 <i><code><u>View More...</u></code></i>
-
 </summary>
 <p>
 That's all for now, more to come soon...
@@ -346,9 +328,6 @@ That's all for now, more to come soon...
 </details>
 
 ---
-
-<details>
-<summary>
 
 ## Business
 
@@ -364,8 +343,9 @@ Assistive business development, guidance and growth.
 [Professional Upgrade](https://chat.openai.com/g/g-Rgeiqn3Ga-professional-upgrade)  
 Career guidance and simulation for professional growth.
 
+<details>
+<summary>
 <i><code><u>View More...</u></code></i>
-
 </summary>
 <p>
 
@@ -379,9 +359,6 @@ Compare a business to it's industry competitors and leaders.
 </details>
 
 ---
-
-<details>
-<summary>
 
 ## Art & Design
 
@@ -397,8 +374,9 @@ Learn graphic design, web design, product design, and more.
 [Image Psychology](https://chat.openai.com/g/g-iTZm6rqFR-image-psychology)  
 Analyze any image using visual psychology.
 
+<details>
+<summary>
 <i><code><u>View More...</u></code></i>
-
 </summary>
 <p>
 
