@@ -38,7 +38,7 @@ Guidance for actions, schema and authentication.
 
 <details>
   <summary>
-    <em>View More...</em>
+    <strong><em>View More...</em></strong>
   </summary>
 
 <p>
