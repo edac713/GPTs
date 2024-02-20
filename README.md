@@ -53,6 +53,7 @@ Helpful and informative.
 
 </p>
 </details>
+<br>
 
 # Python
 
@@ -76,6 +77,7 @@ Assistive game creator using Pygame, Tkinter and Python.
 That's all for now, more to come soon...
 </p>
 </details>
+<br>
 
 ## Utilities
 
@@ -129,6 +131,7 @@ Expand simple text searches with multiple related search options.
 
 </p>
 </details>
+<br>
 
 ## Science
 
@@ -173,6 +176,7 @@ Identify tree leaves and estimate seasonal growth.
 
 </p>
 </details>
+<br>
 
 ## Video & GIF
 
@@ -196,6 +200,7 @@ Word-for-word GIF image generator.
 That's all for now, more to come soon...
 </p>
 </details>
+<br>
 
 ## GitHub
 
@@ -216,6 +221,7 @@ Assistive GitHub readme file creator.
 That's all for now, more to come soon...
 </p>
 </details>
+<br>
 
 ## Writing & Reading
 
@@ -287,6 +293,7 @@ Intelligent note recording assistant.
 
 </p>
 </details>
+<br>
 
 ## Social
 
@@ -310,6 +317,7 @@ Create comments and comment replies for Facebook, Instagram, X and more.
 That's all for now, more to come soon...
 </p>
 </details>
+<br>
 
 ## Business
 
@@ -339,6 +347,7 @@ Compare a business to it's industry competitors and leaders.
 
 </p>
 </details>
+<br>
 
 ## Art & Design
 
