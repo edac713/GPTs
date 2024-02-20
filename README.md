@@ -22,7 +22,7 @@ ChatGPT now supports "Custom GPTs" which package a custom system message, variou
 
 Listed below are `250` custom built GPTs sorted into `20` different categories:
 
-# ChatGPT
+## ChatGPT
 
 [Custom GPT Instructions](https://chat.openai.com/g/g-yAwEVaLkf-custom-gpt-instructions)  
 Custom GPT instruction creation guide.
@@ -38,7 +38,7 @@ Guidance for actions, schema and authentication.
 
 <details>
 <summary>
-<i><u><code>View More...</code></u></i>
+_View More..._
 </summary>
 <p>
 
