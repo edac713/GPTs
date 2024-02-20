@@ -374,10 +374,10 @@ Compare a business to it's industry competitors and leaders.
 </p>
 </details>
 
----
-
 <details>
 <summary>
+
+---
 
 ## Art & Design
 
