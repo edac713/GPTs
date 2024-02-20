@@ -9,7 +9,7 @@ ChatGPT now supports "Custom GPTs" which package a custom system message, variou
 
 ## DIRECTORIES
 
-1. **[Easy With AI (All GPTs Directory)]**(https://www.easywithai.com/all-gpts)
+1. [**Easy With AI (All GPTs Directory)**](https://www.easywithai.com/all-gpts)
 2. [ShareGPTs](https://www.sharegpts.net)
 3. [GPTsDex](https://www.gptsdex.com)
 4. [GPTsHunter](https://ai.ls/en/gptshunter/)
