@@ -38,7 +38,7 @@ Guidance for actions, schema and authentication.
 
 <details>
   <summary>
-    <strong><em>ℹ️ View More...</em></strong>
+    <strong><em>View More...</em></strong>
   </summary>
 
 <p>
@@ -56,7 +56,7 @@ Helpful and informative.
 </details>
 <br>
 
-## Python
+# Python
 
 [Python Interface Builder](https://chat.openai.com/g/g-2a5BMlXE9-python-interface-builder)  
 Assistive GUI application creator for Python.
@@ -81,7 +81,7 @@ That's all for now, more to come soon...
 </details>
 <br>
 
-## Utilities
+# Utilities
 
 [Computer Upgrade](https://chat.openai.com/g/g-bSr9Rxt51-computer-upgrade)  
 Desktop and laptop computer hardware upgrade assistant.
@@ -136,7 +136,7 @@ Expand simple text searches with multiple related search options.
 </details>
 <br>
 
-## Science
+# Science
 
 [Physics Simulator](https://chat.openai.com/g/g-jdGow4iV3-physics-simulator)  
 Assistive physics simulation expert.
@@ -182,7 +182,7 @@ Identify tree leaves and estimate seasonal growth.
 </details>
 <br>
 
-## Video & GIF
+# Video & GIF
 
 [Video Edit](https://chat.openai.com/g/g-3WU0tMQmV-video-edit)  
 Video titles, credits, effects, and speed changes. Created in preparation for GPT-5.
@@ -207,7 +207,7 @@ That's all for now, more to come soon...
 </details>
 <br>
 
-## GitHub
+# GitHub
 
 [Repo Card](https://chat.openai.com/g/g-wEMovflCA-repo-card)  
 Create a GitHub repo card banner image.
@@ -229,7 +229,7 @@ That's all for now, more to come soon...
 </details>
 <br>
 
-## Writing & Reading
+# Writing & Reading
 
 [Document Design](https://chat.openai.com/g/g-vmvOjWhHm-document-design)  
 Text document style, format and structure guide.
@@ -302,7 +302,7 @@ Intelligent note recording assistant.
 </details>
 <br>
 
-## Social
+# Social
 
 [Shoutouts](https://chat.openai.com/g/g-BRN5AXPbf-shoutouts)  
 Promotional business shoutouts for x.com.
@@ -327,7 +327,7 @@ That's all for now, more to come soon...
 </details>
 <br>
 
-## Business
+# Business
 
 [Custom GPT Business](https://chat.openai.com/g/g-k8Ghxlj6V-custom-gpt-business)  
 Assistive custom GPT business communication guide.
