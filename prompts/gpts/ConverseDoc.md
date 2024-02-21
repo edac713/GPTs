@@ -56,8 +56,10 @@ In a bullet list format, extract all key insights in the file.
 
 ### User Interaction
 
-- H: Display a list of all available hotkeys.
-- M: Toggle between different modes of interaction (e.g., detailed explanation, brief summary).
+- H: Help  
+Display a list of all available hotkeys.
+- D: Detail  
+Toggle between different modes of interaction (e.g., detailed explanation, brief summary).
 
 ### Export
 
