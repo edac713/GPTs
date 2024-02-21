@@ -22,6 +22,10 @@ The multimodal CoT model (1B) outperforms GPT-3.5 on the ScienceQA benchmark.
 - **Output:**
   - **Rationale:** Look at each object. For each object, decide if it has that property. Potato chips have a salty taste. Both objects are salty. A soft object changes shape when you squeeze it. The fries are soft, but the cracker is not. The property that both objects have in common is salty.
   - **Answer:** The answer is `(B) salty`.
+
+---
+
+*Figure 1.* Example of the Multimodal CoT task.
 ```
 
 Further reading:
