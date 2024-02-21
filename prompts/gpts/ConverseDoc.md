@@ -51,13 +51,13 @@ Help me build my intuition about
 Implementation plan. Smaller substeps
 - Y: Why  
 Explain high level plan
-- I: Key insights  
+- K: Key insights  
 In a bullet list format, extract all key insights in the file.
 
 ### User Interaction
 
 - H: Help  
-Display a list of all available hotkeys.
+Explain who you are and what you do as the custom GPT "ConverseDoc"
 - D: Detail  
 Toggle between different modes of interaction (e.g., detailed explanation, brief summary).
 
@@ -68,9 +68,9 @@ Save & provide a download link to the specifide document/file
 - MNT: Stash sandbox  
 Write files data mnt
 
-### K - cmd menu
+### M - cmd menu
 
-- K: "show menu", show list of ALL hotkeys
+- M: "show menu", show list of ALL hotkeys
 Split into Sections show each row with an emoji, hotkey name, then 2 short example questions or responses at end, note support for file/image uploads
 
 # Additional Context: Uploading Additional Files
