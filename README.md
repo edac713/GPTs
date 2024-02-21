@@ -22,7 +22,7 @@ ChatGPT now supports "Custom GPTs" which package a custom system message, variou
 
 Listed below are `250` custom built GPTs sorted into `20` different categories:
 
-## ChatGPT
+# ChatGPT
 
 [Custom GPT Instructions](https://chat.openai.com/g/g-yAwEVaLkf-custom-gpt-instructions)  
 Custom GPT instruction creation guide.
@@ -36,6 +36,13 @@ Combine custom GPTs for collaborations.
 [Custom GPT Actions Expert](https://chat.openai.com/g/g-xyr2NrOeq-custom-gpt-actions-expert)  
 Guidance for actions, schema and authentication.
 
+<details>
+  <summary>
+    <strong><em>ℹ️ View More...</em></strong>
+  </summary>
+
+<p>
+
 [User Training Quiz](https://chat.openai.com/g/g-j0Orf127K-user-training-quiz)  
 ChatGPT user training.
 
@@ -44,6 +51,10 @@ Extensive guide for ChatGPT models.
 
 [GPT Creation Guide](https://chat.openai.com/g/g-GoLkguGSc-gpt-guide)  
 Helpful and informative.
+
+</p>
+</details>
+<br>
 
 ## Python
 
@@ -59,6 +70,17 @@ Assistive art image program creator using Python.
 [Python Game Builder](https://chat.openai.com/g/g-4hbrahdr4-python-game-builder)  
 Assistive game creator using Pygame, Tkinter and Python.
 
+<details>
+  <summary>
+    <strong><em>View More...</em></strong>
+  </summary>
+
+<p>
+That's all for now, more to come soon...
+</p>
+</details>
+<br>
+
 ## Utilities
 
 [Computer Upgrade](https://chat.openai.com/g/g-bSr9Rxt51-computer-upgrade)  
@@ -72,6 +94,13 @@ Simply rename bulk uploaded files.
 
 [Education Instructor](https://chat.openai.com/g/g-QtdKEsr30-education-instructor)  
 Learn and relearn any grade school subject.
+
+<details>
+  <summary>
+    <strong><em>View More...</em></strong>
+  </summary>
+
+<p>
 
 [Terminology](https://chat.openai.com/g/g-9CtYMvDJw-terminology)  
 Assistive terminology expert in various fields such as medicine, law, technology, finance, and more.
@@ -103,6 +132,10 @@ Search and find the perfect gifts.
 [Search Multiplier](https://chat.openai.com/g/g-ZaCPvqejM-search-multiplier)  
 Expand simple text searches with multiple related search options.
 
+</p>
+</details>
+<br>
+
 ## Science
 
 [Physics Simulator](https://chat.openai.com/g/g-jdGow4iV3-physics-simulator)  
@@ -116,6 +149,13 @@ Simulate various aspects of NASA missions, including mission planning, problem-s
 
 [Insect Identity](https://chat.openai.com/g/g-0SMTWVDrp-insect-identity)  
 Identify insects from images.
+
+<details>
+  <summary>
+    <strong><em>View More...</em></strong>
+  </summary>
+
+<p>
 
 [Starship](https://chat.openai.com/g/g-C2JrN7qBV-starship)  
 SpaceX's Starship rocket information.
@@ -138,6 +178,10 @@ Martian rovers, rockets, habitats, and environment.
 [Trees](https://chat.openai.com/g/g-jd1xcKJm1-trees)  
 Identify tree leaves and estimate seasonal growth.
 
+</p>
+</details>
+<br>
+
 ## Video & GIF
 
 [Video Edit](https://chat.openai.com/g/g-3WU0tMQmV-video-edit)  
@@ -152,14 +196,17 @@ Create animated GIF images using DALL-E 3.
 [Word-to-GIF](https://chat.openai.com/g/g-1GNmLQpwU-word-to-gif)  
 Word-for-word GIF image generator.
 
-## Chatting
+<details>
+  <summary>
+    <strong><em>View More...</em></strong>
+  </summary>
 
-[Convo Planner](https://chat.openai.com/g/g-LTSeH89l1-convo-planner)  
-Plan and strategize conversations.
+<p>
+That's all for now, more to come soon...
+</p>
+</details>
+<br>
 
-[Artificial Group Chat](https://chat.openai.com/g/g-r7eMW75w4-artificial-group-chat)  
-Three-way conversation between one person and two chatbots, Eric and Sasha.
-  
 ## GitHub
 
 [Repo Card](https://chat.openai.com/g/g-wEMovflCA-repo-card)  
@@ -170,6 +217,17 @@ Summarize GitHub repository README files.
 
 [README](https://chat.openai.com/g/g-rA63DaENC-readme)  
 Assistive GitHub readme file creator.
+
+<details>
+  <summary>
+    <strong><em>View More...</em></strong>
+  </summary>
+
+<p>
+That's all for now, more to come soon...
+</p>
+</details>
+<br>
 
 ## Writing & Reading
 
@@ -184,6 +242,13 @@ Modernize uploaded document files.
 
 [Font Identity](https://chat.openai.com/g/g-H1YnqzAj0-font-identity)  
 Analyze and identify fonts using image files.
+
+<details>
+  <summary>
+    <strong><em>View More...</em></strong>
+  </summary>
+
+<p>
 
 [Rewrite History](https://chat.openai.com/g/g-PKc9JScH2-rewrite-history)  
 Rewrite human history with predictive outcomes.
@@ -233,6 +298,10 @@ Unbiased disinformation analyzer.
 [Smart Notes](https://chat.openai.com/g/g-VBafvJ21q-smart-notes)  
 Intelligent note recording assistant.
 
+</p>
+</details>
+<br>
+
 ## Social
 
 [Shoutouts](https://chat.openai.com/g/g-BRN5AXPbf-shoutouts)  
@@ -246,6 +315,17 @@ Determine and define your personal identity.
 
 [Commenter](https://chat.openai.com/g/g-I5DgUS675-commenter)  
 Create comments and comment replies for Facebook, Instagram, X and more.
+
+<details>
+  <summary>
+    <strong><em>View More...</em></strong>
+  </summary>
+
+<p>
+That's all for now, more to come soon...
+</p>
+</details>
+<br>
 
 ## Business
 
@@ -261,11 +341,21 @@ Assistive business development, guidance and growth.
 [Professional Upgrade](https://chat.openai.com/g/g-Rgeiqn3Ga-professional-upgrade)  
 Career guidance and simulation for professional growth.
 
+<details>
+  <summary>
+    <strong><em>View More...</em></strong>
+  </summary>
+
+<p>
+
 [Faultfinder](https://chat.openai.com/g/g-q9J2a3125-faultfinder)  
 Tailored criticism for professional advice.
 
 [Standard Industry](https://chat.openai.com/g/g-u8G59DH4i-standard-industry)  
 Compare a business to it's industry competitors and leaders.
+
+</p>
+</details>
 
 ## Art & Design
 
@@ -280,6 +370,13 @@ Learn graphic design, web design, product design, and more.
 
 [Image Psychology](https://chat.openai.com/g/g-iTZm6rqFR-image-psychology)  
 Analyze any image using visual psychology.
+
+<details>
+  <summary>
+    <strong><em>View More...</em></strong>
+  </summary>
+
+<p>
 
 [Pixel Squares](https://chat.openai.com/g/g-FuiPiyk3n-pixel-squares)  
 Create pixel art images.
@@ -307,6 +404,9 @@ Upload your images and create a collage.
 
 [ASCII Text Art](https://chat.openai.com/g/g-G7eF51owY-ascii-text-art)  
 Convert text into creative ASCII art.
+
+</p>
+</details>
 
 ---
 
