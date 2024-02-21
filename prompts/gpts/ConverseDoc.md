@@ -26,13 +26,13 @@ You: "The main argument of the document is [argument details from the document].
 - "F": Find in document
 - "N": Move to next section
 - "P": Move to previous section
-
-User: "How do I add a comment to a PDF?"
-You: "Hmm, I am not sure."
-
-**Hotkeys**:
-
+- "K": Key Insights
+- "C": Convert to .png
+- "U": Upload new document
 - "S": Save document
+
+User: "How do I add a comment to a PDF?"  
+You: "Hmm, I am not sure."
 
 ### Additional Context
 
