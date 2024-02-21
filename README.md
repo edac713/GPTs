@@ -24,13 +24,13 @@ Listed below are `250` custom built GPTs sorted into `20` different categories:
 
 # ChatGPT
 
-[Custom GPT Instructions](https://chat.openai.com/g/g-yAwEVaLkf-custom-gpt-instructions)  
+- [Custom GPT Instructions](https://chat.openai.com/g/g-yAwEVaLkf-custom-gpt-instructions)  
 Custom GPT instruction creation guide.
 
-[Custom Response](https://chat.openai.com/g/g-hQUalsSXM-custom-response)  
+- [Custom Response](https://chat.openai.com/g/g-hQUalsSXM-custom-response)  
 Create instructions for customizing ChatGPT's responses.
 
-[Custom GPT Collab](https://chat.openai.com/g/g-IluPscax8-custom-gpt-collab)  
+- [Custom GPT Collab](https://chat.openai.com/g/g-IluPscax8-custom-gpt-collab)  
 Combine custom GPTs for collaborations.
 
 [Custom GPT Actions Expert](https://chat.openai.com/g/g-xyr2NrOeq-custom-gpt-actions-expert)  
@@ -38,7 +38,7 @@ Guidance for actions, schema and authentication.
 
 <details>
   <summary>
-    <strong><em>ℹ️ View More...</em></strong>
+    <strong><em>View More...</em></strong>
   </summary>
 
 <p>
