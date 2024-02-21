@@ -18,6 +18,49 @@ Behind this interest is the fact that plain language prompts do not always produ
 
 (a) Automatic Prompt Engineer (APE) workflow
 
+```Markdo
+# Chain-of-Thought (Wei et al., 2022)
+
+## Input
+
+Q: Roger has 5 tennis balls. He buys 2 more cans of tennis balls. Each can has 3 tennis balls. How many tennis balls does he have now?
+
+A: Roger started with 5 tennis balls. 2 cans of 3 tennis balls each is 6 tennis balls. 5 + 6 = 11. The answer is 11.
+
+## Model Output
+
+A: The bakers started with 200 loaves. They sold 93 in the morning and 39 in the afternoon. So they sold 93 + 39 = 132 loaves. The grocery store returned 6 loaves. So they had 200 - 132 - 6 = 62 loaves left.
+The answer is 62.
+❌
+
+# Program-aided Language models (this work)
+
+## Input
+
+Q: Roger has 5 tennis balls. He buys 2 more cans of tennis balls. Each can has 3 tennis balls. How many tennis balls does he have now?
+
+A: Roger started with 5 tennis balls.
+`tennis_balls = 5`
+2 cans of 3 tennis balls each is bought.
+`bought_balls = 2 * 3`
+`tennis_balls = tennis_balls + bought_balls`
+The answer is `answer = tennis_balls + bought_balls`
+
+## Model Output
+
+A: The bakers started with 200 loaves
+`loaves_baked = 200`
+They sold 93 in the morning and 39 in the afternoon
+`loaves_sold_morning = 93`
+`loaves_sold_afternoon = 39`
+The grocery store returned 6 loaves.
+`loaves_returned = 6`
+The answer is
+`answer = loaves_baked - loaves_sold_morning - loaves_sold_afternoon + loaves_returned`
+>>> `print(answer)`
+✔️ 74
+```
+
 ![](https://cdn.mathpix.com/cropped/2024_02_21_150a2113254040cde7a5g-02.jpg?height=493&width=697&top_left_y=266&top_left_x=1039)
 
 (b) Interquartile mean across 24 tasks
@@ -56,11 +99,29 @@ Note that in general, $Q$ may be the empty string, such that we are optimizing $
 
 ### 3.1 INITIAL PROPOSAL DISTRIBUTIONS
 
-Due to the infinitely large search space, finding the right instruction can be extremely difficult, which has rendered natural language program synthesis historically intractable. Recent progress in NLP has shown language models are very good at generating diverse natural language text. Therefore, we
+Due to the infinitely large search space, finding the right instruction can be extremely difficult, which has rendered natural language program synthesis historically intractable. Recent progress in NLP has shown language models are very good at generating diverse natural language text. Therefore, we...
 
 ![](https://cdn.mathpix.com/cropped/2024_02_21_150a2113254040cde7a5g-04.jpg?height=482&width=1242&top_left_y=281&top_left_x=367)
 
-consider leveraging a pretrained LLM to propose a good set $\mathcal{U}$ of candidate solutions that will guide our search procedure. While random samples from LLMs are unlikely to produce the desired $(Q, A)$ pairs, we can instead ask the LLM to approximately infer the most likely instructions with a high score, given the input/output demonstrations; i.e., to approximately sample from $P\left(\rho \mid \mathcal{D}_{\text {train }}, f(\rho)\right.$ is high $)$.
+```
+# Algorithm 1 Automatic Prompt Engineer (APE)
+
+**Require**: \( D_{\text{train}} \leftarrow \{ (Q, A) \}_{n} \): training examples, \( f : p \times D \rightarrow \mathbb{R} \): score function
+
+1. Use LLM to sample instruction proposals \( U \leftarrow \{p_1, ..., p_m\} \). (See Section 3.1)
+2. **while not converged do**
+3.    Choose a random training subset \( \widetilde{D}_{\text{train}} \subseteq D_{\text{train}} \).
+4.    **for all** \( p \) **in** \( U \) **do**
+5.        Evaluate score on the subset \( s \leftarrow f(p, \widetilde{D}_{\text{train}}) \) (See Section 3.2)
+6.    **end for**
+7.    Filter the top \( k\% \) of instructions with high scores \( U_k \subseteq U \) using \( \{s_1, ..., s_m\} \)
+8.    Update instructions \( U \leftarrow U_k \) or use LLM to resample \( U \leftarrow \text{resample}(U_k) \) (See Section 3.3)
+9. **end while**
+
+Return instruction with the highest score \( \rho^* \leftarrow \arg\max_{\rho\epsilon U_k} f(\rho, D_{\text{train}}) \)
+```
+
+...consider leveraging a pretrained LLM to propose a good set $\mathcal{U}$ of candidate solutions that will guide our search procedure. While random samples from LLMs are unlikely to produce the desired $(Q, A)$ pairs, we can instead ask the LLM to approximately infer the most likely instructions with a high score, given the input/output demonstrations; i.e., to approximately sample from $P\left(\rho \mid \mathcal{D}_{\text {train }}, f(\rho)\right.$ is high $)$.
 
 Forward Mode Generation We consider two approaches to generate high-quality candidates from $P\left(\rho \mid \mathcal{D}_{\text {train }}, f(\rho)\right.$ is high $)$. First, we adopt an approach based on "forward" mode generation by translating this distribution $P\left(\rho \mid \mathcal{D}_{\text {train }}, f(\rho)\right.$ is high $)$ into words. For example, in our instruction induction experiments (Subsection 4.1), we follow Honovich et al. (2022) and prompt the LLM using Figure 2 (Тор).
 
