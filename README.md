@@ -33,7 +33,7 @@ Create instructions for customizing ChatGPT's responses.
 - [Custom GPT Collab](https://chat.openai.com/g/g-IluPscax8-custom-gpt-collab)  
 Combine custom GPTs for collaborations.
 
-[Custom GPT Actions Expert](https://chat.openai.com/g/g-xyr2NrOeq-custom-gpt-actions-expert)  
+- [Custom GPT Actions Expert](https://chat.openai.com/g/g-xyr2NrOeq-custom-gpt-actions-expert)  
 Guidance for actions, schema and authentication.
 
 <details>
