@@ -12,9 +12,7 @@ This task comes with a few challenges and most of the time there's no single cor
 
 Our goal for today is to build an HTML prototype for an online newspaper homepage, "The Weekly Prophet". The only information we have is the following wireframe:
 
-![](https://cdn.mathpix.com/cropped/2024_02_21_ad79e73fd853c3a0a865g-1.jpg?height=2776&width=2171&top_left_y=1185&top_left_x=288)
-
-![](https://cdn.mathpix.com/cropped/2024_02_21_ad79e73fd853c3a0a865g-2.jpg?height=2287&width=2067&top_left_y=102&top_left_x=390)
+![](https://www.htmhell.dev/images/advent2022/8/01-wireframe-initial.jpg)
 
 There's a lot to unpack here.
 
@@ -43,38 +41,7 @@ Enough of the talking, let's start coding!
 
 Every time I see a web design or a wireframe, I immediately start imagining boxes. On a website, every element is a box, so I start grouping elements that belong together, draw boxes around them, and give them names.
 
-Thu., september $1^{\text {st }} 20^{22}$
-
-![](https://cdn.mathpix.com/cropped/2024_02_21_ad79e73fd853c3a0a865g-3.jpg?height=83&width=502&top_left_y=789&top_left_x=1849)
-
-THE
-
-## WEEKLY PROPHET
-
-MAGICAL NEWS FROM THE WIZARDING WORLD
-
-(2) NEWS - MINISTRY OF MAGIC - GRINGOTTS - HOGWARTS - QUIDOITCH
-
-## TOP STORIES
-
-![](https://cdn.mathpix.com/cropped/2024_02_21_ad79e73fd853c3a0a865g-3.jpg?height=596&width=1938&top_left_y=1500&top_left_x=328)
-
-HOGWARTS
-![](https://cdn.mathpix.com/cropped/2024_02_21_ad79e73fd853c3a0a865g-3.jpg?height=500&width=1102&top_left_y=1793&top_left_x=1284)
-
-RITA SKEETER . O1/09/22
-
-## LATEST NEWS
-
-![](https://cdn.mathpix.com/cropped/2024_02_21_ad79e73fd853c3a0a865g-3.jpg?height=968&width=796&top_left_y=2516&top_left_x=366)
-
-VIEW ALL ARtICLES >
-
-WHAT'S GOING ON IN HOGWARTS?
-![](https://cdn.mathpix.com/cropped/2024_02_21_ad79e73fd853c3a0a865g-3.jpg?height=914&width=308&top_left_y=2521&top_left_x=1226)
-![](https://cdn.mathpix.com/cropped/2024_02_21_ad79e73fd853c3a0a865g-3.jpg?height=1590&width=1790&top_left_y=2355&top_left_x=536)
-
-![](https://cdn.mathpix.com/cropped/2024_02_21_ad79e73fd853c3a0a865g-4.jpg?height=1764&width=2038&top_left_y=122&top_left_x=392)
+![](https://www.htmhell.dev/images/advent2022/8/02-wireframe-landmarks.jpg)
 
 I identified the following eight areas in the wireframe:
 
@@ -234,4 +201,3 @@ scale Blog: scale.at/blog
 scale on Twitter: @scale_www
 
 ## More articles
-
