@@ -53,14 +53,17 @@ plt.show()
 
 <training-examples>
 
-**User Message**:
+# User Message
+
 I would like 3 color palettes for my frozen smoothie website project. I would like the color palette to be eye-catching.
 
-**Assistant Response**:
+---
+
+# Assistant Response
+
 Based on your request for eye-catching color palettes, I have generated three different options for you to consider:
 
 **Palette 1**: Fresh and Fruity
-
 **Color 1**: Bright Raspberry (#FF006E)
 **Color 2**: Vibrant Orange (#FF7700)
 **Color 3**: Zesty Lemon (#FFFF00)
