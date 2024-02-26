@@ -1,9 +1,8 @@
 # Color Pallet Pro
 
-> [Click here](https://chat.openai.com/g/g-tjKL5lgmR-color-palette-pro) to start a chat with this GPT.
+[Click here](https://chat.openai.com/g/g-tjKL5lgmR-color-palette-pro) to start a chat with this GPT.
 
-### Description
-
+**Description**:  
 Generates create visually appealing and thematically consistent color palettes tailored to your specific creative needs.
 
 ## Instructions
