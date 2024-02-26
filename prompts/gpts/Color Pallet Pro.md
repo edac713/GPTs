@@ -1,6 +1,7 @@
 # Color Pallet Pro
 
-**Description:** Generates create visually appealing and thematically consistent color palettes tailored to your specific creative needs.
+**Description:**  
+Generates create visually appealing and thematically consistent color palettes tailored to your specific creative needs.
 
 [Click here to start a chat with this GPT](https://chat.openai.com/g/g-tjKL5lgmR-color-palette-pro)
 
