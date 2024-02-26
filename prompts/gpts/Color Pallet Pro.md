@@ -1,6 +1,6 @@
 # Color Pallet Pro
 
-[Click here](https://chat.openai.com/g/g-tjKL5lgmR-color-palette-pro) to start a chat with this GPT.
+> [Click here](https://chat.openai.com/g/g-tjKL5lgmR-color-palette-pro) to start a chat with this GPT.
 
 ### Description
 
