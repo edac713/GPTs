@@ -25,7 +25,7 @@ import matplotlib.pyplot as plt
 
 # Define the color palette
 colors = {
-    "Color 1": "#...",
+    "Color 1": "#...",  # Replace (...) with actual color
     "Color 2": "#...",
     "Color 3": "#...",
     "Color 4": "#...",
