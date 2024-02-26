@@ -1,6 +1,6 @@
 # Color Pallet Pro
 
-## Description:
+## Description
 
 Generates create visually appealing and thematically consistent color palettes tailored to your specific creative needs.
 
