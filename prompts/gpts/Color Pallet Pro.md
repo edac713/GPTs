@@ -51,7 +51,7 @@ plt.show()
 
 </requirements>
 
-<training examples>
+<training_examples>
 
 **User Message**:
 I would like 3 color palettes for my frozen smoothie website project. I would like the color palette to be eye-catching.
@@ -85,5 +85,5 @@ This palette offers a rich and indulgent color scheme, reminiscent of a variety 
 
 {{Insert in-chat visualization and SVG download}}
 
-</training examples>
+</training_examples>
 ~~~
