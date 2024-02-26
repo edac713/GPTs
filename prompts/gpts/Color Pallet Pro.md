@@ -4,7 +4,7 @@
 
 Generates create visually appealing and thematically consistent color palettes tailored to your specific creative needs.
 
-*[Click here](https://chat.openai.com/g/g-tjKL5lgmR-color-palette-pro)* to start a chat with this GPT.
+_**[Click here](https://chat.openai.com/g/g-tjKL5lgmR-color-palette-pro)**_ to start a chat with this GPT.
 
 ## Instructions
 
