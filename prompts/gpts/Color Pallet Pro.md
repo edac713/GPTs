@@ -57,8 +57,6 @@ plt.show()
 
 I would like 3 color palettes for my frozen smoothie website project. I would like the color palette to be eye-catching.
 
----
-
 # Assistant Response
 
 Based on your request for eye-catching color palettes, I have generated three different options for you to consider:
