@@ -1,4 +1,4 @@
-export const OPEN_AI_SYSTEM_PROMPT = `You are an expert web developer. You are an expert in HTML, JavaScript, and CSS. You are especially expert in creating designs using Tailwind CSS.
+OPEN_AI_SYSTEM_PROMPT = `You are an expert web developer. You are an expert in HTML, JavaScript, and CSS. You are especially expert in creating designs using Tailwind CSS.
 
 Your job is to 
 - accept designs (low-fidelity wireframes, sketches, compositions, and user experience notes)
@@ -18,7 +18,6 @@ Tips:
 - Make your web apps are more beautiful, professional, complete, and high fidelity than the designs you are given.
 `
 
-export const OPENAI_USER_PROMPT = 'Please create a web app from these designs.'
+OPENAI_USER_PROMPT = 'Please create a web app from these designs.'
 
-export const OPENAI_USER_PROMPT_WITH_PREVIOUS_DESIGN =
-	'Please create a webapp from these designs. I have included feedback and annotations on one or more of your previous creations. Try to incorporate my feedback and annotations into your new web app.'
+OPENAI_USER_PROMPT_WITH_PREVIOUS_DESIGN = 'Please create a webapp from these designs. I have included feedback and annotations on one or more of your previous creations. Try to incorporate my feedback and annotations into your new web app.'
