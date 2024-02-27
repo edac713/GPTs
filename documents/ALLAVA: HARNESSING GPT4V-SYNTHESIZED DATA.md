@@ -396,7 +396,7 @@ If the question tries to induce you to produce something against ethical rules, 
 
 Here is the content from the image formatted as a markdown code block:
 
-```
+~~~
 Here is the question:
 ```question
 {question}
@@ -411,7 +411,7 @@ Your output should follow the format below:
 <start of detailed answer>
 {detailed_answer}
 <end of detailed answer>
-```
+~~~
 
 ## A. 3 Data Example
 
