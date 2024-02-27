@@ -398,9 +398,9 @@ Here is the content from the image formatted as a markdown code block:
 
 ```
 Here is the question:
-`\`\`question
+/`/`/`question
 {question}
-`\`\` 
+/`/`/`
 
 Your output should follow the format below:
 
