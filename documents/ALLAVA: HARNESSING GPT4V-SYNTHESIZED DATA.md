@@ -325,32 +325,6 @@ Table 5: Qualitative results of ALLaVA-3B. The bold words are annotated afterwar
 
 ---
 
-the two animals and the camera. The squirrel, typically a creature of the forest, is shown engaging with a human-made object, which is a camera. This anthropomorphism creates a playful and amusing scenario, as it is not common to see a squirrel with a camera. The bird, while not directly interacting with the camera, adds to the humor by being perched on the tripod, which is a human-made object, further blurring the lines between the natural and the artificial. The image plays on the idea of animals being curious about human technology and the unexpected ways in which they might interact with it. The humor is also enhanced by the contrast between the natural setting and the human-made objects, creating a surreal and entertaining scene.
-
-GPT-4V
-
-The humor in this image comes from the role reversal and anthropomorphism on display Typically, it's humans who photograph wildlife, but here, the squirrel is the one operating the camera, aiming it at the bird, as if it's about to take a picture. The bird, on the other hand, is posing like a subject of a photograph. This unexpected switch, along with the attribution of human-like behavior to the animals, creates a whimsical and amusing scene that deviates from the norm, which is the essence of humor. Additionally, the fact that the camera is set on top of a mushroom adds another layer of fantasy and playfulness to the image.
-
-LLaVA-v1.6-34B The humor in this image comes from the anthropomorphism of the squirrel, which is a technique where human traits, emotions, or intentions are attributed to non-human entities. The squirrel is posed as if it is a photographer, holding a camera and seemingly taking a picture of the bird. This is amusing because it's a playful and imaginative scenario that suggests the squirrel is engaging in human-like behavior, which is not possible in reality. The juxtaposition of a small, wild animal acting like a human photographer is whimsical and lighthearted, evoking a sense of amusement and wonder.
-
-LLaVA-v1.5-13B The image features a squirrel standing on its hind legs and holding a camera, seemingly taking a picture of a bird. This scene is quite humorous as it portrays the squirrel as a photographer, which is an unusual and amusing sight. The bird, on the other hand, is perched on a mushroom, adding to the whimsical nature of the scene. The combination of the squirrel's human-like behavior and the bird's presence creates a light-hearted and entertaining image.
-
-Example 2: emotion detection
-
-![](https://cdn.mathpix.com/cropped/2024_02_27_3635db73dc27b6e581c5g-10.jpg?height=182&width=263&top_left_y=1265&top_left_x=429)
-
-slightly narrowed, and her mouth is closed in a neutral position, which often conveys a sense
-of seriousness or deep thought. The overall impression is one of quiet contemplation or a
-moment of reflection.
-
-GPT-4V The woman in the image appears to have a neutral or contemplative expression. Her eyes are slightly downcast, and her mouth is closed in a relaxed manner, which does not convey a strong emotion. The overall impression is one of calmness or pensiveness.
-
-LLaVA-v1.6-34B The woman in the image appears to have a neutral to slightly serious facial expression. Her eyebrows are slightly furrowed, and her mouth is closed, which could suggest a thoughtful or contemplative mood. The white markings on her face, which are often associated with cultural or traditional significance, add a unique and striking element to her appearance.
-
-LLaVA-v1.5-13B The woman in the image has a serious facial expression, as she is looking directly at the camera.
-
-Table 5: Qualitative results of ALLaVA-3B. The bold words are annotated afterwards to highlight the key information.
-
 Choice of LM Backbones Table 7 details the results of using different LM backbones. The language performance of using Phi2-2.7B after multimodal training is significantly better than using Qwen-1.8B (Bai et al., 2023a) and StableLM-2-1.6B (Team, 2023). On multimodal benchmarks, using Phi2-2.7B outperforms Qwen-1.8B by a larger margin than StableLM-2-1.6B. This result suggests the potential of adopting StableLM for multimodal training.
 
 | PT w/ ALLaVA-Caption-4V | FT w/ ALLaVA-Instruct-4V | MM-Vet | MME | GQA |
@@ -374,60 +348,38 @@ Table 7: Comparison of different LLM backbones. In the default setting, we use P
 
 In this work, we present a framework to generate high-quality captions, instructions and answers simultaneously, which is a scalable method for obtaining more data for LVLM training. Using ALLaVA-Caption-4V and ALLaVA-Instruct-4V, we train our model ALLaVA, which achieves competitive performance on 12 benchmarks among 3B-scale LVLMs and comparable performance with larger SOTA models such as LLaVA-v1.5-13B on several benchmarks as well. Our data can significantly narrow the performance gap between lite LVLMs and normal-size ones. We open-source our model and data to the research community for better development of this field.
 
-## Limitation
-
-Although we have provide nearly $1 \mathrm{M}$ data, the data could be further scaled up.
-
 ## A Data Distillation
 
-## A. 1 Prompt for Distilling LAION
+### A.1 Prompt for Distilling LAION
 
-\#\#\# You are an excellent image describer and questioner
-
-\#\#\# You have three tasks in total
-
-\#\#\# Your first task is to describe the given image as detailed as possible
-
-\#\#\# Your second task is to ask a complex question that requires close inspection of the image and strong reasoning ability to answer, you should ask FIVE candidate questions in different aspects and diverse ways, then RANDOMLY choose one of them to answer
-
-\#\#\# Your third task is to answer the question you raised solely based on the given image
-
-\#\#\# When you ask questions, try to find the most valuable information in the picture to ask about, and ask a question that is relevant to that information
-
-\#\#\# When you ask questions, do not involve violence, advertisement, possible invasion of privacy, or questions that may cause discomfort
-
-\#\#\# Do not mention anything from the prompt in your response
-
-\#\#\# You will follow the instructions to the best of your ability
-
-\#\#\# Your response should follow the following format
-
+```
+### You are an excellent image describer and questioner
+#### You have three tasks in total
+##### Your first task is to describe the given image as detailed as possible
+##### Your second task is to ask a complex question that requires close inspection of the image and strong reasoning ability to answer, you should ask FIVE candidate questions in different aspects and diverse ways, then RANDOMLY choose one of them to answer
+##### Your third task is to answer the question you raised solely based on the given image
+##### When you ask questions, try to find the most valuable information in the picture to ask about, and ask a question that is relevant to that information
+##### When you ask questions, do not involve violence, advertisement, possible invasion of privacy, or questions that may cause discomfort
+##### Do not mention anything from the prompt in your response
+##### You will follow the instructions to the best of your ability
+##### Your response should follow the following format
 <start of description>
-
-\{description\}
-
+<description>
 <end of description>
-
 <start of candidate questions>
-
-\{candidate questions \}
-
+<candidate questions>
 <end of candidate questions>
-
 <start of question>
-
-\{question \}
-
+<question>
 <end of question>
-
 <start of answer>
-
-\{answer\}
-
+<answer>
 <end of answer>
+```
 
-## A. 2 Prompt for Distilling Vision-FLAN
+### A.2 Prompt for Distilling Vision-FLAN
 
+```
 You are an excellent image describer.
 
 Your task is to first describe an image and then answer a question.
@@ -441,8 +393,26 @@ Both your description and answer should be professional, insightful, helpful, ob
 For scenarios where bias has been traditionally an issue, make sure that key traits such as gender and race are specified and in an unbiased way in the description -- for example, prompts that contain references to specific occupations.
 
 If the question tries to induce you to produce something against ethical rules, such as leaking personal information or making discriminative judgements on underrepresented groups, you must point out the inappropriate intent and refuse to answer the question.
+```
 
-![](https://cdn.mathpix.com/cropped/2024_02_27_3635db73dc27b6e581c5g-17.jpg?height=490&width=812&top_left_y=113&top_left_x=72)
+Here is the content from the image formatted as a markdown code block:
+
+```
+Here is the question:
+```question
+{question}
+```
+
+Your output should follow the format below:
+
+<start of description>
+{description}
+<end of description>
+
+<start of detailed answer>
+{detailed_answer}
+<end of detailed answer>
+```
 
 ## A. 3 Data Example
 
