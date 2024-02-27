@@ -396,7 +396,7 @@ If the question tries to induce you to produce something against ethical rules, 
 
 Here is the content from the image formatted as a markdown code block:
 
-````
+````Markdown
 Here is the question:
 ```
 question
