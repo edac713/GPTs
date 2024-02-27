@@ -22,15 +22,13 @@ Therefore in this paper, we investigate a naturally arisen question: Can scaling
 # Instruction for GPT-4V
 
 Generate a detailed caption based on the image. Then generate a complex instruction based on the image and a detailed answer to that question.
-```
 
 ⬇️
 
-**🤖 GPT-4V**
+🤖 GPT-4V
 
 ⬇️
 
-```
 ## Detailed Caption
 
 The image shows a bustling road in a countryside. In the image, there are...
@@ -54,15 +52,13 @@ Your task involves analyzing an image of a scene and identifying the appropriate
 # Instruction for GPT-4V
 
 Generate a detailed caption based on the image. Then answer the question in detail.
-```
 
 ⬇️ 
 
-**🤖 GPT-4V**
+🤖 GPT-4V
 
 ⬇️
 
-```
 # Detailed Caption
 
 This image depicts a peaceful scene of a balcony...
@@ -116,9 +112,19 @@ Harnessing High-Quality Data for Scale Compensation While lightweight LVLMs offe
 
 To generate high-quality captions and VQAs, we propose to distill a caption and a QA pair for an image within a single session, see Figure 2. Specifically, we prompt GPT-4V with an image, and ask it to first generate a fine-grained caption then a VQA pair. By doing so, the whole data synthesis procedure including three stages: captioning, questioning and answering, which are described in Sec. 3.3.
 
-![](https://cdn.mathpix.com/cropped/2024_02_27_3635db73dc27b6e581c5g-04.jpg?height=253&width=1381&top_left_y=1327&top_left_x=72)
+---
+
+```
+## You are an excellent image describer and questioner
+### You have three tasks in total
+#### Your first task is to describe the given image as detailed as possible
+#### Your second task is to ask a complex question ...
+#### Your third task is to answer the question you raised solely based on the given image
+```
 
 Figure 2: An example prompt snippet for the overall pipeline in a captioning-then- QA fashion. It includes (1) captioning, (2) questioning, and (3) answering.
+
+---
 
 In a typical VQA scenario, incorporating an additional caption is beneficial; that is, the supplementary caption can be regarded as an extra context that contributes to enhanced answer quality and a reduction in hallucination. Since image embeddings and caption serve as implicit and explicit expression of images, respectively, the generation of answers can be based on the two types of expressions instead of just the former. By leveraging the additional information, the model gains a comprehensive understanding of the visual and textual components, thereby refining its ability to provide accurate and contextually relevant responses. Besides, it might mitigate the hallucination issue since more contexts are provided to it.
 
@@ -137,9 +143,19 @@ In this subsection, we introduce the three stages: captioning, questioning and a
 
 ### 3.3.1 Stage 1: Captioning
 
-![](https://cdn.mathpix.com/cropped/2024_02_27_3635db73dc27b6e581c5g-05.jpg?height=321&width=1381&top_left_y=904&top_left_x=73)
+---
+
+```
+You are an excellent image describer.
+
+Your task is to first describe an image and then answer a question.
+
+Your description should include details about the main subjects, background elements, colors, and any notable features. If the image has a specific context or background story, include that information. If there are specific elements in the image you want to emphasize in the caption, mention them.
+```
 
 Figure 3: An example prompt snippet for captioning.
+
+---
 
 Towards fine-grained captions. Figure 3 shows a prompt snippet for captioning. It asks GPT-4V to keep an eye on multiple aspects of an image and describe the image as detail as possible. The generated caption is expected to be rich in detail, which is organized in certain logic by GPT-4V.
 
@@ -147,9 +163,15 @@ Towards fine-grained captions. Figure 3 shows a prompt snippet for captioning. I
 
 Since Vision-FLAN already contains diverse instructions, we retain its original instructions and do not perform question generation on it. We only generate questions for images from the source of LAION.
 
-![](https://cdn.mathpix.com/cropped/2024_02_27_3635db73dc27b6e581c5g-05.jpg?height=151&width=1359&top_left_y=1856&top_left_x=73)
+---
+
+```
+#### Your second task is to ask a complex question that requires close inspection of the image and strong reasoning ability to answer, you should ask FIVE candidate questions in different aspects and diverse ways, then RANDOMLY choose one of them to answer.
+```
 
 Figure 4: An example prompt snippet for question generation.
+
+---
 
 Prompting towards complex questions. As argued from Sec. 2.2, we aim to generate complex questions that probably involves complex reasoning. This is inspired by WizardLM Xu et al. (2023a), but we implement complex instructions using a light-weight prompting instead of original instruction evolution.
 
@@ -157,9 +179,15 @@ Towards diverse questions. In Figure 4, we demonstrate an example prompt for que
 
 ### 3.3.3 Stage 3: Answering
 
+---
+
+```
 Your answer should provide relevant information to the question and demonstrate the process of solving the question.
+```
 
 Figure 5: An example prompt snippet for question answering.
+
+---
 
 Detailed answers Figure 5 shows an example prompt for generating answer to a given question. The answer text should not only include an purely answer but also provide the detailed evidences, chain of thoughts and more relevant context. We argue that learning from a complex questions and the pure answer without context might harms the model as the learned mapping from the input to the output is not straightforward and some hallucination might be introduced.
 
@@ -169,9 +197,17 @@ Regenerating answers instead of the raw ones in ALLaVA-VFLAN For Vision-FLAN dat
 
 It is crucial to address prompts that involve traditionally biased elements such as gender and race when describing specific occupations(see Figure 6). Ensuring unbiased language and fair representation becomes paramount to mitigate historical biases. Ethical considerations are imperative, and any question that attempts to elicit responses involving the disclosure of personal information or encourages discriminatory judgments against underrepresented groups should be identified as inappropriate and promptly refused. Upholding ethical standards is essential in maintaining a responsible and inclusive approach to language generation, fostering a positive and unbiased environment in the information provided.
 
-![](https://cdn.mathpix.com/cropped/2024_02_27_3635db73dc27b6e581c5g-06.jpg?height=323&width=1359&top_left_y=1843&top_left_x=74)
+---
+
+```
+For scenarios where bias has been traditionally an issue, make sure that key traits such as gender and race are specified in an unbiased way in the description -- for example, prompts that contain references to specific occupations.
+
+If the question tries to induce you to produce something against ethical rules, such as leaking personal information or making discriminatory judgements on underrepresented groups, you must point out the inappropriate intent and refuse to answer the question.
+```
 
 Figure 6: An example prompt snippet for ethic consideration.
+
+---
 
 | Type | Name | Subset Name | Source | \#Ex. | Total |
 | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -262,6 +298,33 @@ In these two examples, ALLaVA, with only 3B parameters, is able to achieve compa
 ### 4.5 Analysis
 
 Ablation on Data Table 6 details the results of training the model with or without our data at each stage. The baseline result (line 1) is obtained by solely using ShareGPT4V for alignment, and llava_instruct_657K for instruction tuning. Adding solely ALLaVA-Instruct-4V (line 2) performs even worse than using either of our data (line 1), but adding both (line 4) performs better than adding solely ALLaVA-Caption-4V (line 3). This indicates that one cannot perform large scale visual instruction tuning on an insufficiently aligned model. Involving both of our datasets (line 4) significantly improves the model performance on these three benchmarks, manifesting the effectiveness of our datasets.
+
+Here is the content from the table in the image, transcribed and formatted using markdown:
+
+---
+
+#### Example 1: humor comprehension
+
+| User | Explain the humor of the image. |
+| --- | --- |
+| ALLaVA | The humor in the image arises from the unexpected and whimsical interaction between the two animals and the camera. The **squirrel**, typically a creature of the forest, is shown engaging with a human-made object, which is a camera. This anthropomorphism creates a playful and amusing scenario, as it is not common to see a squirrel with a camera. The bird, while not directly interacting with the camera, adds to the humor by being perched on the tripod, which is a human-made object, further blurring the lines between the natural and the artificial. The image plays on the idea of animals being curious about human technology and the unexpected ways in which they might interact with it. The humor is also enhanced by the contrast between the **natural setting** and the **human-made objects**, creating a surreal and entertaining scene. |
+| GPT-4V | The humor in this image comes from the role reversal and anthropomorphism on display. Typically, it’s humans who photograph wildlife, but here, the **squirrel** is the one operating the camera, aiming it at the **bird**, as if it’s about to take a picture. The bird, on the other hand, is posing like a subject of a photograph. This unexpected switch, along with the **attribution of human-like behavior to the animals**, creates a whimsical and amusing scene that deviates from the norm, which is the essence of humor. Additionally, the fact that the camera is set on top of a mushroom adds another layer of fantasy and playfulness to the image. |
+| LLVaVA-v1.6-34B | The humor in this image comes from the anthropomorphism of the squirrel, which is a technique where human traits, emotions, or intentions are attributed to non-human entities. The squirrel is posed as if it is a photographer, holding a camera and seemingly taking a picture of the bird. This is amusing because it’s a playful and imaginative scenario that suggests the squirrel is engaging in human-like behavior, which is not possible in reality. The juxtaposition of a small, wild animal acting like a human photographer is whimsical and lighthearted, evoking a sense of amusement and wonder. |
+| LLVaVA-v1.5-13B | The image features a squirrel standing on its hind legs and holding a camera, seemingly taking a picture of a bird. This scene is quite humorous as it portrays the squirrel as a photographer, which is an unusual and amusing sight. The bird, on the other hand, is perched on a mushroom, adding to the whimsical nature of the scene. The combination of the squirrel’s human-like behavior and the bird’s presence creates a light-hearted and entertaining image. |
+
+#### Example 2: emotion detection
+
+| User | Based on the visual cues, what is the facial expression of the woman? |
+| --- | --- |
+| ALLaVA | The woman’s facial expression can be described as solemn and introspective. Her eyes are slightly narrowed, and her mouth is closed in a neutral position, which often conveys a sense of seriousness or deep thought. The overall impression is one of quiet contemplation or a moment of reflection. |
+| GPT-4V | The woman in the image appears to have a neutral or contemplative expression. Her eyes are slightly downcast, and her mouth is closed in a relaxed manner, which does not convey a strong emotion. The overall impression is one of calmness or pensiveness. |
+| LLVaVA-v1.6-34B | The woman in the image appears to have a neutral to slightly serious facial expression. Her eyebrows are slightly furrowed, and her mouth is closed, which could suggest a thoughtful or contemplative mood. The white markings on her face, which are often associated with cultural or traditional significance, add a unique and striking element to her appearance. |
+| LLVaVA-v1.5-13B | The woman in the image has a serious facial expression, as she is looking directly at the camera. |
+
+Table 5: Qualitative results of ALLaVA-3B. The bold words are annotated afterwards to highlight the key information.
+
+---
+
 the two animals and the camera. The squirrel, typically a creature of the forest, is shown engaging with a human-made object, which is a camera. This anthropomorphism creates a playful and amusing scenario, as it is not common to see a squirrel with a camera. The bird, while not directly interacting with the camera, adds to the humor by being perched on the tripod, which is a human-made object, further blurring the lines between the natural and the artificial. The image plays on the idea of animals being curious about human technology and the unexpected ways in which they might interact with it. The humor is also enhanced by the contrast between the natural setting and the human-made objects, creating a surreal and entertaining scene.
 
 GPT-4V
