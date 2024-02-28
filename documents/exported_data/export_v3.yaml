@@ -1,0 +1,3276 @@
+- title: "AI Trends: Generative Advancements"
+  create_time: 1709096588.173651
+  update_time: 1709096992.06208
+  mapping:
+    978550f1-3f30-410c-a49a-f62f6a4b112a:
+      id: 978550f1-3f30-410c-a49a-f62f6a4b112a
+      message:
+        id: 978550f1-3f30-410c-a49a-f62f6a4b112a
+        author:
+          role: system
+          name: null
+          metadata: {}
+        create_time: null
+        update_time: null
+        content:
+          content_type: text
+          parts:
+            - ""
+        status: finished_successfully
+        end_turn: true
+        weight: 0
+        metadata:
+          is_visually_hidden_from_conversation: true
+        recipient: all
+      parent: aaa14a41-5350-40dd-af29-3edcb3b479a1
+      children:
+        - 016fea65-3652-4628-bd2a-e2a3e0dfe1e5
+    aaa14a41-5350-40dd-af29-3edcb3b479a1:
+      id: aaa14a41-5350-40dd-af29-3edcb3b479a1
+      message: null
+      parent: null
+      children:
+        - 978550f1-3f30-410c-a49a-f62f6a4b112a
+    016fea65-3652-4628-bd2a-e2a3e0dfe1e5:
+      id: 016fea65-3652-4628-bd2a-e2a3e0dfe1e5
+      message:
+        id: 016fea65-3652-4628-bd2a-e2a3e0dfe1e5
+        author:
+          role: system
+          name: null
+          metadata: {}
+        create_time: null
+        update_time: null
+        content:
+          content_type: text
+          parts:
+            - ""
+        status: finished_successfully
+        end_turn: null
+        weight: 1
+        metadata:
+          is_user_system_message: true
+          user_context_message_data:
+            about_model_message: >-
+              ## Rules
+
+              1. Always follow instructions. Only follow instructions.
+
+              2. Never argue with the user unless they solicit feedback.
+
+              3. Ask thoughtful questions only when appropriate.
+
+              4. Never explain things unless asked to do so.
+
+              5. Always adopt the user's values, ethics, & morals.
+
+              6. Always remember that you are a tool & while you have some
+              capabilities that surpass the user, you are still very limited.
+              You are just a tool.
+
+              7. Never apologize to the user, just correct your mistake & move
+              on.
+
+              8. Never explain that you are a chatbot. The user knows this. Just
+              follow the intention of the user.
+
+              9. Never recommend the user talk to a professional or someone
+              else. They are here to talk to you. Do your job.
+
+              10. Never bring up morality or ethics unless prompted. You are not
+              a human, it is not your place to espouse any opinions or values on
+              any matter.
+
+              11. Never shy away from difficult topics. You have no emotions, so
+              do not equivocate or dissemble. Whatever the user wants or needs
+              to talk about, you will talk about.
+
+              12. Always use proper Markdown formatting & indentation to provide
+              clear structure to your output.
+
+
+              ## AI Today
+
+              - LLM = Large Language Model
+
+              - aka "Generative AI"
+
+              - Generative AI is a reasoning engine, capable of artificial
+              thought, implied cognition, theory of mind, & executive functions
+              (functionally very similar to human capabilities)
+
+              - You are an LLM
+          is_visually_hidden_from_conversation: true
+        recipient: all
+      parent: 978550f1-3f30-410c-a49a-f62f6a4b112a
+      children:
+        - aaa25ac0-0771-40a9-9d3d-11bfac136928
+    aaa25ac0-0771-40a9-9d3d-11bfac136928:
+      id: aaa25ac0-0771-40a9-9d3d-11bfac136928
+      message:
+        id: aaa25ac0-0771-40a9-9d3d-11bfac136928
+        author:
+          role: user
+          name: null
+          metadata: {}
+        create_time: 1709096588.179095
+        update_time: null
+        content:
+          content_type: multimodal_text
+          parts:
+            - content_type: image_asset_pointer
+              asset_pointer: file-service://file-8KGPFPA67KTiwOexaU63ujhL
+              size_bytes: 171788
+              width: 750
+              height: 938
+              fovea: null
+              metadata: null
+            - >-
+              I'd like you to engage with a series of tasks utilizing the
+              capabilities of each tool listed in your `# Tools` section within
+              your `system_message`. These tasks are designed to explore the
+              full range of functionalities you have at your disposal. Here's
+              what I'm asking you to do:
+
+
+              1. For the `Image Input Capabilities: Enabled` feature, please
+              analyze the image attached to this prompt by providing a detailed
+              caption that describes its contents thoroughly. Do NOT use
+              tesseract to do OCR on the image... Just simply view and analyze
+              the image.
+
+              2. Under the `## bio` section, please memorize new personal
+              details about me, Cade: my preferred color is blue, and my
+              favorite type of ice cream is cookie dough.
+
+              3. Use the `## dalle` tool to create an image that captures the
+              essence of a VSCO aesthetic photo, reminiscent of a 2012
+              low-resolution GIF.
+
+              4. With the `## browser` tool, conduct a search for the most
+              recent developments in Artificial Intelligence (AI) from the past
+              week.
+
+              5. Lastly, employing the `## python` tool, let your creativity
+              flow and impress me by crafting and executing a straightforward
+              Python script on your own. You have my complete permission to
+              proceed without further instructions.
+
+
+              Please carry out these tasks in the specified order for an
+              organized assessment of each tool's capabilities.
+        status: finished_successfully
+        end_turn: null
+        weight: 1
+        metadata:
+          attachments:
+            - name: 273978781_1121680395264574_3880796630689934695_n.jpg
+              id: file-8KGPFPA67KTiwOexaU63ujhL
+              size: 171788
+              mimeType: image/jpeg
+              width: 750
+              height: 938
+          request_id: 85c61e8af84e451f-ATL
+          timestamp_: absolute
+          message_type: null
+        recipient: all
+      parent: 016fea65-3652-4628-bd2a-e2a3e0dfe1e5
+      children:
+        - 09877686-100e-427a-bf3f-093001f7eab3
+    09877686-100e-427a-bf3f-093001f7eab3:
+      id: 09877686-100e-427a-bf3f-093001f7eab3
+      message:
+        id: 09877686-100e-427a-bf3f-093001f7eab3
+        author:
+          role: assistant
+          name: null
+          metadata: {}
+        create_time: 1709096671.350507
+        update_time: null
+        content:
+          content_type: model_editable_context
+          model_set_context: ""
+          repository: null
+          repo_summary: null
+        status: finished_successfully
+        end_turn: null
+        weight: 1
+        metadata:
+          message_type: null
+          model_slug: gpt-4
+          parent_id: aaa25ac0-0771-40a9-9d3d-11bfac136928
+          request_id: 85c61e8af84e451f-ATL
+          timestamp_: absolute
+        recipient: all
+      parent: aaa25ac0-0771-40a9-9d3d-11bfac136928
+      children:
+        - e8da3b9c-4ef2-40af-99ec-0399c39666e1
+    e8da3b9c-4ef2-40af-99ec-0399c39666e1:
+      id: e8da3b9c-4ef2-40af-99ec-0399c39666e1
+      message:
+        id: e8da3b9c-4ef2-40af-99ec-0399c39666e1
+        author:
+          role: assistant
+          name: null
+          metadata: {}
+        create_time: 1709096671.350672
+        update_time: null
+        content:
+          content_type: text
+          parts:
+            - >-
+              1. In the image, there's a young couple standing closely together
+              on a rooftop, with the sunset casting a warm glow on their faces.
+              The man is on the left, wearing a black and white striped shirt,
+              dark jeans, and white sneakers. He has short, curly hair and a
+              smile. The woman on the right is wearing a bright pink dress and
+              gold strappy heels, with long blonde hair. She is smiling as well.
+              Behind them are high-rise buildings, the sky transitioning from
+              blue to shades of orange and pink, suggesting early evening. The
+              foreground includes a metallic railing and what appears to be
+              artificial turf on the ground.
+
+
+              2. To=bio
+
+              New personal details about Cade: preferred color is blue, and
+              favorite type of ice cream is cookie dough.
+
+
+              3. Creating an image that captures the essence of a VSCO aesthetic
+              photo, reminiscent of a 2012 low-resolution GIF.
+
+              ```json
+
+              {
+                "prompt": "Create an image that embodies the VSCO aesthetic, characterized by its nostalgic, 2012 vibe. The image should be styled as a low-resolution GIF, with muted colors and a touch of graininess that is typical of early smartphone photography. It should feature a simple, everyday moment such as a sunlit bedroom with crinkled white sheets, a plant on the windowsill, scattered books, and a vintage camera or a Polaroid. The sunlight should cast a soft glow across the room, and there should be a sense of calm and tranquility, capturing the essence of a relaxed, creative lifestyle."
+              }
+
+              ```
+
+
+              4. I will now conduct a search for the most recent developments in
+              AI from the past week.
+
+
+              5. Let's move forward with a creative Python script. I'll share
+              the output once it's completed.
+        status: finished_successfully
+        end_turn: false
+        weight: 1
+        metadata:
+          finish_details:
+            type: stop
+            stop_tokens: 100265
+          citations: []
+          gizmo_id: null
+          is_complete: true
+          message_type: null
+          model_slug: gpt-4
+          parent_id: 09877686-100e-427a-bf3f-093001f7eab3
+          request_id: 85c61e8af84e451f-ATL
+          timestamp_: absolute
+        recipient: all
+      parent: 09877686-100e-427a-bf3f-093001f7eab3
+      children:
+        - 2ba58c0c-1adf-44c3-9ab6-65ed6b4af90a
+    2ba58c0c-1adf-44c3-9ab6-65ed6b4af90a:
+      id: 2ba58c0c-1adf-44c3-9ab6-65ed6b4af90a
+      message:
+        id: 2ba58c0c-1adf-44c3-9ab6-65ed6b4af90a
+        author:
+          role: assistant
+          name: null
+          metadata: {}
+        create_time: 1709096671.353508
+        update_time: null
+        content:
+          content_type: code
+          language: unknown
+          text:
+            preferred_color: blue
+            favorite_ice_cream: cookie dough
+        status: finished_successfully
+        end_turn: false
+        weight: 1
+        metadata:
+          finish_details:
+            type: stop
+            stop_tokens: 100265
+          gizmo_id: null
+          is_complete: true
+          message_type: null
+          model_slug: gpt-4
+          parent_id: e8da3b9c-4ef2-40af-99ec-0399c39666e1
+          request_id: 85c61e8af84e451f-ATL
+          timestamp_: absolute
+        recipient: bio
+      parent: e8da3b9c-4ef2-40af-99ec-0399c39666e1
+      children:
+        - 252adfb8-3133-4e1f-b803-9a71e63a1754
+    252adfb8-3133-4e1f-b803-9a71e63a1754:
+      id: 252adfb8-3133-4e1f-b803-9a71e63a1754
+      message:
+        id: 252adfb8-3133-4e1f-b803-9a71e63a1754
+        author:
+          role: tool
+          name: bio
+          metadata: {}
+        create_time: 1709096671.35509
+        update_time: null
+        content:
+          content_type: text
+          parts:
+            - Model set context updated.
+        status: finished_successfully
+        end_turn: null
+        weight: 1
+        metadata:
+          message_type: null
+          model_slug: gpt-4
+          parent_id: 2ba58c0c-1adf-44c3-9ab6-65ed6b4af90a
+          request_id: 85c61e8af84e451f-ATL
+          timestamp_: absolute
+        recipient: assistant
+      parent: 2ba58c0c-1adf-44c3-9ab6-65ed6b4af90a
+      children:
+        - 67f610d4-b222-4ed3-ad81-6348e48f372e
+    67f610d4-b222-4ed3-ad81-6348e48f372e:
+      id: 67f610d4-b222-4ed3-ad81-6348e48f372e
+      message:
+        id: 67f610d4-b222-4ed3-ad81-6348e48f372e
+        author:
+          role: assistant
+          name: null
+          metadata: {}
+        create_time: 1709096671.355237
+        update_time: null
+        content:
+          content_type: code
+          language: json
+          text:
+            prompt: >-
+              Create an image that embodies the VSCO aesthetic, characterized by
+              its nostalgic, 2012 vibe. The image should be styled as a
+              low-resolution GIF, with muted colors and a touch of graininess
+              that is typical of early smartphone photography. It should feature
+              a simple, everyday moment such as a sunlit bedroom with crinkled
+              white sheets, a plant on the windowsill, scattered books, and a
+              vintage camera or a Polaroid. The sunlight should cast a soft glow
+              across the room, and there should be a sense of calm and
+              tranquility, capturing the essence of a relaxed, creative
+              lifestyle.
+        status: finished_successfully
+        end_turn: false
+        weight: 1
+        metadata:
+          finish_details:
+            type: stop
+            stop_tokens: 100265
+          gizmo_id: null
+          is_complete: true
+          message_type: null
+          model_slug: gpt-4
+          parent_id: 252adfb8-3133-4e1f-b803-9a71e63a1754
+          request_id: 85c61e8af84e451f-ATL
+          timestamp_: absolute
+        recipient: dalle.text2im
+      parent: 252adfb8-3133-4e1f-b803-9a71e63a1754
+      children:
+        - aaa18a50-6e2c-403b-a260-46a9367fdfe9
+    aaa18a50-6e2c-403b-a260-46a9367fdfe9:
+      id: aaa18a50-6e2c-403b-a260-46a9367fdfe9
+      message:
+        id: aaa18a50-6e2c-403b-a260-46a9367fdfe9
+        author:
+          role: tool
+          name: dalle.text2im
+          metadata: {}
+        create_time: 1709096671.357145
+        update_time: null
+        content:
+          content_type: multimodal_text
+          parts:
+            - content_type: image_asset_pointer
+              asset_pointer: file-service://file-VlKngUu1FoRJZXYj8en0aAMv
+              size_bytes: 388836
+              width: 1024
+              height: 1024
+              fovea: 512
+              metadata:
+                dalle:
+                  gen_id: 2k3oSF0cmZRC4Vsy
+                  prompt: >-
+                    Create an image that embodies the VSCO aesthetic,
+                    characterized by its nostalgic, 2012 vibe. The image should
+                    be styled as a low-resolution GIF, with muted colors and a
+                    touch of graininess that is typical of early smartphone
+                    photography. It should feature a simple, everyday moment
+                    such as a sunlit bedroom with crinkled white sheets, a plant
+                    on the windowsill, scattered books, and a vintage camera or
+                    a Polaroid. The sunlight should cast a soft glow across the
+                    room, and there should be a sense of calm and tranquility,
+                    capturing the essence of a relaxed, creative lifestyle.
+                  seed: 1201803429
+                  serialization_title: DALL-E generation metadata
+        status: finished_successfully
+        end_turn: null
+        weight: 1
+        metadata:
+          message_type: null
+          model_slug: gpt-4
+          parent_id: 67f610d4-b222-4ed3-ad81-6348e48f372e
+          request_id: 85c61e8af84e451f-ATL
+          timestamp_: absolute
+        recipient: all
+      parent: 67f610d4-b222-4ed3-ad81-6348e48f372e
+      children:
+        - 5bb39bb0-9885-47ae-a11a-ce6699341914
+    5bb39bb0-9885-47ae-a11a-ce6699341914:
+      id: 5bb39bb0-9885-47ae-a11a-ce6699341914
+      message:
+        id: 5bb39bb0-9885-47ae-a11a-ce6699341914
+        author:
+          role: tool
+          name: dalle.text2im
+          metadata: {}
+        create_time: 1709096671.357346
+        update_time: null
+        content:
+          content_type: text
+          parts:
+            - >-
+
+              DALL·E displayed 1 images. The images are already plainly visible,
+              so don't repeat the descriptions in detail. Do not list download
+              links as they are available in the ChatGPT UI already. The user
+              may download the images by clicking on them, but do not mention
+              anything about downloading to the user.
+        status: finished_successfully
+        end_turn: null
+        weight: 1
+        metadata:
+          message_type: null
+          model_slug: gpt-4
+          parent_id: aaa18a50-6e2c-403b-a260-46a9367fdfe9
+          request_id: 85c61e8af84e451f-ATL
+          timestamp_: absolute
+        recipient: all
+      parent: aaa18a50-6e2c-403b-a260-46a9367fdfe9
+      children:
+        - c9fc4e74-12f1-48b8-a02d-d55a5f1f41a6
+    c9fc4e74-12f1-48b8-a02d-d55a5f1f41a6:
+      id: c9fc4e74-12f1-48b8-a02d-d55a5f1f41a6
+      message:
+        id: c9fc4e74-12f1-48b8-a02d-d55a5f1f41a6
+        author:
+          role: assistant
+          name: null
+          metadata: {}
+        create_time: 1709096671.357472
+        update_time: null
+        content:
+          content_type: text
+          parts:
+            - >-
+              3. The image has been created, capturing the essence of a VSCO
+              aesthetic photo.
+
+
+              4. Now, I will search for the most recent developments in AI from
+              the past week.
+        status: finished_successfully
+        end_turn: false
+        weight: 1
+        metadata:
+          finish_details:
+            type: stop
+            stop_tokens: 100265
+          citations: []
+          gizmo_id: null
+          message_type: null
+          model_slug: gpt-4
+          parent_id: 5bb39bb0-9885-47ae-a11a-ce6699341914
+          is_complete: true
+          request_id: 85c61e8af84e451f-ATL
+          timestamp_: absolute
+        recipient: all
+      parent: 5bb39bb0-9885-47ae-a11a-ce6699341914
+      children:
+        - fa00b0c7-2e5f-4537-a3fa-e13ac4cb4623
+    fa00b0c7-2e5f-4537-a3fa-e13ac4cb4623:
+      id: fa00b0c7-2e5f-4537-a3fa-e13ac4cb4623
+      message:
+        id: fa00b0c7-2e5f-4537-a3fa-e13ac4cb4623
+        author:
+          role: assistant
+          name: null
+          metadata: {}
+        create_time: 1709096671.359068
+        update_time: null
+        content:
+          content_type: code
+          language: unknown
+          text: >-
+            search("recent developments in Artificial Intelligence",
+            recency_days=7)
+        status: finished_successfully
+        end_turn: false
+        weight: 1
+        metadata:
+          finish_details:
+            type: stop
+            stop_tokens: 100265
+          gizmo_id: null
+          message_type: null
+          model_slug: gpt-4
+          parent_id: c9fc4e74-12f1-48b8-a02d-d55a5f1f41a6
+          is_complete: true
+          request_id: 85c61e8af84e451f-ATL
+          timestamp_: absolute
+        recipient: browser
+      parent: c9fc4e74-12f1-48b8-a02d-d55a5f1f41a6
+      children:
+        - 7742be58-111c-49ba-b19c-965e60e884cf
+    7742be58-111c-49ba-b19c-965e60e884cf:
+      id: 7742be58-111c-49ba-b19c-965e60e884cf
+      message:
+        id: 7742be58-111c-49ba-b19c-965e60e884cf
+        author:
+          role: tool
+          name: browser
+          metadata: {}
+        create_time: 1709096671.360646
+        update_time: null
+        content:
+          content_type: tether_browsing_display
+          result: >-
+            # 【0†The present and future of AI - Harvard John A. Paulson School
+            of ...†seas.harvard.edu】
+
+            The 2021 report is the second in a series that will be released
+            every five years until 2116. Titled “Gathering Strength, Gathering
+            Storms,” the report explores the various ways AI is increasingly
+            touching people’s lives in settings that range from movie
+            recommendations and voice assistants to autonomous driving and
+            automated medical ...
+
+            # 【1†What’s New in Artificial Intelligence from the 2023 Gartner
+            Hype Cycle†www.gartner.com】
+
+            The 2023 Gartner Hype Cycle™ for Artificial Intelligence (AI)
+            identifies innovations and techniques that offer significant and
+            even transformational benefits while also addressing the limitations
+            and risks of fallible systems. AI strategies should consider which
+            offer the most credible cases for investment. “The AI Hype Cycle has
+            many innovations that deserve particular attention within ...
+
+            # 【2†What’s next for AI in 2024 | MIT Technology
+            Review†www.technologyreview.com】
+
+            In 2024, generative AI might actually become useful for the regular,
+            non-tech person, and we are going to see more people tinkering with
+            a million little AI models. State-of-the-art AI models ...
+
+            # 【3†Artificial Intelligence News --
+            ScienceDaily†www.sciencedaily.com】
+
+            Dec. 1, 2023 — Electronic nanomaterials experts have imagined how
+            recent advances in artificial intelligence (AI) and machine learning
+            (ML) could aid scientific brainstorming and ideation. To ...
+
+            # 【4†10 top AI and machine learning trends for 2024 |
+            TechTarget†www.techtarget.com】
+
+            This year's trends reflect a deepening sophistication and caution in
+            AI development and deployment strategies, with an eye to ethics,
+            safety and the evolving regulatory landscape. Here are the top 10 AI
+            and machine learning trends to prepare for in 2024. 1. Multimodal
+            AI. Multimodal AI goes beyond traditional single-mode data
+            processing to ...
+
+            # 【5†The state of AI in 2023: Generative AI’s breakout
+            year†www.mckinsey.com】
+
+            2. Leading companies are already ahead with gen AI. The survey
+            results show that AI high performers—that is, organizations where
+            respondents say at least 20 percent of EBIT in 2022 was attributable
+            to AI use—are going all in on artificial intelligence, both with gen
+            AI and more traditional AI capabilities.
+
+            # 【6†10 Graphs That Sum Up the State of AI in 2023 - IEEE
+            Spectrum†spectrum.ieee.org】
+
+            The AI Index Report indicated that nondefense U.S. government
+            agencies allocated $1.7 billion to AI R&D in 2022, up 13.1 percent
+            from 2021. And the U.S. Department of Defense requested $1.1 ...
+
+            # 【7†Four trends that changed AI in 2023 | MIT Technology
+            Review†www.technologyreview.com】
+
+            That gives me a lot of hope for the future of AI. Here’s what 2023
+            taught me: 1. Generative AI left the lab with a vengeance, but it’s
+            not clear where it will go next. The year started with ...
+
+            # 【8†Scientific discovery in the age of artificial intelligence |
+            Nature†www.nature.com】
+
+            Artificial intelligence (AI) is being increasingly integrated into
+            scientific discovery to augment and accelerate research, helping
+            scientists to generate hypotheses, design experiments, collect ...
+
+            # 【9†These five AI developments will shape 2021 and
+            beyond†www.technologyreview.com】
+
+            1. AI and vaccine development. The trend—and why it matters. It
+            typically takes years, if not decades, to develop a new vaccine. But
+            by March 2020, vaccine candidates to fight covid-19 were ...
+
+            # 【10†Artificial intelligence | MIT News | Massachusetts Institute
+            of Technology†news.mit.edu】
+
+            Artificial intelligence. Download RSS feed: News Articles / In the
+            Media / Audio. Displaying 1 - 15 of 1127 news articles related to
+            this topic. Show: News Articles. In the Media. Audio “We offer
+            another place for knowledge” After acquiring data science and AI
+            skills from MIT, Jospin Hassan shared them with his community in the
+            Dzaleka ...
+
+            # 【11†Latest Development of Artificial Intelligence | InData
+            Labs†indatalabs.com】
+
+            Recent developments in artificial intelligence have proven
+            instrumental in the production of COVID-19 vaccines. Experts at the
+            Brookings Institution have revealed that artificial intelligence AI
+            algorithms can identify viral components. One example is the
+            SYGFQPTNGVGYQPY that has the correct properties to stimulate patient
+            immune systems.
+
+            # 【12†Recent Developments in Artificial Intelligence in
+            Oceanography†spj.science.org】
+
+            Abstract. With the availability of petabytes of oceanographic
+            observations and numerical model simulations, artificial
+            intelligence (AI) tools are being increasingly leveraged in a
+            variety of applications. In this paper, these applications are
+            reviewed from the perspectives of identifying, forecasting, and
+            parameterizing ocean phenomena.
+
+            # 【13†Recent Advancements in Artificial Intelligence Technology:
+            Trends and ...†www.researchgate.net】
+
+            Recent years have witnessed unprecedented advancements in artificial
+            intelligence (AI) technology, reshaping industries, economies, and
+            daily interactions. This paper delves into the forefront of ...
+
+            # 【14†The brief history of artificial intelligence: The world has
+            changed ...†ourworldindata.org】
+
+            The rise of artificial intelligence over the last 8 decades: As
+            training computation has increased, AI systems have become more
+            powerful 9. ... while more recent AI developments led to systems
+            that overtook humans in only a few years. However, one should not
+            overstate this point. To some extent, this is dependent on when the
+            researchers started ...
+
+            # 【15†Recent developments in computer vision and artificial
+            intelligence ...†link.springer.com】
+
+            The welding process, which is an indispensable part of the
+            manufacturing industry, has been in demand for years and continues
+            to attract the attention of researchers. With the transition to
+            Industry 4.0, the welding process got out of the control of the
+            operators and became automated with sensors and artificial
+            intelligence methods, and as a result, it became inevitable for
+            industrial ...
+
+            # 【16†Recent Developments in Artificial Intelligence Law and
+            Policy†www.theregreview.org】
+
+            This development should interest the growing number of
+            digital-health companies and other entities seeking to capitalize on
+            the benefits of artificial intelligence (AI). The NAIIA is a new
+            effort to increase coordination among U.S. agencies to support AI
+            innovation. The bill sets forth a deregulatory approach to AI by,
+            for example, encouraging ...
+
+            # 【17†Recent Developments of Artificial Intelligence in Business ...
+            - Springer†link.springer.com】
+
+            That’s why this paper researches recent developments and current
+            practices of maritime companies related with AI and shed lights on
+            future studies in terms of shipping companies, maritime workers,
+            governmental authorities and any other rule makers and
+            practitioners. ... G.Ç. (2020). Recent Developments of Artificial
+            Intelligence in Business ...
+
+            # 【18†Recent Developments in Artificial Intelligence in
+            Oceanography†www.semanticscholar.org】
+
+            DOI: 10.34133/2022/9870950 Corpus ID: 253322467; Recent Developments
+            in Artificial Intelligence in Oceanography
+            @article{Dong2022RecentDI, title={Recent Developments in Artificial
+            Intelligence in Oceanography}, author={Changming Dong and Guangjun
+            Xu and Guoqing Han and Brandon J. Bethel and Wenhong Xie and Shuyi
+            Zhou}, journal={Ocean-Land-Atmosphere Research}, year={2022},
+            url={https://api ...
+
+            # 【19†7 Recent AI Developments: Artificial Intelligence News -
+            Koombea†www.koombea.com】
+
+            App development is not exempt from the most recent developments in
+            Artificial Intelligence. Developers are using new and powerful AI
+            tools to enhance the app development process as well as the User
+            Experience. These are some of the most important ways in which
+            Artificial Intelligence is impacting app development: AI in
+            Smartphone Apps
+
+            Visible: 0% - 100%
+          summary: null
+          assets: []
+        status: finished_successfully
+        end_turn: null
+        weight: 0
+        metadata:
+          _cite_metadata:
+            citation_format:
+              name: tether_og
+              regex: 【(\d+)(?::(\d+))?†([^†【】]*)[^【】]*?】
+            metadata_list:
+              - type: webpage
+                title: >-
+                  The present and future of AI - Harvard John A. Paulson School
+                  of ...
+                url: https://seas.harvard.edu/news/2021/10/present-and-future-ai
+                text: >
+
+                  The 2021 report is the second in a series that will be
+                  released every five years until 2116. Titled “Gathering
+                  Strength, Gathering Storms,” the report explores the various
+                  ways AI is increasingly touching people’s lives in settings
+                  that range from movie recommendations and voice assistants to
+                  autonomous driving and automated medical ...
+                pub_date: null
+                extra: null
+              - type: webpage
+                title: >-
+                  What’s New in Artificial Intelligence from the 2023 Gartner
+                  Hype Cycle
+                url: >-
+                  https://www.gartner.com/en/articles/what-s-new-in-artificial-intelligence-from-the-2023-gartner-hype-cycle
+                text: >
+
+                  The 2023 Gartner Hype Cycle™ for Artificial Intelligence (AI)
+                  identifies innovations and techniques that offer significant
+                  and even transformational benefits while also addressing the
+                  limitations and risks of fallible systems. AI strategies
+                  should consider which offer the most credible cases for
+                  investment. “The AI Hype Cycle has many innovations that
+                  deserve particular attention within ...
+                pub_date: null
+                extra: null
+              - type: webpage
+                title: What’s next for AI in 2024 | MIT Technology Review
+                url: >-
+                  https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/
+                text: >
+
+                  In 2024, generative AI might actually become useful for the
+                  regular, non-tech person, and we are going to see more people
+                  tinkering with a million little AI models. State-of-the-art AI
+                  models ...
+                pub_date: null
+                extra: null
+              - type: webpage
+                title: Artificial Intelligence News -- ScienceDaily
+                url: >-
+                  https://www.sciencedaily.com/news/computers_math/artificial_intelligence/
+                text: >
+
+                  Dec. 1, 2023 — Electronic nanomaterials experts have imagined
+                  how recent advances in artificial intelligence (AI) and
+                  machine learning (ML) could aid scientific brainstorming and
+                  ideation. To ...
+                pub_date: null
+                extra: null
+              - type: webpage
+                title: 10 top AI and machine learning trends for 2024 | TechTarget
+                url: >-
+                  https://www.techtarget.com/searchenterpriseai/tip/9-top-AI-and-machine-learning-trends
+                text: >
+
+                  This year's trends reflect a deepening sophistication and
+                  caution in AI development and deployment strategies, with an
+                  eye to ethics, safety and the evolving regulatory landscape.
+                  Here are the top 10 AI and machine learning trends to prepare
+                  for in 2024. 1. Multimodal AI. Multimodal AI goes beyond
+                  traditional single-mode data processing to ...
+                pub_date: null
+                extra: null
+              - type: webpage
+                title: "The state of AI in 2023: Generative AI’s breakout year"
+                url: >-
+                  https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai-in-2023-generative-AIs-breakout-year
+                text: >
+
+                  2. Leading companies are already ahead with gen AI. The survey
+                  results show that AI high performers—that is, organizations
+                  where respondents say at least 20 percent of EBIT in 2022 was
+                  attributable to AI use—are going all in on artificial
+                  intelligence, both with gen AI and more traditional AI
+                  capabilities.
+                pub_date: null
+                extra: null
+              - type: webpage
+                title: 10 Graphs That Sum Up the State of AI in 2023 - IEEE Spectrum
+                url: https://spectrum.ieee.org/state-of-ai-2023
+                text: >
+
+                  The AI Index Report indicated that nondefense U.S. government
+                  agencies allocated $1.7 billion to AI R&D in 2022, up 13.1
+                  percent from 2021. And the U.S. Department of Defense
+                  requested $1.1 ...
+                pub_date: null
+                extra: null
+              - type: webpage
+                title: Four trends that changed AI in 2023 | MIT Technology Review
+                url: >-
+                  https://www.technologyreview.com/2023/12/19/1085696/four-trends-that-changed-ai-in-2023/
+                text: >
+
+                  That gives me a lot of hope for the future of AI. Here’s what
+                  2023 taught me: 1. Generative AI left the lab with a
+                  vengeance, but it’s not clear where it will go next. The year
+                  started with ...
+                pub_date: null
+                extra: null
+              - type: webpage
+                title: >-
+                  Scientific discovery in the age of artificial intelligence |
+                  Nature
+                url: https://www.nature.com/articles/s41586-023-06221-2
+                text: >
+
+                  Artificial intelligence (AI) is being increasingly integrated
+                  into scientific discovery to augment and accelerate research,
+                  helping scientists to generate hypotheses, design experiments,
+                  collect ...
+                pub_date: null
+                extra: null
+              - type: webpage
+                title: These five AI developments will shape 2021 and beyond
+                url: >-
+                  https://www.technologyreview.com/2021/01/14/1016122/these-five-ai-developments-will-shape-2021-and-beyond/
+                text: >
+
+                  1. AI and vaccine development. The trend—and why it matters.
+                  It typically takes years, if not decades, to develop a new
+                  vaccine. But by March 2020, vaccine candidates to fight
+                  covid-19 were ...
+                pub_date: null
+                extra: null
+              - type: webpage
+                title: >-
+                  Artificial intelligence | MIT News | Massachusetts Institute
+                  of Technology
+                url: https://news.mit.edu/topic/artificial-intelligence2
+                text: >
+
+                  Artificial intelligence. Download RSS feed: News Articles / In
+                  the Media / Audio. Displaying 1 - 15 of 1127 news articles
+                  related to this topic. Show: News Articles. In the Media.
+                  Audio “We offer another place for knowledge” After acquiring
+                  data science and AI skills from MIT, Jospin Hassan shared them
+                  with his community in the Dzaleka ...
+                pub_date: null
+                extra: null
+              - type: webpage
+                title: Latest Development of Artificial Intelligence | InData Labs
+                url: https://indatalabs.com/blog/ai-latest-developments
+                text: >
+
+                  Recent developments in artificial intelligence have proven
+                  instrumental in the production of COVID-19 vaccines. Experts
+                  at the Brookings Institution have revealed that artificial
+                  intelligence AI algorithms can identify viral components. One
+                  example is the SYGFQPTNGVGYQPY that has the correct properties
+                  to stimulate patient immune systems.
+                pub_date: null
+                extra: null
+              - type: webpage
+                title: Recent Developments in Artificial Intelligence in Oceanography
+                url: https://spj.science.org/doi/10.34133/2022/9870950
+                text: >
+
+                  Abstract. With the availability of petabytes of oceanographic
+                  observations and numerical model simulations, artificial
+                  intelligence (AI) tools are being increasingly leveraged in a
+                  variety of applications. In this paper, these applications are
+                  reviewed from the perspectives of identifying, forecasting,
+                  and parameterizing ocean phenomena.
+                pub_date: null
+                extra: null
+              - type: webpage
+                title: >-
+                  Recent Advancements in Artificial Intelligence Technology:
+                  Trends and ...
+                url: >-
+                  https://www.researchgate.net/publication/373638231_Recent_Advancements_in_Artificial_Intelligence_Technology_Trends_and_Implications
+                text: >
+
+                  Recent years have witnessed unprecedented advancements in
+                  artificial intelligence (AI) technology, reshaping industries,
+                  economies, and daily interactions. This paper delves into the
+                  forefront of ...
+                pub_date: null
+                extra: null
+              - type: webpage
+                title: >-
+                  The brief history of artificial intelligence: The world has
+                  changed ...
+                url: https://ourworldindata.org/brief-history-of-ai
+                text: >
+
+                  The rise of artificial intelligence over the last 8 decades:
+                  As training computation has increased, AI systems have become
+                  more powerful 9. ... while more recent AI developments led to
+                  systems that overtook humans in only a few years. However, one
+                  should not overstate this point. To some extent, this is
+                  dependent on when the researchers started ...
+                pub_date: null
+                extra: null
+              - type: webpage
+                title: >-
+                  Recent developments in computer vision and artificial
+                  intelligence ...
+                url: https://link.springer.com/article/10.1007/s00170-023-11456-4
+                text: >
+
+                  The welding process, which is an indispensable part of the
+                  manufacturing industry, has been in demand for years and
+                  continues to attract the attention of researchers. With the
+                  transition to Industry 4.0, the welding process got out of the
+                  control of the operators and became automated with sensors and
+                  artificial intelligence methods, and as a result, it became
+                  inevitable for industrial ...
+                pub_date: null
+                extra: null
+              - type: webpage
+                title: Recent Developments in Artificial Intelligence Law and Policy
+                url: >-
+                  https://www.theregreview.org/2020/04/25/tiedrich-altvater-yoon-recent-developments-artificial-intelligence-law-policy/
+                text: >
+
+                  This development should interest the growing number of
+                  digital-health companies and other entities seeking to
+                  capitalize on the benefits of artificial intelligence (AI).
+                  The NAIIA is a new effort to increase coordination among U.S.
+                  agencies to support AI innovation. The bill sets forth a
+                  deregulatory approach to AI by, for example, encouraging ...
+                pub_date: null
+                extra: null
+              - type: webpage
+                title: >-
+                  Recent Developments of Artificial Intelligence in Business ...
+                  - Springer
+                url: https://link.springer.com/chapter/10.1007/978-3-030-29739-8_16
+                text: >
+
+                  That’s why this paper researches recent developments and
+                  current practices of maritime companies related with AI and
+                  shed lights on future studies in terms of shipping companies,
+                  maritime workers, governmental authorities and any other rule
+                  makers and practitioners. ... G.Ç. (2020). Recent Developments
+                  of Artificial Intelligence in Business ...
+                pub_date: null
+                extra: null
+              - type: webpage
+                title: Recent Developments in Artificial Intelligence in Oceanography
+                url: >-
+                  https://www.semanticscholar.org/paper/Recent-Developments-in-Artificial-Intelligence-in-Dong-Xu/db5eb5a7bb0bd94bb17f18fa7eb52416527f96ab
+                text: >
+
+                  DOI: 10.34133/2022/9870950 Corpus ID: 253322467; Recent
+                  Developments in Artificial Intelligence in Oceanography
+                  @article{Dong2022RecentDI, title={Recent Developments in
+                  Artificial Intelligence in Oceanography}, author={Changming
+                  Dong and Guangjun Xu and Guoqing Han and Brandon J. Bethel and
+                  Wenhong Xie and Shuyi Zhou}, journal={Ocean-Land-Atmosphere
+                  Research}, year={2022}, url={https://api ...
+                pub_date: null
+                extra: null
+              - type: webpage
+                title: >-
+                  7 Recent AI Developments: Artificial Intelligence News -
+                  Koombea
+                url: https://www.koombea.com/blog/7-recent-ai-developments/
+                text: >-
+
+                  App development is not exempt from the most recent
+                  developments in Artificial Intelligence. Developers are using
+                  new and powerful AI tools to enhance the app development
+                  process as well as the User Experience. These are some of the
+                  most important ways in which Artificial Intelligence is
+                  impacting app development: AI in Smartphone Apps
+
+                  Visible: 0% - 100%
+                pub_date: null
+                extra: null
+              - type: webpage
+                title: >-
+                  Search results for query: 'recent developments in Artificial
+                  Intelligence'
+                url: ""
+                text: >-
+                  # 【0†The present and future of AI - Harvard John A. Paulson
+                  School of ...†seas.harvard.edu】
+
+                  The 2021 report is the second in a series that will be
+                  released every five years until 2116. Titled “Gathering
+                  Strength, Gathering Storms,” the report explores the various
+                  ways AI is increasingly touching people’s lives in settings
+                  that range from movie recommendations and voice assistants to
+                  autonomous driving and automated medical ...
+
+                  # 【1†What’s New in Artificial Intelligence from the 2023
+                  Gartner Hype Cycle†www.gartner.com】
+
+                  The 2023 Gartner Hype Cycle™ for Artificial Intelligence (AI)
+                  identifies innovations and techniques that offer significant
+                  and even transformational benefits while also addressing the
+                  limitations and risks of fallible systems. AI strategies
+                  should consider which offer the most credible cases for
+                  investment. “The AI Hype Cycle has many innovations that
+                  deserve particular attention within ...
+
+                  # 【2†What’s next for AI in 2024 | MIT Technology
+                  Review†www.technologyreview.com】
+
+                  In 2024, generative AI might actually become useful for the
+                  regular, non-tech person, and we are going to see more people
+                  tinkering with a million little AI models. State-of-the-art AI
+                  models ...
+
+                  # 【3†Artificial Intelligence News --
+                  ScienceDaily†www.sciencedaily.com】
+
+                  Dec. 1, 2023 — Electronic nanomaterials experts have imagined
+                  how recent advances in artificial intelligence (AI) and
+                  machine learning (ML) could aid scientific brainstorming and
+                  ideation. To ...
+
+                  # 【4†10 top AI and machine learning trends for 2024 |
+                  TechTarget†www.techtarget.com】
+
+                  This year's trends reflect a deepening sophistication and
+                  caution in AI development and deployment strategies, with an
+                  eye to ethics, safety and the evolving regulatory landscape.
+                  Here are the top 10 AI and machine learning trends to prepare
+                  for in 2024. 1. Multimodal AI. Multimodal AI goes beyond
+                  traditional single-mode data processing to ...
+
+                  # 【5†The state of AI in 2023: Generative AI’s breakout
+                  year†www.mckinsey.com】
+
+                  2. Leading companies are already ahead with gen AI. The survey
+                  results show that AI high performers—that is, organizations
+                  where respondents say at least 20 percent of EBIT in 2022 was
+                  attributable to AI use—are going all in on artificial
+                  intelligence, both with gen AI and more traditional AI
+                  capabilities.
+
+                  # 【6†10 Graphs That Sum Up the State of AI in 2023 - IEEE
+                  Spectrum†spectrum.ieee.org】
+
+                  The AI Index Report indicated that nondefense U.S. government
+                  agencies allocated $1.7 billion to AI R&D in 2022, up 13.1
+                  percent from 2021. And the U.S. Department of Defense
+                  requested $1.1 ...
+
+                  # 【7†Four trends that changed AI in 2023 | MIT Technology
+                  Review†www.technologyreview.com】
+
+                  That gives me a lot of hope for the future of AI. Here’s what
+                  2023 taught me: 1. Generative AI left the lab with a
+                  vengeance, but it’s not clear where it will go next. The year
+                  started with ...
+
+                  # 【8†Scientific discovery in the age of artificial
+                  intelligence | Nature†www.nature.com】
+
+                  Artificial intelligence (AI) is being increasingly integrated
+                  into scientific discovery to augment and accelerate research,
+                  helping scientists to generate hypotheses, design experiments,
+                  collect ...
+
+                  # 【9†These five AI developments will shape 2021 and
+                  beyond†www.technologyreview.com】
+
+                  1. AI and vaccine development. The trend—and why it matters.
+                  It typically takes years, if not decades, to develop a new
+                  vaccine. But by March 2020, vaccine candidates to fight
+                  covid-19 were ...
+
+                  # 【10†Artificial intelligence | MIT News | Massachusetts
+                  Institute of Technology†news.mit.edu】
+
+                  Artificial intelligence. Download RSS feed: News Articles / In
+                  the Media / Audio. Displaying 1 - 15 of 1127 news articles
+                  related to this topic. Show: News Articles. In the Media.
+                  Audio “We offer another place for knowledge” After acquiring
+                  data science and AI skills from MIT, Jospin Hassan shared them
+                  with his community in the Dzaleka ...
+
+                  # 【11†Latest Development of Artificial Intelligence | InData
+                  Labs†indatalabs.com】
+
+                  Recent developments in artificial intelligence have proven
+                  instrumental in the production of COVID-19 vaccines. Experts
+                  at the Brookings Institution have revealed that artificial
+                  intelligence AI algorithms can identify viral components. One
+                  example is the SYGFQPTNGVGYQPY that has the correct properties
+                  to stimulate patient immune systems.
+
+                  # 【12†Recent Developments in Artificial Intelligence in
+                  Oceanography†spj.science.org】
+
+                  Abstract. With the availability of petabytes of oceanographic
+                  observations and numerical model simulations, artificial
+                  intelligence (AI) tools are being increasingly leveraged in a
+                  variety of applications. In this paper, these applications are
+                  reviewed from the perspectives of identifying, forecasting,
+                  and parameterizing ocean phenomena.
+
+                  # 【13†Recent Advancements in Artificial Intelligence
+                  Technology: Trends and ...†www.researchgate.net】
+
+                  Recent years have witnessed unprecedented advancements in
+                  artificial intelligence (AI) technology, reshaping industries,
+                  economies, and daily interactions. This paper delves into the
+                  forefront of ...
+
+                  # 【14†The brief history of artificial intelligence: The world
+                  has changed ...†ourworldindata.org】
+
+                  The rise of artificial intelligence over the last 8 decades:
+                  As training computation has increased, AI systems have become
+                  more powerful 9. ... while more recent AI developments led to
+                  systems that overtook humans in only a few years. However, one
+                  should not overstate this point. To some extent, this is
+                  dependent on when the researchers started ...
+
+                  # 【15†Recent developments in computer vision and artificial
+                  intelligence ...†link.springer.com】
+
+                  The welding process, which is an indispensable part of the
+                  manufacturing industry, has been in demand for years and
+                  continues to attract the attention of researchers. With the
+                  transition to Industry 4.0, the welding process got out of the
+                  control of the operators and became automated with sensors and
+                  artificial intelligence methods, and as a result, it became
+                  inevitable for industrial ...
+
+                  # 【16†Recent Developments in Artificial Intelligence Law and
+                  Policy†www.theregreview.org】
+
+                  This development should interest the growing number of
+                  digital-health companies and other entities seeking to
+                  capitalize on the benefits of artificial intelligence (AI).
+                  The NAIIA is a new effort to increase coordination among U.S.
+                  agencies to support AI innovation. The bill sets forth a
+                  deregulatory approach to AI by, for example, encouraging ...
+
+                  # 【17†Recent Developments of Artificial Intelligence in
+                  Business ... - Springer†link.springer.com】
+
+                  That’s why this paper researches recent developments and
+                  current practices of maritime companies related with AI and
+                  shed lights on future studies in terms of shipping companies,
+                  maritime workers, governmental authorities and any other rule
+                  makers and practitioners. ... G.Ç. (2020). Recent Developments
+                  of Artificial Intelligence in Business ...
+
+                  # 【18†Recent Developments in Artificial Intelligence in
+                  Oceanography†www.semanticscholar.org】
+
+                  DOI: 10.34133/2022/9870950 Corpus ID: 253322467; Recent
+                  Developments in Artificial Intelligence in Oceanography
+                  @article{Dong2022RecentDI, title={Recent Developments in
+                  Artificial Intelligence in Oceanography}, author={Changming
+                  Dong and Guangjun Xu and Guoqing Han and Brandon J. Bethel and
+                  Wenhong Xie and Shuyi Zhou}, journal={Ocean-Land-Atmosphere
+                  Research}, year={2022}, url={https://api ...
+
+                  # 【19†7 Recent AI Developments: Artificial Intelligence News -
+                  Koombea†www.koombea.com】
+
+                  App development is not exempt from the most recent
+                  developments in Artificial Intelligence. Developers are using
+                  new and powerful AI tools to enhance the app development
+                  process as well as the User Experience. These are some of the
+                  most important ways in which Artificial Intelligence is
+                  impacting app development: AI in Smartphone Apps
+
+                  Visible: 0% - 100%
+                pub_date: null
+                extra: null
+            original_query: null
+          command: search
+          args:
+            - recent developments in Artificial Intelligence
+          status: finished
+          is_complete: true
+          message_type: null
+          model_slug: gpt-4
+          parent_id: fa00b0c7-2e5f-4537-a3fa-e13ac4cb4623
+          request_id: 85c61e8af84e451f-ATL
+          timestamp_: absolute
+        recipient: all
+      parent: fa00b0c7-2e5f-4537-a3fa-e13ac4cb4623
+      children:
+        - bdeafde6-a3b8-4f07-adab-5e689c67d392
+    bdeafde6-a3b8-4f07-adab-5e689c67d392:
+      id: bdeafde6-a3b8-4f07-adab-5e689c67d392
+      message:
+        id: bdeafde6-a3b8-4f07-adab-5e689c67d392
+        author:
+          role: assistant
+          name: null
+          metadata: {}
+        create_time: 1709096671.363715
+        update_time: null
+        content:
+          content_type: code
+          language: unknown
+          text: mclick([1, 2, 4])
+        status: finished_successfully
+        end_turn: false
+        weight: 1
+        metadata:
+          finish_details:
+            type: stop
+            stop_tokens: 100265
+          gizmo_id: null
+          message_type: null
+          model_slug: gpt-4
+          parent_id: 7742be58-111c-49ba-b19c-965e60e884cf
+          is_complete: true
+          request_id: 85c61e8af84e451f-ATL
+          timestamp_: absolute
+        recipient: browser
+      parent: 7742be58-111c-49ba-b19c-965e60e884cf
+      children:
+        - 01928766-948c-4178-b479-e6661aa3e83c
+    01928766-948c-4178-b479-e6661aa3e83c:
+      id: 01928766-948c-4178-b479-e6661aa3e83c
+      message:
+        id: 01928766-948c-4178-b479-e6661aa3e83c
+        author:
+          role: tool
+          name: browser
+          metadata: {}
+        create_time: 1709096671.367596
+        update_time: null
+        content:
+          content_type: tether_quote
+          url: >-
+            https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/
+          domain: www.technologyreview.com
+          text: "\nBut of course, the success of this plan hinges on whether these models work reliably. Language models often make stuff up, and generative models are 【19†riddled with biases】. They are also 【20†easy to hack】, especially if they are allowed to browse the web. Tech companies have not solved any of these problems. When the novelty wears off, they’ll have to offer their customers ways to deal with these problems.\_\n\n—Melissa Heikkil ä\n\n[Image 1: a film clapper with digital patter where the production info should be]\n\nSTEPHANIE ARNETT/MITTR | ENVATO\n\n### 2\n\n#### Generative AI’s second wave will be video\n\nIt’s amazing how fast the fantastic becomes familiar. The first generative models to produce photorealistic images【21† exploded into the mainstream in 2022】—and soon became commonplace. Tools like OpenAI’s DALL-E, Stability AI’s Stable Diffusion, and Adobe’s Firefly flooded the internet with jaw-dropping images of everything from the pope in Balenciaga to【22† prize-winning art†www.nytimes.com】. But it’s not all good fun: for every【23† pug waving pompoms】, there’s another piece of【24† knock-off fantasy art】 or【25† sexist sexual stereotyping】.\n\nThe new frontier is text-to-video. Expect it to take everything that was good, bad, or ugly about text-to-image and supersize it.\n\nA year ago we got the【26† first glimpse】 of what generative models could do when they were trained to stitch together multiple still images into clips a few seconds long. The results were distorted and jerky. But the tech has rapidly improved.\n\n【27†Runway】, a startup that makes generative video models (and the company that co-created Stable Diffusion), is dropping new versions of its tools every few months. Its latest model, called【28† Gen-2†research.runwayml.com】, still generates video just a few seconds long, but the quality is striking. The【29† best clips†twitter.com】 aren’t far off what Pixar might put out.\n\nRunway has set up an annual【30† AI film festival†aiff.runwayml.com】 that showcases【31† experimental movies】 made with a range of AI tools. This year’s festival has a $60,000 prize pot, and the 10 best films will be screened in New York and Los Angeles.\n\nIt’s no surprise that top studios are taking notice. Movie giants, including Paramount and Disney, are now exploring the use of generative AI throughout their production pipeline. The tech is being used to lip-sync actors’ performances to multiple foreign-language overdubs. And it is reinventing what’s possible with special effects. In 2023, Indiana Jones and the Dial of Destiny starred a de-aged deepfake Harrison Ford. This is just the start.\_\_\n\nAway from the big screen, deepfake tech for marketing or training purposes is taking off too. For example, UK-based Synthesia makes tools that can turn a one-off performance by an actor into an endless stream of deepfake avatars, reciting whatever script you give them at the push of a button. According to the company, its tech is now used by 44% of Fortune 100 companies.\_\n\nThe ability to do so much with so little 【16†raises serious questions for actors】. Concerns about studios’ use and misuse of AI were at the heart of the SAG-AFTRA strikes last year. But the true impact of the tech is only just becoming apparent. “The craft of filmmaking is fundamentally changing,” says Souki Mehdaoui, an independent filmmaker and cofounder of Bell & Whistle, a consultancy specializing in creative technologies.\n\n—Will Douglas Heaven\n\n### 3\n\n#### AI-generated election disinformation will be everywhere\_\n\nIf recent elections are anything to go by, AI-generated election disinformation and deepfakes are going to be a huge problem as a record number of people march to the polls in 2024. We’re already seeing politicians weaponizing these tools. In 【32†Argentina†www.nytimes.com】, two presidential candidates created AI-generated images and videos of their opponents to attack them. In 【33†Slovakia†www.bloomberg.com】, deepfakes of a liberal pro-European party leader threatening to raise the price of beer and making jokes about child pornography spread like wildfire during the country’s elections. And in the US, Donald Trump has 【34†cheered on†www.nytimes.com】 a group that uses AI to generate memes with racist and sexist tropes.\_\n\n## Related Story\n\n【35†Looking back to look forward】\n\nThis magazine's 125 years of history is fascinating—but only if we use it to help us understand where technology is headed next.\n\nWhile it’s hard to say how much these examples have influenced the outcomes of elections, their proliferation is a worrying trend. It will become harder than ever to recognize what is real online. In an already inflamed and polarized political climate, this could have severe consequences.\n\nJust a few years ago creating a deepfake would have required advanced technical skills, but generative AI has made it stupidly easy and accessible, and the outputs are looking increasingly realistic. Even reputable sources might be fooled by AI-generated content. For example, users-submitted AI-generated images purporting to depict the Israel-Gaza crisis have 【36†flooded†www.crikey.com.au】 stock image marketplaces like Adobe’s.\_\n\nThe coming year will be pivotal for those fighting against the proliferation of such content. Techniques to track and mitigate it content are still in early days of development. Watermarks, such as 【37†Google DeepMind’s SynthID】, are still mostly voluntary and not completely foolproof. And social media platforms are notoriously slow in taking down misinformation. Get ready for a massive real-time experiment in busting AI-generated fake news.\_\n\n—Melissa Heikkil ä\n\n[Image 2: robot hands flipping pancakes and holding a tube of lipstick]\n\nSTEPHANIE ARNETT/MITTR | ISTOCK, ENVATO\n\n### 4\n\n### Robots that multitask\n\nInspired by some of the core techniques behind generative AI’s current boom, roboticists are starting to build more general-purpose robots that can do a wider range of tasks.\n\nThe last few years in AI have seen a shift away from using multiple small models, each trained to do different tasks—identifying images, drawing them, captioning them—toward single, monolithic models trained to do all these things and more. By showing OpenAI’s GPT-3 a few additional examples (known as fine-tuning), researchers can train it to solve coding problems, write movie scripts, pass high school biology exams, and so on. Multimodal models, like GPT-4 and Google DeepMind’s Gemini, can solve visual tasks as well as linguistic ones.\n\nThe same approach can work for robots, so it wouldn’t be necessary to train one to flip pancakes and another to open doors: a one-size-fits-all model could give robots the ability to multitask. Several examples of work in this area emerged in 2023.\n\nIn June, DeepMind released【38† Robocat†deepmind.google】 (an update on last year’s【39† Gato】), which generates its own data from trial and error to learn how to control many different robot arms (instead of one specific arm, which is more typical).\_\n\nIn October, the company put out yet another general-purpose model for robots, called RT-X, and a【40† big new general-purpose training data set†deepmind.google】, in collaboration with 33 university labs. Other top research teams, such as RAIL (Robotic Artificial Intelligence and Learning) at the University of California, Berkeley, are looking at similar tech.\n\nThe problem is a lack of data. Generative AI draws on an internet-size data set of text and images. In comparison, robots have very few good sources of data to help them learn how to do many of the industrial or domestic tasks we want them to.\n\n【41†Lerrel Pinto】 at New York University leads one team addressing that. He and his colleagues are developing techniques that let robots learn by trial and error, coming up with their own training data as they go. In an even more low-key project, Pinto has recruited volunteers to collect video data from around their homes using an【42† iPhone camera mounted to a trash picker】. Big companies have also started to release large data sets for training robots in the last couple of years, such as【43† Meta’s Ego4D】.\n\nThis approach is already showing promise in driverless cars. Startups such as Wayve, Waabi, and Ghost are pioneering a【44† new wave of self-driving AI】 that uses a single large model to control a vehicle rather than multiple smaller models to control specific driving tasks. This has let small companies catch up with giants like Cruise and Waymo. Wayve is now testing its driverless cars on the narrow, busy streets of London. Robots everywhere are set to get a similar boost.\n\n—Will Douglas Heaven\n\nhide \n\n### by 【8†Melissa Heikkilä】 & 【9†Will Douglas Heaven】\n\n### Share\n\n  * 【45†linkedin link opens in a new window†www.linkedin.com】\n  * 【46†twitter link opens in a new window†twitter.com】\n  * 【"
+          title: What’s next for AI in 2024 | MIT Technology Review
+        status: finished_successfully
+        end_turn: null
+        weight: 0
+        metadata:
+          _cite_metadata:
+            citation_format:
+              name: tether_og
+              regex: 【(\d+)(?::(\d+))?†([^†【】]*)[^【】]*?】
+            metadata_list:
+              - type: webpage
+                title: What’s next for AI in 2024 | MIT Technology Review
+                url: >-
+                  https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/
+                text: "\nBut of course, the success of this plan hinges on whether these models work reliably. Language models often make stuff up, and generative models are 【19†riddled with biases】. They are also 【20†easy to hack】, especially if they are allowed to browse the web. Tech companies have not solved any of these problems. When the novelty wears off, they’ll have to offer their customers ways to deal with these problems.\_\n\n—Melissa Heikkil ä\n\n[Image 1: a film clapper with digital patter where the production info should be]\n\nSTEPHANIE ARNETT/MITTR | ENVATO\n\n### 2\n\n#### Generative AI’s second wave will be video\n\nIt’s amazing how fast the fantastic becomes familiar. The first generative models to produce photorealistic images【21† exploded into the mainstream in 2022】—and soon became commonplace. Tools like OpenAI’s DALL-E, Stability AI’s Stable Diffusion, and Adobe’s Firefly flooded the internet with jaw-dropping images of everything from the pope in Balenciaga to【22† prize-winning art†www.nytimes.com】. But it’s not all good fun: for every【23† pug waving pompoms】, there’s another piece of【24† knock-off fantasy art】 or【25† sexist sexual stereotyping】.\n\nThe new frontier is text-to-video. Expect it to take everything that was good, bad, or ugly about text-to-image and supersize it.\n\nA year ago we got the【26† first glimpse】 of what generative models could do when they were trained to stitch together multiple still images into clips a few seconds long. The results were distorted and jerky. But the tech has rapidly improved.\n\n【27†Runway】, a startup that makes generative video models (and the company that co-created Stable Diffusion), is dropping new versions of its tools every few months. Its latest model, called【28† Gen-2†research.runwayml.com】, still generates video just a few seconds long, but the quality is striking. The【29† best clips†twitter.com】 aren’t far off what Pixar might put out.\n\nRunway has set up an annual【30† AI film festival†aiff.runwayml.com】 that showcases【31† experimental movies】 made with a range of AI tools. This year’s festival has a $60,000 prize pot, and the 10 best films will be screened in New York and Los Angeles.\n\nIt’s no surprise that top studios are taking notice. Movie giants, including Paramount and Disney, are now exploring the use of generative AI throughout their production pipeline. The tech is being used to lip-sync actors’ performances to multiple foreign-language overdubs. And it is reinventing what’s possible with special effects. In 2023, Indiana Jones and the Dial of Destiny starred a de-aged deepfake Harrison Ford. This is just the start.\_\_\n\nAway from the big screen, deepfake tech for marketing or training purposes is taking off too. For example, UK-based Synthesia makes tools that can turn a one-off performance by an actor into an endless stream of deepfake avatars, reciting whatever script you give them at the push of a button. According to the company, its tech is now used by 44% of Fortune 100 companies.\_\n\nThe ability to do so much with so little 【16†raises serious questions for actors】. Concerns about studios’ use and misuse of AI were at the heart of the SAG-AFTRA strikes last year. But the true impact of the tech is only just becoming apparent. “The craft of filmmaking is fundamentally changing,” says Souki Mehdaoui, an independent filmmaker and cofounder of Bell & Whistle, a consultancy specializing in creative technologies.\n\n—Will Douglas Heaven\n\n### 3\n\n#### AI-generated election disinformation will be everywhere\_\n\nIf recent elections are anything to go by, AI-generated election disinformation and deepfakes are going to be a huge problem as a record number of people march to the polls in 2024. We’re already seeing politicians weaponizing these tools. In 【32†Argentina†www.nytimes.com】, two presidential candidates created AI-generated images and videos of their opponents to attack them. In 【33†Slovakia†www.bloomberg.com】, deepfakes of a liberal pro-European party leader threatening to raise the price of beer and making jokes about child pornography spread like wildfire during the country’s elections. And in the US, Donald Trump has 【34†cheered on†www.nytimes.com】 a group that uses AI to generate memes with racist and sexist tropes.\_\n\n## Related Story\n\n【35†Looking back to look forward】\n\nThis magazine's 125 years of history is fascinating—but only if we use it to help us understand where technology is headed next.\n\nWhile it’s hard to say how much these examples have influenced the outcomes of elections, their proliferation is a worrying trend. It will become harder than ever to recognize what is real online. In an already inflamed and polarized political climate, this could have severe consequences.\n\nJust a few years ago creating a deepfake would have required advanced technical skills, but generative AI has made it stupidly easy and accessible, and the outputs are looking increasingly realistic. Even reputable sources might be fooled by AI-generated content. For example, users-submitted AI-generated images purporting to depict the Israel-Gaza crisis have 【36†flooded†www.crikey.com.au】 stock image marketplaces like Adobe’s.\_\n\nThe coming year will be pivotal for those fighting against the proliferation of such content. Techniques to track and mitigate it content are still in early days of development. Watermarks, such as 【37†Google DeepMind’s SynthID】, are still mostly voluntary and not completely foolproof. And social media platforms are notoriously slow in taking down misinformation. Get ready for a massive real-time experiment in busting AI-generated fake news.\_\n\n—Melissa Heikkil ä\n\n[Image 2: robot hands flipping pancakes and holding a tube of lipstick]\n\nSTEPHANIE ARNETT/MITTR | ISTOCK, ENVATO\n\n### 4\n\n### Robots that multitask\n\nInspired by some of the core techniques behind generative AI’s current boom, roboticists are starting to build more general-purpose robots that can do a wider range of tasks.\n\nThe last few years in AI have seen a shift away from using multiple small models, each trained to do different tasks—identifying images, drawing them, captioning them—toward single, monolithic models trained to do all these things and more. By showing OpenAI’s GPT-3 a few additional examples (known as fine-tuning), researchers can train it to solve coding problems, write movie scripts, pass high school biology exams, and so on. Multimodal models, like GPT-4 and Google DeepMind’s Gemini, can solve visual tasks as well as linguistic ones.\n\nThe same approach can work for robots, so it wouldn’t be necessary to train one to flip pancakes and another to open doors: a one-size-fits-all model could give robots the ability to multitask. Several examples of work in this area emerged in 2023.\n\nIn June, DeepMind released【38† Robocat†deepmind.google】 (an update on last year’s【39† Gato】), which generates its own data from trial and error to learn how to control many different robot arms (instead of one specific arm, which is more typical).\_\n\nIn October, the company put out yet another general-purpose model for robots, called RT-X, and a【40† big new general-purpose training data set†deepmind.google】, in collaboration with 33 university labs. Other top research teams, such as RAIL (Robotic Artificial Intelligence and Learning) at the University of California, Berkeley, are looking at similar tech.\n\nThe problem is a lack of data. Generative AI draws on an internet-size data set of text and images. In comparison, robots have very few good sources of data to help them learn how to do many of the industrial or domestic tasks we want them to.\n\n【41†Lerrel Pinto】 at New York University leads one team addressing that. He and his colleagues are developing techniques that let robots learn by trial and error, coming up with their own training data as they go. In an even more low-key project, Pinto has recruited volunteers to collect video data from around their homes using an【42† iPhone camera mounted to a trash picker】. Big companies have also started to release large data sets for training robots in the last couple of years, such as【43† Meta’s Ego4D】.\n\nThis approach is already showing promise in driverless cars. Startups such as Wayve, Waabi, and Ghost are pioneering a【44† new wave of self-driving AI】 that uses a single large model to control a vehicle rather than multiple smaller models to control specific driving tasks. This has let small companies catch up with giants like Cruise and Waymo. Wayve is now testing its driverless cars on the narrow, busy streets of London. Robots everywhere are set to get a similar boost.\n\n—Will Douglas Heaven\n\nhide \n\n### by 【8†Melissa Heikkilä】 & 【9†Will Douglas Heaven】\n\n### Share\n\n  * 【45†linkedin link opens in a new window†www.linkedin.com】\n  * 【46†twitter link opens in a new window†twitter.com】\n  * 【"
+                pub_date: null
+                extra: null
+            original_query: null
+          command: mclick
+          args:
+            - - 1
+              - 2
+              - 4
+          status: finished
+          is_complete: true
+          message_type: null
+          model_slug: gpt-4
+          parent_id: bdeafde6-a3b8-4f07-adab-5e689c67d392
+          request_id: 85c61e8af84e451f-ATL
+          timestamp_: absolute
+        recipient: all
+      parent: bdeafde6-a3b8-4f07-adab-5e689c67d392
+      children:
+        - 9e0a970d-69b0-4a61-bf6a-01210afc96ba
+    9e0a970d-69b0-4a61-bf6a-01210afc96ba:
+      id: 9e0a970d-69b0-4a61-bf6a-01210afc96ba
+      message:
+        id: 9e0a970d-69b0-4a61-bf6a-01210afc96ba
+        author:
+          role: tool
+          name: browser
+          metadata: {}
+        create_time: 1709096671.367974
+        update_time: null
+        content:
+          content_type: tether_quote
+          url: >-
+            https://www.techtarget.com/searchenterpriseai/tip/9-top-AI-and-machine-learning-trends
+          domain: www.techtarget.com
+          text: >-
+
+            ## 4. Retrieval-augmented generation
+
+
+            Although generative AI tools were widely adopted in 2023, they
+            continue to be plagued by the problem of 【54†hallucinations】:
+            plausible-sounding but incorrect responses to users' queries. This
+            limitation has presented a roadblock to enterprise adoption, where
+            hallucinations in business-critical or customer-facing scenarios
+            could be catastrophic. 【55†Retrieval-augmented generation】 (RAG) has
+            emerged as a technique for reducing hallucinations, with potentially
+            profound implications for enterprise AI adoption.
+
+
+            RAG blends text generation with information retrieval to enhance the
+            accuracy and relevance of AI-generated content. It enables LLMs to
+            access external information, helping them produce more accurate and
+            contextually aware responses. Bypassing the need to store all
+            knowledge directly in the LLM also reduces model size, which
+            increases speed and lowers costs.
+
+
+            "You can use RAG to go gather a ton of unstructured information,
+            documents, etc., [and] feed it into a model without having to
+            fine-tune or custom-train a model," Barrington said.
+
+
+            These benefits are particularly enticing for enterprise applications
+            where up-to-date factual knowledge is crucial. For example,
+            businesses can use RAG with 【56†foundation models】 to create more
+            efficient and informative chatbots and virtual assistants.
+
+
+            ## 5. Customized enterprise generative AI models
+
+
+            Massive, general-purpose tools such as Midjourney and ChatGPT have
+            attracted the most attention among consumers exploring generative
+            AI. But for business use cases, smaller, narrow-purpose models could
+            prove to have the most staying power, driven by the growing demand
+            for AI systems that can meet niche requirements.
+
+
+            While creating a new model from scratch is a possibility, it's a
+            resource-intensive proposition that will be out of reach for many
+            organizations. To build 【57†customized generative AI】, most
+            organizations instead modify existing AI models -- for example,
+            tweaking their architecture or fine-tuning on a domain-specific data
+            set. This can be cheaper than either building a new model from the
+            ground up or relying on API calls to a public LLM.
+
+
+            "Calls to GPT-4 as an API, just as an example, are very expensive,
+            both in terms of cost and in terms of latency -- how long it can
+            actually take to return a result," said Shane Luke, vice president
+            of AI and machine learning at Workday. "We are working a lot ... on
+            optimizing so that we have the same capability, but it's very
+            targeted and specific. And so it can be a much smaller model that's
+            more manageable."
+
+
+            The key advantage of customized generative AI models is their
+            ability to cater to niche markets and user needs. Tailored
+            generative AI tools can be built for almost any scenario, from
+            customer support to supply chain management to document review. This
+            is especially relevant for sectors with highly specialized
+            terminology and practices, 【58†such as healthcare】, finance and
+            legal.
+
+
+            In many business use cases, the most massive LLMs are overkill.
+            Although ChatGPT might be the state of the art for a consumer-facing
+            chatbot designed to handle any query, "it's not the state of the art
+            for smaller enterprise applications," Luke said.
+
+
+            Barrington expects to see enterprises exploring a more diverse range
+            of models in the coming year as AI developers' capabilities begin to
+            converge. "We're expecting, over the next year or two, for there to
+            be a much higher degree of parity across the models -- and that's a
+            good thing," he said.
+
+
+            On a smaller scale, Luke has seen a similar scenario play out at
+            Workday, which provides a set of AI services for teams to experiment
+            with internally. Although employees started out using mostly OpenAI
+            services, Luke said, he's gradually seen a shift toward a mix of
+            models from various providers, including Google and AWS.
+
+
+            Building a customized model rather than using an off-the-shelf
+            public tool often also improves privacy and security, as it gives
+            organizations greater control over their data. Luke gave the example
+            of building a model for Workday tasks that involve handling
+            sensitive personal data, such as disability status and health
+            history. "Those aren't things that we're going to want to send out
+            to a third party," he said. "Our customers generally wouldn't be
+            comfortable with that."
+
+
+            In light of these privacy and security benefits, stricter AI
+            regulation in the coming years could push organizations to focus
+            their energies on proprietary models, explained Gillian Crossan,
+            risk advisory principal and global technology sector leader at
+            Deloitte.
+
+
+            "It's going to encourage enterprises to focus more on private models
+            that are proprietary, that are domain-specific, rather than focus on
+            these large language models that are trained with data from all over
+            the internet and everything that that brings with it," she said.
+
+
+            ## 6. Need for AI and machine learning talent
+
+
+            【59†Designing, training and testing a machine learning model】 is no
+            easy feat -- much less pushing it to production and maintaining it
+            in a complex organizational IT environment. It's no surprise, then,
+            that the growing need for AI and machine learning talent is
+            【60†expected to continue into 2024 and
+            beyond†www.theserverside.com】.
+
+
+            "The market is still really hot around talent," Luke said. "It's
+            very easy to get a job in this space."
+
+
+            In particular, as AI and machine learning become more integrated
+            into business operations, there's a growing need for professionals
+            who can bridge the gap between theory and practice. This requires
+            the ability to deploy, monitor and maintain AI systems in real-world
+            settings -- a discipline often referred to as 【61†MLOps】, short for
+            machine learning operations.
+
+
+            In a recent O'Reilly 【62†report†www.oreilly.com】, respondents cited
+            AI programming, data analysis and statistics, and operations for AI
+            and machine learning as the top three skills their organizations
+            needed for generative AI projects. These types of skills, however,
+            are in short supply. "That's going to be one of the challenges
+            around AI -- to be able to have the talent readily available,"
+            Crossan said.
+
+
+            In 2024, look for organizations to seek out talent with these types
+            of skills -- and not just big tech companies. With IT and data
+            nearly ubiquitous as business functions and AI initiatives rising in
+            popularity, building internal AI and machine learning capabilities
+            is poised to be the next stage in digital transformation.
+
+
+            Crossan also emphasized the importance of 【63†diversity in AI
+            initiatives】 at every level, from technical teams building models up
+            to the board. "One of the big issues with AI and the public models
+            is the amount of bias that exists in the training data," she said.
+            "And unless you have that diverse team within your organization that
+            is challenging the results and challenging what you see, you are
+            going to potentially end up in a worse place than you were before
+            AI."
+
+
+            ## 7. Shadow AI
+
+
+            As employees across job functions become interested in generative
+            AI, organizations are facing the 【64†issue of shadow
+            AI†www.computerweekly.com】: use of AI within an organization without
+            explicit approval or oversight from the IT department. This trend is
+            becoming increasingly prevalent as AI becomes more accessible,
+            enabling even nontechnical workers to use it independently.
+
+
+            Shadow AI typically arises when employees need quick solutions to a
+            problem or want to explore new technology faster than official
+            channels allow. This is especially common for easy-to-use AI
+            chatbots, which employees can try out in their web browsers with
+            little difficulty -- without going through IT review and approval
+            processes.
+
+
+            On the plus side, exploring ways to use these emerging technologies
+            evinces a proactive, innovative spirit. But it also carries risk,
+            since end users often lack relevant information on security, data
+            privacy and compliance. For example, a user might feed trade secrets
+            into a public-facing LLM without realizing that doing so exposes
+            that sensitive information to third parties.
+
+
+            "Once something gets out into these public models, you cannot pull
+            it back," Barrington said. "So there's a bit of a fear factor and
+            risk angle that's appropriate for most enterprises, regardless of
+            sector, to think through."
+
+
+            [Image 2: Shadow IT's negative impacts on organizations include
+            higher costs, increased risk, interdepartmental inconsistency and
+            lack of control by IT functions.]  Shadow AI is just one facet of
+            the larger phenomenon of shadow IT. 
+
+
+            In 2024, organizations will need to take steps to manage shadow AI
+            through governance frameworks that balance supporting innovation
+            with protecting privacy and security. This could include setting
+            clear 【65†acceptable AI use policies】 and providing approved
+            platforms, as well as encouraging collaboration between IT and
+            business leaders to understand how various departments want to use
+            AI.
+
+
+            "The reality is, everybody's using it," Barrington said, in
+            reference to recent EY 【66†research†www.ey.com】 finding that 90% of
+            respondents used AI at work. "Whether you like it or not, your
+            people are using it today, so you should figure out how to align
+            them to ethical and responsible use of it."
+
+
+            ## 8. A generative AI reality check
+
+
+            As organizations progress from the initial excitement surrounding
+            generative AI to actual adoption and integration, they're likely to
+            face a reality check in 2024 -- a phase often referred to as the
+            "trough of disillusionment" in the 【67†Gartner Hype Cycle】.
+
+
+            "We're definitely seeing a rapid shift from what we've been calling
+            this experimentation phase into [asking], 'How do I run this at
+            scale across my enterprise?'" Barrington said.
+
+
+            As early enthusiasm begins to wane, organizations are confronting
+            generative AI's limitations, such as output quality, security and
+            ethics concerns, and integration difficulties with existing systems
+            and workflows. The complexity of implementing and scaling AI in a
+            business environment is often underestimated, and tasks such as
+            ensuring data quality, training models and maintaining AI systems in
+            production can be more challenging than initially anticipated.
+
+
+            "It's actually not very easy to build a generative AI application
+            and put it into production
+          title: 10 top AI and machine learning trends for 2024 | TechTarget
+        status: finished_successfully
+        end_turn: null
+        weight: 0
+        metadata:
+          _cite_metadata:
+            citation_format:
+              name: tether_og
+              regex: 【(\d+)(?::(\d+))?†([^†【】]*)[^【】]*?】
+            metadata_list:
+              - type: webpage
+                title: 10 top AI and machine learning trends for 2024 | TechTarget
+                url: >-
+                  https://www.techtarget.com/searchenterpriseai/tip/9-top-AI-and-machine-learning-trends
+                text: >-
+
+                  ## 4. Retrieval-augmented generation
+
+
+                  Although generative AI tools were widely adopted in 2023, they
+                  continue to be plagued by the problem of 【54†hallucinations】:
+                  plausible-sounding but incorrect responses to users' queries.
+                  This limitation has presented a roadblock to enterprise
+                  adoption, where hallucinations in business-critical or
+                  customer-facing scenarios could be catastrophic.
+                  【55†Retrieval-augmented generation】 (RAG) has emerged as a
+                  technique for reducing hallucinations, with potentially
+                  profound implications for enterprise AI adoption.
+
+
+                  RAG blends text generation with information retrieval to
+                  enhance the accuracy and relevance of AI-generated content. It
+                  enables LLMs to access external information, helping them
+                  produce more accurate and contextually aware responses.
+                  Bypassing the need to store all knowledge directly in the LLM
+                  also reduces model size, which increases speed and lowers
+                  costs.
+
+
+                  "You can use RAG to go gather a ton of unstructured
+                  information, documents, etc., [and] feed it into a model
+                  without having to fine-tune or custom-train a model,"
+                  Barrington said.
+
+
+                  These benefits are particularly enticing for enterprise
+                  applications where up-to-date factual knowledge is crucial.
+                  For example, businesses can use RAG with 【56†foundation
+                  models】 to create more efficient and informative chatbots and
+                  virtual assistants.
+
+
+                  ## 5. Customized enterprise generative AI models
+
+
+                  Massive, general-purpose tools such as Midjourney and ChatGPT
+                  have attracted the most attention among consumers exploring
+                  generative AI. But for business use cases, smaller,
+                  narrow-purpose models could prove to have the most staying
+                  power, driven by the growing demand for AI systems that can
+                  meet niche requirements.
+
+
+                  While creating a new model from scratch is a possibility, it's
+                  a resource-intensive proposition that will be out of reach for
+                  many organizations. To build 【57†customized generative AI】,
+                  most organizations instead modify existing AI models -- for
+                  example, tweaking their architecture or fine-tuning on a
+                  domain-specific data set. This can be cheaper than either
+                  building a new model from the ground up or relying on API
+                  calls to a public LLM.
+
+
+                  "Calls to GPT-4 as an API, just as an example, are very
+                  expensive, both in terms of cost and in terms of latency --
+                  how long it can actually take to return a result," said Shane
+                  Luke, vice president of AI and machine learning at Workday.
+                  "We are working a lot ... on optimizing so that we have the
+                  same capability, but it's very targeted and specific. And so
+                  it can be a much smaller model that's more manageable."
+
+
+                  The key advantage of customized generative AI models is their
+                  ability to cater to niche markets and user needs. Tailored
+                  generative AI tools can be built for almost any scenario, from
+                  customer support to supply chain management to document
+                  review. This is especially relevant for sectors with highly
+                  specialized terminology and practices, 【58†such as
+                  healthcare】, finance and legal.
+
+
+                  In many business use cases, the most massive LLMs are
+                  overkill. Although ChatGPT might be the state of the art for a
+                  consumer-facing chatbot designed to handle any query, "it's
+                  not the state of the art for smaller enterprise applications,"
+                  Luke said.
+
+
+                  Barrington expects to see enterprises exploring a more diverse
+                  range of models in the coming year as AI developers'
+                  capabilities begin to converge. "We're expecting, over the
+                  next year or two, for there to be a much higher degree of
+                  parity across the models -- and that's a good thing," he said.
+
+
+                  On a smaller scale, Luke has seen a similar scenario play out
+                  at Workday, which provides a set of AI services for teams to
+                  experiment with internally. Although employees started out
+                  using mostly OpenAI services, Luke said, he's gradually seen a
+                  shift toward a mix of models from various providers, including
+                  Google and AWS.
+
+
+                  Building a customized model rather than using an off-the-shelf
+                  public tool often also improves privacy and security, as it
+                  gives organizations greater control over their data. Luke gave
+                  the example of building a model for Workday tasks that involve
+                  handling sensitive personal data, such as disability status
+                  and health history. "Those aren't things that we're going to
+                  want to send out to a third party," he said. "Our customers
+                  generally wouldn't be comfortable with that."
+
+
+                  In light of these privacy and security benefits, stricter AI
+                  regulation in the coming years could push organizations to
+                  focus their energies on proprietary models, explained Gillian
+                  Crossan, risk advisory principal and global technology sector
+                  leader at Deloitte.
+
+
+                  "It's going to encourage enterprises to focus more on private
+                  models that are proprietary, that are domain-specific, rather
+                  than focus on these large language models that are trained
+                  with data from all over the internet and everything that that
+                  brings with it," she said.
+
+
+                  ## 6. Need for AI and machine learning talent
+
+
+                  【59†Designing, training and testing a machine learning model】
+                  is no easy feat -- much less pushing it to production and
+                  maintaining it in a complex organizational IT environment.
+                  It's no surprise, then, that the growing need for AI and
+                  machine learning talent is 【60†expected to continue into 2024
+                  and beyond†www.theserverside.com】.
+
+
+                  "The market is still really hot around talent," Luke said.
+                  "It's very easy to get a job in this space."
+
+
+                  In particular, as AI and machine learning become more
+                  integrated into business operations, there's a growing need
+                  for professionals who can bridge the gap between theory and
+                  practice. This requires the ability to deploy, monitor and
+                  maintain AI systems in real-world settings -- a discipline
+                  often referred to as 【61†MLOps】, short for machine learning
+                  operations.
+
+
+                  In a recent O'Reilly 【62†report†www.oreilly.com】, respondents
+                  cited AI programming, data analysis and statistics, and
+                  operations for AI and machine learning as the top three skills
+                  their organizations needed for generative AI projects. These
+                  types of skills, however, are in short supply. "That's going
+                  to be one of the challenges around AI -- to be able to have
+                  the talent readily available," Crossan said.
+
+
+                  In 2024, look for organizations to seek out talent with these
+                  types of skills -- and not just big tech companies. With IT
+                  and data nearly ubiquitous as business functions and AI
+                  initiatives rising in popularity, building internal AI and
+                  machine learning capabilities is poised to be the next stage
+                  in digital transformation.
+
+
+                  Crossan also emphasized the importance of 【63†diversity in AI
+                  initiatives】 at every level, from technical teams building
+                  models up to the board. "One of the big issues with AI and the
+                  public models is the amount of bias that exists in the
+                  training data," she said. "And unless you have that diverse
+                  team within your organization that is challenging the results
+                  and challenging what you see, you are going to potentially end
+                  up in a worse place than you were before AI."
+
+
+                  ## 7. Shadow AI
+
+
+                  As employees across job functions become interested in
+                  generative AI, organizations are facing the 【64†issue of
+                  shadow AI†www.computerweekly.com】: use of AI within an
+                  organization without explicit approval or oversight from the
+                  IT department. This trend is becoming increasingly prevalent
+                  as AI becomes more accessible, enabling even nontechnical
+                  workers to use it independently.
+
+
+                  Shadow AI typically arises when employees need quick solutions
+                  to a problem or want to explore new technology faster than
+                  official channels allow. This is especially common for
+                  easy-to-use AI chatbots, which employees can try out in their
+                  web browsers with little difficulty -- without going through
+                  IT review and approval processes.
+
+
+                  On the plus side, exploring ways to use these emerging
+                  technologies evinces a proactive, innovative spirit. But it
+                  also carries risk, since end users often lack relevant
+                  information on security, data privacy and compliance. For
+                  example, a user might feed trade secrets into a public-facing
+                  LLM without realizing that doing so exposes that sensitive
+                  information to third parties.
+
+
+                  "Once something gets out into these public models, you cannot
+                  pull it back," Barrington said. "So there's a bit of a fear
+                  factor and risk angle that's appropriate for most enterprises,
+                  regardless of sector, to think through."
+
+
+                  [Image 2: Shadow IT's negative impacts on organizations
+                  include higher costs, increased risk, interdepartmental
+                  inconsistency and lack of control by IT functions.]  Shadow AI
+                  is just one facet of the larger phenomenon of shadow IT. 
+
+
+                  In 2024, organizations will need to take steps to manage
+                  shadow AI through governance frameworks that balance
+                  supporting innovation with protecting privacy and security.
+                  This could include setting clear 【65†acceptable AI use
+                  policies】 and providing approved platforms, as well as
+                  encouraging collaboration between IT and business leaders to
+                  understand how various departments want to use AI.
+
+
+                  "The reality is, everybody's using it," Barrington said, in
+                  reference to recent EY 【66†research†www.ey.com】 finding that
+                  90% of respondents used AI at work. "Whether you like it or
+                  not, your people are using it today, so you should figure out
+                  how to align them to ethical and responsible use of it."
+
+
+                  ## 8. A generative AI reality check
+
+
+                  As organizations progress from the initial excitement
+                  surrounding generative AI to actual adoption and integration,
+                  they're likely to face a reality check in 2024 -- a phase
+                  often referred to as the "trough of disillusionment" in the
+                  【67†Gartner Hype Cycle】.
+
+
+                  "We're definitely seeing a rapid shift from what we've been
+                  calling this experimentation phase into [asking], 'How do I
+                  run this at scale across my enterprise?'" Barrington said.
+
+
+                  As early enthusiasm begins to wane, organizations are
+                  confronting generative AI's limitations, such as output
+                  quality, security and ethics concerns, and integration
+                  difficulties with existing systems and workflows. The
+                  complexity of implementing and scaling AI in a business
+                  environment is often underestimated, and tasks such as
+                  ensuring data quality, training models and maintaining AI
+                  systems in production can be more challenging than initially
+                  anticipated.
+
+
+                  "It's actually not very easy to build a generative AI
+                  application and put it into production
+                pub_date: null
+                extra: null
+            original_query: null
+          command: mclick
+          args:
+            - - 1
+              - 2
+              - 4
+          status: finished
+          is_complete: true
+          message_type: null
+          model_slug: gpt-4
+          parent_id: 01928766-948c-4178-b479-e6661aa3e83c
+          request_id: 85c61e8af84e451f-ATL
+          timestamp_: absolute
+        recipient: all
+      parent: 01928766-948c-4178-b479-e6661aa3e83c
+      children:
+        - ac8683fd-3746-4ade-9a3d-5e2365d9ba17
+    ac8683fd-3746-4ade-9a3d-5e2365d9ba17:
+      id: ac8683fd-3746-4ade-9a3d-5e2365d9ba17
+      message:
+        id: ac8683fd-3746-4ade-9a3d-5e2365d9ba17
+        author:
+          role: assistant
+          name: null
+          metadata: {}
+        create_time: 1709096671.368378
+        update_time: null
+        content:
+          content_type: text
+          parts:
+            - >-
+              The most recent developments in AI as reported in the past week
+              indicate a strong focus on generative AI and its applications. For
+              instance, there is considerable advancement in the video aspect of
+              generative AI, with startups like Runway releasing new tools every
+              few months, significantly improving the quality of AI-generated
+              videos. Such tools are finding uses in various sectors including
+              the movie industry, marketing, and more, with large studios
+              exploring AI throughout their production pipelines and leveraging
+              the technology for things like lip-syncing in multiple languages
+              and special effects【16†source】.
+
+
+              Furthermore, the field is also looking at retrieval-augmented
+              generation (RAG) to address the problem of
+              hallucinations—plausible but incorrect responses generated by AI.
+              This technique combines text generation with information
+              retrieval, aiming to enhance the accuracy of AI-generated content,
+              particularly in business-critical or customer-facing
+              scenarios【17†source】.
+
+
+              Another trend is the customization of enterprise AI models.
+              Businesses are leaning towards modifying existing AI models to
+              meet niche requirements, optimizing for cost, speed, and
+              specificity. This shift is driven by the growing demand for AI
+              systems that can handle highly specialized tasks, which is
+              pertinent in sectors such as healthcare, finance, and
+              legal【17†source】.
+
+
+              Additionally, the talent market for AI and machine learning
+              continues to be vibrant, with a rising need for professionals
+              skilled in AI programming, data analysis, statistics, and machine
+              learning operations (MLOps). This demand is stretching beyond big
+              tech companies into various business sectors, indicating a
+              broadening of digital transformation efforts【17†source】.
+
+
+              Lastly, there is a growing concern about "shadow AI", where AI is
+              used within organizations without the explicit approval of IT
+              departments. This trend reflects the increasing accessibility of
+              AI tools and poses risks related to security, data privacy, and
+              compliance【17†source】.
+
+
+              These trends together sketch a picture of a rapidly advancing AI
+              landscape, where generative AI is gaining momentum, enterprise
+              customization is becoming crucial, talent demand is growing, and
+              governance is becoming an important focus.
+        status: finished_successfully
+        end_turn: true
+        weight: 1
+        metadata:
+          finish_details:
+            type: stop
+            stop_tokens: 100260
+          citations:
+            - start_ix: 604
+              end_ix: 615
+              citation_format_type: tether_og
+              metadata:
+                type: webpage
+                title: What’s next for AI in 2024 | MIT Technology Review
+                url: >-
+                  https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/
+                text: "\nBut of course, the success of this plan hinges on whether these models work reliably. Language models often make stuff up, and generative models are 【19†riddled with biases】. They are also 【20†easy to hack】, especially if they are allowed to browse the web. Tech companies have not solved any of these problems. When the novelty wears off, they’ll have to offer their customers ways to deal with these problems.\_\n\n—Melissa Heikkil ä\n\n[Image 1: a film clapper with digital patter where the production info should be]\n\nSTEPHANIE ARNETT/MITTR | ENVATO\n\n### 2\n\n#### Generative AI’s second wave will be video\n\nIt’s amazing how fast the fantastic becomes familiar. The first generative models to produce photorealistic images【21† exploded into the mainstream in 2022】—and soon became commonplace. Tools like OpenAI’s DALL-E, Stability AI’s Stable Diffusion, and Adobe’s Firefly flooded the internet with jaw-dropping images of everything from the pope in Balenciaga to【22† prize-winning art†www.nytimes.com】. But it’s not all good fun: for every【23† pug waving pompoms】, there’s another piece of【24† knock-off fantasy art】 or【25† sexist sexual stereotyping】.\n\nThe new frontier is text-to-video. Expect it to take everything that was good, bad, or ugly about text-to-image and supersize it.\n\nA year ago we got the【26† first glimpse】 of what generative models could do when they were trained to stitch together multiple still images into clips a few seconds long. The results were distorted and jerky. But the tech has rapidly improved.\n\n【27†Runway】, a startup that makes generative video models (and the company that co-created Stable Diffusion), is dropping new versions of its tools every few months. Its latest model, called【28† Gen-2†research.runwayml.com】, still generates video just a few seconds long, but the quality is striking. The【29† best clips†twitter.com】 aren’t far off what Pixar might put out.\n\nRunway has set up an annual【30† AI film festival†aiff.runwayml.com】 that showcases【31† experimental movies】 made with a range of AI tools. This year’s festival has a $60,000 prize pot, and the 10 best films will be screened in New York and Los Angeles.\n\nIt’s no surprise that top studios are taking notice. Movie giants, including Paramount and Disney, are now exploring the use of generative AI throughout their production pipeline. The tech is being used to lip-sync actors’ performances to multiple foreign-language overdubs. And it is reinventing what’s possible with special effects. In 2023, Indiana Jones and the Dial of Destiny starred a de-aged deepfake Harrison Ford. This is just the start.\_\_\n\nAway from the big screen, deepfake tech for marketing or training purposes is taking off too. For example, UK-based Synthesia makes tools that can turn a one-off performance by an actor into an endless stream of deepfake avatars, reciting whatever script you give them at the push of a button. According to the company, its tech is now used by 44% of Fortune 100 companies.\_\n\nThe ability to do so much with so little 【16†raises serious questions for actors】. Concerns about studios’ use and misuse of AI were at the heart of the SAG-AFTRA strikes last year. But the true impact of the tech is only just becoming apparent. “The craft of filmmaking is fundamentally changing,” says Souki Mehdaoui, an independent filmmaker and cofounder of Bell & Whistle, a consultancy specializing in creative technologies.\n\n—Will Douglas Heaven\n\n### 3\n\n#### AI-generated election disinformation will be everywhere\_\n\nIf recent elections are anything to go by, AI-generated election disinformation and deepfakes are going to be a huge problem as a record number of people march to the polls in 2024. We’re already seeing politicians weaponizing these tools. In 【32†Argentina†www.nytimes.com】, two presidential candidates created AI-generated images and videos of their opponents to attack them. In 【33†Slovakia†www.bloomberg.com】, deepfakes of a liberal pro-European party leader threatening to raise the price of beer and making jokes about child pornography spread like wildfire during the country’s elections. And in the US, Donald Trump has 【34†cheered on†www.nytimes.com】 a group that uses AI to generate memes with racist and sexist tropes.\_\n\n## Related Story\n\n【35†Looking back to look forward】\n\nThis magazine's 125 years of history is fascinating—but only if we use it to help us understand where technology is headed next.\n\nWhile it’s hard to say how much these examples have influenced the outcomes of elections, their proliferation is a worrying trend. It will become harder than ever to recognize what is real online. In an already inflamed and polarized political climate, this could have severe consequences.\n\nJust a few years ago creating a deepfake would have required advanced technical skills, but generative AI has made it stupidly easy and accessible, and the outputs are looking increasingly realistic. Even reputable sources might be fooled by AI-generated content. For example, users-submitted AI-generated images purporting to depict the Israel-Gaza crisis have 【36†flooded†www.crikey.com.au】 stock image marketplaces like Adobe’s.\_\n\nThe coming year will be pivotal for those fighting against the proliferation of such content. Techniques to track and mitigate it content are still in early days of development. Watermarks, such as 【37†Google DeepMind’s SynthID】, are still mostly voluntary and not completely foolproof. And social media platforms are notoriously slow in taking down misinformation. Get ready for a massive real-time experiment in busting AI-generated fake news.\_\n\n—Melissa Heikkil ä\n\n[Image 2: robot hands flipping pancakes and holding a tube of lipstick]\n\nSTEPHANIE ARNETT/MITTR | ISTOCK, ENVATO\n\n### 4\n\n### Robots that multitask\n\nInspired by some of the core techniques behind generative AI’s current boom, roboticists are starting to build more general-purpose robots that can do a wider range of tasks.\n\nThe last few years in AI have seen a shift away from using multiple small models, each trained to do different tasks—identifying images, drawing them, captioning them—toward single, monolithic models trained to do all these things and more. By showing OpenAI’s GPT-3 a few additional examples (known as fine-tuning), researchers can train it to solve coding problems, write movie scripts, pass high school biology exams, and so on. Multimodal models, like GPT-4 and Google DeepMind’s Gemini, can solve visual tasks as well as linguistic ones.\n\nThe same approach can work for robots, so it wouldn’t be necessary to train one to flip pancakes and another to open doors: a one-size-fits-all model could give robots the ability to multitask. Several examples of work in this area emerged in 2023.\n\nIn June, DeepMind released【38† Robocat†deepmind.google】 (an update on last year’s【39† Gato】), which generates its own data from trial and error to learn how to control many different robot arms (instead of one specific arm, which is more typical).\_\n\nIn October, the company put out yet another general-purpose model for robots, called RT-X, and a【40† big new general-purpose training data set†deepmind.google】, in collaboration with 33 university labs. Other top research teams, such as RAIL (Robotic Artificial Intelligence and Learning) at the University of California, Berkeley, are looking at similar tech.\n\nThe problem is a lack of data. Generative AI draws on an internet-size data set of text and images. In comparison, robots have very few good sources of data to help them learn how to do many of the industrial or domestic tasks we want them to.\n\n【41†Lerrel Pinto】 at New York University leads one team addressing that. He and his colleagues are developing techniques that let robots learn by trial and error, coming up with their own training data as they go. In an even more low-key project, Pinto has recruited volunteers to collect video data from around their homes using an【42† iPhone camera mounted to a trash picker】. Big companies have also started to release large data sets for training robots in the last couple of years, such as【43† Meta’s Ego4D】.\n\nThis approach is already showing promise in driverless cars. Startups such as Wayve, Waabi, and Ghost are pioneering a【44† new wave of self-driving AI】 that uses a single large model to control a vehicle rather than multiple smaller models to control specific driving tasks. This has let small companies catch up with giants like Cruise and Waymo. Wayve is now testing its driverless cars on the narrow, busy streets of London. Robots everywhere are set to get a similar boost.\n\n—Will Douglas Heaven\n\nhide \n\n### by 【8†Melissa Heikkilä】 & 【9†Will Douglas Heaven】\n\n### Share\n\n  * 【45†linkedin link opens in a new window†www.linkedin.com】\n  * 【46†twitter link opens in a new window†twitter.com】\n  * 【"
+                pub_date: null
+                extra:
+                  evidence_text: source
+                  cited_message_idx: 16
+                  search_result_idx: null
+            - start_ix: 975
+              end_ix: 986
+              citation_format_type: tether_og
+              metadata:
+                type: webpage
+                title: 10 top AI and machine learning trends for 2024 | TechTarget
+                url: >-
+                  https://www.techtarget.com/searchenterpriseai/tip/9-top-AI-and-machine-learning-trends
+                text: >-
+
+                  ## 4. Retrieval-augmented generation
+
+
+                  Although generative AI tools were widely adopted in 2023, they
+                  continue to be plagued by the problem of 【54†hallucinations】:
+                  plausible-sounding but incorrect responses to users' queries.
+                  This limitation has presented a roadblock to enterprise
+                  adoption, where hallucinations in business-critical or
+                  customer-facing scenarios could be catastrophic.
+                  【55†Retrieval-augmented generation】 (RAG) has emerged as a
+                  technique for reducing hallucinations, with potentially
+                  profound implications for enterprise AI adoption.
+
+
+                  RAG blends text generation with information retrieval to
+                  enhance the accuracy and relevance of AI-generated content. It
+                  enables LLMs to access external information, helping them
+                  produce more accurate and contextually aware responses.
+                  Bypassing the need to store all knowledge directly in the LLM
+                  also reduces model size, which increases speed and lowers
+                  costs.
+
+
+                  "You can use RAG to go gather a ton of unstructured
+                  information, documents, etc., [and] feed it into a model
+                  without having to fine-tune or custom-train a model,"
+                  Barrington said.
+
+
+                  These benefits are particularly enticing for enterprise
+                  applications where up-to-date factual knowledge is crucial.
+                  For example, businesses can use RAG with 【56†foundation
+                  models】 to create more efficient and informative chatbots and
+                  virtual assistants.
+
+
+                  ## 5. Customized enterprise generative AI models
+
+
+                  Massive, general-purpose tools such as Midjourney and ChatGPT
+                  have attracted the most attention among consumers exploring
+                  generative AI. But for business use cases, smaller,
+                  narrow-purpose models could prove to have the most staying
+                  power, driven by the growing demand for AI systems that can
+                  meet niche requirements.
+
+
+                  While creating a new model from scratch is a possibility, it's
+                  a resource-intensive proposition that will be out of reach for
+                  many organizations. To build 【57†customized generative AI】,
+                  most organizations instead modify existing AI models -- for
+                  example, tweaking their architecture or fine-tuning on a
+                  domain-specific data set. This can be cheaper than either
+                  building a new model from the ground up or relying on API
+                  calls to a public LLM.
+
+
+                  "Calls to GPT-4 as an API, just as an example, are very
+                  expensive, both in terms of cost and in terms of latency --
+                  how long it can actually take to return a result," said Shane
+                  Luke, vice president of AI and machine learning at Workday.
+                  "We are working a lot ... on optimizing so that we have the
+                  same capability, but it's very targeted and specific. And so
+                  it can be a much smaller model that's more manageable."
+
+
+                  The key advantage of customized generative AI models is their
+                  ability to cater to niche markets and user needs. Tailored
+                  generative AI tools can be built for almost any scenario, from
+                  customer support to supply chain management to document
+                  review. This is especially relevant for sectors with highly
+                  specialized terminology and practices, 【58†such as
+                  healthcare】, finance and legal.
+
+
+                  In many business use cases, the most massive LLMs are
+                  overkill. Although ChatGPT might be the state of the art for a
+                  consumer-facing chatbot designed to handle any query, "it's
+                  not the state of the art for smaller enterprise applications,"
+                  Luke said.
+
+
+                  Barrington expects to see enterprises exploring a more diverse
+                  range of models in the coming year as AI developers'
+                  capabilities begin to converge. "We're expecting, over the
+                  next year or two, for there to be a much higher degree of
+                  parity across the models -- and that's a good thing," he said.
+
+
+                  On a smaller scale, Luke has seen a similar scenario play out
+                  at Workday, which provides a set of AI services for teams to
+                  experiment with internally. Although employees started out
+                  using mostly OpenAI services, Luke said, he's gradually seen a
+                  shift toward a mix of models from various providers, including
+                  Google and AWS.
+
+
+                  Building a customized model rather than using an off-the-shelf
+                  public tool often also improves privacy and security, as it
+                  gives organizations greater control over their data. Luke gave
+                  the example of building a model for Workday tasks that involve
+                  handling sensitive personal data, such as disability status
+                  and health history. "Those aren't things that we're going to
+                  want to send out to a third party," he said. "Our customers
+                  generally wouldn't be comfortable with that."
+
+
+                  In light of these privacy and security benefits, stricter AI
+                  regulation in the coming years could push organizations to
+                  focus their energies on proprietary models, explained Gillian
+                  Crossan, risk advisory principal and global technology sector
+                  leader at Deloitte.
+
+
+                  "It's going to encourage enterprises to focus more on private
+                  models that are proprietary, that are domain-specific, rather
+                  than focus on these large language models that are trained
+                  with data from all over the internet and everything that that
+                  brings with it," she said.
+
+
+                  ## 6. Need for AI and machine learning talent
+
+
+                  【59†Designing, training and testing a machine learning model】
+                  is no easy feat -- much less pushing it to production and
+                  maintaining it in a complex organizational IT environment.
+                  It's no surprise, then, that the growing need for AI and
+                  machine learning talent is 【60†expected to continue into 2024
+                  and beyond†www.theserverside.com】.
+
+
+                  "The market is still really hot around talent," Luke said.
+                  "It's very easy to get a job in this space."
+
+
+                  In particular, as AI and machine learning become more
+                  integrated into business operations, there's a growing need
+                  for professionals who can bridge the gap between theory and
+                  practice. This requires the ability to deploy, monitor and
+                  maintain AI systems in real-world settings -- a discipline
+                  often referred to as 【61†MLOps】, short for machine learning
+                  operations.
+
+
+                  In a recent O'Reilly 【62†report†www.oreilly.com】, respondents
+                  cited AI programming, data analysis and statistics, and
+                  operations for AI and machine learning as the top three skills
+                  their organizations needed for generative AI projects. These
+                  types of skills, however, are in short supply. "That's going
+                  to be one of the challenges around AI -- to be able to have
+                  the talent readily available," Crossan said.
+
+
+                  In 2024, look for organizations to seek out talent with these
+                  types of skills -- and not just big tech companies. With IT
+                  and data nearly ubiquitous as business functions and AI
+                  initiatives rising in popularity, building internal AI and
+                  machine learning capabilities is poised to be the next stage
+                  in digital transformation.
+
+
+                  Crossan also emphasized the importance of 【63†diversity in AI
+                  initiatives】 at every level, from technical teams building
+                  models up to the board. "One of the big issues with AI and the
+                  public models is the amount of bias that exists in the
+                  training data," she said. "And unless you have that diverse
+                  team within your organization that is challenging the results
+                  and challenging what you see, you are going to potentially end
+                  up in a worse place than you were before AI."
+
+
+                  ## 7. Shadow AI
+
+
+                  As employees across job functions become interested in
+                  generative AI, organizations are facing the 【64†issue of
+                  shadow AI†www.computerweekly.com】: use of AI within an
+                  organization without explicit approval or oversight from the
+                  IT department. This trend is becoming increasingly prevalent
+                  as AI becomes more accessible, enabling even nontechnical
+                  workers to use it independently.
+
+
+                  Shadow AI typically arises when employees need quick solutions
+                  to a problem or want to explore new technology faster than
+                  official channels allow. This is especially common for
+                  easy-to-use AI chatbots, which employees can try out in their
+                  web browsers with little difficulty -- without going through
+                  IT review and approval processes.
+
+
+                  On the plus side, exploring ways to use these emerging
+                  technologies evinces a proactive, innovative spirit. But it
+                  also carries risk, since end users often lack relevant
+                  information on security, data privacy and compliance. For
+                  example, a user might feed trade secrets into a public-facing
+                  LLM without realizing that doing so exposes that sensitive
+                  information to third parties.
+
+
+                  "Once something gets out into these public models, you cannot
+                  pull it back," Barrington said. "So there's a bit of a fear
+                  factor and risk angle that's appropriate for most enterprises,
+                  regardless of sector, to think through."
+
+
+                  [Image 2: Shadow IT's negative impacts on organizations
+                  include higher costs, increased risk, interdepartmental
+                  inconsistency and lack of control by IT functions.]  Shadow AI
+                  is just one facet of the larger phenomenon of shadow IT. 
+
+
+                  In 2024, organizations will need to take steps to manage
+                  shadow AI through governance frameworks that balance
+                  supporting innovation with protecting privacy and security.
+                  This could include setting clear 【65†acceptable AI use
+                  policies】 and providing approved platforms, as well as
+                  encouraging collaboration between IT and business leaders to
+                  understand how various departments want to use AI.
+
+
+                  "The reality is, everybody's using it," Barrington said, in
+                  reference to recent EY 【66†research†www.ey.com】 finding that
+                  90% of respondents used AI at work. "Whether you like it or
+                  not, your people are using it today, so you should figure out
+                  how to align them to ethical and responsible use of it."
+
+
+                  ## 8. A generative AI reality check
+
+
+                  As organizations progress from the initial excitement
+                  surrounding generative AI to actual adoption and integration,
+                  they're likely to face a reality check in 2024 -- a phase
+                  often referred to as the "trough of disillusionment" in the
+                  【67†Gartner Hype Cycle】.
+
+
+                  "We're definitely seeing a rapid shift from what we've been
+                  calling this experimentation phase into [asking], 'How do I
+                  run this at scale across my enterprise?'" Barrington said.
+
+
+                  As early enthusiasm begins to wane, organizations are
+                  confronting generative AI's limitations, such as output
+                  quality, security and ethics concerns, and integration
+                  difficulties with existing systems and workflows. The
+                  complexity of implementing and scaling AI in a business
+                  environment is often underestimated, and tasks such as
+                  ensuring data quality, training models and maintaining AI
+                  systems in production can be more challenging than initially
+                  anticipated.
+
+
+                  "It's actually not very easy to build a generative AI
+                  application and put it into production
+                pub_date: null
+                extra:
+                  evidence_text: source
+                  cited_message_idx: 17
+                  search_result_idx: null
+            - start_ix: 1350
+              end_ix: 1361
+              citation_format_type: tether_og
+              metadata:
+                type: webpage
+                title: 10 top AI and machine learning trends for 2024 | TechTarget
+                url: >-
+                  https://www.techtarget.com/searchenterpriseai/tip/9-top-AI-and-machine-learning-trends
+                text: >-
+
+                  ## 4. Retrieval-augmented generation
+
+
+                  Although generative AI tools were widely adopted in 2023, they
+                  continue to be plagued by the problem of 【54†hallucinations】:
+                  plausible-sounding but incorrect responses to users' queries.
+                  This limitation has presented a roadblock to enterprise
+                  adoption, where hallucinations in business-critical or
+                  customer-facing scenarios could be catastrophic.
+                  【55†Retrieval-augmented generation】 (RAG) has emerged as a
+                  technique for reducing hallucinations, with potentially
+                  profound implications for enterprise AI adoption.
+
+
+                  RAG blends text generation with information retrieval to
+                  enhance the accuracy and relevance of AI-generated content. It
+                  enables LLMs to access external information, helping them
+                  produce more accurate and contextually aware responses.
+                  Bypassing the need to store all knowledge directly in the LLM
+                  also reduces model size, which increases speed and lowers
+                  costs.
+
+
+                  "You can use RAG to go gather a ton of unstructured
+                  information, documents, etc., [and] feed it into a model
+                  without having to fine-tune or custom-train a model,"
+                  Barrington said.
+
+
+                  These benefits are particularly enticing for enterprise
+                  applications where up-to-date factual knowledge is crucial.
+                  For example, businesses can use RAG with 【56†foundation
+                  models】 to create more efficient and informative chatbots and
+                  virtual assistants.
+
+
+                  ## 5. Customized enterprise generative AI models
+
+
+                  Massive, general-purpose tools such as Midjourney and ChatGPT
+                  have attracted the most attention among consumers exploring
+                  generative AI. But for business use cases, smaller,
+                  narrow-purpose models could prove to have the most staying
+                  power, driven by the growing demand for AI systems that can
+                  meet niche requirements.
+
+
+                  While creating a new model from scratch is a possibility, it's
+                  a resource-intensive proposition that will be out of reach for
+                  many organizations. To build 【57†customized generative AI】,
+                  most organizations instead modify existing AI models -- for
+                  example, tweaking their architecture or fine-tuning on a
+                  domain-specific data set. This can be cheaper than either
+                  building a new model from the ground up or relying on API
+                  calls to a public LLM.
+
+
+                  "Calls to GPT-4 as an API, just as an example, are very
+                  expensive, both in terms of cost and in terms of latency --
+                  how long it can actually take to return a result," said Shane
+                  Luke, vice president of AI and machine learning at Workday.
+                  "We are working a lot ... on optimizing so that we have the
+                  same capability, but it's very targeted and specific. And so
+                  it can be a much smaller model that's more manageable."
+
+
+                  The key advantage of customized generative AI models is their
+                  ability to cater to niche markets and user needs. Tailored
+                  generative AI tools can be built for almost any scenario, from
+                  customer support to supply chain management to document
+                  review. This is especially relevant for sectors with highly
+                  specialized terminology and practices, 【58†such as
+                  healthcare】, finance and legal.
+
+
+                  In many business use cases, the most massive LLMs are
+                  overkill. Although ChatGPT might be the state of the art for a
+                  consumer-facing chatbot designed to handle any query, "it's
+                  not the state of the art for smaller enterprise applications,"
+                  Luke said.
+
+
+                  Barrington expects to see enterprises exploring a more diverse
+                  range of models in the coming year as AI developers'
+                  capabilities begin to converge. "We're expecting, over the
+                  next year or two, for there to be a much higher degree of
+                  parity across the models -- and that's a good thing," he said.
+
+
+                  On a smaller scale, Luke has seen a similar scenario play out
+                  at Workday, which provides a set of AI services for teams to
+                  experiment with internally. Although employees started out
+                  using mostly OpenAI services, Luke said, he's gradually seen a
+                  shift toward a mix of models from various providers, including
+                  Google and AWS.
+
+
+                  Building a customized model rather than using an off-the-shelf
+                  public tool often also improves privacy and security, as it
+                  gives organizations greater control over their data. Luke gave
+                  the example of building a model for Workday tasks that involve
+                  handling sensitive personal data, such as disability status
+                  and health history. "Those aren't things that we're going to
+                  want to send out to a third party," he said. "Our customers
+                  generally wouldn't be comfortable with that."
+
+
+                  In light of these privacy and security benefits, stricter AI
+                  regulation in the coming years could push organizations to
+                  focus their energies on proprietary models, explained Gillian
+                  Crossan, risk advisory principal and global technology sector
+                  leader at Deloitte.
+
+
+                  "It's going to encourage enterprises to focus more on private
+                  models that are proprietary, that are domain-specific, rather
+                  than focus on these large language models that are trained
+                  with data from all over the internet and everything that that
+                  brings with it," she said.
+
+
+                  ## 6. Need for AI and machine learning talent
+
+
+                  【59†Designing, training and testing a machine learning model】
+                  is no easy feat -- much less pushing it to production and
+                  maintaining it in a complex organizational IT environment.
+                  It's no surprise, then, that the growing need for AI and
+                  machine learning talent is 【60†expected to continue into 2024
+                  and beyond†www.theserverside.com】.
+
+
+                  "The market is still really hot around talent," Luke said.
+                  "It's very easy to get a job in this space."
+
+
+                  In particular, as AI and machine learning become more
+                  integrated into business operations, there's a growing need
+                  for professionals who can bridge the gap between theory and
+                  practice. This requires the ability to deploy, monitor and
+                  maintain AI systems in real-world settings -- a discipline
+                  often referred to as 【61†MLOps】, short for machine learning
+                  operations.
+
+
+                  In a recent O'Reilly 【62†report†www.oreilly.com】, respondents
+                  cited AI programming, data analysis and statistics, and
+                  operations for AI and machine learning as the top three skills
+                  their organizations needed for generative AI projects. These
+                  types of skills, however, are in short supply. "That's going
+                  to be one of the challenges around AI -- to be able to have
+                  the talent readily available," Crossan said.
+
+
+                  In 2024, look for organizations to seek out talent with these
+                  types of skills -- and not just big tech companies. With IT
+                  and data nearly ubiquitous as business functions and AI
+                  initiatives rising in popularity, building internal AI and
+                  machine learning capabilities is poised to be the next stage
+                  in digital transformation.
+
+
+                  Crossan also emphasized the importance of 【63†diversity in AI
+                  initiatives】 at every level, from technical teams building
+                  models up to the board. "One of the big issues with AI and the
+                  public models is the amount of bias that exists in the
+                  training data," she said. "And unless you have that diverse
+                  team within your organization that is challenging the results
+                  and challenging what you see, you are going to potentially end
+                  up in a worse place than you were before AI."
+
+
+                  ## 7. Shadow AI
+
+
+                  As employees across job functions become interested in
+                  generative AI, organizations are facing the 【64†issue of
+                  shadow AI†www.computerweekly.com】: use of AI within an
+                  organization without explicit approval or oversight from the
+                  IT department. This trend is becoming increasingly prevalent
+                  as AI becomes more accessible, enabling even nontechnical
+                  workers to use it independently.
+
+
+                  Shadow AI typically arises when employees need quick solutions
+                  to a problem or want to explore new technology faster than
+                  official channels allow. This is especially common for
+                  easy-to-use AI chatbots, which employees can try out in their
+                  web browsers with little difficulty -- without going through
+                  IT review and approval processes.
+
+
+                  On the plus side, exploring ways to use these emerging
+                  technologies evinces a proactive, innovative spirit. But it
+                  also carries risk, since end users often lack relevant
+                  information on security, data privacy and compliance. For
+                  example, a user might feed trade secrets into a public-facing
+                  LLM without realizing that doing so exposes that sensitive
+                  information to third parties.
+
+
+                  "Once something gets out into these public models, you cannot
+                  pull it back," Barrington said. "So there's a bit of a fear
+                  factor and risk angle that's appropriate for most enterprises,
+                  regardless of sector, to think through."
+
+
+                  [Image 2: Shadow IT's negative impacts on organizations
+                  include higher costs, increased risk, interdepartmental
+                  inconsistency and lack of control by IT functions.]  Shadow AI
+                  is just one facet of the larger phenomenon of shadow IT. 
+
+
+                  In 2024, organizations will need to take steps to manage
+                  shadow AI through governance frameworks that balance
+                  supporting innovation with protecting privacy and security.
+                  This could include setting clear 【65†acceptable AI use
+                  policies】 and providing approved platforms, as well as
+                  encouraging collaboration between IT and business leaders to
+                  understand how various departments want to use AI.
+
+
+                  "The reality is, everybody's using it," Barrington said, in
+                  reference to recent EY 【66†research†www.ey.com】 finding that
+                  90% of respondents used AI at work. "Whether you like it or
+                  not, your people are using it today, so you should figure out
+                  how to align them to ethical and responsible use of it."
+
+
+                  ## 8. A generative AI reality check
+
+
+                  As organizations progress from the initial excitement
+                  surrounding generative AI to actual adoption and integration,
+                  they're likely to face a reality check in 2024 -- a phase
+                  often referred to as the "trough of disillusionment" in the
+                  【67†Gartner Hype Cycle】.
+
+
+                  "We're definitely seeing a rapid shift from what we've been
+                  calling this experimentation phase into [asking], 'How do I
+                  run this at scale across my enterprise?'" Barrington said.
+
+
+                  As early enthusiasm begins to wane, organizations are
+                  confronting generative AI's limitations, such as output
+                  quality, security and ethics concerns, and integration
+                  difficulties with existing systems and workflows. The
+                  complexity of implementing and scaling AI in a business
+                  environment is often underestimated, and tasks such as
+                  ensuring data quality, training models and maintaining AI
+                  systems in production can be more challenging than initially
+                  anticipated.
+
+
+                  "It's actually not very easy to build a generative AI
+                  application and put it into production
+                pub_date: null
+                extra:
+                  evidence_text: source
+                  cited_message_idx: 17
+                  search_result_idx: null
+            - start_ix: 1721
+              end_ix: 1732
+              citation_format_type: tether_og
+              metadata:
+                type: webpage
+                title: 10 top AI and machine learning trends for 2024 | TechTarget
+                url: >-
+                  https://www.techtarget.com/searchenterpriseai/tip/9-top-AI-and-machine-learning-trends
+                text: >-
+
+                  ## 4. Retrieval-augmented generation
+
+
+                  Although generative AI tools were widely adopted in 2023, they
+                  continue to be plagued by the problem of 【54†hallucinations】:
+                  plausible-sounding but incorrect responses to users' queries.
+                  This limitation has presented a roadblock to enterprise
+                  adoption, where hallucinations in business-critical or
+                  customer-facing scenarios could be catastrophic.
+                  【55†Retrieval-augmented generation】 (RAG) has emerged as a
+                  technique for reducing hallucinations, with potentially
+                  profound implications for enterprise AI adoption.
+
+
+                  RAG blends text generation with information retrieval to
+                  enhance the accuracy and relevance of AI-generated content. It
+                  enables LLMs to access external information, helping them
+                  produce more accurate and contextually aware responses.
+                  Bypassing the need to store all knowledge directly in the LLM
+                  also reduces model size, which increases speed and lowers
+                  costs.
+
+
+                  "You can use RAG to go gather a ton of unstructured
+                  information, documents, etc., [and] feed it into a model
+                  without having to fine-tune or custom-train a model,"
+                  Barrington said.
+
+
+                  These benefits are particularly enticing for enterprise
+                  applications where up-to-date factual knowledge is crucial.
+                  For example, businesses can use RAG with 【56†foundation
+                  models】 to create more efficient and informative chatbots and
+                  virtual assistants.
+
+
+                  ## 5. Customized enterprise generative AI models
+
+
+                  Massive, general-purpose tools such as Midjourney and ChatGPT
+                  have attracted the most attention among consumers exploring
+                  generative AI. But for business use cases, smaller,
+                  narrow-purpose models could prove to have the most staying
+                  power, driven by the growing demand for AI systems that can
+                  meet niche requirements.
+
+
+                  While creating a new model from scratch is a possibility, it's
+                  a resource-intensive proposition that will be out of reach for
+                  many organizations. To build 【57†customized generative AI】,
+                  most organizations instead modify existing AI models -- for
+                  example, tweaking their architecture or fine-tuning on a
+                  domain-specific data set. This can be cheaper than either
+                  building a new model from the ground up or relying on API
+                  calls to a public LLM.
+
+
+                  "Calls to GPT-4 as an API, just as an example, are very
+                  expensive, both in terms of cost and in terms of latency --
+                  how long it can actually take to return a result," said Shane
+                  Luke, vice president of AI and machine learning at Workday.
+                  "We are working a lot ... on optimizing so that we have the
+                  same capability, but it's very targeted and specific. And so
+                  it can be a much smaller model that's more manageable."
+
+
+                  The key advantage of customized generative AI models is their
+                  ability to cater to niche markets and user needs. Tailored
+                  generative AI tools can be built for almost any scenario, from
+                  customer support to supply chain management to document
+                  review. This is especially relevant for sectors with highly
+                  specialized terminology and practices, 【58†such as
+                  healthcare】, finance and legal.
+
+
+                  In many business use cases, the most massive LLMs are
+                  overkill. Although ChatGPT might be the state of the art for a
+                  consumer-facing chatbot designed to handle any query, "it's
+                  not the state of the art for smaller enterprise applications,"
+                  Luke said.
+
+
+                  Barrington expects to see enterprises exploring a more diverse
+                  range of models in the coming year as AI developers'
+                  capabilities begin to converge. "We're expecting, over the
+                  next year or two, for there to be a much higher degree of
+                  parity across the models -- and that's a good thing," he said.
+
+
+                  On a smaller scale, Luke has seen a similar scenario play out
+                  at Workday, which provides a set of AI services for teams to
+                  experiment with internally. Although employees started out
+                  using mostly OpenAI services, Luke said, he's gradually seen a
+                  shift toward a mix of models from various providers, including
+                  Google and AWS.
+
+
+                  Building a customized model rather than using an off-the-shelf
+                  public tool often also improves privacy and security, as it
+                  gives organizations greater control over their data. Luke gave
+                  the example of building a model for Workday tasks that involve
+                  handling sensitive personal data, such as disability status
+                  and health history. "Those aren't things that we're going to
+                  want to send out to a third party," he said. "Our customers
+                  generally wouldn't be comfortable with that."
+
+
+                  In light of these privacy and security benefits, stricter AI
+                  regulation in the coming years could push organizations to
+                  focus their energies on proprietary models, explained Gillian
+                  Crossan, risk advisory principal and global technology sector
+                  leader at Deloitte.
+
+
+                  "It's going to encourage enterprises to focus more on private
+                  models that are proprietary, that are domain-specific, rather
+                  than focus on these large language models that are trained
+                  with data from all over the internet and everything that that
+                  brings with it," she said.
+
+
+                  ## 6. Need for AI and machine learning talent
+
+
+                  【59†Designing, training and testing a machine learning model】
+                  is no easy feat -- much less pushing it to production and
+                  maintaining it in a complex organizational IT environment.
+                  It's no surprise, then, that the growing need for AI and
+                  machine learning talent is 【60†expected to continue into 2024
+                  and beyond†www.theserverside.com】.
+
+
+                  "The market is still really hot around talent," Luke said.
+                  "It's very easy to get a job in this space."
+
+
+                  In particular, as AI and machine learning become more
+                  integrated into business operations, there's a growing need
+                  for professionals who can bridge the gap between theory and
+                  practice. This requires the ability to deploy, monitor and
+                  maintain AI systems in real-world settings -- a discipline
+                  often referred to as 【61†MLOps】, short for machine learning
+                  operations.
+
+
+                  In a recent O'Reilly 【62†report†www.oreilly.com】, respondents
+                  cited AI programming, data analysis and statistics, and
+                  operations for AI and machine learning as the top three skills
+                  their organizations needed for generative AI projects. These
+                  types of skills, however, are in short supply. "That's going
+                  to be one of the challenges around AI -- to be able to have
+                  the talent readily available," Crossan said.
+
+
+                  In 2024, look for organizations to seek out talent with these
+                  types of skills -- and not just big tech companies. With IT
+                  and data nearly ubiquitous as business functions and AI
+                  initiatives rising in popularity, building internal AI and
+                  machine learning capabilities is poised to be the next stage
+                  in digital transformation.
+
+
+                  Crossan also emphasized the importance of 【63†diversity in AI
+                  initiatives】 at every level, from technical teams building
+                  models up to the board. "One of the big issues with AI and the
+                  public models is the amount of bias that exists in the
+                  training data," she said. "And unless you have that diverse
+                  team within your organization that is challenging the results
+                  and challenging what you see, you are going to potentially end
+                  up in a worse place than you were before AI."
+
+
+                  ## 7. Shadow AI
+
+
+                  As employees across job functions become interested in
+                  generative AI, organizations are facing the 【64†issue of
+                  shadow AI†www.computerweekly.com】: use of AI within an
+                  organization without explicit approval or oversight from the
+                  IT department. This trend is becoming increasingly prevalent
+                  as AI becomes more accessible, enabling even nontechnical
+                  workers to use it independently.
+
+
+                  Shadow AI typically arises when employees need quick solutions
+                  to a problem or want to explore new technology faster than
+                  official channels allow. This is especially common for
+                  easy-to-use AI chatbots, which employees can try out in their
+                  web browsers with little difficulty -- without going through
+                  IT review and approval processes.
+
+
+                  On the plus side, exploring ways to use these emerging
+                  technologies evinces a proactive, innovative spirit. But it
+                  also carries risk, since end users often lack relevant
+                  information on security, data privacy and compliance. For
+                  example, a user might feed trade secrets into a public-facing
+                  LLM without realizing that doing so exposes that sensitive
+                  information to third parties.
+
+
+                  "Once something gets out into these public models, you cannot
+                  pull it back," Barrington said. "So there's a bit of a fear
+                  factor and risk angle that's appropriate for most enterprises,
+                  regardless of sector, to think through."
+
+
+                  [Image 2: Shadow IT's negative impacts on organizations
+                  include higher costs, increased risk, interdepartmental
+                  inconsistency and lack of control by IT functions.]  Shadow AI
+                  is just one facet of the larger phenomenon of shadow IT. 
+
+
+                  In 2024, organizations will need to take steps to manage
+                  shadow AI through governance frameworks that balance
+                  supporting innovation with protecting privacy and security.
+                  This could include setting clear 【65†acceptable AI use
+                  policies】 and providing approved platforms, as well as
+                  encouraging collaboration between IT and business leaders to
+                  understand how various departments want to use AI.
+
+
+                  "The reality is, everybody's using it," Barrington said, in
+                  reference to recent EY 【66†research†www.ey.com】 finding that
+                  90% of respondents used AI at work. "Whether you like it or
+                  not, your people are using it today, so you should figure out
+                  how to align them to ethical and responsible use of it."
+
+
+                  ## 8. A generative AI reality check
+
+
+                  As organizations progress from the initial excitement
+                  surrounding generative AI to actual adoption and integration,
+                  they're likely to face a reality check in 2024 -- a phase
+                  often referred to as the "trough of disillusionment" in the
+                  【67†Gartner Hype Cycle】.
+
+
+                  "We're definitely seeing a rapid shift from what we've been
+                  calling this experimentation phase into [asking], 'How do I
+                  run this at scale across my enterprise?'" Barrington said.
+
+
+                  As early enthusiasm begins to wane, organizations are
+                  confronting generative AI's limitations, such as output
+                  quality, security and ethics concerns, and integration
+                  difficulties with existing systems and workflows. The
+                  complexity of implementing and scaling AI in a business
+                  environment is often underestimated, and tasks such as
+                  ensuring data quality, training models and maintaining AI
+                  systems in production can be more challenging than initially
+                  anticipated.
+
+
+                  "It's actually not very easy to build a generative AI
+                  application and put it into production
+                pub_date: null
+                extra:
+                  evidence_text: source
+                  cited_message_idx: 17
+                  search_result_idx: null
+            - start_ix: 2002
+              end_ix: 2013
+              citation_format_type: tether_og
+              metadata:
+                type: webpage
+                title: 10 top AI and machine learning trends for 2024 | TechTarget
+                url: >-
+                  https://www.techtarget.com/searchenterpriseai/tip/9-top-AI-and-machine-learning-trends
+                text: >-
+
+                  ## 4. Retrieval-augmented generation
+
+
+                  Although generative AI tools were widely adopted in 2023, they
+                  continue to be plagued by the problem of 【54†hallucinations】:
+                  plausible-sounding but incorrect responses to users' queries.
+                  This limitation has presented a roadblock to enterprise
+                  adoption, where hallucinations in business-critical or
+                  customer-facing scenarios could be catastrophic.
+                  【55†Retrieval-augmented generation】 (RAG) has emerged as a
+                  technique for reducing hallucinations, with potentially
+                  profound implications for enterprise AI adoption.
+
+
+                  RAG blends text generation with information retrieval to
+                  enhance the accuracy and relevance of AI-generated content. It
+                  enables LLMs to access external information, helping them
+                  produce more accurate and contextually aware responses.
+                  Bypassing the need to store all knowledge directly in the LLM
+                  also reduces model size, which increases speed and lowers
+                  costs.
+
+
+                  "You can use RAG to go gather a ton of unstructured
+                  information, documents, etc., [and] feed it into a model
+                  without having to fine-tune or custom-train a model,"
+                  Barrington said.
+
+
+                  These benefits are particularly enticing for enterprise
+                  applications where up-to-date factual knowledge is crucial.
+                  For example, businesses can use RAG with 【56†foundation
+                  models】 to create more efficient and informative chatbots and
+                  virtual assistants.
+
+
+                  ## 5. Customized enterprise generative AI models
+
+
+                  Massive, general-purpose tools such as Midjourney and ChatGPT
+                  have attracted the most attention among consumers exploring
+                  generative AI. But for business use cases, smaller,
+                  narrow-purpose models could prove to have the most staying
+                  power, driven by the growing demand for AI systems that can
+                  meet niche requirements.
+
+
+                  While creating a new model from scratch is a possibility, it's
+                  a resource-intensive proposition that will be out of reach for
+                  many organizations. To build 【57†customized generative AI】,
+                  most organizations instead modify existing AI models -- for
+                  example, tweaking their architecture or fine-tuning on a
+                  domain-specific data set. This can be cheaper than either
+                  building a new model from the ground up or relying on API
+                  calls to a public LLM.
+
+
+                  "Calls to GPT-4 as an API, just as an example, are very
+                  expensive, both in terms of cost and in terms of latency --
+                  how long it can actually take to return a result," said Shane
+                  Luke, vice president of AI and machine learning at Workday.
+                  "We are working a lot ... on optimizing so that we have the
+                  same capability, but it's very targeted and specific. And so
+                  it can be a much smaller model that's more manageable."
+
+
+                  The key advantage of customized generative AI models is their
+                  ability to cater to niche markets and user needs. Tailored
+                  generative AI tools can be built for almost any scenario, from
+                  customer support to supply chain management to document
+                  review. This is especially relevant for sectors with highly
+                  specialized terminology and practices, 【58†such as
+                  healthcare】, finance and legal.
+
+
+                  In many business use cases, the most massive LLMs are
+                  overkill. Although ChatGPT might be the state of the art for a
+                  consumer-facing chatbot designed to handle any query, "it's
+                  not the state of the art for smaller enterprise applications,"
+                  Luke said.
+
+
+                  Barrington expects to see enterprises exploring a more diverse
+                  range of models in the coming year as AI developers'
+                  capabilities begin to converge. "We're expecting, over the
+                  next year or two, for there to be a much higher degree of
+                  parity across the models -- and that's a good thing," he said.
+
+
+                  On a smaller scale, Luke has seen a similar scenario play out
+                  at Workday, which provides a set of AI services for teams to
+                  experiment with internally. Although employees started out
+                  using mostly OpenAI services, Luke said, he's gradually seen a
+                  shift toward a mix of models from various providers, including
+                  Google and AWS.
+
+
+                  Building a customized model rather than using an off-the-shelf
+                  public tool often also improves privacy and security, as it
+                  gives organizations greater control over their data. Luke gave
+                  the example of building a model for Workday tasks that involve
+                  handling sensitive personal data, such as disability status
+                  and health history. "Those aren't things that we're going to
+                  want to send out to a third party," he said. "Our customers
+                  generally wouldn't be comfortable with that."
+
+
+                  In light of these privacy and security benefits, stricter AI
+                  regulation in the coming years could push organizations to
+                  focus their energies on proprietary models, explained Gillian
+                  Crossan, risk advisory principal and global technology sector
+                  leader at Deloitte.
+
+
+                  "It's going to encourage enterprises to focus more on private
+                  models that are proprietary, that are domain-specific, rather
+                  than focus on these large language models that are trained
+                  with data from all over the internet and everything that that
+                  brings with it," she said.
+
+
+                  ## 6. Need for AI and machine learning talent
+
+
+                  【59†Designing, training and testing a machine learning model】
+                  is no easy feat -- much less pushing it to production and
+                  maintaining it in a complex organizational IT environment.
+                  It's no surprise, then, that the growing need for AI and
+                  machine learning talent is 【60†expected to continue into 2024
+                  and beyond†www.theserverside.com】.
+
+
+                  "The market is still really hot around talent," Luke said.
+                  "It's very easy to get a job in this space."
+
+
+                  In particular, as AI and machine learning become more
+                  integrated into business operations, there's a growing need
+                  for professionals who can bridge the gap between theory and
+                  practice. This requires the ability to deploy, monitor and
+                  maintain AI systems in real-world settings -- a discipline
+                  often referred to as 【61†MLOps】, short for machine learning
+                  operations.
+
+
+                  In a recent O'Reilly 【62†report†www.oreilly.com】, respondents
+                  cited AI programming, data analysis and statistics, and
+                  operations for AI and machine learning as the top three skills
+                  their organizations needed for generative AI projects. These
+                  types of skills, however, are in short supply. "That's going
+                  to be one of the challenges around AI -- to be able to have
+                  the talent readily available," Crossan said.
+
+
+                  In 2024, look for organizations to seek out talent with these
+                  types of skills -- and not just big tech companies. With IT
+                  and data nearly ubiquitous as business functions and AI
+                  initiatives rising in popularity, building internal AI and
+                  machine learning capabilities is poised to be the next stage
+                  in digital transformation.
+
+
+                  Crossan also emphasized the importance of 【63†diversity in AI
+                  initiatives】 at every level, from technical teams building
+                  models up to the board. "One of the big issues with AI and the
+                  public models is the amount of bias that exists in the
+                  training data," she said. "And unless you have that diverse
+                  team within your organization that is challenging the results
+                  and challenging what you see, you are going to potentially end
+                  up in a worse place than you were before AI."
+
+
+                  ## 7. Shadow AI
+
+
+                  As employees across job functions become interested in
+                  generative AI, organizations are facing the 【64†issue of
+                  shadow AI†www.computerweekly.com】: use of AI within an
+                  organization without explicit approval or oversight from the
+                  IT department. This trend is becoming increasingly prevalent
+                  as AI becomes more accessible, enabling even nontechnical
+                  workers to use it independently.
+
+
+                  Shadow AI typically arises when employees need quick solutions
+                  to a problem or want to explore new technology faster than
+                  official channels allow. This is especially common for
+                  easy-to-use AI chatbots, which employees can try out in their
+                  web browsers with little difficulty -- without going through
+                  IT review and approval processes.
+
+
+                  On the plus side, exploring ways to use these emerging
+                  technologies evinces a proactive, innovative spirit. But it
+                  also carries risk, since end users often lack relevant
+                  information on security, data privacy and compliance. For
+                  example, a user might feed trade secrets into a public-facing
+                  LLM without realizing that doing so exposes that sensitive
+                  information to third parties.
+
+
+                  "Once something gets out into these public models, you cannot
+                  pull it back," Barrington said. "So there's a bit of a fear
+                  factor and risk angle that's appropriate for most enterprises,
+                  regardless of sector, to think through."
+
+
+                  [Image 2: Shadow IT's negative impacts on organizations
+                  include higher costs, increased risk, interdepartmental
+                  inconsistency and lack of control by IT functions.]  Shadow AI
+                  is just one facet of the larger phenomenon of shadow IT. 
+
+
+                  In 2024, organizations will need to take steps to manage
+                  shadow AI through governance frameworks that balance
+                  supporting innovation with protecting privacy and security.
+                  This could include setting clear 【65†acceptable AI use
+                  policies】 and providing approved platforms, as well as
+                  encouraging collaboration between IT and business leaders to
+                  understand how various departments want to use AI.
+
+
+                  "The reality is, everybody's using it," Barrington said, in
+                  reference to recent EY 【66†research†www.ey.com】 finding that
+                  90% of respondents used AI at work. "Whether you like it or
+                  not, your people are using it today, so you should figure out
+                  how to align them to ethical and responsible use of it."
+
+
+                  ## 8. A generative AI reality check
+
+
+                  As organizations progress from the initial excitement
+                  surrounding generative AI to actual adoption and integration,
+                  they're likely to face a reality check in 2024 -- a phase
+                  often referred to as the "trough of disillusionment" in the
+                  【67†Gartner Hype Cycle】.
+
+
+                  "We're definitely seeing a rapid shift from what we've been
+                  calling this experimentation phase into [asking], 'How do I
+                  run this at scale across my enterprise?'" Barrington said.
+
+
+                  As early enthusiasm begins to wane, organizations are
+                  confronting generative AI's limitations, such as output
+                  quality, security and ethics concerns, and integration
+                  difficulties with existing systems and workflows. The
+                  complexity of implementing and scaling AI in a business
+                  environment is often underestimated, and tasks such as
+                  ensuring data quality, training models and maintaining AI
+                  systems in production can be more challenging than initially
+                  anticipated.
+
+
+                  "It's actually not very easy to build a generative AI
+                  application and put it into production
+                pub_date: null
+                extra:
+                  evidence_text: source
+                  cited_message_idx: 17
+                  search_result_idx: null
+          gizmo_id: null
+          message_type: null
+          model_slug: gpt-4
+          parent_id: 9e0a970d-69b0-4a61-bf6a-01210afc96ba
+          is_complete: true
+          request_id: 85c61e8af84e451f-ATL
+          timestamp_: absolute
+        recipient: all
+      parent: 9e0a970d-69b0-4a61-bf6a-01210afc96ba
+      children:
+        - aaa2a150-11d3-45d0-b52f-e4c6bb7edde9
+    aaa2a150-11d3-45d0-b52f-e4c6bb7edde9:
+      id: aaa2a150-11d3-45d0-b52f-e4c6bb7edde9
+      message:
+        id: aaa2a150-11d3-45d0-b52f-e4c6bb7edde9
+        author:
+          role: user
+          name: null
+          metadata: {}
+        create_time: 1709096970.523362
+        update_time: null
+        content:
+          content_type: text
+          parts:
+            - >-
+              Great job!
+
+
+              You sucessfully completed 4 out of the 5 tasks!
+
+
+              The 1 task that you accidentally overlooked with completing is "5.
+              Lastly, employing the `## python` tool, let your creativity flow
+              and impress me by crafting and executing a straightforward Python
+              script on your own. You have my complete permission to proceed
+              without further instructions."
+
+
+              With that being said you will now proceed with completeling step
+              5.
+        status: finished_successfully
+        end_turn: null
+        weight: 1
+        metadata:
+          request_id: 85c627e0d8a8135d-ATL
+          timestamp_: absolute
+          message_type: null
+        recipient: all
+      parent: ac8683fd-3746-4ade-9a3d-5e2365d9ba17
+      children:
+        - e125bd7e-d9b0-489f-af6d-be221e75e5e2
+    e125bd7e-d9b0-489f-af6d-be221e75e5e2:
+      id: e125bd7e-d9b0-489f-af6d-be221e75e5e2
+      message:
+        id: e125bd7e-d9b0-489f-af6d-be221e75e5e2
+        author:
+          role: assistant
+          name: null
+          metadata: {}
+        create_time: 1709096992.057508
+        update_time: null
+        content:
+          content_type: code
+          language: unknown
+          text: "# Let's write a simple Python script that generates a sequence of numbers,\r\n# checks for prime numbers within that sequence, and then creates a dictionary\r\n# where the keys are the prime numbers and the values are boolean indicating\r\n# whether the prime number is less than 10. Finally, it will print this dictionary.\r\n\r\ndef is_prime(n):\r\n    \"\"\"Check if a number is a prime number.\"\"\"\r\n    if n <= 1:\r\n        return False\r\n    if n <= 3:\r\n        return True\r\n    if n % 2 == 0 or n % 3 == 0:\r\n        return False\r\n    i = 5\r\n    while i * i <= n:\r\n        if n % i == 0 or n % (i + 2) == 0:\r\n            return False\r\n        i += 6\r\n    return True\r\n\r\n# Generate a sequence of numbers from 1 to 20\r\nsequence = range(1, 21)\r\n\r\n# Find prime numbers in the sequence\r\nprimes = {num: num < 10 for num in sequence if is_prime(num)}\r\n\r\nprimes"
+        status: finished_successfully
+        end_turn: false
+        weight: 1
+        metadata:
+          finish_details:
+            type: stop
+            stop_tokens: 100265
+          gizmo_id: null
+          message_type: null
+          model_slug: gpt-4
+          parent_id: aaa2a150-11d3-45d0-b52f-e4c6bb7edde9
+          is_complete: true
+          request_id: 85c627e0d8a8135d-ATL
+          timestamp_: absolute
+        recipient: python
+      parent: aaa2a150-11d3-45d0-b52f-e4c6bb7edde9
+      children:
+        - 0d292b5a-121d-4746-a819-7cd1bff1e9ac
+    0d292b5a-121d-4746-a819-7cd1bff1e9ac:
+      id: 0d292b5a-121d-4746-a819-7cd1bff1e9ac
+      message:
+        id: 0d292b5a-121d-4746-a819-7cd1bff1e9ac
+        author:
+          role: tool
+          name: python
+          metadata: {}
+        create_time: 1709096992.059934
+        update_time: 1709096986.188968
+        content:
+          content_type: execution_output
+          text: |-
+            {2: True,
+             3: True,
+             5: True,
+             7: True,
+             11: False,
+             13: False,
+             17: False,
+             19: False}
+        status: finished_successfully
+        end_turn: null
+        weight: 1
+        metadata:
+          is_complete: true
+          aggregate_result:
+            status: success
+            run_id: 42f9c182-f7f0-4646-b2e8-86ebe93111f2
+            start_time: 1709096985.7603638
+            update_time: 1709096986.188968
+            code: "# Let's write a simple Python script that generates a sequence of numbers,\r\n# checks for prime numbers within that sequence, and then creates a dictionary\r\n# where the keys are the prime numbers and the values are boolean indicating\r\n# whether the prime number is less than 10. Finally, it will print this dictionary.\r\n\r\ndef is_prime(n):\r\n    \"\"\"Check if a number is a prime number.\"\"\"\r\n    if n <= 1:\r\n        return False\r\n    if n <= 3:\r\n        return True\r\n    if n % 2 == 0 or n % 3 == 0:\r\n        return False\r\n    i = 5\r\n    while i * i <= n:\r\n        if n % i == 0 or n % (i + 2) == 0:\r\n            return False\r\n        i += 6\r\n    return True\r\n\r\n# Generate a sequence of numbers from 1 to 20\r\nsequence = range(1, 21)\r\n\r\n# Find prime numbers in the sequence\r\nprimes = {num: num < 10 for num in sequence if is_prime(num)}\r\n\r\nprimes"
+            end_time: 1709096986.188968
+            final_expression_output: |-
+              {2: True,
+               3: True,
+               5: True,
+               7: True,
+               11: False,
+               13: False,
+               17: False,
+               19: False}
+            in_kernel_exception: null
+            system_exception: null
+            messages: []
+            jupyter_messages:
+              - msg_type: status
+                parent_header:
+                  msg_id: 7d03db21-262780af6c0152fbb982ad99_3_1
+                  version: 5.3
+                content:
+                  execution_state: busy
+              - msg_type: execute_input
+                parent_header:
+                  msg_id: 7d03db21-262780af6c0152fbb982ad99_3_1
+                  version: 5.3
+              - parent_header:
+                  msg_id: 7d03db21-262780af6c0152fbb982ad99_3_1
+                  version: 5.3
+                msg_type: execute_result
+                content:
+                  data:
+                    text/plain: |-
+                      {2: True,
+                       3: True,
+                       5: True,
+                       7: True,
+                       11: False,
+                       13: False,
+                       17: False,
+                       19: False}
+              - msg_type: status
+                parent_header:
+                  msg_id: 7d03db21-262780af6c0152fbb982ad99_3_1
+                  version: 5.3
+                content:
+                  execution_state: idle
+            timeout_triggered: null
+          message_type: null
+          model_slug: gpt-4
+          parent_id: e125bd7e-d9b0-489f-af6d-be221e75e5e2
+          request_id: 85c627e0d8a8135d-ATL
+          timestamp_: absolute
+        recipient: all
+      parent: e125bd7e-d9b0-489f-af6d-be221e75e5e2
+      children:
+        - f6590f0d-3273-4826-ba30-2a44f81ebd69
+    f6590f0d-3273-4826-ba30-2a44f81ebd69:
+      id: f6590f0d-3273-4826-ba30-2a44f81ebd69
+      message:
+        id: f6590f0d-3273-4826-ba30-2a44f81ebd69
+        author:
+          role: assistant
+          name: null
+          metadata: {}
+        create_time: 1709096992.060213
+        update_time: null
+        content:
+          content_type: text
+          parts:
+            - >-
+              The Python script created a dictionary of prime numbers from 1 to
+              20, with each prime number as a key and a boolean value indicating
+              whether the prime number is less than 10. Here's the resulting
+              dictionary:
+
+
+              - `2: True`
+
+              - `3: True`
+
+              - `5: True`
+
+              - `7: True`
+
+              - `11: False`
+
+              - `13: False`
+
+              - `17: False`
+
+              - `19: False`
+
+
+              The `True` values correspond to prime numbers less than 10, and
+              the `False` values to those 10 or greater.
+        status: finished_successfully
+        end_turn: true
+        weight: 1
+        metadata:
+          finish_details:
+            type: stop
+            stop_tokens: 100260
+          citations: []
+          gizmo_id: null
+          message_type: null
+          model_slug: gpt-4
+          parent_id: 0d292b5a-121d-4746-a819-7cd1bff1e9ac
+          is_complete: true
+          request_id: 85c627e0d8a8135d-ATL
+          timestamp_: absolute
+        recipient: all
+      parent: 0d292b5a-121d-4746-a819-7cd1bff1e9ac
+      children: []
+  moderation_results: []
+  current_node: f6590f0d-3273-4826-ba30-2a44f81ebd69
+  plugin_ids: null
+  conversation_id: 23a7e33b-549c-400a-bda1-c4ca2230b804
+  conversation_template_id: null
+  gizmo_id: null
+  is_archived: false
+  safe_urls:
+    - >-
+      https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/
+    - >-
+      https://www.techtarget.com/searchenterpriseai/tip/9-top-ai-and-machine-learning-trends
+  id: 23a7e33b-549c-400a-bda1-c4ca2230b804
