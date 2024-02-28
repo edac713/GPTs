@@ -17,9 +17,7 @@
           "update_time": null,
           "content": {
             "content_type": "text",
-            "parts": [
-              ""
-            ]
+            "parts": [""]
           },
           "status": "finished_successfully",
           "end_turn": true,
@@ -30,17 +28,13 @@
           "recipient": "all"
         },
         "parent": "aaa14a41-5350-40dd-af29-3edcb3b479a1",
-        "children": [
-          "016fea65-3652-4628-bd2a-e2a3e0dfe1e5"
-        ]
+        "children": ["016fea65-3652-4628-bd2a-e2a3e0dfe1e5"]
       },
       "aaa14a41-5350-40dd-af29-3edcb3b479a1": {
         "id": "aaa14a41-5350-40dd-af29-3edcb3b479a1",
         "message": null,
         "parent": null,
-        "children": [
-          "978550f1-3f30-410c-a49a-f62f6a4b112a"
-        ]
+        "children": ["978550f1-3f30-410c-a49a-f62f6a4b112a"]
       },
       "016fea65-3652-4628-bd2a-e2a3e0dfe1e5": {
         "id": "016fea65-3652-4628-bd2a-e2a3e0dfe1e5",
@@ -55,9 +49,7 @@
           "update_time": null,
           "content": {
             "content_type": "text",
-            "parts": [
-              ""
-            ]
+            "parts": [""]
           },
           "status": "finished_successfully",
           "end_turn": null,
@@ -72,9 +64,7 @@
           "recipient": "all"
         },
         "parent": "978550f1-3f30-410c-a49a-f62f6a4b112a",
-        "children": [
-          "aaa25ac0-0771-40a9-9d3d-11bfac136928"
-        ]
+        "children": ["aaa25ac0-0771-40a9-9d3d-11bfac136928"]
       },
       "aaa25ac0-0771-40a9-9d3d-11bfac136928": {
         "id": "aaa25ac0-0771-40a9-9d3d-11bfac136928",
@@ -123,9 +113,7 @@
           "recipient": "all"
         },
         "parent": "016fea65-3652-4628-bd2a-e2a3e0dfe1e5",
-        "children": [
-          "09877686-100e-427a-bf3f-093001f7eab3"
-        ]
+        "children": ["09877686-100e-427a-bf3f-093001f7eab3"]
       },
       "09877686-100e-427a-bf3f-093001f7eab3": {
         "id": "09877686-100e-427a-bf3f-093001f7eab3",
@@ -157,9 +145,7 @@
           "recipient": "all"
         },
         "parent": "aaa25ac0-0771-40a9-9d3d-11bfac136928",
-        "children": [
-          "e8da3b9c-4ef2-40af-99ec-0399c39666e1"
-        ]
+        "children": ["e8da3b9c-4ef2-40af-99ec-0399c39666e1"]
       },
       "e8da3b9c-4ef2-40af-99ec-0399c39666e1": {
         "id": "e8da3b9c-4ef2-40af-99ec-0399c39666e1",
@@ -198,9 +184,7 @@
           "recipient": "all"
         },
         "parent": "09877686-100e-427a-bf3f-093001f7eab3",
-        "children": [
-          "2ba58c0c-1adf-44c3-9ab6-65ed6b4af90a"
-        ]
+        "children": ["2ba58c0c-1adf-44c3-9ab6-65ed6b4af90a"]
       },
       "2ba58c0c-1adf-44c3-9ab6-65ed6b4af90a": {
         "id": "2ba58c0c-1adf-44c3-9ab6-65ed6b4af90a",
@@ -240,9 +224,7 @@
           "recipient": "bio"
         },
         "parent": "e8da3b9c-4ef2-40af-99ec-0399c39666e1",
-        "children": [
-          "252adfb8-3133-4e1f-b803-9a71e63a1754"
-        ]
+        "children": ["252adfb8-3133-4e1f-b803-9a71e63a1754"]
       },
       "252adfb8-3133-4e1f-b803-9a71e63a1754": {
         "id": "252adfb8-3133-4e1f-b803-9a71e63a1754",
@@ -257,9 +239,7 @@
           "update_time": null,
           "content": {
             "content_type": "text",
-            "parts": [
-              "Model set context updated."
-            ]
+            "parts": ["Model set context updated."]
           },
           "status": "finished_successfully",
           "end_turn": null,
@@ -274,9 +254,7 @@
           "recipient": "assistant"
         },
         "parent": "2ba58c0c-1adf-44c3-9ab6-65ed6b4af90a",
-        "children": [
-          "67f610d4-b222-4ed3-ad81-6348e48f372e"
-        ]
+        "children": ["67f610d4-b222-4ed3-ad81-6348e48f372e"]
       },
       "67f610d4-b222-4ed3-ad81-6348e48f372e": {
         "id": "67f610d4-b222-4ed3-ad81-6348e48f372e",
@@ -315,9 +293,7 @@
           "recipient": "dalle.text2im"
         },
         "parent": "252adfb8-3133-4e1f-b803-9a71e63a1754",
-        "children": [
-          "aaa18a50-6e2c-403b-a260-46a9367fdfe9"
-        ]
+        "children": ["aaa18a50-6e2c-403b-a260-46a9367fdfe9"]
       },
       "aaa18a50-6e2c-403b-a260-46a9367fdfe9": {
         "id": "aaa18a50-6e2c-403b-a260-46a9367fdfe9",
@@ -364,9 +340,7 @@
           "recipient": "all"
         },
         "parent": "67f610d4-b222-4ed3-ad81-6348e48f372e",
-        "children": [
-          "5bb39bb0-9885-47ae-a11a-ce6699341914"
-        ]
+        "children": ["5bb39bb0-9885-47ae-a11a-ce6699341914"]
       },
       "5bb39bb0-9885-47ae-a11a-ce6699341914": {
         "id": "5bb39bb0-9885-47ae-a11a-ce6699341914",
@@ -398,9 +372,7 @@
           "recipient": "all"
         },
         "parent": "aaa18a50-6e2c-403b-a260-46a9367fdfe9",
-        "children": [
-          "c9fc4e74-12f1-48b8-a02d-d55a5f1f41a6"
-        ]
+        "children": ["c9fc4e74-12f1-48b8-a02d-d55a5f1f41a6"]
       },
       "c9fc4e74-12f1-48b8-a02d-d55a5f1f41a6": {
         "id": "c9fc4e74-12f1-48b8-a02d-d55a5f1f41a6",
@@ -439,9 +411,7 @@
           "recipient": "all"
         },
         "parent": "5bb39bb0-9885-47ae-a11a-ce6699341914",
-        "children": [
-          "fa00b0c7-2e5f-4537-a3fa-e13ac4cb4623"
-        ]
+        "children": ["fa00b0c7-2e5f-4537-a3fa-e13ac4cb4623"]
       },
       "fa00b0c7-2e5f-4537-a3fa-e13ac4cb4623": {
         "id": "fa00b0c7-2e5f-4537-a3fa-e13ac4cb4623",
@@ -478,9 +448,7 @@
           "recipient": "browser"
         },
         "parent": "c9fc4e74-12f1-48b8-a02d-d55a5f1f41a6",
-        "children": [
-          "7742be58-111c-49ba-b19c-965e60e884cf"
-        ]
+        "children": ["7742be58-111c-49ba-b19c-965e60e884cf"]
       },
       "7742be58-111c-49ba-b19c-965e60e884cf": {
         "id": "7742be58-111c-49ba-b19c-965e60e884cf",
@@ -681,9 +649,7 @@
               "original_query": null
             },
             "command": "search",
-            "args": [
-              "recent developments in Artificial Intelligence"
-            ],
+            "args": ["recent developments in Artificial Intelligence"],
             "status": "finished",
             "is_complete": true,
             "message_type": null,
@@ -695,9 +661,7 @@
           "recipient": "all"
         },
         "parent": "fa00b0c7-2e5f-4537-a3fa-e13ac4cb4623",
-        "children": [
-          "bdeafde6-a3b8-4f07-adab-5e689c67d392"
-        ]
+        "children": ["bdeafde6-a3b8-4f07-adab-5e689c67d392"]
       },
       "bdeafde6-a3b8-4f07-adab-5e689c67d392": {
         "id": "bdeafde6-a3b8-4f07-adab-5e689c67d392",
@@ -734,9 +698,7 @@
           "recipient": "browser"
         },
         "parent": "7742be58-111c-49ba-b19c-965e60e884cf",
-        "children": [
-          "01928766-948c-4178-b479-e6661aa3e83c"
-        ]
+        "children": ["01928766-948c-4178-b479-e6661aa3e83c"]
       },
       "01928766-948c-4178-b479-e6661aa3e83c": {
         "id": "01928766-948c-4178-b479-e6661aa3e83c",
@@ -778,13 +740,7 @@
               "original_query": null
             },
             "command": "mclick",
-            "args": [
-              [
-                1,
-                2,
-                4
-              ]
-            ],
+            "args": [[1, 2, 4]],
             "status": "finished",
             "is_complete": true,
             "message_type": null,
@@ -796,9 +752,7 @@
           "recipient": "all"
         },
         "parent": "bdeafde6-a3b8-4f07-adab-5e689c67d392",
-        "children": [
-          "9e0a970d-69b0-4a61-bf6a-01210afc96ba"
-        ]
+        "children": ["9e0a970d-69b0-4a61-bf6a-01210afc96ba"]
       },
       "9e0a970d-69b0-4a61-bf6a-01210afc96ba": {
         "id": "9e0a970d-69b0-4a61-bf6a-01210afc96ba",
@@ -840,13 +794,7 @@
               "original_query": null
             },
             "command": "mclick",
-            "args": [
-              [
-                1,
-                2,
-                4
-              ]
-            ],
+            "args": [[1, 2, 4]],
             "status": "finished",
             "is_complete": true,
             "message_type": null,
@@ -858,9 +806,7 @@
           "recipient": "all"
         },
         "parent": "01928766-948c-4178-b479-e6661aa3e83c",
-        "children": [
-          "ac8683fd-3746-4ade-9a3d-5e2365d9ba17"
-        ]
+        "children": ["ac8683fd-3746-4ade-9a3d-5e2365d9ba17"]
       },
       "ac8683fd-3746-4ade-9a3d-5e2365d9ba17": {
         "id": "ac8683fd-3746-4ade-9a3d-5e2365d9ba17",
@@ -985,9 +931,7 @@
           "recipient": "all"
         },
         "parent": "9e0a970d-69b0-4a61-bf6a-01210afc96ba",
-        "children": [
-          "aaa2a150-11d3-45d0-b52f-e4c6bb7edde9"
-        ]
+        "children": ["aaa2a150-11d3-45d0-b52f-e4c6bb7edde9"]
       },
       "aaa2a150-11d3-45d0-b52f-e4c6bb7edde9": {
         "id": "aaa2a150-11d3-45d0-b52f-e4c6bb7edde9",
@@ -1017,9 +961,7 @@
           "recipient": "all"
         },
         "parent": "ac8683fd-3746-4ade-9a3d-5e2365d9ba17",
-        "children": [
-          "e125bd7e-d9b0-489f-af6d-be221e75e5e2"
-        ]
+        "children": ["e125bd7e-d9b0-489f-af6d-be221e75e5e2"]
       },
       "e125bd7e-d9b0-489f-af6d-be221e75e5e2": {
         "id": "e125bd7e-d9b0-489f-af6d-be221e75e5e2",
@@ -1056,9 +998,7 @@
           "recipient": "python"
         },
         "parent": "aaa2a150-11d3-45d0-b52f-e4c6bb7edde9",
-        "children": [
-          "0d292b5a-121d-4746-a819-7cd1bff1e9ac"
-        ]
+        "children": ["0d292b5a-121d-4746-a819-7cd1bff1e9ac"]
       },
       "0d292b5a-121d-4746-a819-7cd1bff1e9ac": {
         "id": "0d292b5a-121d-4746-a819-7cd1bff1e9ac",
@@ -1143,9 +1083,7 @@
           "recipient": "all"
         },
         "parent": "e125bd7e-d9b0-489f-af6d-be221e75e5e2",
-        "children": [
-          "f6590f0d-3273-4826-ba30-2a44f81ebd69"
-        ]
+        "children": ["f6590f0d-3273-4826-ba30-2a44f81ebd69"]
       },
       "f6590f0d-3273-4826-ba30-2a44f81ebd69": {
         "id": "f6590f0d-3273-4826-ba30-2a44f81ebd69",
