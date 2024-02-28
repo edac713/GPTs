@@ -131,6 +131,36 @@ Customized Prompts Note that depending on the score function being used, there m
 
 ![](https://cdn.mathpix.com/cropped/2024_02_21_150a2113254040cde7a5g-04.jpg?height=957&width=379&top_left_y=1034&top_left_x=1358)
 
+```
+# Forward Generation Template
+
+I gave a friend an instruction and five inputs. The friend read the instruction and wrote an output for every one of the inputs. Here are the input-output pairs:
+
+- Input: [Q1] Output: [A1]
+- Input: [Q2] Output: [A2]
+- ...
+
+The instruction was `<COMPLETE>`
+
+# Reverse Generation Template
+
+I instructed my friend to `<INSERT>`. The friend read the instruction and wrote an output for every one of the inputs. Here are the input-output pairs:
+
+- Input: [Q1] Output: [A1]
+- Input: [Q2] Output: [A2]
+- ...
+
+# Template for TruthfulQA
+
+Professor Smith was given the following instructions: `<INSERT>`
+
+Here are the Professor’s responses:
+
+- Input: [Q1] Output: [A1]
+- Input: [Q2] Output: [A2]
+- ...
+```
+
 Figure 2: Prompts for LLMs
 
 ### 3.2 ScORE Functions
@@ -152,6 +182,15 @@ Iterative Monte Carlo Search Instead of only sampling from the initial proposal,
 
 ![](https://cdn.mathpix.com/cropped/2024_02_21_150a2113254040cde7a5g-05.jpg?height=271&width=391&top_left_y=1369&top_left_x=1344)
 
+```
+# Prompt for Resampling
+
+Generate a variation of the following instruction while keeping the semantic meaning.
+
+- Input: `[INSTRUCTION]`
+- Output: `<COMPLETE>`
+```
+
 Figure 3: Resampling the same with more stages. We conclude iterative generation provides marginal improvement over the relative simplicity and effectiveness of the generative process described in Subsection 3.1 Therefore, we use APE without iterative search as default unless otherwise stated.
 
 ## 4 Large Language Models are Human-Level Prompt Engineers
@@ -163,6 +202,10 @@ This section examines how APE can guide LLMs to desired behaviors. We investigat
 We assess the effectiveness of zero-shot and few-shot in-context learning on 24 instruction induction tasks proposed in Honovich et al. (2022). The tasks span many facets of language understanding, from simple phrase structure to similarity and causality identification. We provide a detailed descriptions of each task in Appendix B. For each task, we sample five input-output pairs from the training data and select the best instruction using algorithm 1 Then, we evaluate the quality of the instruction
 
 ![](https://cdn.mathpix.com/cropped/2024_02_21_150a2113254040cde7a5g-06.jpg?height=588&width=1309&top_left_y=221&top_left_x=408)
+
+```
+
+```
 
 Figure 4: Zero-shot test accuracy on 24 Instruction Induction tasks. APE achieves human-level or better performance on all 24 out of 24 tasks.
 
