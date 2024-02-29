@@ -1,0 +1,1110 @@
+# The chat completion object
+
+Represents a chat completion response returned by model, based on the provided input.
+
+    <div class="param-table" id="chat/object__table">
+      <div class="param-row">
+        <div class="param-row-header api-ref-anchor-link-hover">
+          <a
+            href="#chat/object-id"
+            data-anchor="chat/object-id"
+            class="api-ref-anchor-link"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1em"
+              height="1em"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M18.293 5.707a4.657 4.657 0 0 0-6.586 0l-1 1a1 1 0 1 1-1.414-1.414l1-1a6.657 6.657 0 1 1 9.414 9.414l-1 1a1 1 0 0 1-1.414-1.414l1-1a4.657 4.657 0 0 0 0-6.586Zm-2.586 2.586a1 1 0 0 1 0 1.414l-6 6a1 1 0 0 1-1.414-1.414l6-6a1 1 0 0 1 1.414 0Zm-9 1a1 1 0 0 1 0 1.414l-1 1a4.657 4.657 0 0 0 6.586 6.586l1-1a1 1 0 0 1 1.414 1.414l-1 1a6.657 6.657 0 1 1-9.414-9.414l1-1a1 1 0 0 1 1.414 0Z"
+                clip-rule="evenodd"
+              ></path></svg
+          ></a>
+          <div class="param-name">id</div>
+          <div class="param-type">string</div>
+        </div>
+        <div class="param-desc">
+          <div class="markdown-content">
+            <p>A unique identifier for the chat completion.</p>
+          </div>
+        </div>
+      </div>
+      <div class="param-row">
+        <div class="param-row-header api-ref-anchor-link-hover">
+          <a
+            href="#chat/object-choices"
+            data-anchor="chat/object-choices"
+            class="api-ref-anchor-link"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1em"
+              height="1em"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M18.293 5.707a4.657 4.657 0 0 0-6.586 0l-1 1a1 1 0 1 1-1.414-1.414l1-1a6.657 6.657 0 1 1 9.414 9.414l-1 1a1 1 0 0 1-1.414-1.414l1-1a4.657 4.657 0 0 0 0-6.586Zm-2.586 2.586a1 1 0 0 1 0 1.414l-6 6a1 1 0 0 1-1.414-1.414l6-6a1 1 0 0 1 1.414 0Zm-9 1a1 1 0 0 1 0 1.414l-1 1a4.657 4.657 0 0 0 6.586 6.586l1-1a1 1 0 0 1 1.414 1.414l-1 1a6.657 6.657 0 1 1-9.414-9.414l1-1a1 1 0 0 1 1.414 0Z"
+                clip-rule="evenodd"
+              ></path></svg
+          ></a>
+          <div class="param-name">choices</div>
+          <div class="param-type">array</div>
+        </div>
+        <div class="param-desc">
+          <div class="markdown-content">
+            <p>
+              A list of chat completion choices. Can be more than one if
+              <code>n</code> is greater than 1.
+            </p>
+          </div>
+        </div>
+        <button
+          class="param-expand-button link-style"
+          aria-expanded="true"
+          aria-controls="chat/object-choices_table"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="1em"
+            height="1em"
+            fill="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M12 8a1 1 0 0 1 .707.293l7 7a1 1 0 0 1-1.414 1.414L12 10.414l-6.293 6.293a1 1 0 0 1-1.414-1.414l7-7A1 1 0 0 1 12 8Z"
+              clip-rule="evenodd"
+            ></path></svg
+          ><span>Hide properties</span>
+        </button>
+        <div class="param-table" id="chat/object-choices__table">
+          <div class="param-row">
+            <div class="param-row-header api-ref-anchor-link-hover">
+              <a
+                href="#chat/object-choices-finish_reason"
+                data-anchor="chat/object-choices-finish_reason"
+                class="api-ref-anchor-link"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="1em"
+                  height="1em"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M18.293 5.707a4.657 4.657 0 0 0-6.586 0l-1 1a1 1 0 1 1-1.414-1.414l1-1a6.657 6.657 0 1 1 9.414 9.414l-1 1a1 1 0 0 1-1.414-1.414l1-1a4.657 4.657 0 0 0 0-6.586Zm-2.586 2.586a1 1 0 0 1 0 1.414l-6 6a1 1 0 0 1-1.414-1.414l6-6a1 1 0 0 1 1.414 0Zm-9 1a1 1 0 0 1 0 1.414l-1 1a4.657 4.657 0 0 0 6.586 6.586l1-1a1 1 0 0 1 1.414 1.414l-1 1a6.657 6.657 0 1 1-9.414-9.414l1-1a1 1 0 0 1 1.414 0Z"
+                    clip-rule="evenodd"
+                  ></path></svg
+              ></a>
+              <div class="param-name">finish_reason</div>
+              <div class="param-type">string</div>
+            </div>
+            <div class="param-desc">
+              <div class="markdown-content">
+                <p>
+                  The reason the model stopped generating tokens. This will be
+                  <code>stop</code> if the model hit a natural stop point or a
+                  provided stop sequence, <code>length</code> if the maximum
+                  number of tokens specified in the request was reached,
+                  <code>content_filter</code> if content was omitted due to a
+                  flag from our content filters, <code>tool_calls</code> if the
+                  model called a tool, or
+                  <code>function_call</code> (deprecated) if the model called a
+                  function.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="param-row">
+            <div class="param-row-header api-ref-anchor-link-hover">
+              <a
+                href="#chat/object-choices-index"
+                data-anchor="chat/object-choices-index"
+                class="api-ref-anchor-link"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="1em"
+                  height="1em"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M18.293 5.707a4.657 4.657 0 0 0-6.586 0l-1 1a1 1 0 1 1-1.414-1.414l1-1a6.657 6.657 0 1 1 9.414 9.414l-1 1a1 1 0 0 1-1.414-1.414l1-1a4.657 4.657 0 0 0 0-6.586Zm-2.586 2.586a1 1 0 0 1 0 1.414l-6 6a1 1 0 0 1-1.414-1.414l6-6a1 1 0 0 1 1.414 0Zm-9 1a1 1 0 0 1 0 1.414l-1 1a4.657 4.657 0 0 0 6.586 6.586l1-1a1 1 0 0 1 1.414 1.414l-1 1a6.657 6.657 0 1 1-9.414-9.414l1-1a1 1 0 0 1 1.414 0Z"
+                    clip-rule="evenodd"
+                  ></path></svg
+              ></a>
+              <div class="param-name">index</div>
+              <div class="param-type">integer</div>
+            </div>
+            <div class="param-desc">
+              <div class="markdown-content">
+                <p>The index of the choice in the list of choices.</p>
+              </div>
+            </div>
+          </div>
+          <div class="param-row">
+            <div class="param-row-header api-ref-anchor-link-hover">
+              <a
+                href="#chat/object-choices-message"
+                data-anchor="chat/object-choices-message"
+                class="api-ref-anchor-link"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="1em"
+                  height="1em"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M18.293 5.707a4.657 4.657 0 0 0-6.586 0l-1 1a1 1 0 1 1-1.414-1.414l1-1a6.657 6.657 0 1 1 9.414 9.414l-1 1a1 1 0 0 1-1.414-1.414l1-1a4.657 4.657 0 0 0 0-6.586Zm-2.586 2.586a1 1 0 0 1 0 1.414l-6 6a1 1 0 0 1-1.414-1.414l6-6a1 1 0 0 1 1.414 0Zm-9 1a1 1 0 0 1 0 1.414l-1 1a4.657 4.657 0 0 0 6.586 6.586l1-1a1 1 0 0 1 1.414 1.414l-1 1a6.657 6.657 0 1 1-9.414-9.414l1-1a1 1 0 0 1 1.414 0Z"
+                    clip-rule="evenodd"
+                  ></path></svg
+              ></a>
+              <div class="param-name">message</div>
+              <div class="param-type">object</div>
+            </div>
+            <div class="param-desc">
+              <div class="markdown-content">
+                <p>A chat completion message generated by the model.</p>
+              </div>
+            </div>
+            <button
+              class="param-expand-button link-style"
+              aria-expanded="true"
+              aria-controls="chat/object-choices-message_table"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="1em"
+                height="1em"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M12 8a1 1 0 0 1 .707.293l7 7a1 1 0 0 1-1.414 1.414L12 10.414l-6.293 6.293a1 1 0 0 1-1.414-1.414l7-7A1 1 0 0 1 12 8Z"
+                  clip-rule="evenodd"
+                ></path></svg
+              ><span>Hide properties</span>
+            </button>
+            <div class="param-table" id="chat/object-choices-message__table">
+              <div class="param-row">
+                <div class="param-row-header api-ref-anchor-link-hover">
+                  <a
+                    href="#chat/object-choices-message-content"
+                    data-anchor="chat/object-choices-message-content"
+                    class="api-ref-anchor-link"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="1em"
+                      height="1em"
+                      fill="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M18.293 5.707a4.657 4.657 0 0 0-6.586 0l-1 1a1 1 0 1 1-1.414-1.414l1-1a6.657 6.657 0 1 1 9.414 9.414l-1 1a1 1 0 0 1-1.414-1.414l1-1a4.657 4.657 0 0 0 0-6.586Zm-2.586 2.586a1 1 0 0 1 0 1.414l-6 6a1 1 0 0 1-1.414-1.414l6-6a1 1 0 0 1 1.414 0Zm-9 1a1 1 0 0 1 0 1.414l-1 1a4.657 4.657 0 0 0 6.586 6.586l1-1a1 1 0 0 1 1.414 1.414l-1 1a6.657 6.657 0 1 1-9.414-9.414l1-1a1 1 0 0 1 1.414 0Z"
+                        clip-rule="evenodd"
+                      ></path></svg
+                  ></a>
+                  <div class="param-name">content</div>
+                  <div class="param-type">string or null</div>
+                </div>
+                <div class="param-desc">
+                  <div class="markdown-content">
+                    <p>The contents of the message.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="param-row">
+                <div class="param-row-header api-ref-anchor-link-hover">
+                  <a
+                    href="#chat/object-choices-message-tool_calls"
+                    data-anchor="chat/object-choices-message-tool_calls"
+                    class="api-ref-anchor-link"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="1em"
+                      height="1em"
+                      fill="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M18.293 5.707a4.657 4.657 0 0 0-6.586 0l-1 1a1 1 0 1 1-1.414-1.414l1-1a6.657 6.657 0 1 1 9.414 9.414l-1 1a1 1 0 0 1-1.414-1.414l1-1a4.657 4.657 0 0 0 0-6.586Zm-2.586 2.586a1 1 0 0 1 0 1.414l-6 6a1 1 0 0 1-1.414-1.414l6-6a1 1 0 0 1 1.414 0Zm-9 1a1 1 0 0 1 0 1.414l-1 1a4.657 4.657 0 0 0 6.586 6.586l1-1a1 1 0 0 1 1.414 1.414l-1 1a6.657 6.657 0 1 1-9.414-9.414l1-1a1 1 0 0 1 1.414 0Z"
+                        clip-rule="evenodd"
+                      ></path></svg
+                  ></a>
+                  <div class="param-name">tool_calls</div>
+                  <div class="param-type">array</div>
+                </div>
+                <div class="param-desc">
+                  <div class="markdown-content">
+                    <p>
+                      The tool calls generated by the model, such as function
+                      calls.
+                    </p>
+                  </div>
+                </div>
+                <button
+                  class="param-expand-button link-style"
+                  aria-expanded="true"
+                  aria-controls="chat/object-choices-message-tool_calls_table"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1em"
+                    height="1em"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M4.293 8.293a1 1 0 0 1 1.414 0L12 14.586l6.293-6.293a1 1 0 1 1 1.414 1.414l-7 7a1 1 0 0 1-1.414 0l-7-7a1 1 0 0 1 0-1.414Z"
+                      clip-rule="evenodd"
+                    ></path></svg
+                  ><span>Show properties</span>
+                </button>
+              </div>
+              <div class="param-row">
+                <div class="param-row-header api-ref-anchor-link-hover">
+                  <a
+                    href="#chat/object-choices-message-role"
+                    data-anchor="chat/object-choices-message-role"
+                    class="api-ref-anchor-link"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="1em"
+                      height="1em"
+                      fill="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M18.293 5.707a4.657 4.657 0 0 0-6.586 0l-1 1a1 1 0 1 1-1.414-1.414l1-1a6.657 6.657 0 1 1 9.414 9.414l-1 1a1 1 0 0 1-1.414-1.414l1-1a4.657 4.657 0 0 0 0-6.586Zm-2.586 2.586a1 1 0 0 1 0 1.414l-6 6a1 1 0 0 1-1.414-1.414l6-6a1 1 0 0 1 1.414 0Zm-9 1a1 1 0 0 1 0 1.414l-1 1a4.657 4.657 0 0 0 6.586 6.586l1-1a1 1 0 0 1 1.414 1.414l-1 1a6.657 6.657 0 1 1-9.414-9.414l1-1a1 1 0 0 1 1.414 0Z"
+                        clip-rule="evenodd"
+                      ></path></svg
+                  ></a>
+                  <div class="param-name">role</div>
+                  <div class="param-type">string</div>
+                </div>
+                <div class="param-desc">
+                  <div class="markdown-content">
+                    <p>The role of the author of this message.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="param-row">
+                <div class="param-row-header api-ref-anchor-link-hover">
+                  <a
+                    href="#chat/object-choices-message-function_call"
+                    data-anchor="chat/object-choices-message-function_call"
+                    class="api-ref-anchor-link"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="1em"
+                      height="1em"
+                      fill="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M18.293 5.707a4.657 4.657 0 0 0-6.586 0l-1 1a1 1 0 1 1-1.414-1.414l1-1a6.657 6.657 0 1 1 9.414 9.414l-1 1a1 1 0 0 1-1.414-1.414l1-1a4.657 4.657 0 0 0 0-6.586Zm-2.586 2.586a1 1 0 0 1 0 1.414l-6 6a1 1 0 0 1-1.414-1.414l6-6a1 1 0 0 1 1.414 0Zm-9 1a1 1 0 0 1 0 1.414l-1 1a4.657 4.657 0 0 0 6.586 6.586l1-1a1 1 0 0 1 1.414 1.414l-1 1a6.657 6.657 0 1 1-9.414-9.414l1-1a1 1 0 0 1 1.414 0Z"
+                        clip-rule="evenodd"
+                      ></path></svg
+                  ></a>
+                  <div class="param-name">function_call</div>
+                  <div class="param-depr">Deprecated</div>
+                  <div class="param-type">object</div>
+                </div>
+                <div class="param-desc">
+                  <div class="markdown-content">
+                    <p>
+                      Deprecated and replaced by <code>tool_calls</code>. The
+                      name and arguments of a function that should be called, as
+                      generated by the model.
+                    </p>
+                  </div>
+                </div>
+                <button
+                  class="param-expand-button link-style"
+                  aria-expanded="true"
+                  aria-controls="chat/object-choices-message-function_call_table"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1em"
+                    height="1em"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M12 8a1 1 0 0 1 .707.293l7 7a1 1 0 0 1-1.414 1.414L12 10.414l-6.293 6.293a1 1 0 0 1-1.414-1.414l7-7A1 1 0 0 1 12 8Z"
+                      clip-rule="evenodd"
+                    ></path></svg
+                  ><span>Hide properties</span>
+                </button>
+                <div
+                  class="param-table"
+                  id="chat/object-choices-message-function_call__table"
+                >
+                  <div class="param-row">
+                    <div class="param-row-header api-ref-anchor-link-hover">
+                      <a
+                        href="#chat/object-choices-message-function_call-arguments"
+                        data-anchor="chat/object-choices-message-function_call-arguments"
+                        class="api-ref-anchor-link"
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="1em"
+                          height="1em"
+                          fill="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M18.293 5.707a4.657 4.657 0 0 0-6.586 0l-1 1a1 1 0 1 1-1.414-1.414l1-1a6.657 6.657 0 1 1 9.414 9.414l-1 1a1 1 0 0 1-1.414-1.414l1-1a4.657 4.657 0 0 0 0-6.586Zm-2.586 2.586a1 1 0 0 1 0 1.414l-6 6a1 1 0 0 1-1.414-1.414l6-6a1 1 0 0 1 1.414 0Zm-9 1a1 1 0 0 1 0 1.414l-1 1a4.657 4.657 0 0 0 6.586 6.586l1-1a1 1 0 0 1 1.414 1.414l-1 1a6.657 6.657 0 1 1-9.414-9.414l1-1a1 1 0 0 1 1.414 0Z"
+                            clip-rule="evenodd"
+                          ></path></svg
+                      ></a>
+                      <div class="param-name">arguments</div>
+                      <div class="param-type">string</div>
+                    </div>
+                    <div class="param-desc">
+                      <div class="markdown-content">
+                        <p>
+                          The arguments to call the function with, as generated
+                          by the model in JSON format. Note that the model does
+                          not always generate valid JSON, and may hallucinate
+                          parameters not defined by your function schema.
+                          Validate the arguments in your code before calling
+                          your function.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="param-row">
+                    <div class="param-row-header api-ref-anchor-link-hover">
+                      <a
+                        href="#chat/object-choices-message-function_call-name"
+                        data-anchor="chat/object-choices-message-function_call-name"
+                        class="api-ref-anchor-link"
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="1em"
+                          height="1em"
+                          fill="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M18.293 5.707a4.657 4.657 0 0 0-6.586 0l-1 1a1 1 0 1 1-1.414-1.414l1-1a6.657 6.657 0 1 1 9.414 9.414l-1 1a1 1 0 0 1-1.414-1.414l1-1a4.657 4.657 0 0 0 0-6.586Zm-2.586 2.586a1 1 0 0 1 0 1.414l-6 6a1 1 0 0 1-1.414-1.414l6-6a1 1 0 0 1 1.414 0Zm-9 1a1 1 0 0 1 0 1.414l-1 1a4.657 4.657 0 0 0 6.586 6.586l1-1a1 1 0 0 1 1.414 1.414l-1 1a6.657 6.657 0 1 1-9.414-9.414l1-1a1 1 0 0 1 1.414 0Z"
+                            clip-rule="evenodd"
+                          ></path></svg
+                      ></a>
+                      <div class="param-name">name</div>
+                      <div class="param-type">string</div>
+                    </div>
+                    <div class="param-desc">
+                      <div class="markdown-content">
+                        <p>The name of the function to call.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="param-row">
+            <div class="param-row-header api-ref-anchor-link-hover">
+              <a
+                href="#chat/object-choices-logprobs"
+                data-anchor="chat/object-choices-logprobs"
+                class="api-ref-anchor-link"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="1em"
+                  height="1em"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M18.293 5.707a4.657 4.657 0 0 0-6.586 0l-1 1a1 1 0 1 1-1.414-1.414l1-1a6.657 6.657 0 1 1 9.414 9.414l-1 1a1 1 0 0 1-1.414-1.414l1-1a4.657 4.657 0 0 0 0-6.586Zm-2.586 2.586a1 1 0 0 1 0 1.414l-6 6a1 1 0 0 1-1.414-1.414l6-6a1 1 0 0 1 1.414 0Zm-9 1a1 1 0 0 1 0 1.414l-1 1a4.657 4.657 0 0 0 6.586 6.586l1-1a1 1 0 0 1 1.414 1.414l-1 1a6.657 6.657 0 1 1-9.414-9.414l1-1a1 1 0 0 1 1.414 0Z"
+                    clip-rule="evenodd"
+                  ></path></svg
+              ></a>
+              <div class="param-name">logprobs</div>
+              <div class="param-type">object or null</div>
+            </div>
+            <div class="param-desc">
+              <div class="markdown-content">
+                <p>Log probability information for the choice.</p>
+              </div>
+            </div>
+            <button
+              class="param-expand-button link-style"
+              aria-expanded="true"
+              aria-controls="chat/object-choices-logprobs_table"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="1em"
+                height="1em"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M12 8a1 1 0 0 1 .707.293l7 7a1 1 0 0 1-1.414 1.414L12 10.414l-6.293 6.293a1 1 0 0 1-1.414-1.414l7-7A1 1 0 0 1 12 8Z"
+                  clip-rule="evenodd"
+                ></path></svg
+              ><span>Hide properties</span>
+            </button>
+            <div class="param-table" id="chat/object-choices-logprobs__table">
+              <div class="param-row">
+                <div class="param-row-header api-ref-anchor-link-hover">
+                  <a
+                    href="#chat/object-choices-logprobs-content"
+                    data-anchor="chat/object-choices-logprobs-content"
+                    class="api-ref-anchor-link"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="1em"
+                      height="1em"
+                      fill="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M18.293 5.707a4.657 4.657 0 0 0-6.586 0l-1 1a1 1 0 1 1-1.414-1.414l1-1a6.657 6.657 0 1 1 9.414 9.414l-1 1a1 1 0 0 1-1.414-1.414l1-1a4.657 4.657 0 0 0 0-6.586Zm-2.586 2.586a1 1 0 0 1 0 1.414l-6 6a1 1 0 0 1-1.414-1.414l6-6a1 1 0 0 1 1.414 0Zm-9 1a1 1 0 0 1 0 1.414l-1 1a4.657 4.657 0 0 0 6.586 6.586l1-1a1 1 0 0 1 1.414 1.414l-1 1a6.657 6.657 0 1 1-9.414-9.414l1-1a1 1 0 0 1 1.414 0Z"
+                        clip-rule="evenodd"
+                      ></path></svg
+                  ></a>
+                  <div class="param-name">content</div>
+                  <div class="param-type">array or null</div>
+                </div>
+                <div class="param-desc">
+                  <div class="markdown-content">
+                    <p>
+                      A list of message content tokens with log probability
+                      information.
+                    </p>
+                  </div>
+                </div>
+                <button
+                  class="param-expand-button link-style"
+                  aria-expanded="true"
+                  aria-controls="chat/object-choices-logprobs-content_table"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1em"
+                    height="1em"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M12 8a1 1 0 0 1 .707.293l7 7a1 1 0 0 1-1.414 1.414L12 10.414l-6.293 6.293a1 1 0 0 1-1.414-1.414l7-7A1 1 0 0 1 12 8Z"
+                      clip-rule="evenodd"
+                    ></path></svg
+                  ><span>Hide properties</span>
+                </button>
+                <div
+                  class="param-table"
+                  id="chat/object-choices-logprobs-content__table"
+                >
+                  <div class="param-row">
+                    <div class="param-row-header api-ref-anchor-link-hover">
+                      <a
+                        href="#chat/object-choices-logprobs-content-token"
+                        data-anchor="chat/object-choices-logprobs-content-token"
+                        class="api-ref-anchor-link"
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="1em"
+                          height="1em"
+                          fill="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M18.293 5.707a4.657 4.657 0 0 0-6.586 0l-1 1a1 1 0 1 1-1.414-1.414l1-1a6.657 6.657 0 1 1 9.414 9.414l-1 1a1 1 0 0 1-1.414-1.414l1-1a4.657 4.657 0 0 0 0-6.586Zm-2.586 2.586a1 1 0 0 1 0 1.414l-6 6a1 1 0 0 1-1.414-1.414l6-6a1 1 0 0 1 1.414 0Zm-9 1a1 1 0 0 1 0 1.414l-1 1a4.657 4.657 0 0 0 6.586 6.586l1-1a1 1 0 0 1 1.414 1.414l-1 1a6.657 6.657 0 1 1-9.414-9.414l1-1a1 1 0 0 1 1.414 0Z"
+                            clip-rule="evenodd"
+                          ></path></svg
+                      ></a>
+                      <div class="param-name">token</div>
+                      <div class="param-type">string</div>
+                    </div>
+                    <div class="param-desc">
+                      <div class="markdown-content"><p>The token.</p></div>
+                    </div>
+                  </div>
+                  <div class="param-row">
+                    <div class="param-row-header api-ref-anchor-link-hover">
+                      <a
+                        href="#chat/object-choices-logprobs-content-logprob"
+                        data-anchor="chat/object-choices-logprobs-content-logprob"
+                        class="api-ref-anchor-link"
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="1em"
+                          height="1em"
+                          fill="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M18.293 5.707a4.657 4.657 0 0 0-6.586 0l-1 1a1 1 0 1 1-1.414-1.414l1-1a6.657 6.657 0 1 1 9.414 9.414l-1 1a1 1 0 0 1-1.414-1.414l1-1a4.657 4.657 0 0 0 0-6.586Zm-2.586 2.586a1 1 0 0 1 0 1.414l-6 6a1 1 0 0 1-1.414-1.414l6-6a1 1 0 0 1 1.414 0Zm-9 1a1 1 0 0 1 0 1.414l-1 1a4.657 4.657 0 0 0 6.586 6.586l1-1a1 1 0 0 1 1.414 1.414l-1 1a6.657 6.657 0 1 1-9.414-9.414l1-1a1 1 0 0 1 1.414 0Z"
+                            clip-rule="evenodd"
+                          ></path></svg
+                      ></a>
+                      <div class="param-name">logprob</div>
+                      <div class="param-type">number</div>
+                    </div>
+                    <div class="param-desc">
+                      <div class="markdown-content">
+                        <p>The log probability of this token.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="param-row">
+                    <div class="param-row-header api-ref-anchor-link-hover">
+                      <a
+                        href="#chat/object-choices-logprobs-content-bytes"
+                        data-anchor="chat/object-choices-logprobs-content-bytes"
+                        class="api-ref-anchor-link"
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="1em"
+                          height="1em"
+                          fill="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M18.293 5.707a4.657 4.657 0 0 0-6.586 0l-1 1a1 1 0 1 1-1.414-1.414l1-1a6.657 6.657 0 1 1 9.414 9.414l-1 1a1 1 0 0 1-1.414-1.414l1-1a4.657 4.657 0 0 0 0-6.586Zm-2.586 2.586a1 1 0 0 1 0 1.414l-6 6a1 1 0 0 1-1.414-1.414l6-6a1 1 0 0 1 1.414 0Zm-9 1a1 1 0 0 1 0 1.414l-1 1a4.657 4.657 0 0 0 6.586 6.586l1-1a1 1 0 0 1 1.414 1.414l-1 1a6.657 6.657 0 1 1-9.414-9.414l1-1a1 1 0 0 1 1.414 0Z"
+                            clip-rule="evenodd"
+                          ></path></svg
+                      ></a>
+                      <div class="param-name">bytes</div>
+                      <div class="param-type">array or null</div>
+                    </div>
+                    <div class="param-desc">
+                      <div class="markdown-content">
+                        <p>
+                          A list of integers representing the UTF-8 bytes
+                          representation of the token. Useful in instances where
+                          characters are represented by multiple tokens and
+                          their byte representations must be combined to
+                          generate the correct text representation. Can be
+                          <code>null</code> if there is no bytes representation
+                          for the token.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="param-row">
+                    <div class="param-row-header api-ref-anchor-link-hover">
+                      <a
+                        href="#chat/object-choices-logprobs-content-top_logprobs"
+                        data-anchor="chat/object-choices-logprobs-content-top_logprobs"
+                        class="api-ref-anchor-link"
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="1em"
+                          height="1em"
+                          fill="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M18.293 5.707a4.657 4.657 0 0 0-6.586 0l-1 1a1 1 0 1 1-1.414-1.414l1-1a6.657 6.657 0 1 1 9.414 9.414l-1 1a1 1 0 0 1-1.414-1.414l1-1a4.657 4.657 0 0 0 0-6.586Zm-2.586 2.586a1 1 0 0 1 0 1.414l-6 6a1 1 0 0 1-1.414-1.414l6-6a1 1 0 0 1 1.414 0Zm-9 1a1 1 0 0 1 0 1.414l-1 1a4.657 4.657 0 0 0 6.586 6.586l1-1a1 1 0 0 1 1.414 1.414l-1 1a6.657 6.657 0 1 1-9.414-9.414l1-1a1 1 0 0 1 1.414 0Z"
+                            clip-rule="evenodd"
+                          ></path></svg
+                      ></a>
+                      <div class="param-name">top_logprobs</div>
+                      <div class="param-type">array</div>
+                    </div>
+                    <div class="param-desc">
+                      <div class="markdown-content">
+                        <p>
+                          List of the most likely tokens and their log
+                          probability, at this token position. In rare cases,
+                          there may be fewer than the number of requested
+                          <code>top_logprobs</code> returned.
+                        </p>
+                      </div>
+                    </div>
+                    <button
+                      class="param-expand-button link-style"
+                      aria-expanded="true"
+                      aria-controls="chat/object-choices-logprobs-content-top_logprobs_table"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="1em"
+                        height="1em"
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M12 8a1 1 0 0 1 .707.293l7 7a1 1 0 0 1-1.414 1.414L12 10.414l-6.293 6.293a1 1 0 0 1-1.414-1.414l7-7A1 1 0 0 1 12 8Z"
+                          clip-rule="evenodd"
+                        ></path></svg
+                      ><span>Hide properties</span>
+                    </button>
+                    <div
+                      class="param-table"
+                      id="chat/object-choices-logprobs-content-top_logprobs__table"
+                    >
+                      <div class="param-row">
+                        <div class="param-row-header api-ref-anchor-link-hover">
+                          <a
+                            href="#chat/object-choices-logprobs-content-top_logprobs-token"
+                            data-anchor="chat/object-choices-logprobs-content-top_logprobs-token"
+                            class="api-ref-anchor-link"
+                            ><svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="1em"
+                              height="1em"
+                              fill="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                d="M18.293 5.707a4.657 4.657 0 0 0-6.586 0l-1 1a1 1 0 1 1-1.414-1.414l1-1a6.657 6.657 0 1 1 9.414 9.414l-1 1a1 1 0 0 1-1.414-1.414l1-1a4.657 4.657 0 0 0 0-6.586Zm-2.586 2.586a1 1 0 0 1 0 1.414l-6 6a1 1 0 0 1-1.414-1.414l6-6a1 1 0 0 1 1.414 0Zm-9 1a1 1 0 0 1 0 1.414l-1 1a4.657 4.657 0 0 0 6.586 6.586l1-1a1 1 0 0 1 1.414 1.414l-1 1a6.657 6.657 0 1 1-9.414-9.414l1-1a1 1 0 0 1 1.414 0Z"
+                                clip-rule="evenodd"
+                              ></path></svg
+                          ></a>
+                          <div class="param-name">token</div>
+                          <div class="param-type">string</div>
+                        </div>
+                        <div class="param-desc">
+                          <div class="markdown-content"><p>The token.</p></div>
+                        </div>
+                      </div>
+                      <div class="param-row">
+                        <div class="param-row-header api-ref-anchor-link-hover">
+                          <a
+                            href="#chat/object-choices-logprobs-content-top_logprobs-logprob"
+                            data-anchor="chat/object-choices-logprobs-content-top_logprobs-logprob"
+                            class="api-ref-anchor-link"
+                            ><svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="1em"
+                              height="1em"
+                              fill="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                d="M18.293 5.707a4.657 4.657 0 0 0-6.586 0l-1 1a1 1 0 1 1-1.414-1.414l1-1a6.657 6.657 0 1 1 9.414 9.414l-1 1a1 1 0 0 1-1.414-1.414l1-1a4.657 4.657 0 0 0 0-6.586Zm-2.586 2.586a1 1 0 0 1 0 1.414l-6 6a1 1 0 0 1-1.414-1.414l6-6a1 1 0 0 1 1.414 0Zm-9 1a1 1 0 0 1 0 1.414l-1 1a4.657 4.657 0 0 0 6.586 6.586l1-1a1 1 0 0 1 1.414 1.414l-1 1a6.657 6.657 0 1 1-9.414-9.414l1-1a1 1 0 0 1 1.414 0Z"
+                                clip-rule="evenodd"
+                              ></path></svg
+                          ></a>
+                          <div class="param-name">logprob</div>
+                          <div class="param-type">number</div>
+                        </div>
+                        <div class="param-desc">
+                          <div class="markdown-content">
+                            <p>The log probability of this token.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="param-row">
+                        <div class="param-row-header api-ref-anchor-link-hover">
+                          <a
+                            href="#chat/object-choices-logprobs-content-top_logprobs-bytes"
+                            data-anchor="chat/object-choices-logprobs-content-top_logprobs-bytes"
+                            class="api-ref-anchor-link"
+                            ><svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="1em"
+                              height="1em"
+                              fill="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                d="M18.293 5.707a4.657 4.657 0 0 0-6.586 0l-1 1a1 1 0 1 1-1.414-1.414l1-1a6.657 6.657 0 1 1 9.414 9.414l-1 1a1 1 0 0 1-1.414-1.414l1-1a4.657 4.657 0 0 0 0-6.586Zm-2.586 2.586a1 1 0 0 1 0 1.414l-6 6a1 1 0 0 1-1.414-1.414l6-6a1 1 0 0 1 1.414 0Zm-9 1a1 1 0 0 1 0 1.414l-1 1a4.657 4.657 0 0 0 6.586 6.586l1-1a1 1 0 0 1 1.414 1.414l-1 1a6.657 6.657 0 1 1-9.414-9.414l1-1a1 1 0 0 1 1.414 0Z"
+                                clip-rule="evenodd"
+                              ></path></svg
+                          ></a>
+                          <div class="param-name">bytes</div>
+                          <div class="param-type">array or null</div>
+                        </div>
+                        <div class="param-desc">
+                          <div class="markdown-content">
+                            <p>
+                              A list of integers representing the UTF-8 bytes
+                              representation of the token. Useful in instances
+                              where characters are represented by multiple
+                              tokens and their byte representations must be
+                              combined to generate the correct text
+                              representation. Can be <code>null</code> if there
+                              is no bytes representation for the token.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="param-row">
+        <div class="param-row-header api-ref-anchor-link-hover">
+          <a
+            href="#chat/object-created"
+            data-anchor="chat/object-created"
+            class="api-ref-anchor-link"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1em"
+              height="1em"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M18.293 5.707a4.657 4.657 0 0 0-6.586 0l-1 1a1 1 0 1 1-1.414-1.414l1-1a6.657 6.657 0 1 1 9.414 9.414l-1 1a1 1 0 0 1-1.414-1.414l1-1a4.657 4.657 0 0 0 0-6.586Zm-2.586 2.586a1 1 0 0 1 0 1.414l-6 6a1 1 0 0 1-1.414-1.414l6-6a1 1 0 0 1 1.414 0Zm-9 1a1 1 0 0 1 0 1.414l-1 1a4.657 4.657 0 0 0 6.586 6.586l1-1a1 1 0 0 1 1.414 1.414l-1 1a6.657 6.657 0 1 1-9.414-9.414l1-1a1 1 0 0 1 1.414 0Z"
+                clip-rule="evenodd"
+              ></path></svg
+          ></a>
+          <div class="param-name">created</div>
+          <div class="param-type">integer</div>
+        </div>
+        <div class="param-desc">
+          <div class="markdown-content">
+            <p>
+              The Unix timestamp (in seconds) of when the chat completion was
+              created.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="param-row">
+        <div class="param-row-header api-ref-anchor-link-hover">
+          <a
+            href="#chat/object-model"
+            data-anchor="chat/object-model"
+            class="api-ref-anchor-link"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1em"
+              height="1em"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M18.293 5.707a4.657 4.657 0 0 0-6.586 0l-1 1a1 1 0 1 1-1.414-1.414l1-1a6.657 6.657 0 1 1 9.414 9.414l-1 1a1 1 0 0 1-1.414-1.414l1-1a4.657 4.657 0 0 0 0-6.586Zm-2.586 2.586a1 1 0 0 1 0 1.414l-6 6a1 1 0 0 1-1.414-1.414l6-6a1 1 0 0 1 1.414 0Zm-9 1a1 1 0 0 1 0 1.414l-1 1a4.657 4.657 0 0 0 6.586 6.586l1-1a1 1 0 0 1 1.414 1.414l-1 1a6.657 6.657 0 1 1-9.414-9.414l1-1a1 1 0 0 1 1.414 0Z"
+                clip-rule="evenodd"
+              ></path></svg
+          ></a>
+          <div class="param-name">model</div>
+          <div class="param-type">string</div>
+        </div>
+        <div class="param-desc">
+          <div class="markdown-content">
+            <p>The model used for the chat completion.</p>
+          </div>
+        </div>
+      </div>
+      <div class="param-row">
+        <div class="param-row-header api-ref-anchor-link-hover">
+          <a
+            href="#chat/object-system_fingerprint"
+            data-anchor="chat/object-system_fingerprint"
+            class="api-ref-anchor-link"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1em"
+              height="1em"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M18.293 5.707a4.657 4.657 0 0 0-6.586 0l-1 1a1 1 0 1 1-1.414-1.414l1-1a6.657 6.657 0 1 1 9.414 9.414l-1 1a1 1 0 0 1-1.414-1.414l1-1a4.657 4.657 0 0 0 0-6.586Zm-2.586 2.586a1 1 0 0 1 0 1.414l-6 6a1 1 0 0 1-1.414-1.414l6-6a1 1 0 0 1 1.414 0Zm-9 1a1 1 0 0 1 0 1.414l-1 1a4.657 4.657 0 0 0 6.586 6.586l1-1a1 1 0 0 1 1.414 1.414l-1 1a6.657 6.657 0 1 1-9.414-9.414l1-1a1 1 0 0 1 1.414 0Z"
+                clip-rule="evenodd"
+              ></path></svg
+          ></a>
+          <div class="param-name">system_fingerprint</div>
+          <div class="param-type">string</div>
+        </div>
+        <div class="param-desc">
+          <div class="markdown-content">
+            <p>
+              This fingerprint represents the backend configuration that the
+              model runs with.
+            </p>
+            <p>
+              Can be used in conjunction with the <code>seed</code> request
+              parameter to understand when backend changes have been made that
+              might impact determinism.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="param-row">
+        <div class="param-row-header api-ref-anchor-link-hover">
+          <a
+            href="#chat/object-object"
+            data-anchor="chat/object-object"
+            class="api-ref-anchor-link"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1em"
+              height="1em"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M18.293 5.707a4.657 4.657 0 0 0-6.586 0l-1 1a1 1 0 1 1-1.414-1.414l1-1a6.657 6.657 0 1 1 9.414 9.414l-1 1a1 1 0 0 1-1.414-1.414l1-1a4.657 4.657 0 0 0 0-6.586Zm-2.586 2.586a1 1 0 0 1 0 1.414l-6 6a1 1 0 0 1-1.414-1.414l6-6a1 1 0 0 1 1.414 0Zm-9 1a1 1 0 0 1 0 1.414l-1 1a4.657 4.657 0 0 0 6.586 6.586l1-1a1 1 0 0 1 1.414 1.414l-1 1a6.657 6.657 0 1 1-9.414-9.414l1-1a1 1 0 0 1 1.414 0Z"
+                clip-rule="evenodd"
+              ></path></svg
+          ></a>
+          <div class="param-name">object</div>
+          <div class="param-type">string</div>
+        </div>
+        <div class="param-desc">
+          <div class="markdown-content">
+            <p>
+              The object type, which is always <code>chat.completion</code>.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="param-row">
+        <div class="param-row-header api-ref-anchor-link-hover">
+          <a
+            href="#chat/object-usage"
+            data-anchor="chat/object-usage"
+            class="api-ref-anchor-link"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1em"
+              height="1em"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M18.293 5.707a4.657 4.657 0 0 0-6.586 0l-1 1a1 1 0 1 1-1.414-1.414l1-1a6.657 6.657 0 1 1 9.414 9.414l-1 1a1 1 0 0 1-1.414-1.414l1-1a4.657 4.657 0 0 0 0-6.586Zm-2.586 2.586a1 1 0 0 1 0 1.414l-6 6a1 1 0 0 1-1.414-1.414l6-6a1 1 0 0 1 1.414 0Zm-9 1a1 1 0 0 1 0 1.414l-1 1a4.657 4.657 0 0 0 6.586 6.586l1-1a1 1 0 0 1 1.414 1.414l-1 1a6.657 6.657 0 1 1-9.414-9.414l1-1a1 1 0 0 1 1.414 0Z"
+                clip-rule="evenodd"
+              ></path></svg
+          ></a>
+          <div class="param-name">usage</div>
+          <div class="param-type">object</div>
+        </div>
+        <div class="param-desc">
+          <div class="markdown-content">
+            <p>Usage statistics for the completion request.</p>
+          </div>
+        </div>
+        <button
+          class="param-expand-button link-style"
+          aria-expanded="true"
+          aria-controls="chat/object-usage_table"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="1em"
+            height="1em"
+            fill="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M12 8a1 1 0 0 1 .707.293l7 7a1 1 0 0 1-1.414 1.414L12 10.414l-6.293 6.293a1 1 0 0 1-1.414-1.414l7-7A1 1 0 0 1 12 8Z"
+              clip-rule="evenodd"
+            ></path></svg
+          ><span>Hide properties</span>
+        </button>
+        <div class="param-table" id="chat/object-usage__table">
+          <div class="param-row">
+            <div class="param-row-header api-ref-anchor-link-hover">
+              <a
+                href="#chat/object-usage-completion_tokens"
+                data-anchor="chat/object-usage-completion_tokens"
+                class="api-ref-anchor-link"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="1em"
+                  height="1em"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M18.293 5.707a4.657 4.657 0 0 0-6.586 0l-1 1a1 1 0 1 1-1.414-1.414l1-1a6.657 6.657 0 1 1 9.414 9.414l-1 1a1 1 0 0 1-1.414-1.414l1-1a4.657 4.657 0 0 0 0-6.586Zm-2.586 2.586a1 1 0 0 1 0 1.414l-6 6a1 1 0 0 1-1.414-1.414l6-6a1 1 0 0 1 1.414 0Zm-9 1a1 1 0 0 1 0 1.414l-1 1a4.657 4.657 0 0 0 6.586 6.586l1-1a1 1 0 0 1 1.414 1.414l-1 1a6.657 6.657 0 1 1-9.414-9.414l1-1a1 1 0 0 1 1.414 0Z"
+                    clip-rule="evenodd"
+                  ></path></svg
+              ></a>
+              <div class="param-name">completion_tokens</div>
+              <div class="param-type">integer</div>
+            </div>
+            <div class="param-desc">
+              <div class="markdown-content">
+                <p>Number of tokens in the generated completion.</p>
+              </div>
+            </div>
+          </div>
+          <div class="param-row">
+            <div class="param-row-header api-ref-anchor-link-hover">
+              <a
+                href="#chat/object-usage-prompt_tokens"
+                data-anchor="chat/object-usage-prompt_tokens"
+                class="api-ref-anchor-link"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="1em"
+                  height="1em"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M18.293 5.707a4.657 4.657 0 0 0-6.586 0l-1 1a1 1 0 1 1-1.414-1.414l1-1a6.657 6.657 0 1 1 9.414 9.414l-1 1a1 1 0 0 1-1.414-1.414l1-1a4.657 4.657 0 0 0 0-6.586Zm-2.586 2.586a1 1 0 0 1 0 1.414l-6 6a1 1 0 0 1-1.414-1.414l6-6a1 1 0 0 1 1.414 0Zm-9 1a1 1 0 0 1 0 1.414l-1 1a4.657 4.657 0 0 0 6.586 6.586l1-1a1 1 0 0 1 1.414 1.414l-1 1a6.657 6.657 0 1 1-9.414-9.414l1-1a1 1 0 0 1 1.414 0Z"
+                    clip-rule="evenodd"
+                  ></path></svg
+              ></a>
+              <div class="param-name">prompt_tokens</div>
+              <div class="param-type">integer</div>
+            </div>
+            <div class="param-desc">
+              <div class="markdown-content">
+                <p>Number of tokens in the prompt.</p>
+              </div>
+            </div>
+          </div>
+          <div class="param-row">
+            <div class="param-row-header api-ref-anchor-link-hover">
+              <a
+                href="#chat/object-usage-total_tokens"
+                data-anchor="chat/object-usage-total_tokens"
+                class="api-ref-anchor-link"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="1em"
+                  height="1em"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M18.293 5.707a4.657 4.657 0 0 0-6.586 0l-1 1a1 1 0 1 1-1.414-1.414l1-1a6.657 6.657 0 1 1 9.414 9.414l-1 1a1 1 0 0 1-1.414-1.414l1-1a4.657 4.657 0 0 0 0-6.586Zm-2.586 2.586a1 1 0 0 1 0 1.414l-6 6a1 1 0 0 1-1.414-1.414l6-6a1 1 0 0 1 1.414 0Zm-9 1a1 1 0 0 1 0 1.414l-1 1a4.657 4.657 0 0 0 6.586 6.586l1-1a1 1 0 0 1 1.414 1.414l-1 1a6.657 6.657 0 1 1-9.414-9.414l1-1a1 1 0 0 1 1.414 0Z"
+                    clip-rule="evenodd"
+                  ></path></svg
+              ></a>
+              <div class="param-name">total_tokens</div>
+              <div class="param-type">integer</div>
+            </div>
+            <div class="param-desc">
+              <div class="markdown-content">
+                <p>
+                  Total number of tokens used in the request (prompt +
+                  completion).
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section-right">
+    <div class="code-sample">
+      <div class="code-sample-header">
+        <div class="code-sample-title body-small">
+          The chat completion object
+        </div>
+        <div class="code-sample-copy">
+          <button
+            type="button"
+            tabindex="0"
+            class="btn btn-sm btn-minimal btn-neutral"
+          >
+            <span class="btn-label-wrap"
+              ><span class="btn-node start-node"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18px"
+                  height="18px"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M7 5a3 3 0 0 1 3-3h9a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3h-2v2a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3v-9a3 3 0 0 1 3-3h2V5Zm2 2h5a3 3 0 0 1 3 3v5h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-9a1 1 0 0 0-1 1v2ZM5 9a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-9a1 1 0 0 0-1-1H5Z"
+                    clip-rule="evenodd"
+                  ></path></svg></span
+              ><span class="btn-label-inner">Copy&zwj;</span></span
+            >
+          </button>
+        </div>
+      </div>
+      <div class="code-sample-body code-sample-body-small">
+        <pre
+          class="hljs syntax-highlighter dark code-sample-pre"
+        ><code class="language-JSON" style="white-space: pre;"><code><span class="react-syntax-highlighter-line-number">1
+</span><span class="react-syntax-highlighter-line-number">2
+</span><span class="react-syntax-highlighter-line-number">3
+</span><span class="react-syntax-highlighter-line-number">4
+</span><span class="react-syntax-highlighter-line-number">5
+</span><span class="react-syntax-highlighter-line-number">6
+</span><span class="react-syntax-highlighter-line-number">7
+</span><span class="react-syntax-highlighter-line-number">8
+</span><span class="react-syntax-highlighter-line-number">9
+</span><span class="react-syntax-highlighter-line-number">10
+</span><span class="react-syntax-highlighter-line-number">11
+</span><span class="react-syntax-highlighter-line-number">12
+</span><span class="react-syntax-highlighter-line-number">13
+</span><span class="react-syntax-highlighter-line-number">14
+</span><span class="react-syntax-highlighter-line-number">15
+</span><span class="react-syntax-highlighter-line-number">16
+</span><span class="react-syntax-highlighter-line-number">17
+</span><span class="react-syntax-highlighter-line-number">18
+</span><span class="react-syntax-highlighter-line-number">19
+</span><span class="react-syntax-highlighter-line-number">20
+</span><span class="react-syntax-highlighter-line-number">21
+</span></code><span class=""><span class="">{
+</span></span><span class=""><span class="">  </span><span class="hljs-string">"id"</span><span class="">: </span><span class="hljs-string">"chatcmpl-123"</span><span class="">,
+</span></span><span class=""><span class="">  </span><span class="hljs-string">"object"</span><span class="">: </span><span class="hljs-string">"chat.completion"</span><span class="">,
+</span></span><span class=""><span class="">  </span><span class="hljs-string">"created"</span><span class="">: </span><span class="hljs-number">1677652288</span><span class="">,
+</span></span><span class=""><span class="">  </span><span class="hljs-string">"model"</span><span class="">: </span><span class="hljs-string">"gpt-3.5-turbo-0125"</span><span class="">,
+</span></span><span class=""><span class="">  </span><span class="hljs-string">"system_fingerprint"</span><span class="">: </span><span class="hljs-string">"fp_44709d6fcb"</span><span class="">,
+</span></span><span class=""><span class="">  </span><span class="hljs-string">"choices"</span><span class="">: [{
+</span></span><span class=""><span class="">    </span><span class="hljs-string">"index"</span><span class="">: </span><span class="hljs-number">0</span><span class="">,
+</span></span><span class=""><span class="">    </span><span class="hljs-string">"message"</span><span class="">: {
+</span></span><span class=""><span class="">      </span><span class="hljs-string">"role"</span><span class="">: </span><span class="hljs-string">"assistant"</span><span class="">,
+</span></span><span class=""><span class="">      </span><span class="hljs-string">"content"</span><span class="">: </span><span class="hljs-string">"\n\nHello there, how may I assist you today?"</span><span class="">,
+</span></span><span class="">    },
+</span><span class=""><span class="">    </span><span class="hljs-string">"logprobs"</span><span class="">: </span><span class="hljs-literal">null</span><span class="">,
+</span></span><span class=""><span class="">    </span><span class="hljs-string">"finish_reason"</span><span class="">: </span><span class="hljs-string">"stop"</span><span class="">
+</span></span><span class="">  }],
+</span><span class=""><span class="">  </span><span class="hljs-string">"usage"</span><span class="">: {
+</span></span><span class=""><span class="">    </span><span class="hljs-string">"prompt_tokens"</span><span class="">: </span><span class="hljs-number">9</span><span class="">,
+</span></span><span class=""><span class="">    </span><span class="hljs-string">"completion_tokens"</span><span class="">: </span><span class="hljs-number">12</span><span class="">,
+</span></span><span class=""><span class="">    </span><span class="hljs-string">"total_tokens"</span><span class="">: </span><span class="hljs-number">21</span><span class="">
+</span></span><span class="">  }
+</span><span class="">}</span></code></pre>
+      </div>
+    </div>
+  </div>
+</div>
