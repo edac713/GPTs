@@ -104,7 +104,7 @@ You can then choose to call an external weather API for the actual weather. Once
 Here is a notebook with a simple example that demonstrates how to use function calling with the OpenAI APIs:
 
 <Cards>
-    <Card 
+    <Card
         icon={<CodeIcon />}
         title="Function Calling with OpenAI APIs"
         href="https://github.com/dair-ai/Prompt-Engineering-Guide/blob/main/notebooks/pe-function-calling.ipynb"
