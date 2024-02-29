@@ -1,0 +1,159 @@
+[
+  {
+    "title": "AI Sora Creates Scenes",
+    "create_time": 1709221744.98517,
+    "update_time": 1709221751.19005,
+    "mapping": {
+      "9223ac12-06c0-407c-80c9-d2fecf08c29b": {
+        "id": "9223ac12-06c0-407c-80c9-d2fecf08c29b",
+        "message": {
+          "id": "9223ac12-06c0-407c-80c9-d2fecf08c29b",
+          "author": {
+            "role": "system",
+            "name": null,
+            "metadata": {}
+          },
+          "create_time": null,
+          "update_time": null,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              ""
+            ]
+          },
+          "status": "finished_successfully",
+          "end_turn": true,
+          "weight": 0,
+          "metadata": {
+            "is_visually_hidden_from_conversation": true
+          },
+          "recipient": "all"
+        },
+        "parent": "aaa1a394-ec22-4dbb-929d-154e4bf916ff",
+        "children": [
+          "cd424387-a41e-49b1-83ad-a5a0abcd9334"
+        ]
+      },
+      "aaa1a394-ec22-4dbb-929d-154e4bf916ff": {
+        "id": "aaa1a394-ec22-4dbb-929d-154e4bf916ff",
+        "message": null,
+        "parent": null,
+        "children": [
+          "9223ac12-06c0-407c-80c9-d2fecf08c29b"
+        ]
+      },
+      "cd424387-a41e-49b1-83ad-a5a0abcd9334": {
+        "id": "cd424387-a41e-49b1-83ad-a5a0abcd9334",
+        "message": {
+          "id": "cd424387-a41e-49b1-83ad-a5a0abcd9334",
+          "author": {
+            "role": "system",
+            "name": null,
+            "metadata": {}
+          },
+          "create_time": null,
+          "update_time": null,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              ""
+            ]
+          },
+          "status": "finished_successfully",
+          "end_turn": null,
+          "weight": 1,
+          "metadata": {
+            "is_visually_hidden_from_conversation": true
+          },
+          "recipient": "all"
+        },
+        "parent": "9223ac12-06c0-407c-80c9-d2fecf08c29b",
+        "children": [
+          "aaa26a94-860f-40c4-9f1e-b26d2e561dbc"
+        ]
+      },
+      "aaa26a94-860f-40c4-9f1e-b26d2e561dbc": {
+        "id": "aaa26a94-860f-40c4-9f1e-b26d2e561dbc",
+        "message": {
+          "id": "aaa26a94-860f-40c4-9f1e-b26d2e561dbc",
+          "author": {
+            "role": "user",
+            "name": null,
+            "metadata": {}
+          },
+          "create_time": 1709221744.985715,
+          "update_time": null,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "Sora is an AI model that can create realistic and imaginative scenes from text instructions. "
+            ]
+          },
+          "status": "finished_successfully",
+          "end_turn": null,
+          "weight": 1,
+          "metadata": {
+            "request_id": "85d20e20ca300d1a-ATL",
+            "timestamp_": "absolute",
+            "message_type": null
+          },
+          "recipient": "all"
+        },
+        "parent": "cd424387-a41e-49b1-83ad-a5a0abcd9334",
+        "children": [
+          "8ef35a31-5608-4975-8bb0-47c890beac9e"
+        ]
+      },
+      "8ef35a31-5608-4975-8bb0-47c890beac9e": {
+        "id": "8ef35a31-5608-4975-8bb0-47c890beac9e",
+        "message": {
+          "id": "8ef35a31-5608-4975-8bb0-47c890beac9e",
+          "author": {
+            "role": "assistant",
+            "name": null,
+            "metadata": {}
+          },
+          "create_time": 1709221749.763642,
+          "update_time": null,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "Sora is an AI model that can create realistic and imaginative scenes from text instructions."
+            ]
+          },
+          "status": "finished_successfully",
+          "end_turn": true,
+          "weight": 1,
+          "metadata": {
+            "finish_details": {
+              "type": "stop",
+              "stop_tokens": [
+                100260
+              ]
+            },
+            "citations": [],
+            "gizmo_id": "g-t5NdgJ7xP",
+            "is_complete": true,
+            "message_type": null,
+            "model_slug": "gpt-4-gizmo",
+            "parent_id": "aaa26a94-860f-40c4-9f1e-b26d2e561dbc",
+            "request_id": "85d20e20ca300d1a-ATL",
+            "timestamp_": "absolute"
+          },
+          "recipient": "all"
+        },
+        "parent": "aaa26a94-860f-40c4-9f1e-b26d2e561dbc",
+        "children": []
+      }
+    },
+    "moderation_results": [],
+    "current_node": "8ef35a31-5608-4975-8bb0-47c890beac9e",
+    "plugin_ids": null,
+    "conversation_id": "f97b61f8-5d8f-477e-b238-af2b6da87a55",
+    "conversation_template_id": "g-t5NdgJ7xP",
+    "gizmo_id": "g-t5NdgJ7xP",
+    "is_archived": false,
+    "safe_urls": [],
+    "id": "f97b61f8-5d8f-477e-b238-af2b6da87a55"
+  }
+]
