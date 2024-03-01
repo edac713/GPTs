@@ -17,9 +17,7 @@
           "update_time": null,
           "content": {
             "content_type": "text",
-            "parts": [
-              ""
-            ]
+            "parts": [""]
           },
           "status": "finished_successfully",
           "end_turn": true,
@@ -30,17 +28,13 @@
           "recipient": "all"
         },
         "parent": "aaa1a394-ec22-4dbb-929d-154e4bf916ff",
-        "children": [
-          "cd424387-a41e-49b1-83ad-a5a0abcd9334"
-        ]
+        "children": ["cd424387-a41e-49b1-83ad-a5a0abcd9334"]
       },
       "aaa1a394-ec22-4dbb-929d-154e4bf916ff": {
         "id": "aaa1a394-ec22-4dbb-929d-154e4bf916ff",
         "message": null,
         "parent": null,
-        "children": [
-          "9223ac12-06c0-407c-80c9-d2fecf08c29b"
-        ]
+        "children": ["9223ac12-06c0-407c-80c9-d2fecf08c29b"]
       },
       "cd424387-a41e-49b1-83ad-a5a0abcd9334": {
         "id": "cd424387-a41e-49b1-83ad-a5a0abcd9334",
@@ -55,9 +49,7 @@
           "update_time": null,
           "content": {
             "content_type": "text",
-            "parts": [
-              ""
-            ]
+            "parts": [""]
           },
           "status": "finished_successfully",
           "end_turn": null,
@@ -68,9 +60,7 @@
           "recipient": "all"
         },
         "parent": "9223ac12-06c0-407c-80c9-d2fecf08c29b",
-        "children": [
-          "aaa26a94-860f-40c4-9f1e-b26d2e561dbc"
-        ]
+        "children": ["aaa26a94-860f-40c4-9f1e-b26d2e561dbc"]
       },
       "aaa26a94-860f-40c4-9f1e-b26d2e561dbc": {
         "id": "aaa26a94-860f-40c4-9f1e-b26d2e561dbc",
@@ -100,9 +90,7 @@
           "recipient": "all"
         },
         "parent": "cd424387-a41e-49b1-83ad-a5a0abcd9334",
-        "children": [
-          "8ef35a31-5608-4975-8bb0-47c890beac9e"
-        ]
+        "children": ["8ef35a31-5608-4975-8bb0-47c890beac9e"]
       },
       "8ef35a31-5608-4975-8bb0-47c890beac9e": {
         "id": "8ef35a31-5608-4975-8bb0-47c890beac9e",
@@ -127,9 +115,7 @@
           "metadata": {
             "finish_details": {
               "type": "stop",
-              "stop_tokens": [
-                100260
-              ]
+              "stop_tokens": [100260]
             },
             "citations": [],
             "gizmo_id": "g-t5NdgJ7xP",
