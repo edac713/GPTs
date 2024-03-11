@@ -485,7 +485,7 @@ Note: If you want the AI to output its entire response or parts of its response 
 Assistant: <Inputs>'''
 ```
 
-# 1. Quickstart
+## 1. Quickstart
 
 Enter your task in the cell below. Here are some examples for inspiration:
 
@@ -574,7 +574,7 @@ print("Prompt:")
 pretty_print(prompt)
 ```
 
-# 2. Testing your prompt template
+## 2. Testing your prompt template
 
 If you like your prompt, try it out! The cell will prompt you to add values for each variable. Then, it will be sent to Claude and you'll see Claude's final output.
 
