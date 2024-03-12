@@ -114,4 +114,43 @@
 - Social desirability bias
 - Overconfidence effect
 
-## 
+## Not Enough Meaning
+
+### We tend to find stories and patterns even when looking at sparse data
+
+- Confabulation
+- Clustering illusion
+- Insensitivity to sample size
+- Neglect of probability
+- Anecdotal fallacy
+- Illusion of validity
+- Masked man fallacy
+- Recency illusion
+- Gambler's fallacy
+- Hot-hand fallacy
+- Illusory correlation
+- Pareidolia
+- Anthropomorphism
+
+### We fill in characteristics from stereotypes, generalities, and prior histories
+
+- Group attribution error
+- Ultimate attribution error
+- Stereotyping
+- Essentialism
+- Functional fixedness
+- Moral credential effect
+- Just-world hypothesis
+- Argument from fallacy
+- Authority bias
+- Automation bias
+- Bandwagon effect
+- Placebo effect
+
+### We imagine things and people we're familiar with or fond of as better
+
+- Out-group homogeneity bias
+- Cross-race effect
+- In-group bias
+- 
+
