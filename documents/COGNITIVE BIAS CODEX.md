@@ -1,6 +1,6 @@
 # COGNITIVE BIAS CODEX
 
-## What Should We Remember?
+## [1] What Should We Remember?
 
 - _**We store memories differently based on how they were experienced**_
   - Tip of the tongue phenomenon
