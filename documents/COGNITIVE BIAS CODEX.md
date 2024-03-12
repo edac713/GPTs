@@ -46,7 +46,7 @@
 
 ## Need To Act Fast
 
-### We facor simple-looking options and complete information over complex, abiguous options
+### We favor simple-looking options and complete information over complex, ambiguous options
 
 - Less-is-better effect
 - Occam's razor
@@ -70,7 +70,7 @@
 
 ### To get things done, we tend to complete things we've invested time & energy in
 
-- Backgire effect
+- Backfire effect
 - Endowment effect
 - Processing difficulty effect
 - Pseudocertainty effect
@@ -105,7 +105,7 @@
 - Barnum effect
 - Forer effect
 - Optimism bias
-- Egocentric bias
+- Egocentric blas
 - Dunning-Kruger effect
 - Lake Wobegone effect
 - Hard-easy effect
@@ -114,42 +114,144 @@
 - Social desirability bias
 - Overconfidence effect
 
+## Too Much Information
+
+### We notice things already primed in memory or repeated often
+
+- Availability heuristic
+- Attentional bias
+- Illusory truth effect
+- Mere exposure effect
+- Context effect
+- Cue-dependent forgetting
+- Mood-congruent memory bias
+- Frequency illusion
+- Baader-Meinhof Phenomenon
+- Empathy gap
+- Omission bias
+- Base rate fallacy
+
+### Bizarre, funny, visually-striking, or anthropomorphic things stick out more than non-bizarre/unfunny things
+
+- Bizarreness effect
+- Humor effect
+- Von Restorff effect
+- Picture superiority effect
+- Self-relevance effect
+- Negativity bias
+
+### We notice when something has changed
+
+- Anchoring
+- Conservatism
+- Contrast effect
+- Distinction bias
+- Focusing effect
+- Framing effect
+- Money illusion
+- Weber-Fechner law
+
+### We are drawn to details that confirm our own existing beliefs.
+
+- Confirmation Bias
+- Congruence Bias
+- Post-Purchase Rationalization
+- Choice-Supportive Bias
+- Selective Perception
+- Observer Expectancy Effect
+- Experimenter's Bias
+- Observer Effect
+- Expectation Bias
+- Ostrich Effect
+- Subjective Validation
+- Continued Influence Effect
+- Simulwise Reflex
+
+### We notice flaws in others more easily than we notice flaws in ourselves.
+
+- Bias Blindspot
+- Naïve Cynicism
+- Naïve Realism
+
 ## Not Enough Meaning
 
-### We tend to find stories and patterns even when looking at sparse data
+### We tend to find stories and patterns even when looking at sparse data.
 
 - Confabulation
-- Clustering illusion
-- Insensitivity to sample size
-- Neglect of probability
-- Anecdotal fallacy
-- Illusion of validity
-- Masked man fallacy
-- Recency illusion
-- Gambler's fallacy
-- Hot-hand fallacy
-- Illusory correlation
+- Clustering Illusion
+- Intensity to Sample Size
+- Neglect of Probability
+- Anecdotal Fallacy
+- Illusion of Validity
+- Mass Demand Fallacy
+- Recency Illusion
+- Gambler's Fallacy
+- Hot Hand Fallacy
+- Illusory Correlation
 - Pareidolia
 - Anthropomorphism
 
-### We fill in characteristics from stereotypes, generalities, and prior histories
+### We fill in characteristics from stereotypes, generalities, and prior histories.
 
-- Group attribution error
-- Ultimate attribution error
+- Group Attribution Error
+- Ultimate Attribution Error
 - Stereotyping
 - Essentialism
-- Functional fixedness
-- Moral credential effect
-- Just-world hypothesis
-- Argument from fallacy
-- Authority bias
-- Automation bias
-- Bandwagon effect
-- Placebo effect
+- Functional Fixedness
+- Moral Credential Effect
+- Just World Hypothesis
+- Argument from Fallacy
+- Authority Bias
+- Automation Bias
+- Bandwagon Effect
+- Placebo Effect
 
-### We imagine things and people we're familiar with or fond of as better
+### We imagine things and people we're familiar with or fond of as better.
 
-- Out-group homogeneity bias
-- Cross-race effect
-- In-group bias
--
+- Outgroup Homogeneity Bias
+- Cross-Race Effect
+- In-Group Bias
+- Halo Effect
+- Cheerleader Effect
+- Positivity Effect
+- Not Invented Here
+- Reactive Devaluation
+- Well-Traveled Road Effect
+
+### We simplify probabilities and numbers to make them easier to think about.
+
+- Mental Accounting
+- Appeal to Profitability Fallacy
+- Normalcy Bias
+- Murphy's Law
+- Zero-Sum Bias
+- Survivorship Bias
+- Sub-Additivity Effect
+- Denomination Effect
+- Magic Number 7 +- 2
+
+### We think we know what other people are thinking.
+
+- Illusion of Transparency
+- Curse of Knowledge
+- Spotlight Effect
+- Extrinsic Incentive Error
+- Illusion of External Agency
+- Illusion of Asymmetric Insight
+
+### We project our current mindset and assumptions onto the past and future.
+
+- Self-Consistency Bias
+- Restraint Bias
+- Projection Bias
+- Pro-Innovation Bias
+- Time-Saving Bias
+- Planning Fallacy
+- Pessimism Bias
+- Impact Bias
+- Declinism Bias
+- Moral Luck
+- Outcome Bias
+- Hindsight Bias
+- Rosie Retrospection
+- Telescope Effect
