@@ -2,7 +2,7 @@
 
 ## 1. What Should We Remember?
 
-  A. _**We store memories differently based on how they were experienced**_
+- _**We store memories differently based on how they were experienced**_
   - Tip of the tongue phenomenon
   - Google effect
   - Next-in-line effect
@@ -10,7 +10,7 @@
   - Absent-mindedess
   - Levels of processing effect
 
-B. _**We reduce events and lists to their key elements**_
+- _**We reduce events and lists to their key elements**_
   - Suffix effect
   - Serial position effect
   - Part-list cueing effect
