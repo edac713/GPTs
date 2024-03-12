@@ -152,5 +152,4 @@
 - Out-group homogeneity bias
 - Cross-race effect
 - In-group bias
-- 
-
+-
