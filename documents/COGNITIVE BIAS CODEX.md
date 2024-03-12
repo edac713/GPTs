@@ -2,13 +2,13 @@
 
 ## What Should We Remember?
 
-_**We store memories differently based on how they were experienced**_
-- Tip of the tongue phenomenon
-- Google effect
-- Next-in-line effect
-- Testing effect
-- Absent-mindedess
-- Levels of processing effect
+- _**We store memories differently based on how they were experienced**_
+  - Tip of the tongue phenomenon
+  - Google effect
+  - Next-in-line effect
+  - Testing effect
+  - Absent-mindedess
+  - Levels of processing effect
 
 - _**We reduce events and lists to their key elements**_
   - Suffix effect
