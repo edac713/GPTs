@@ -2,7 +2,7 @@
 
 ## What Should We Remember?
 
-### We store memories differently based on how they were experienced
+### *We store memories differently based on how they were experienced*
 
 - Tip of the tongue phenomenon
 - Google effect
