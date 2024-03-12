@@ -1,8 +1,8 @@
 # COGNITIVE BIAS CODEX
 
-## [1] What Should We Remember?
+## 1. What Should We Remember?
 
-- _**We store memories differently based on how they were experienced**_
+- _**A. We store memories differently based on how they were experienced**_
   - Tip of the tongue phenomenon
   - Google effect
   - Next-in-line effect
@@ -10,7 +10,7 @@
   - Absent-mindedess
   - Levels of processing effect
 
-- _**We reduce events and lists to their key elements**_
+- _**B. We reduce events and lists to their key elements**_
   - Suffix effect
   - Serial position effect
   - Part-list cueing effect
@@ -24,7 +24,7 @@
   - Leveling and sharpening
   - Peak-end rule
 
-- _**We discard specifics to form generalities**_
+- _**C. We discard specifics to form generalities**_
   - Fading affect bias
   - Negativity bias
   - Prejudice
@@ -32,7 +32,7 @@
   - Implicit stereotypes
   - Implicit associations
 
-- _**We edit and reinforce some memories after the fact**_
+- _**D. We edit and reinforce some memories after the fact**_
   - Spacing effect
   - Suggestibility
   - False memory
