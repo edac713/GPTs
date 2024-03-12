@@ -9,9 +9,6 @@
   - Testing effect
   - Absent-mindedess
   - Levels of processing effect
-
----
-
 - _**We reduce events and lists to their key elements**_
   - Suffix effect
   - Serial position effect
@@ -25,9 +22,6 @@
   - Misinformation effect
   - Leveling and sharpening
   - Peak-end rule
-
----
-
 - _**We discard specifics to form generalities**_
   - Fading affect bias
   - Negativity bias
@@ -35,9 +29,6 @@
   - Stereotypical bias
   - Implicit stereotypes
   - Implicit associations
-
----
-
 - _**We edit and reinforce some memories after the fact**_
   - Spacing effect
   - Suggestibility
