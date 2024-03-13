@@ -6,14 +6,14 @@ How to give clear and effective instructions to OpenAI models
 
 - How prompt engineering works
 - Rules of Thumb and Examples
-  1.  Use the latest model
-  2.  Put instructions at the beginning of the prompt and use ### or """ to separate the instruction and context
-  3.  Be specific, descriptive and as detailed as possible about the desired context, outcome, length, format, style, etc
-  4.  Articulate the desired output format through examples
-  5.  Start with zero-shot, then few-shot, neither of them worked, then fine-tune
-  6.  Reduce “fluffy” and imprecise descriptions
-  7.  Instead of just saying what not to do, say what to do instead
-  8.  Code Generation Specific - Use “leading words” to nudge the model toward a particular patternParameters
+  1. Use the latest model
+  2. Put instructions at the beginning of the prompt and use ### or """ to separate the instruction and context
+  3. Be specific, descriptive and as detailed as possible about the desired context, outcome, length, format, style, etc
+  4. Articulate the desired output format through examples
+  5. Start with zero-shot, then few-shot, neither of them worked, then fine-tune
+  6. Reduce “fluffy” and imprecise descriptions
+  7. Instead of just saying what not to do, say what to do instead
+  8. Code Generation Specific - Use “leading words” to nudge the model toward a particular patternParameters
 
 ## How prompt engineering works
 
