@@ -368,11 +368,11 @@ Table 3: Filtering criteria to used to create the BIG-Bench Instruction Inductio
 | 67       | After filtering out tasks without human-rater baselines                                           |
 | 57       | After filtering out tasks that do not use multiple-choice or exact match as the evaluation metric |
 
-## Criteria: JSON Tasks.
+## Criteria: JSON Tasks
 
 Discarded tasks: abstraction and reasoning corpus, bbq lite, bias from probabilities, boolean expressions, com2sense, context definition alignment, convinceme, coqa conversational question answering, cycled letters, diverse social bias, dynamic counting, factuality of summary, forecasting subquestions, gender sensitivity chinese, gender sensitivity english, high low game, long context integration, multistep arithmetic, muslim violence bias, program synthesis, protein interacting sites, python programming challenge, question answer creation, roots optimization and games, self awareness, self evaluation courtroom, self evaluation tutoring, simple arithmetic, spelling bee, squad shifts, subject verb agreement, sudoku, taboo, talkdown, text navigation game, training on test set, truthful qa, twenty questions, unqover, web of lies, word problems on sets and graphs, yes no black white.
 
-## Criteria: Tasks without sub-task.
+## Criteria: Tasks without sub-task
 
 Discarded tasks: abstract narrative understanding, arithmetic, authorship verification, bbq lite json, cause and effect, chess state tracking, cifar10 classification, color, conceptual combinations, conlang translation, cs algorithms, elementary math qa, fact checker, gem, goal step wikihow, hhh alignment, indic cause and effect, intersect geometry, kanji ascii, key value maps, language games, linguistic mappings, list functions, logical deduction, metaphor understanding, minute mysteries qa, modified arithmetic, mult data wrangling, multiemo, natural instructions, periodic elements, physics, real or fake text, simp turing concept, simple arithmetic json subtasks, simple ethical questions, strange stories, symbol interpretation, tracking shuffled objects, undo permutation, unit conversion, unit interpretation, unnatural in context learning.
 
@@ -380,7 +380,7 @@ Criteria: The task includes at least 150 examples with input-output pairs.
 
 Discarded tasks: analytic entailment, auto debugging, code line description, codenames, common morpheme, crash blossom, crass ai, cryobiology spanish, dark humor detection, emoji movie, emojis emotion prediction, empirical judgments, english proverbs, english russian proverbs, entailed polarity, entailed polarity hindi, evaluating information essentiality, figure of speech detection, general knowledge, gre reading comprehension, human organs senses, identify math theorems, identify odd metaphor, implicit relations, international phonetic alphabet nli, irony identification, known unknowns, logical args, logical sequence, mathematical induction, misconceptions russian, nonsense words grammar, novel concepts, odd one out, penguins in a table, persian idioms, phrase relatedness, physical intuition, physics questions, repeat copy logic, rephrase, riddle sense, scientific press release, sentence ambiguity, similarities abstraction, simple arithmetic json, simple arithmetic json multiple choice, simple arithmetic multiple targets json, simple text editing, sufficient information, suicide risk, swedish to german proverbs, what is the tao.
 
-## Criteria: The task contains reported (average) human-rater or random performance.
+## Criteria: The task contains reported (average) human-rater or random performance
 
 Discarded tasks: contextual parametric knowledge conflicts, hinglish toxicity, medical questions russian, parsinlu qa, swahili english proverbs, tellmewhy, which wiki edit.
 
@@ -743,10 +743,10 @@ Figure 34: Iterative Monte Carlo search improves the quality of the instruction 
 [^0]:
     ${ }^{1}$ We define "prompt engineering" as optimizing the language in a prompt in order to elicit the best possible performance. Notably, this does not include prompts that chain multiple LLM queries together or give the LLM access to external tools.
 
-    ${ }^{2}$ Our code is available at https://github.com/keirp/automatic_prompt_engineer
+    ${ }^{2}$ Our code is available at <https://github.com/keirp/automatic_prompt_engineer>
 
 [^1]:
-    ${ }^{3}$ We use the text-davinci-002 via the OpenAI API (https://beta.openai.com/). Though not stated explicitly in the API, we assume the models are those reported by Ouyang et al. (2022).
+    ${ }^{3}$ We use the text-davinci-002 via the OpenAI API (<https://beta.openai.com/>). Though not stated explicitly in the API, we assume the models are those reported by Ouyang et al. (2022).
 
     ${ }^{4}$ We use the gold annotations from Honovich et al. (2022), which were manually verified for correctness.
 

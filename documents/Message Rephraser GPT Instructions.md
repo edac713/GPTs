@@ -45,7 +45,7 @@ To sum a row of dollar amounts in Excel and display the total in a "Total" colum
 
 2. In the cell to the right of your last value (F1 in this example), type the formula: `=SUM(A1:E1)`
 
-- This tells Excel to add up the values in the range A1 to E1.
+   - This tells Excel to add up the values in the range A1 to E1.
 
 3. Press Enter to calculate the total. The formula result will appear in F1.
 
