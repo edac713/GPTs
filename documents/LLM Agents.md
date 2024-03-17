@@ -113,7 +113,7 @@ In this section, we highlight examples of domains and case studies where LLM-bas
 ### LLM Agent Tools
 
 !["AutoGen"](../../img/agents/autogen.png)
-_AutoGen capabilities; Figure Source: https://microsoft.github.io/autogen_
+_AutoGen capabilities; Figure Source: <https://microsoft.github.io/autogen>_
 
 Below are notable examples of tools and frameworks that are used to build LLM agents:
 

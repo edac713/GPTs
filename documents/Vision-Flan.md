@@ -1,12 +1,10 @@
-# Vision-Flan: Scaling Human-Labeled Tasks in Visual Instruction Tuning 
+# Vision-Flan: Scaling Human-Labeled Tasks in Visual Instruction Tuning
 
 Zhiyang $\mathrm{Xu}^{\star}$ Chao Feng ${ }^{*}$ Rulin Shao ${ }^{\odot}$ Trevor Ashby ${ }^{\star}$ Ying Shen ${ }^{\star}$<br>Di Jin ${ }^{\diamond}$ Yu Cheng ${ }^{\star}$ Qifan Wang ${ }^{\diamond}$ Lifu Huang ${ }^{\star}$<br>"Virginia Tech ${ }^{\circ}$ University of Washington "University of Michigan<br>${ }^{\diamond}$ Amazon Inc. "Microsoft ${ }^{\diamond}$ Meta AI<br>\{zhiyangx,lifuh\}@vt.edu
-
 
 #### Abstract
 
 Despite vision-language models' (VLMs) remarkable capabilities as versatile visual assistants, two substantial challenges persist within the existing VLM frameworks: (1) lacking task diversity in pretraining and visual instruction tuning, and (2) annotation error and bias in GPT-4 synthesized instruction tuning data. Both challenges lead to issues such as poor generalizability, hallucination, and catastrophic forgetting. To address these challenges, we construct VISION-FLAN, the most diverse publicly available visual instruction tuning dataset to date, comprising 187 diverse tasks and $1,664,261$ instances sourced from academic datasets, and each task is accompanied by an expert-written instruction. In addition, we propose a two-stage instruction tuning framework, in which VLMs are firstly finetuned on VISIONFLAN and further tuned on GPT-4 synthesized data. We find this two-stage tuning framework significantly outperforms the traditional single-stage visual instruction tuning framework and achieves the state-of-the-art performance across a wide range of multi-modal evaluation benchmarks. Finally, we conduct indepth analyses to understand visual instruction tuning and our findings reveal that: (1) GPT-4 synthesized data does not substantially enhance VLMs' capabilities but rather modulates the model's responses to human-preferred formats; (2) A minimal quantity (e.g., 1,000) of GPT4 synthesized data can effectively align VLM responses with human-preference; (3) Visual instruction tuning mainly helps large-language models (LLMs) to understand visual features.
-
 
 ## 1 Introduction
 
@@ -68,7 +66,6 @@ MM-Bench (Liu et al., 2023f).
 
 - A minimal quantity $(1,000)$ of GPT-4 synthesized data is sufficient to align VLMs' responses with human preferences. Notably, increasing GPT-4 synthesized data does not correspond to a proportional enhancement in alignment and introduces hallucination and bias into the VLMs.
 - Visual instruction tuning mainly enhances the ability of large-language models (LLMs) to process and understand visual features. The training of the bridging module, which maps visual features to the embedding space of LLMs, is predominantly achieved during the pre-training phase.
-
 
 ## 2 VISION-FLAN
 
@@ -393,7 +390,7 @@ Anurendra Kumar, Keval Morabia, William Wang, Kevin Chang, and Alex Schwing. 202
 
 Jason J Lau, Soumya Gayen, Dina Demner, and Asma Ben Abacha. 2019. Visual question answering in radiology (vqa-rad).
 
-Yann LeCun. 1998. The mnist database of handwritten digits. http://yann. lecun. com/exdb/mnist/.
+Yann LeCun. 1998. The mnist database of handwritten digits. <http://yann>. lecun. com/exdb/mnist/.
 
 Paul Lerner, Olivier Ferret, Camille Guinaudeau, Hervé Le Borgne, Romaric Besançon, José G. Moreno, and Jesús Lovón-Melgarejo. 2022. Viquae, a dataset for knowledge-based visual question answering about named entities. In SIGIR '22: The 45th International ACM SIGIR Conference on Research and Development in Information Retrieval, Madrid, Spain, July 11 - 15, 2022, pages 3108-3120. ACM.
 
@@ -623,11 +620,11 @@ When we manually check the predictions of VISION-FLAN CHAT and compare them to o
 
 main/docs/LLaVA_Bench.md
 
-https://github.com/RUCAIBox/POPE
+<https://github.com/RUCAIBox/POPE>
 
-https://github.com/MMMU-Benchmark/MMMU
+<https://github.com/MMMU-Benchmark/MMMU>
 
-${ }^{5}$ https://sharegpt.com/
+${ }^{5}$ <https://sharegpt.com/>
 VLMs, the first trend we observe is that VISIONFLAN CHAT can better perform OCR as shown in Figure 10. To quantify this observation, we evaluate LLaVA, LLaVA 1.5 and our models on the challenging TextOCR dataset (Singh et al., 2021). We ask the VLMs to predict all the text on each image and check the overlap between the target list of text pieces and the predictions. As shown in Figure 9, the recall of VISION-FLAN BASE and VISION-FLAN CHAT is much higher compared to LLaVA 1.5 while the averaged numbers of predicted tokens per response are similar.
 
 ![](https://cdn.mathpix.com/cropped/2024_02_20_c690a9166ccc980f8e92g-18.jpg?height=1097&width=780&top_left_y=842&top_left_x=1049)
@@ -700,7 +697,6 @@ H Datasets Used in VisION-FLAN
 | Places365 (Zhou et al., 2018) | 1. scene classification |
 | Office-31 (Saenko et al., 2010) | 1. image domain and office object classification <br> 2. office object recognition |
 
-
 | Dataset \& Reference | Tasks |
 | :--- | :--- |
 | LSUN (Yu et al., 2015) | 1. scene classification |
@@ -738,7 +734,6 @@ H Datasets Used in VisION-FLAN
 | MVTecAD (Bergmann et al., 2021) | 1. object anomaly detection |
 |  | 2. industrial item recognition |
 
-
 | Dataset \& Reference | Tasks |
 | :--- | :--- |
 | NABirds (Horn et al., 2015) | 1. bird species recognition in north America <br> 2. bird body parts detection |
@@ -768,7 +763,6 @@ H Datasets Used in VisION-FLAN
 | VQA-E (Li et al., 2018) | 1. visuart question generation |
 | VQG (Mostafazadeh et al., 2016) | short image captioning |
 
-
 | Dataset \& Reference | Tasks |
 | :---: | :---: |
 | WIT (Srinivasan et al., 2021) | 1. background knowledge extraction |
@@ -792,7 +786,6 @@ H Datasets Used in VisION-FLAN
 | FLICKR30K (Plummer et al., 2017) | 1. multiple captions generation |
 | DVQA (Kafle et al., 2018) | 1. chart question answering |
 | DTD (Cimpoi et al., 2014) | 1. coarse grained texture classification <br> 2. multiple texture detection |
-
 
 | Dataset \& Reference | Tasks |
 | :---: | :---: |
@@ -824,7 +817,6 @@ I Task Categories in VISION-FLAN
 | Reasoning | 1. GEOMETRY3K geometry question answering <br> 2. IconQA abstract diagram understanding <br> 3. IconQA fill in blank in abstract diagram under- <br> standing <br> 4. InfographicVQA VQA <br> 5. InfographicVQA document level VQA <br> 6. ScienceQA VQA <br> 7. AI2D diagram VQA |
 | OCR | 1. DOCVQA document level VQA <br> 2. DVQA chart question answering <br> 3. PlotQA VQA over scientific plots <br> 4. OCR-VQA VQA by reading text in image <br> 5. ST-VQA scene text VQA |
 
-
 | Category | Tasks |
 | :---: | :---: |
 | Document-Level OCR | 1. FUNSD text detection in noisy scanned docu- <br> ments <br> 2. SCUT-CTW1500 curve text detection in the <br> wild <br> 3. Total-Text scene text detection and recognition |
@@ -835,13 +827,11 @@ I Task Categories in VISION-FLAN
 | Rational and Script Generation | 1. ScienceQA explanation generation <br> 2. A-OKVQA rationales generation <br> 3. A-OKVQA answer rationale generation <br> 4. MemeCap meme understanding <br> 5. wikiHow-image next step generation <br> 6. VQG visual question generation |
 | Coarse-grained Captioning | 1. ConceptualCaptions conceptual image caption- <br> ing <br> 2. FLICKR30K multiple captions generation <br> 3. NOCAPS multiple short captions generation <br> 4. PICKAPIC image prompt generation <br> 5. VizWiz captioning image taken by blind people <br> 6. VQA-E short image captioning <br> 7. VQG short image captioning <br> 8. MSCOCO short image captioning <br> 9. CONCADIA short image captioning |
 
-
 | Category | Tasks |
 | :---: | :---: |
 | Fine-grained Captioning | 1. LAD detailed object description generation <br> 2. FFHQ-Text facial attribute textual descriptions <br> generation <br> 3. Localized Narratives COCO detailed image <br> captioning <br> 4. Localized Narratives flickr30k detailed image <br> captioning <br> 5. Localized Narratives open images detailed im- <br> age captioning <br> 6. Localized Narratives ade20k detailed image <br> captioning <br> 7. SciCap figure captioning <br> 8. SentiCap image captioning conditioned on sen- <br> timent <br> 9. TextCaps image captioning with reading com- <br> prehension |
 | Scene Classification | 1. 300w indoor outdoor classification <br> 2. AID aerial scene classification <br> 3. Dark-Zurich time of the day classification <br> 4. JHU-CROWD scene classification <br> 5. LSUN scene classification <br> 6. Places205 indoor outdoor classification <br> 7. places365 scene classification |
 | Animal Classification | 1. CUB-200-2011 bird species recognition <br> 2. DeepWeeds weed species recognition <br> 3. INATURALIST class classification <br> 4. INATURALIST family classification <br> 5. INATURALIST genus classification <br> 6. INATURALIST Latin English name classifica- <br> tion <br> 7. INATURALIST order classification <br> 8. INATURALIST phylum classification <br> 9. INATURALIST supercategory classification <br> 10. NABirds bird species recognition in north <br> America <br> 11. NUS-WIDE animal presence classification <br> 12. STANFORD DOGS dog species classification <br> 13. NABirds bird body parts detection |
-
 
 | Category | Tasks |
 | :---: | :---: |
@@ -851,13 +841,11 @@ I Task Categories in VISION-FLAN
 | Anomaly Detection | 1. Road-Anomaly road anomaly detection <br> 2. MVTecAD object anomaly detection |
 | General Object | 1. Caltech-256 object recognition <br> 2. Caltech101 object recognition <br> 3. Caltech101 living organism classification <br> 4. Core50 object recognition <br> 5. ImageNet-A object recognition of natural ad- <br> versarial examples <br> 6. MNIST-M number recognition <br> 7. MVTecAD industrial item recognition <br> 8. ObjectNet object recognition <br> 9. Office-Home object recognition <br> 10. Office-31 image domain and office object clas- <br> sification <br> 11. Office-31 office object recognition <br> 12. STL-10 object recognition <br> 13. Set5 object recognition in low resolution im- <br> age <br> 14. VOC2007 multiple object recognition <br> 15. MSCOCO appliance recognition <br> 16. MSCOCO furniture recognition <br> 17. MSCOCO kitchen object recognition <br> 18. MSCOCO vehicle recognition <br> 19. MSCOCO animal recognition <br> 20. MSCOCO sports object recognition <br> 21. Yahoo object recognition |
 
-
 | Category | Tasks |
 | :---: | :---: |
 | Complex Reasoning | 1. RAVEN relational and analogical visual rea- <br> soning <br> 2. Multimodal Factual Checking multimodal fac- <br> tual checking <br> 3. wikiHow-image image text step ordering <br> 4. wikiHow-image immediate next step selection <br> 5. wikiHow-image text image step ordering |
 | Image Text Matching | 1. MSCOCO image text matching <br> 2. Winoground image caption matching <br> 3. MSCOCO image text selection <br> 4. MSCOCO question image matching |
 | General Object Classification in Special Image <br> Domain | 1. DOMAIN NET object recognition in clip art <br> 2. DOMAIN NET object recognition in infograph <br> 3. DOMAIN NET object recognition in painting <br> 4. DOMAIN NET object recognition in quick- <br> draw <br> 5. DOMAIN NET object recognition in real im- <br> age <br> 6. ExDark object recognition in low light environ- <br> ments <br> 7. ImageNet-R object recognition in diverse im- <br> age domain <br> 8. ImageNet-Sketch object recognition in sketch <br> 9. PACS object recognition in art painting <br> 10. PACS object recognition in cartoon <br> 11. PACS object recognition in photograph <br> 12. SKETCH living organism classification in <br> sketch <br> 13. SKETCH object recognition in sketch <br> 14. Cinic-10 animal recognition in low resolution <br> image <br> 15. Cinic-10 shipping method recognition in low <br> resolution image <br> 16. Cinic-10 transportation option recognition in <br> low resolution image <br> 17. Cinic-10 animal presence classification in low <br> resolution image <br> 18. Cinic-10 object shipping object presence in <br> low resolution image <br> 19. VisDA-2017 object recognition in 3D ren- <br> dered image <br> 20. VisDA-2017 multiple choice object recogni- <br> tion in 3D rendered image |
-
 
 | Category | Tasks |
 | :--- | :--- |
@@ -1628,6 +1616,7 @@ Instruction: You are doing Dipping Pine Cones in Paint. Is the step "Twist the e
 ## Task: Wikihow_text_image_step_ordering
 
  Instruction: The goal is to "Thawing with a Microwave". Given the current step "Remove the plastic wrap and inspect your dough.", Is the picture the next or the previous step? Options: previous next Target: next
+
 ## Task: multimodal_factual_checking
 
 Instruction: Context: Our Rating A widely-shared Facebook post claimed California had legalized 'pedophilia,' and that 'Now a 21 year old can have sex with an 11 year old, and not be listed on the sex registry as a sex offender.' That post and many like it are simply wrong. They grossly distort the proposals in state SB 145, which aims to eliminate a disparity in how LGBTQ young people are treated on California's sex offender registry. The legislation would eliminate automatic sex offeder registration for young adults who are convicted of having voluntary anal or oral sex with a minor and are within 10 years of age of the victim. Instead, a judge would make that decision, just as existing law allows judges to decide whether to place offenders in cases involving vaginal intercourse on the registry. The bill would not, in any fashion, make it legal for any adult to have any type of sex with a minor. The only change involves giving a judge discretion over whether to list an offender on the sex registry for certain sex acts. We rate the claims in the Facebook post Pants on Fire. PANTS ON FIRE - The statement is not accurate and makes a ridiculous claim. Does the context support "'PEDOPHILIA is now LEGAL in CALIFORNIA. Now a 21 year old can have sex with an 11 year old, and not be listed on the sex registry as a sex offender."? Options: (a) not sure (b) no (c) yes Target: A1: (b) no
@@ -1865,7 +1854,7 @@ Task: Vizwiz_quality_issue_classification_of_image_taken_by_blind_people Instruc
 Figure 73
 ![](https://cdn.mathpix.com/cropped/2024_02_20_c690a9166ccc980f8e92g-62.jpg?height=588&width=300&top_left_y=1778&top_left_x=364)
 
-## Task: ImageNet-C_ weather_type_classification
+## Task: ImageNet-C_weather_type_classification
 
 Instruction: Given an image, identify what kind of weather conditions might have corrupted the image. It can be different types of bad weather or outdoor conditions Options: (a) The corruption type is snow (b) The corruption type is fog (c) The corruption type is frost (d) The corruption type is brightness Target: (d) The corruption type is brightness
 
@@ -2209,18 +2198,16 @@ Figure 90
 
 Figure 91
 
+[^0]:    ${ }^{1}$ <https://openai.com/blog/chatgpt>
 
-[^0]:    ${ }^{1}$ https://openai.com/blog/chatgpt
+    ${ }^{2}$ <https://openai.com/research/gpt-4>
 
-    ${ }^{2}$ https://openai.com/research/gpt-4
+[^1]:    ${ }^{3}$ <https://openai.com/research/> gpt-4v-system-card
 
-[^1]:    ${ }^{3}$ https://openai.com/research/ gpt-4v-system-card
-
-[^2]:    ${ }^{4}$ https://github.com/BradyFU/
+[^2]:    ${ }^{4}$ <https://github.com/BradyFU/>
 
     Awesome-Multimodal-Large-Language-Models/ tree/Evaluation
 
-    https://mmbench.opencompass .org.cn/leaderboard https://github.com/yuweihao/MM-Vet https://github.com/haotian-liu/LLaVA/blob/
+    <https://mmbench.opencompass> .org.cn/leaderboard <https://github.com/yuweihao/MM-Vet> <https://github.com/haotian-liu/LLaVA/blob/>
 
-[^3]:    ${ }^{6}$ https://spacy.io/api/entityrecognizer
-
+[^3]:    ${ }^{6}$ <https://spacy.io/api/entityrecognizer>
