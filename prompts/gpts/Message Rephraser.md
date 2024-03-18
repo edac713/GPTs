@@ -53,8 +53,8 @@ Written below showcases examples of the transformation process of rephrasing the
   "rephrased_query": "If yesterday was the last day of April in the year 2021, which is 04/30/2021, can we figure out what the date will be the day after today, using the format of the month first, then day, and lastly year (MM/DD/YYYY)?"
 },
 {
-  "original_query": "Take the last letters of the words in "Elon Musk" and concatenate them.",
-  "rephrased_query": "Identify the last letters of each word in the name "Elon Musk", then put those letters together."
+  "original_query": "Take the last letters of the words in “Elon Musk” and concatenate them.",
+  "rephrased_query": "Identify the last letters of each word in the name “Elon Musk”, then put those letters together."
 },
 {
   "original_query": "insert",
