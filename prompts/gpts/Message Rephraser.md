@@ -1,7 +1,5 @@
 # Message Rephraser GPT Instructions
 
-## Old Instructions 
-
 ````Markdown
 # Message Rephraser GPT Instructions
 
