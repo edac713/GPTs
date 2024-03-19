@@ -1,8 +1,9 @@
 # COGNITIVE BIAS CODEX
 
-## 1. What Should We Remember?
+## What Should We Remember?
 
-> _**We store memories differently based on how they were experienced**_
+- _**We store memories differently based on how they were experienced**_
+
   - Tip of the tongue phenomenon
   - Google effect
   - Next-in-line effect
@@ -11,6 +12,7 @@
   - Levels of processing effect
 
 - _**We reduce events and lists to their key elements**_
+
   - Suffix effect
   - Serial position effect
   - Part-list cueing effect
@@ -25,6 +27,7 @@
   - Peak-end rule
 
 - _**We discard specifics to form generalities**_
+
   - Fading affect bias
   - Negativity bias
   - Prejudice
@@ -43,6 +46,7 @@
 ## Need To Act Fast
 
 - _**We favor simple-looking options and complete information over complex, ambiguous options**_
+
   - Less-is-better effect
   - Occam's razor
   - Conjunction fallacy
@@ -55,6 +59,7 @@
   - Ambiguity bias
 
 - _**To avoid mistakes, we aim to preserve autonomy and group status, and avoid irreversible decisions**_
+
   - Status quo bias
   - Social comparison bias
   - Decoy effect
@@ -63,6 +68,7 @@
   - System justification
 
 - _**To get things done, we tend to complete things we've invested time & energy in**_
+
   - Backfire effect
   - Endowment effect
   - Processing difficulty effect
@@ -78,6 +84,7 @@
   - Sunk cost fallacy
 
 - _**To stay focused, we favor the immediate, relatable thing in front of us**_
+
   - Identifiable victim effect
   - Appeal to novelty
   - Hyperbolic discounting
@@ -108,6 +115,7 @@
 ## Too Much Information
 
 - _**We notice things already primed in memory or repeated often**_
+
   - Availability heuristic
   - Attentional bias
   - Illusory truth effect
@@ -122,6 +130,7 @@
   - Base rate fallacy
 
 - _**Bizarre, funny, visually-striking, or anthropomorphic things stick out more than non-bizarre/unfunny things**_
+
   - Bizarreness effect
   - Humor effect
   - Von Restorff effect
@@ -130,6 +139,7 @@
   - Negativity bias
 
 - _**We notice when something has changed**_
+
   - Anchoring
   - Conservatism
   - Contrast effect
@@ -140,6 +150,7 @@
   - Weber-Fechner law
 
 - _**We are drawn to details that confirm our own existing beliefs**_
+
   - Confirmation Bias
   - Congruence Bias
   - Post-Purchase Rationalization
@@ -162,6 +173,7 @@
 ## Not Enough Meaning
 
 - _**We tend to find stories and patterns even when looking at sparse data**_
+
   - Confabulation
   - Clustering Illusion
   - Intensity to Sample Size
@@ -177,6 +189,7 @@
   - Anthropomorphism
 
 - _**We fill in characteristics from stereotypes, generalities, and prior histories**_
+
   - Group Attribution Error
   - Ultimate Attribution Error
   - Stereotyping
@@ -191,6 +204,7 @@
   - Placebo Effect
 
 - _**We imagine things and people we're familiar with or fond of as better**_
+
   - Outgroup Homogeneity Bias
   - Cross-Race Effect
   - In-Group Bias
@@ -202,6 +216,7 @@
   - Well-Traveled Road Effect
 
 - _**We simplify probabilities and numbers to make them easier to think about**_
+
   - Mental Accounting
   - Appeal to Profitability Fallacy
   - Normalcy Bias
@@ -213,6 +228,7 @@
   - Magic Number 7 +- 2
 
 - _**We think we know what other people are thinking**_
+
   - Illusion of Transparency
   - Curse of Knowledge
   - Spotlight Effect
@@ -235,3 +251,5 @@
   - Hindsight Bias
   - Rosie Retrospection
   - Telescope Effect
+
+Now I want you to write all of these into one message in a way that changes it style, jargon, formatting, structuring into a Prompt Engineering Documentation Guide by OpenAI would typically write ((I ask to mimick/replicate the style OpenAI uses in it's Prompt Engineering / ChatGPT Documentation because we, as in you (Systems Thinking Notetaker/ChatGPT) and I (the user), are currently interacting and interfacing with one another through OpenAI's ChatGPT website interface and our interactions with one another is important to be aligned 100% with OpenAI's prompt engineering methods and techquies.
