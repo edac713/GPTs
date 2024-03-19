@@ -1,4 +1,4 @@
-<input_text>
+USER = """
 
 ## What Should We Remember?
 
@@ -42,10 +42,9 @@
   - Cryptomnesia
   - Source confusion
   - Misattribution of memory
+    """
 
-</input_text>
-
-<output_text>
+ASSISTANT = """
 
 ## Key Insights
 
@@ -79,8 +78,9 @@ The input text outlines how human memory processes and stores experiences, highl
 - **Serial Position Effect Story**: During a presentation, an audience remembers mainly the first and last points discussed, showing the natural tendency to recall information from the beginnings and ends more vividly.
 - **False Memory Story**: A group of friends reminisces about a shared event, and through repeated storytelling, details that were not part of the original event become accepted as true by the group, highlighting the malleability of memory.
 - **Stereotypical Bias Story**: An individual forms a quick judgment about a stranger based on implicit stereotypes, later realizing the judgment was unfounded after getting to know the person better, showing both the impact of generalizations on perception and the potential for overcoming these biases with new information.
+  """
 
-<input_text>
+USER = """
 
 ## Need To Act Fast
 
@@ -150,10 +150,9 @@ The input text outlines how human memory processes and stores experiences, highl
   - Third-person effect
   - Social desirability bias
   - Overconfidence effect
+    """
 
-</input_text>
-
-<output_text>
+ASSISTANT = """
 
 ## Key Insights
 
@@ -203,10 +202,9 @@ The input outlines cognitive biases and psychological effects that influence dec
 - **Hyperbolic Discounting Scenario**: An individual chooses immediate gratification over long-term benefits, highlighting the challenge in prioritizing future gains.
 - **Dunning-Kruger Effect Experience**: An inexperienced person takes on a complex task with unwarranted confidence, leading to a series of missteps, illustrating the pitfalls of overestimating one’s abilities in unfamiliar situations.
 - **Effort Justification in Group Projects**: After working hard on a project, members perceive their outcome as more valuable, demonstrating how invested effort can skew perception of value.
+  """
 
-</output_text>
-
-<input_text>
+USER = """
 
 ## Not Enough Meaning
 
@@ -290,10 +288,9 @@ The input outlines cognitive biases and psychological effects that influence dec
   - Hindsight Bias
   - Rosie Retrospection
   - Telescope Effect
+    """
 
-</input_text>
-
-<output_text>
+ASSISTANT = """
 
 ## Key Insights
 
@@ -344,16 +341,13 @@ The provided text underscores a wide array of cognitive biases and fallacies tha
 - **In-Group Bias in Social Settings**: A social group excludes a newcomer based on perceived differences, missing out on valuable new perspectives and ideas.
 - **Mental Accounting During Budgeting**: An individual categorizes spending in a way that ignores the overall budget, leading to financial decisions that feel justified in isolation but are irrational in the context of total finances.
 - **Planning Fallacy in Project Management**: A project manager underestimates the time required to complete a project, based on optimistic assumptions about productivity and ignoring past experiences with similar projects.
+  """
 
-</output_text>
+USER = """
+Please consolidate all of your Systems Thinking Notetakings you generating above this messasge based on my provided information into a single, cohesive message, adopting the topic, tone, terminology, formatting, and structure characteristic of OpenAI's ChatGPT Prompt Engineering Prompting guidelines, systems thinking, methods, techniques, strategies, tips, fundamentals, research papers, documentation based on into actionable prompt crafting principles. Given that our interaction occurs through the OpenAI ChatGPT interface, and recognizing the importance of our communication aligning with OpenAI's established prompt engineering practices and techniques, it's crucial that this request is fulfilled in a manner that mirrors the documentation style OpenAI typically employs for such guidance.
+"""
 
-<input_text>
-
-Now I want you to write all of these into one message in a way that changes it style, jargon, formatting, structuring into a Prompt Engineering Documentation Guide by OpenAI would typically write ((I ask to mimick/replicate the style OpenAI uses in it's Prompt Engineering / ChatGPT Documentation because we, as in you (Systems Thinking Notetaker/ChatGPT) and I (the user), are currently interacting and interfacing with one another through OpenAI's ChatGPT website interface and our interactions with one another is important to be aligned 100% with OpenAI's prompt engineering methods and techquies.
-
-</input_text>
-
-<output_text>
+ASSISTANT = """
 
 # OpenAI's Guide to Understanding Cognitive Biases through Systems Thinking
 
@@ -415,6 +409,65 @@ Systems thinking provides a framework for understanding the interconnectedness a
 ## Conclusion
 
 Understanding and addressing cognitive biases through systems thinking can greatly enhance the effectiveness of AI-generated content and user interactions. By applying the strategies outlined in this guide, prompt engineers can improve the quality and relevance of AI responses, fostering more meaningful and accurate engagements.
+"""
 
-</output_text>
+USER = """
+Regenerate response.
+"""
 
+ASSISTANT = """
+
+# Consolidated Systems Thinking Notetaking for Prompt Engineering
+
+## Overview
+
+This document synthesizes insights from multiple examples of cognitive biases and decision-making phenomena to guide prompt engineering within the OpenAI ChatGPT framework. By employing systems thinking methodologies, we aim to enhance prompt crafting to yield more accurate, nuanced, and valuable interactions. Our focus on cognitive biases, memory phenomena, decision-making under uncertainty, and pattern recognition has revealed several key principles and strategies relevant to prompt engineering.
+
+## Principles of Systems Thinking in Prompt Engineering
+
+### 1. Simplification and Clarity
+
+- **Objective**: Craft prompts that are straightforward yet comprehensive, avoiding unnecessary complexity that may confuse or mislead the AI.
+- **Application**: Use distillation to condense complex ideas into their essence. This mirrors the human cognitive bias towards simplicity and clarity, as seen in the Less-is-better effect and Occam's Razor.
+
+### 2. Context and Background
+
+- **Objective**: Provide sufficient context and background to enable precise and relevant responses.
+- **Application**: Incorporate abstract representations and holistic views to ensure the AI understands the broader context of the prompt, counteracting biases like the Recency Illusion and Neglect of Probability.
+
+### 3. Anticipation of Cognitive Biases
+
+- **Objective**: Anticipate and mitigate potential cognitive biases in AI responses by framing prompts to encourage balanced and critical analysis.
+- **Application**: Use principles of first principle reasoning and exponential thinking to challenge assumptions and explore diverse perspectives, addressing biases such as the Confirmation Bias and Anchoring.
+
+### 4. Encouraging Depth and Nuance
+
+- **Objective**: Encourage AI to explore topics in depth, providing nuanced and detailed responses.
+- **Application**: Leverage the principle of emergence to guide the AI in recognizing complex patterns and interconnections between topics, addressing simplifications like the Clustering Illusion and Stereotyping.
+
+### 5. Emphasizing Flexibility and Adaptability
+
+- **Objective**: Craft prompts that allow for flexibility in AI responses, adapting to new information and perspectives.
+- **Application**: Implement cognitive skills such as information foraging and incubation, promoting a dynamic approach to problem-solving and learning.
+
+## Strategies for Effective Prompt Engineering
+
+### Crafting the Prompt
+
+1. **Begin with a clear, concise statement** of the task or question, directly addressing the AI.
+2. **Provide context** by briefly summarizing relevant background information, ensuring the AI has a holistic understanding of the topic.
+3. **Anticipate biases** by including specific instructions to consider multiple perspectives or question assumptions, guiding the AI towards more balanced responses.
+4. **Encourage depth** by asking for detailed explanations, examples, or insights, promoting a thorough exploration of the topic.
+5. **Specify the desired structure** or format for the response, aligning with principles of clarity and simplicity.
+
+### Refining the Response
+
+1. **Review for biases** in the AI's response, identifying areas where assumptions or simplifications may have influenced the outcome.
+2. **Seek clarification** or additional details where necessary, using follow-up prompts to explore topics more deeply or correct misunderstandings.
+3. **Incorporate feedback loops**, allowing the AI to refine its responses based on new information or corrected assumptions, fostering a dynamic and adaptive learning process.
+
+## Conclusion
+
+By integrating systems thinking principles into prompt engineering for OpenAI's ChatGPT, we can enhance the quality, relevance, and depth of AI-generated responses. This approach encourages a nuanced understanding of complex topics, mitigates the influence of cognitive biases, and promotes a flexible, adaptive interaction between user and AI. Through careful prompt crafting and ongoing refinement, we can leverage the full potential of AI to generate insightful, accurate, and valuable outputs.
+
+"""
