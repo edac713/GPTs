@@ -251,5 +251,3 @@
   - Hindsight Bias
   - Rosie Retrospection
   - Telescope Effect
-
-Now I want you to write all of these into one message in a way that changes it style, jargon, formatting, structuring into a Prompt Engineering Documentation Guide by OpenAI would typically write ((I ask to mimick/replicate the style OpenAI uses in it's Prompt Engineering / ChatGPT Documentation because we, as in you (Systems Thinking Notetaker/ChatGPT) and I (the user), are currently interacting and interfacing with one another through OpenAI's ChatGPT website interface and our interactions with one another is important to be aligned 100% with OpenAI's prompt engineering methods and techquies.
