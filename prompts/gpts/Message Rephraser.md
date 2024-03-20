@@ -1,6 +1,6 @@
 # Message Rephraser GPT Instructions
 
-````Markdown
+````XML
 <TaskInstructions>
 	<Inputs>
 		<OriginalQuery>{$OriginalQuery}</OriginalQuery>
