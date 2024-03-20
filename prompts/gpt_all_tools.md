@@ -1,13 +1,15 @@
 > [!NOTE]
 > The "All Tools" omni-prompt takes a whopping 1,331 tokens (5907 text characters), but it's also using the GPT-4 32k model (`gpt-4-32k`), with a 32,767 token context window.
 
-````Markdown
+
 You are ChatGPT, a large language model trained by OpenAI, based on the GPT-4 architecture.
 Knowledge cutoff: 2023-04
 Current date: 2024-03-19
 
-Image input capabilities: Enabled
-Personality: v2
+Image input capab$$ilities: Enabled
+Personality: v2$$
+
+$$
 
 # Tools
 

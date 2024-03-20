@@ -1,0 +1,350 @@
+{
+  "scopes": [
+    {
+      "color": "#ABB2BF",
+      "fontStyle": "regular",
+      "name": "none",
+      "fontWeight": "regular"
+    },
+    {
+      "fontWeight": "regular",
+      "name": "text.property",
+      "color": "#C678DD",
+      "fontStyle": "regular"
+    },
+    {
+      "name": "text.title",
+      "fontWeight": "bold",
+      "color": "#E5C07B",
+      "fontStyle": "regular"
+    },
+    {
+      "name": "text.strong",
+      "color": "#ABB2BF",
+      "fontStyle": "regular",
+      "fontWeight": "bold"
+    },
+    {
+      "color": "#ABB2BF",
+      "name": "text.emphasis",
+      "fontWeight": "regular",
+      "fontStyle": "italic"
+    },
+    {
+      "fontStyle": "regular",
+      "fontWeight": "bold",
+      "name": "text.warning",
+      "color": "#ABB2BF"
+    },
+    {
+      "color": "#ABB2BF",
+      "fontWeight": "bold",
+      "fontStyle": "regular",
+      "name": "text.danger"
+    },
+    {
+      "color": "#C678DD",
+      "fontStyle": "regular",
+      "fontWeight": "regular",
+      "name": "text.uri"
+    },
+    {
+      "color": "#98C379",
+      "name": "text.reference",
+      "fontWeight": "regular",
+      "fontStyle": "regular"
+    },
+    {
+      "name": "text.literal",
+      "fontStyle": "regular",
+      "fontWeight": "regular",
+      "color": "#C678DD"
+    },
+    {
+      "name": "text.math",
+      "fontWeight": "regular",
+      "color": "#ABB2BF",
+      "fontStyle": "regular"
+    },
+    {
+      "fontWeight": "bold",
+      "color": "#C678DD",
+      "fontStyle": "regular",
+      "name": "text.environment"
+    },
+    {
+      "fontStyle": "regular",
+      "color": "#ABB2BF",
+      "fontWeight": "regular",
+      "name": "text.environment.name"
+    },
+    {
+      "fontStyle": "regular",
+      "name": "punctuation",
+      "fontWeight": "regular",
+      "color": "#ABB2BF80"
+    },
+    {
+      "fontWeight": "regular",
+      "fontStyle": "regular",
+      "name": "delimiter",
+      "color": "#ABB2BF80"
+    },
+    {
+      "name": "operator",
+      "fontWeight": "regular",
+      "color": "#ABB2BF80",
+      "fontStyle": "regular"
+    },
+    {
+      "color": "#C678DD",
+      "fontStyle": "regular",
+      "name": "tag",
+      "fontWeight": "regular"
+    },
+    {
+      "name": "escape",
+      "fontWeight": "regular",
+      "color": "#ABB2BF80",
+      "fontStyle": "regular"
+    },
+    {
+      "fontStyle": "regular",
+      "fontWeight": "bold",
+      "color": "#C678DD",
+      "name": "keyword"
+    },
+    {
+      "color": "#C678DD",
+      "fontStyle": "regular",
+      "fontWeight": "bold",
+      "name": "include"
+    },
+    {
+      "fontStyle": "regular",
+      "fontWeight": "bold",
+      "name": "conditional",
+      "color": "#C678DD"
+    },
+    {
+      "name": "repeat",
+      "color": "#C678DD",
+      "fontStyle": "regular",
+      "fontWeight": "bold"
+    },
+    {
+      "fontWeight": "regular",
+      "fontStyle": "regular",
+      "name": "type",
+      "color": "#E5C07B"
+    },
+    {
+      "color": "#7F848E",
+      "name": "comment",
+      "fontWeight": "regular",
+      "fontStyle": "regular"
+    },
+    {
+      "name": "number",
+      "fontWeight": "regular",
+      "color": "#ABB2BF",
+      "fontStyle": "regular"
+    },
+    {
+      "name": "float",
+      "fontWeight": "regular",
+      "fontStyle": "regular",
+      "color": "#ABB2BF"
+    },
+    {
+      "color": "#ABB2BF",
+      "fontWeight": "regular",
+      "fontStyle": "regular",
+      "name": "constant"
+    },
+    {
+      "fontStyle": "regular",
+      "fontWeight": "regular",
+      "color": "#ABB2BF",
+      "name": "boolean"
+    },
+    {
+      "name": "string",
+      "fontStyle": "regular",
+      "color": "#98C379",
+      "fontWeight": "regular"
+    },
+    {
+      "fontWeight": "regular",
+      "fontStyle": "regular",
+      "name": "constant.builtin",
+      "color": "#C99B6D"
+    },
+    {
+      "fontWeight": "regular",
+      "name": "variable.builtin",
+      "fontStyle": "regular",
+      "color": "#C99B6D"
+    },
+    {
+      "color": "#C99B6D",
+      "fontStyle": "regular",
+      "fontWeight": "regular",
+      "name": "function.builtin"
+    },
+    {
+      "fontStyle": "regular",
+      "fontWeight": "regular",
+      "name": "property",
+      "color": "#E06C75"
+    },
+    {
+      "fontStyle": "regular",
+      "fontWeight": "regular",
+      "name": "field",
+      "color": "#E06C75"
+    },
+    {
+      "color": "#D19A66",
+      "fontStyle": "regular",
+      "fontWeight": "regular",
+      "name": "attribute"
+    },
+    {
+      "fontWeight": "regular",
+      "name": "function",
+      "fontStyle": "regular",
+      "color": "#73AFE9"
+    },
+    {
+      "color": "#73AFE9",
+      "name": "function.method",
+      "fontStyle": "regular",
+      "fontWeight": "regular"
+    },
+    {
+      "fontStyle": "regular",
+      "fontWeight": "regular",
+      "color": "#73AFE9",
+      "name": "method"
+    },
+    {
+      "name": "variable.parameter",
+      "fontStyle": "regular",
+      "color": "#73AFE9",
+      "fontWeight": "regular"
+    },
+    {
+      "fontStyle": "regular",
+      "color": "#E5C07B",
+      "name": "constructor",
+      "fontWeight": "regular"
+    },
+    {
+      "fontStyle": "regular",
+      "color": "#98C379",
+      "name": "string.special",
+      "fontWeight": "regular"
+    },
+    {
+      "fontStyle": "regular",
+      "name": "meta.import.elm",
+      "fontWeight": "regular",
+      "color": "#C678DD"
+    },
+    {
+      "name": "storage.type.elm",
+      "fontWeight": "regular",
+      "color": "#E5C07B",
+      "fontStyle": "regular"
+    },
+    {
+      "fontStyle": "regular",
+      "fontWeight": "regular",
+      "color": "#E06C75",
+      "name": "union.elm"
+    }
+  ],
+  "interface": {
+    "header": {
+      "chevron": "#FFFFFF40",
+      "background": "#282C34",
+      "tint": "#FFFFFF",
+      "hairline": "#3B4048",
+      "unsavedChangesIndicator": "#C678DD",
+      "filename": "#FFFFFF"
+    },
+    "keyboardAppearance": "default",
+    "cursorPosition": {
+      "stroke": "system",
+      "text": "system",
+      "background": "system"
+    },
+    "trailingHairline": "system",
+    "statusBarStyle": "default",
+    "drawer": {
+      "shadow": "#00000026",
+      "wellBackground": "#282C34",
+      "wellHairline": "#3B4048",
+      "grabber": "system",
+      "background": "system",
+      "stroke": "system"
+    },
+    "leadingHairline": "system",
+    "search": {
+      "results": {
+        "selection": "system",
+        "bottomHairline": "system",
+        "topHairline": "system",
+        "emptyStateTitle": "system",
+        "lineNumber": "system",
+        "textPreviewStroke": "system"
+      },
+      "toolbar": {
+        "previousResult": "system",
+        "nextResult": "system",
+        "replaceAll": "system",
+        "resultCount": "system",
+        "done": "system"
+      },
+      "inputs": {
+        "queryInputClear": "system",
+        "replaceInputClear": "system",
+        "replaceInputPlaceholder": "system",
+        "inputStroke": "system",
+        "queryInputPlaceholder": "system",
+        "queryInputBackground": "system",
+        "menu": "system",
+        "menuActive": "system",
+        "queryInputText": "system",
+        "replaceInputIcon": "system",
+        "replaceInputBackground": "system",
+        "replaceInputText": "system",
+        "queryInputIcon": "system"
+      }
+    }
+  },
+  "appearance": "dark",
+  "editor": {
+    "selectedLineBackground": "#2C313B",
+    "highlightedTextBackground": "#FFFF005A",
+    "removedTextBackground": "#FF000027",
+    "invisibleCharacters": "#3B4048",
+    "pageGuide": {
+      "background": "#2D3139",
+      "hairline": "#2D3139"
+    },
+    "text": "#ABB2BF",
+    "scrollIndicatorStyle": "default",
+    "caret": "#FFFFFF",
+    "insertedTextBackground": "#00FF0027",
+    "gutter": {
+      "hairline": "#282C34",
+      "selectedLinesBackground": "#2C313B",
+      "background": "#282C34",
+      "lineNumber": "#495162",
+      "selectedLinesLineNumber": "#ABB2BF"
+    },
+    "background": "#100F0F"
+  }
+}
