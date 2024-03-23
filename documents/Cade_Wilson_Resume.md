@@ -37,9 +37,8 @@ I started my college education at my local community college and initially pursu
 
 _**(FT-YR) Merchandiser** | 04/2021 - Present_
 
-- Created visually appealing and effective product displays for Central Garden & Pet products, enhancing the customer experience and store aesthetics.
-- Won the 2023 Week 12 Controls Display Contest (North Division).
-- Utilized sales data and reports to identify opportunities for improvement and inform product selection and pricing decisions.
+- Created captivating product displays to enhance customer experience and store aesthetics, winning the 2023 Week 12 Controls Display Contest in the North Division.
+- Utilized sales data and reports to identify improvement opportunities and make informed decisions on product selection and pricing.
 - Built and maintained positive relationships with vendors and store management.
 - Efficiently managed inventory to ensure product availability and minimize excess stock.
 - Provided guidance to customers in selecting the right lawn and garden products for their needs.
@@ -51,11 +50,17 @@ _**Intern** | 07/2018 - 06/2019_
 - Developed 2D and 3D CAD models for a variety of domestic and international clients including local businesses, high schools, and universities.
 - Utilized Adobe Photoshop to update and enhance company project profiles for advertising purposes.
 
-## Technical Skills
+### Technical Skills
 
-- Experience with Windows/Mac OS, Adobe Photoshop, GitHub, ChatGPT (Prompt Engineering), Shopify.
-- Customer service
-- Product knowledge
-- Planning and organization
-- Attention to detail
-- Communication
+**Technical Proficiencies:**
+
+- **Operating Systems**: Proficiency in both Windows and Mac OS environments, facilitating seamless cross-platform operations.
+- **Software Skills**: Skilled in utilizing Adobe Photoshop for graphic design tasks, GitHub for version control, ChatGPT for enhanced employee-to-customer interactions, and Shopify for e-commerce management.
+- **Web & E-commerce Tools**: Experienced in leveraging Shopify to create and manage online storefronts, enhancing e-commerce presence and sales.
+
+**Core Competencies:**
+
+- **Customer Service Excellence**: Demonstrated ability to deliver superior customer service, ensuring customer satisfaction and loyalty.
+- **Product Expertise**: In-depth knowledge of a wide range of lawn and garden products, enabling effective customer guidance and support.
+- **Strategic Planning & Organization**: Strong planning and organizational skills, proven in efficiently managing inventory and executing store layouts for optimal product presentation.
+- **Attention to Detail**: Exceptional attention to detail in product displays, inventory management, and customer interaction, ensuring accuracy and quality.
