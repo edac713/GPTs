@@ -35,7 +35,7 @@ I started my college education at my local community college and initially pursu
 
 ### Central Garden & Pet
 
-_**(FT-YR) Merchandiser** | 04/2021 - Present_
+_**Merchandiser (FT-YR)** | 04/2021 - Present_
 
 - Created captivating product displays to enhance customer experience and store aesthetics, winning the 2023 Week 12 Controls Display Contest in the North Division.
 - Utilized sales data and reports to identify improvement opportunities and make informed decisions on product selection and pricing.
