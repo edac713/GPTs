@@ -50,7 +50,7 @@ _**Intern** | 07/2018 - 06/2019_
 - Developed 2D and 3D CAD models for a variety of domestic and international clients including local businesses, high schools, and universities.
 - Utilized Adobe Photoshop to update and enhance company project profiles for advertising purposes.
 
-### Technical Skills
+## Technical Skills
 
 **Technical Proficiencies:**
 
