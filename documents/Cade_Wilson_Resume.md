@@ -1,52 +1,61 @@
 # Wyatt Wilson
 
-- **Phone:** 7046779933
-- **Email:** <realcadewilson@gmail.com>
-- **Address:** 129 Dobbin Ln, Mooresville, NC
+FT-YR Merchandiser  
+Central Garden & Pet
 
-## Summary
+For the past three years, I've worked as a dedicated merchandiser for Central Garden & Pet, managing product displays in various stores across both North and South Charlotte. My role has taught me the importance of teamwork, precision, and building strong relationships with store teams and partners like Lowe's, Home Depot, Scott's, Spectrum, and BioAdvance. I'm known for my ability to ensure our products are not just delivered, but properly showcased, facilitating a collaborative and successful environment for everyone involved. Now, I'm ready to take on more responsibility and lead our efforts as a territory manager, bringing everything I've learned to help us do even better.
 
-Experience in merchandising, Auto-CAD, Photoshop, . Reliable team player who's able to work in a variety of environments.
+## Contact Info
+
+**Phone:**  
+704-677-9933
+
+**Email:**  
+<realcadewilson@gmail.com>
+
+**Address:**  
+129 Dobbin Ln,  
+Mooresville, NC
 
 ## Education
 
-**Central Piedmont Community College | Charlotte, NC**  
-_Business_ | 08/2021 - 06/2022
+### Central Piedmont Community College (CPCC)
 
-- Pursued a degree with a business focus and graduated with an Associates in Arts degree.
+_**Business** | 08/2021 - 06/2022_
 
-**Mitchell Community College | Mooresville, North Carolina**  
-_Engineering_ | 08/2019 - 05/2021
+Pursued a degree with a business focus and graduated with an Associates in Arts degree.
 
-- I started my college education at my local community college and initially pursued a degree in engineering.
-- This period in time shedded light on what I did and did not want to do so I decided to transfer to a different program.
+### Mitchell Community College
 
-## Experience
+_**Engineering** | 08/2019 - 05/2021_
 
-**Central Garden & Pet | Mooresville, NC**  
-_Merchandiser | 04/2021 - Present_
+I started my college education at my local community college and initially pursued a degree in engineering.
 
-- Successfully developed and implemented merchandising plans that increased sales and profitability.
-- Created visually appealing and effective product displays for lawn and garden products, enhancing the customer experience and store aesthetics.
+## Career Experience
+
+### Central Garden & Pet
+
+_**(FT-YR) Merchandiser** | 04/2021 - Present_
+
+- Created visually appealing and effective product displays for Central Garden & Pet products, enhancing the customer experience and store aesthetics.
+- Won the 2023 Week 12 Controls Display Contest (North Division).
 - Utilized sales data and reports to identify opportunities for improvement and inform product selection and pricing decisions.
 - Built and maintained positive relationships with vendors and store management.
 - Efficiently managed inventory to ensure product availability and minimize excess stock.
 - Provided guidance to customers in selecting the right lawn and garden products for their needs.
 
-**GeoSurfaces Southeast | Mooresville, NC**  
-_Intern | 07/2018 - 06/2019_
+### GeoSurfaces Southeast
 
-- Worked closely with cross-functional teams including architects, engineers, and customers to successfully complete company projects.
-- Developed 2D and 3D CAD models for a variety of clients including local businesses, high schools, and universities.
-- Analyzed and interpreted data provided by architects and system subcontractors to create accurate CAD drawings.
+_**Intern** | 07/2018 - 06/2019_
+
+- Developed 2D and 3D CAD models for a variety of domestic and international clients including local businesses, high schools, and universities.
 - Utilized Adobe Photoshop to update and enhance company project profiles for advertising purposes.
 
-## Skills
+## Technical Skills
 
-- Merchandising
+- Experience with Windows/Mac OS, Adobe Photoshop, GitHub, ChatGPT (Prompt Engineering), Shopify.
 - Customer service
 - Product knowledge
 - Planning and organization
 - Attention to detail
-- Adaptability
 - Communication
