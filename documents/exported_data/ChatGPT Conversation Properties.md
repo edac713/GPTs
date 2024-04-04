@@ -22,7 +22,7 @@ Here is a comprehensive hierarchical list of the parameters, keys, properties, a
     - `author` *(object)*  
       Contains information about the author of the message.
       - `role` *(string)*  
-        The role of the author (e.g., "system", "user", "assistant", "tool").
+        The role of the author (e.g., `"system", "user", "assistant", "tool"`).
       - `name` *(string or null)*  
         The name of the author, if available.
       - `metadata` *(object)*  
@@ -34,11 +34,11 @@ Here is a comprehensive hierarchical list of the parameters, keys, properties, a
     - `content` *(object)*  
       Contains the content of the message.
       - `content_type` *(string)*  
-        The type of content (e.g., "text", "code", "multimodal_text", "execution_output", "tether_browsing_display", "tether_quote").
+        The type of content (e.g., `"text", "code", "multimodal_text", "execution_output", "tether_browsing_display", "tether_quote"`).
       - `parts` *(array)*  
         An array of strings or objects representing the parts of the message content.
         - `content_type` *(string)*  
-          The type of content for each part (e.g., "text", "image_asset_pointer").
+          The type of content for each part (e.g., `"text", "image_asset_pointer"`).
         - `asset_pointer` *(string)*  
           The pointer to the image asset.
         - `size_bytes` *(number)*  
