@@ -110,86 +110,86 @@ Some effective techniques for structuring prompts include:
 
 - **Bullet points or numbered lists:** Use bullet points or numbered lists to outline specific steps, requirements, or key points. This helps break down the information into easily digestible chunks and provides a clear hierarchy and sequence for the model to follow.
 
-**For example**, instead of asking _"What are some tips for improving sleep quality?"_, you could structure your prompt like this:
+  **For example**, instead of asking _"What are some tips for improving sleep quality?"_, you could structure your prompt like this:
 
-```
-Getting a good night's sleep is essential for physical and mental health. Please provide a list of practical tips for improving sleep quality, covering the following areas:
+  ```md
+  Getting a good night's sleep is essential for physical and mental health. Please provide a list of practical tips for improving sleep quality, covering the following areas:
 
-1. Sleep environment
-- How can we optimize our bedroom environment for better sleep, in terms of factors like temperature, lighting, and noise levels?
-- What are some recommended bedding and mattress options for different sleep preferences and needs?
+  1. Sleep environment
+  - How can we optimize our bedroom environment for better sleep, in terms of factors like temperature, lighting, and noise levels?
+  - What are some recommended bedding and mattress options for different sleep preferences and needs?
 
-2. Sleep routine
-- What are some good habits to incorporate into our daily routine to promote better sleep, such as regular exercise, avoiding caffeine and alcohol, and winding down before bed?
-- How can we establish a consistent sleep schedule and stick to it, even on weekends and holidays?
+  2. Sleep routine
+  - What are some good habits to incorporate into our daily routine to promote better sleep, such as regular exercise, avoiding caffeine and alcohol, and winding down before bed?
+  - How can we establish a consistent sleep schedule and stick to it, even on weekends and holidays?
 
-3. Stress management
-- What are some relaxation techniques and mindfulness practices that can help reduce stress and anxiety before bed, such as deep breathing, progressive muscle relaxation, and meditation?
-- How can we manage racing thoughts and worries that keep us awake at night, through techniques like journaling, cognitive reframing, and visualization?
+  3. Stress management
+  - What are some relaxation techniques and mindfulness practices that can help reduce stress and anxiety before bed, such as deep breathing, progressive muscle relaxation, and meditation?
+  - How can we manage racing thoughts and worries that keep us awake at night, through techniques like journaling, cognitive reframing, and visualization?
 
-Please provide clear and concise explanations for each tip, along with any relevant examples or scientific evidence to support their effectiveness. Aim to make the advice practical and actionable for a general audience.
-```
+  Please provide clear and concise explanations for each tip, along with any relevant examples or scientific evidence to support their effectiveness. Aim to make the advice practical and actionable for a general audience.
+  ```
 
 By structuring the prompt in this way, you make it much easier for the model to generate a well-organized and comprehensive response that covers all the key aspects of improving sleep quality.
 
 - **Sections with clear headings:** Divide your prompt into distinct sections with clear, descriptive headings. This allows the model to compartmentalize the information and generate responses that address each section separately, while still maintaining an overall coherence and flow.
 
-**For example**, instead of asking _"How do I create a budget and stick to it?"_, you could structure your prompt like this:
+  **For example**, instead of asking _"How do I create a budget and stick to it?"_, you could structure your prompt like this:
 
-```
-Creating and sticking to a budget is an important skill for managing personal finances and achieving long-term financial goals. Please provide a step-by-step guide to creating and implementing a budget, with clear explanations and examples for each section:
+  ```md
+  Creating and sticking to a budget is an important skill for managing personal finances and achieving long-term financial goals. Please provide a step-by-step guide to creating and implementing a budget, with clear explanations and examples for each section:
 
-# Section 1: Assessing Your Financial Situation
-- How can we gather and organize all the necessary information about our income, expenses, debts, and assets?
-- What tools and techniques can we use to track our spending and identify areas where we may be overspending or have room for improvement?
+  # Section 1: Assessing Your Financial Situation
+  - How can we gather and organize all the necessary information about our income, expenses, debts, and assets?
+  - What tools and techniques can we use to track our spending and identify areas where we may be overspending or have room for improvement?
 
-# Section 2: Setting Financial Goals
-- How can we define clear, specific, and measurable financial goals for the short-term and long-term, such as saving for an emergency fund, paying off debt, or planning for retirement?
-- What are some strategies for prioritizing and balancing multiple financial goals, based on our values and life circumstances?
+  # Section 2: Setting Financial Goals
+  - How can we define clear, specific, and measurable financial goals for the short-term and long-term, such as saving for an emergency fund, paying off debt, or planning for retirement?
+  - What are some strategies for prioritizing and balancing multiple financial goals, based on our values and life circumstances?
 
-# Section 3: Creating a Budget Plan
-- How can we allocate our income across different expense categories, such as housing, food, transportation, and entertainment, based on our financial goals and spending habits?
-- What are some tips for finding ways to reduce expenses and increase income, without sacrificing our quality of life or financial security?
+  # Section 3: Creating a Budget Plan
+  - How can we allocate our income across different expense categories, such as housing, food, transportation, and entertainment, based on our financial goals and spending habits?
+  - What are some tips for finding ways to reduce expenses and increase income, without sacrificing our quality of life or financial security?
 
-# Section 4: Implementing and Adjusting the Budget
-- What are some best practices for tracking our actual spending against our budget plan, and identifying any variances or areas for improvement?
-- How can we stay motivated and accountable to our budget over time, through techniques like regular check-ins, rewards, and support from family and friends?
-- What are some strategies for adjusting our budget plan as needed, based on changes in our income, expenses, or financial goals?
+  # Section 4: Implementing and Adjusting the Budget
+  - What are some best practices for tracking our actual spending against our budget plan, and identifying any variances or areas for improvement?
+  - How can we stay motivated and accountable to our budget over time, through techniques like regular check-ins, rewards, and support from family and friends?
+  - What are some strategies for adjusting our budget plan as needed, based on changes in our income, expenses, or financial goals?
 
-Please provide clear and concise explanations for each section, along with relevant examples and practical tips that can be easily implemented by a general audience. Aim to make the guide comprehensive but also accessible and engaging.
-```
+  Please provide clear and concise explanations for each section, along with relevant examples and practical tips that can be easily implemented by a general audience. Aim to make the guide comprehensive but also accessible and engaging.
+  ```
 
 By dividing the prompt into clear sections with descriptive headings, you make it much easier for the model to generate a well-structured and informative response that covers all the key steps in creating and sticking to a budget.
 
 - **Consistent formatting:** Maintain a consistent format throughout your prompts, using the same style for headings, bullet points, and other structural elements. This helps create a sense of coherence and clarity, making it easier for the model to understand the relationships and hierarchy between different parts of the prompt.
 
-**For example**, instead of mixing different formatting styles like this:
+  **For example**, instead of mixing different formatting styles like this:
 
-```
-Please write a blog post about the benefits of meditation. Include the following points:
+  ```md
+  Please write a blog post about the benefits of meditation. Include the following points:
 
-- Reduces stress and anxiety
-* Improves focus and concentration
-- Enhances emotional well-being
->> Increases self-awareness and mindfulness
-```
+  - Reduces stress and anxiety
+  * Improves focus and concentration
+  - Enhances emotional well-being
+  >> Increases self-awareness and mindfulness
+  ```
 
-You could use a **consistent** formatting style like this:
+  You could use a **consistent** formatting style like this:
 
-```
-Please write a blog post about the benefits of meditation, covering the following points:
+  ```md
+  Please write a blog post about the benefits of meditation, covering the following points:
 
-- Reduces stress and anxiety
-- Improves focus and concentration
-- Enhances emotional well-being
-- Increases self-awareness and mindfulness
+  - Reduces stress and anxiety
+  - Improves focus and concentration
+  - Enhances emotional well-being
+  - Increases self-awareness and mindfulness
 
-For each point, provide a brief explanation of how meditation achieves that benefit, along with any relevant scientific evidence or personal anecdotes to illustrate the point. Use a friendly and engaging tone that encourages readers to try meditation for themselves.
+  For each point, provide a brief explanation of how meditation achieves that benefit, along with any relevant scientific evidence or personal anecdotes to illustrate the point. Use a friendly and engaging tone that encourages readers to try meditation for themselves.
 
-Please aim for a post length of around 800-1000 words, with clear headings and subheadings to break up the text and make it easy to navigate. Include a brief introduction and conclusion to tie the post together and leave readers with a clear call-to-action.
+  Please aim for a post length of around 800-1000 words, with clear headings and subheadings to break up the text and make it easy to navigate. Include a brief introduction and conclusion to tie the post together and leave readers with a clear call-to-action.
 
-Feel free to use your creativity and writing style to make the post informative, persuasive, and enjoyable to read. However, please ensure that all claims and recommendations are based on credible sources and evidence-based practices.
-```
+  Feel free to use your creativity and writing style to make the post informative, persuasive, and enjoyable to read. However, please ensure that all claims and recommendations are based on credible sources and evidence-based practices.
+  ```
 
 By using a **consistent formatting style** throughout the prompt, you make it much easier for the model to understand the structure and requirements of the blog post, and to generate a response that follows that structure and meets those requirements.
 
@@ -201,63 +201,63 @@ To provide effective instructions, consider the following:
 
 - **Specify the desired format:** Clearly indicate the expected format of the response, such as a paragraph, a list, a table, or any other structured format. This helps the model understand how to organize and present the information in a way that meets your needs.
 
-**For example**, instead of simply asking "Can you summarize this article for me?", you could provide more specific instructions like:
+  **For example**, instead of simply asking "Can you summarize this article for me?", you could provide more specific instructions like:
 
-```
-Please provide a summary of the following article, focusing on the key points and main takeaways:
+  ```md
+  Please provide a summary of the following article, focusing on the key points and main takeaways:
 
-[Article text goes here]
+  [Article text goes here]
 
-Please structure your summary as follows:
+  Please structure your summary as follows:
 
-1. Introduction: Briefly state the main topic and purpose of the article in 1-2 sentences.
-2. Key Points: Provide a bulleted list of the 3-5 most important points or arguments made in the article, with a brief explanation of each.
-3. Conclusion: Summarize the main takeaway or conclusion of the article in 1-2 sentences, and provide any relevant context or implications.
+  1. Introduction: Briefly state the main topic and purpose of the article in 1-2 sentences.
+  2. Key Points: Provide a bulleted list of the 3-5 most important points or arguments made in the article, with a brief explanation of each.
+  3. Conclusion: Summarize the main takeaway or conclusion of the article in 1-2 sentences, and provide any relevant context or implications.
 
-Please aim for a total summary length of around 200-300 words, using clear and concise language that accurately reflects the content and tone of the original article. Avoid adding any personal opinions or interpretations that are not explicitly stated in the article.
-```
+  Please aim for a total summary length of around 200-300 words, using clear and concise language that accurately reflects the content and tone of the original article. Avoid adding any personal opinions or interpretations that are not explicitly stated in the article.
+  ```
 
 By providing these **specific instructions**, you make it much easier for the model to generate a summary that meets your expectations in terms of **format, content, and length**.
 
 - **Define the style and tone:** If you have specific preferences for the style or tone of the response, make sure to explicitly mention them in the prompt. This could include things like formality level, **writing style** _(e.g., persuasive, informative, conversational)_, or **emotional tone** _(e.g., friendly, authoritative, humorous)_.
 
-**For example**, instead of asking _"Can you write an email to my boss about the project update?"_, you could provide more specific guidance like:
+  **For example**, instead of asking _"Can you write an email to my boss about the project update?"_, you could provide more specific guidance like:
 
-```
-Please draft an email to my boss, Sarah Johnson, providing an update on the XYZ project. The email should cover the following points:
+  ```md
+  Please draft an email to my boss, Sarah Johnson, providing an update on the XYZ project. The email should cover the following points:
 
-1. Progress made since the last update, including any key milestones or deliverables completed.
-2. Challenges or roadblocks encountered, and steps taken to address them.
-3. Next steps and upcoming deadlines, with a brief explanation of what needs to be done and by when.
-4. Any additional resources or support needed from Sarah or other team members to keep the project on track.
+  1. Progress made since the last update, including any key milestones or deliverables completed.
+  2. Challenges or roadblocks encountered, and steps taken to address them.
+  3. Next steps and upcoming deadlines, with a brief explanation of what needs to be done and by when.
+  4. Any additional resources or support needed from Sarah or other team members to keep the project on track.
 
-Please use a professional and concise tone that is appropriate for communication with a senior manager. Use polite and respectful language, but also be direct and specific about any issues or concerns that need to be addressed.
+  Please use a professional and concise tone that is appropriate for communication with a senior manager. Use polite and respectful language, but also be direct and specific about any issues or concerns that need to be addressed.
 
-Aim for an email length of 2-3 paragraphs, with clear and logical transitions between each point. Use proper email formatting, including a clear subject line, greeting, and closing.
+  Aim for an email length of 2-3 paragraphs, with clear and logical transitions between each point. Use proper email formatting, including a clear subject line, greeting, and closing.
 
-Please proofread the email carefully before sending to ensure there are no spelling, grammar, or formatting errors. Let me know if you have any questions or need any additional information to complete the email.
-```
+  Please proofread the email carefully before sending to ensure there are no spelling, grammar, or formatting errors. Let me know if you have any questions or need any additional information to complete the email.
+  ```
 
 By providing these **specific instructions** around **tone, style, and formatting**, you help the model generate an email that is appropriate and effective for the given **context and audience**.
 
 - **Set length constraints:** If applicable, provide guidelines for the desired length of the response, whether in terms of word count, number of sentences or paragraphs, or any other relevant measure. Length constraints can help ensure that the model generates a response that is concise and focused, without including unnecessary or irrelevant information.
 
-**For example**, instead of asking _"Can you explain the concept of quantum computing?"_, you could provide more specific length guidelines like:
+  **For example**, instead of asking _"Can you explain the concept of quantum computing?"_, you could provide more specific length guidelines like:
 
-```
-Please provide a brief introduction to the concept of quantum computing, covering the following points:
+  ```md
+  Please provide a brief introduction to the concept of quantum computing, covering the following points:
 
-1. What is quantum computing, and how does it differ from classical computing?
-2. What are the key principles and technologies that enable quantum computing, such as qubits, superposition, and entanglement?
-3. What are some of the potential applications and benefits of quantum computing, in fields like cryptography, optimization, and scientific simulation?
-4. What are some of the main challenges and limitations of current quantum computing systems, and what advances are needed to make them more practical and scalable?
+  1. What is quantum computing, and how does it differ from classical computing?
+  2. What are the key principles and technologies that enable quantum computing, such as qubits, superposition, and entanglement?
+  3. What are some of the potential applications and benefits of quantum computing, in fields like cryptography, optimization, and scientific simulation?
+  4. What are some of the main challenges and limitations of current quantum computing systems, and what advances are needed to make them more practical and scalable?
 
-Please aim for a total explanation length of around 500-800 words, using clear and accessible language that is appropriate for a general audience with some basic knowledge of computing and physics.
+  Please aim for a total explanation length of around 500-800 words, using clear and accessible language that is appropriate for a general audience with some basic knowledge of computing and physics.
 
-Use concrete examples and analogies to illustrate key concepts wherever possible, but avoid going into too much technical detail or using overly complex jargon. Focus on providing a high-level overview that gives readers a solid foundation for understanding the basics of quantum computing and its potential impact.
+  Use concrete examples and analogies to illustrate key concepts wherever possible, but avoid going into too much technical detail or using overly complex jargon. Focus on providing a high-level overview that gives readers a solid foundation for understanding the basics of quantum computing and its potential impact.
 
-Please organize your explanation into clear and logical paragraphs, with appropriate headings and transitions to guide readers through the content. End with a brief conclusion that summarizes the main points and leaves readers with a sense of the exciting possibilities and challenges ahead in the field of quantum computing.
-```
+  Please organize your explanation into clear and logical paragraphs, with appropriate headings and transitions to guide readers through the content. End with a brief conclusion that summarizes the main points and leaves readers with a sense of the exciting possibilities and challenges ahead in the field of quantum computing.
+  ```
 
 By providing these specific length and organization guidelines, you help the model generate an explanation that is comprehensive but concise, and that covers all the key points in a clear and accessible way.
 
@@ -269,94 +269,94 @@ Here are some effective ways to incorporate examples and demonstrations into you
 
 - **Sample inputs and outputs:** Include sample inputs and their corresponding ideal outputs to illustrate the desired format and content of the response. This is particularly useful for tasks like data transformation, format conversion, or any other scenario where the model needs to mimic a specific pattern or structure.
 
-**For example**, if you're asking the model to generate SQL queries based on natural language questions, you could provide examples like:
+  **For example**, if you're asking the model to generate SQL queries based on natural language questions, you could provide examples like:
 
-```
-Please write SQL queries to answer the following questions, based on the "customers" and "orders" tables in a hypothetical e-commerce database. For each question, provide the exact SQL query that would retrieve the requested information, along with a brief explanation of how the query works.
+  ```md
+  Please write SQL queries to answer the following questions, based on the "customers" and "orders" tables in a hypothetical e-commerce database. For each question, provide the exact SQL query that would retrieve the requested information, along with a brief explanation of how the query works.
 
-Example question: How many orders were placed by customers in the state of California?
+  Example question: How many orders were placed by customers in the state of California?
 
-Example query:
-SELECT COUNT(*)
-FROM orders o
-JOIN customers c ON o.customer_id = c.customer_id
-WHERE c.state = 'CA';
+  Example query:
+  SELECT COUNT(*)
+  FROM orders o
+  JOIN customers c ON o.customer_id = c.customer_id
+  WHERE c.state = 'CA';
 
-Explanation: This query joins the "orders" and "customers" tables on the "customer_id" column, and then counts the number of rows where the customer's state is 'CA' (California).
+  Explanation: This query joins the "orders" and "customers" tables on the "customer_id" column, and then counts the number of rows where the customer's state is 'CA' (California).
 
-Now, please provide SQL queries and explanations for the following questions:
+  Now, please provide SQL queries and explanations for the following questions:
 
-1. What is the total revenue generated by orders placed in the month of December 2022?
-2. Which product has the highest average order value, and what is that average value?
-3. How many distinct customers have placed an order for a product in the "Electronics" category?
-4. What is the most common shipping method used by customers who have placed more than 10 orders?
-5. Which customer has the highest lifetime spend, and what is the total amount they have spent?
-```
+  1. What is the total revenue generated by orders placed in the month of December 2022?
+  2. Which product has the highest average order value, and what is that average value?
+  3. How many distinct customers have placed an order for a product in the "Electronics" category?
+  4. What is the most common shipping method used by customers who have placed more than 10 orders?
+  5. Which customer has the highest lifetime spend, and what is the total amount they have spent?
+  ```
 
 By providing these examples of input questions and their corresponding SQL queries and explanations, you give the model a clear template to follow and a concrete sense of what a good response should look like.
 
 - **Step-by-step walkthroughs:** For complex, multi-step tasks, provide a detailed walkthrough that breaks down the process into individual steps, demonstrating each step with an example. This helps the model understand the logical progression and dependencies between different parts of the task, and provides a roadmap for generating a complete and coherent response.
 
-**For example**, if you're asking the model to write a program that calculates the Fibonacci sequence up to a given number of terms, you could provide a step-by-step walkthrough like:
+  **For example**, if you're asking the model to write a program that calculates the Fibonacci sequence up to a given number of terms, you could provide a step-by-step walkthrough like:
 
-`````
-Please write a Python function that takes an integer `n` as input and returns a list of the first `n` Fibonacci numbers. The Fibonacci sequence is a series of numbers where each number is the sum of the two preceding ones, usually starting with 0 and 1.
+  `````md
+  Please write a Python function that takes an integer `n` as input and returns a list of the first `n` Fibonacci numbers. The Fibonacci sequence is a series of numbers where each number is the sum of the two preceding ones, usually starting with 0 and 1.
 
-Here's a step-by-step walkthrough of how to implement this function:
+  Here's a step-by-step walkthrough of how to implement this function:
 
-Step 1: Define the base cases.
-- If `n` is 0, return an empty list `[]`.
-- If `n` is 1, return a list with a single element `[0]`.
-- If `n` is 2, return a list with two elements `[0, 1]`.
+  Step 1: Define the base cases.
+  - If `n` is 0, return an empty list `[]`.
+  - If `n` is 1, return a list with a single element `[0]`.
+  - If `n` is 2, return a list with two elements `[0, 1]`.
 
-Example:
-```python
-if n == 0:
-    return []
-elif n == 1:
-    return [0]
-elif n == 2:
-    return [0, 1]
-````
+  Example:
+  ```python
+  if n == 0:
+      return []
+  elif n == 1:
+      return [0]
+  elif n == 2:
+      return [0, 1]
+  ````
 
-Step 2: Initialize variables to store the sequence.
+  Step 2: Initialize variables to store the sequence.
 
-- Create a list `fib` with the first two numbers `[0, 1]`.
-- Initialize a counter `i` to 2, since the first two numbers are already in the list.
+  - Create a list `fib` with the first two numbers `[0, 1]`.
+  - Initialize a counter `i` to 2, since the first two numbers are already in the list.
 
-Example:
+  Example:
 
-```python
-fib = [0, 1]
-i = 2
-```
+  ```python
+  fib = [0, 1]
+  i = 2
+  ```
 
-Step 3: Use a loop to generate the remaining numbers.
+  Step 3: Use a loop to generate the remaining numbers.
 
-- While `i` is less than `n`, append the sum of the last two numbers in `fib` to the end of the list.
-- Increment `i` by 1 and repeat until `i` equals `n`.
+  - While `i` is less than `n`, append the sum of the last two numbers in `fib` to the end of the list.
+  - Increment `i` by 1 and repeat until `i` equals `n`.
 
-Example:
+  Example:
 
-```python
-while i < n:
-    fib.append(fib[i-1] + fib[i-2])
-    i += 1
-```
+  ```python
+  while i < n:
+     fib.append(fib[i-1] + fib[i-2])
+     i += 1
+  ```
 
-Step 4: Return the list of Fibonacci numbers.
+  Step 4: Return the list of Fibonacci numbers.
 
-- After the loop ends, the `fib` list will contain the first `n` Fibonacci numbers.
-- Return `fib` as the output of the function.
+  - After the loop ends, the `fib` list will contain the first `n` Fibonacci numbers.
+  - Return `fib` as the output of the function.
 
-Example:
+  Example:
 
-```python
-return fib
-```
+  ```python
+  return fib
+  ```
 
-Please implement the complete `fibonacci(n)` function based on this walkthrough, and provide some example usage of the function with different input values of `n`. Also, discuss the time and space complexity of this implementation, and suggest any potential optimizations or alternative approaches.
-`````
+  Please implement the complete `fibonacci(n)` function based on this walkthrough, and provide some example usage of the function with different input values of `n`. Also, discuss the time and space complexity of this implementation, and suggest any potential optimizations or alternative approaches.
+  `````
 
 By providing this detailed walkthrough of the Fibonacci function implementation, you break down the problem into clear and manageable steps, and give the model a concrete roadmap to follow in generating its own response. The examples at each step help illustrate the expected code structure and logic, making it easier for the model to produce a complete and correct implementation.
 
@@ -430,7 +430,7 @@ This initial prompt provides a general overview of the topic and requirements, b
 
 By identifying these specific strengths and weaknesses, you can start to formulate targeted improvements to the prompt that will help guide the model towards a better response.
 
-1. **Refine the prompt:** Based on your analysis of the model's response, make specific modifications to the prompt that address the identified issues and guide the model towards the desired output. This could involve adding more context, rephrasing instructions, providing additional examples, or adjusting any other aspects of the prompt.
+3. **Refine the prompt:** Based on your analysis of the model's response, make specific modifications to the prompt that address the identified issues and guide the model towards the desired output. This could involve adding more context, rephrasing instructions, providing additional examples, or adjusting any other aspects of the prompt.
 
    **For example**, to address the issues identified in the previous step, you might refine the prompt as follows:
 
@@ -453,13 +453,13 @@ This refined prompt provides more specific guidance on the content and structure
 
 4. **Re-evaluate the response:** Generate a new response using the refined prompt, and evaluate its quality and effectiveness compared to the initial response. Assess whether the changes to the prompt have led to meaningful improvements in the relevance, coherence, and persuasiveness of the essay.
 
-  **For example**, after generating a new essay based on the refined prompt, you might find that the model's response:
+   **For example**, after generating a new essay based on the refined prompt, you might find that the model's response:
 
-  ```md
-  conclusion that summarizes the main points and provides a call-to-action for readers to start a meditation practice.
+   ```md
+   conclusion that summarizes the main points and provides a call-to-action for readers to start a meditation practice.
 
-  Feel free to use examples and analogies to make the concepts more relatable and memorable for a general audience. Avoid using too much technical jargon or assuming prior knowledge of meditation or mindfulness practices.
-  ```
+   Feel free to use examples and analogies to make the concepts more relatable and memorable for a general audience. Avoid using too much technical jargon or assuming prior knowledge of meditation or mindfulness practices.
+   ```
 
 By using a consistent formatting style throughout the prompt, you make it much easier for the model to understand the structure and requirements of the blog post, and to generate a response that is well-organized, engaging, and informative.
 
