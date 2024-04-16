@@ -850,11 +850,11 @@ When designing prompts for open-ended generation tasks, consider the following s
 
 - **Provide a general theme, topic, or inspiration:** Give the model a high-level concept, theme, or topic to anchor its generation process, while still allowing plenty of room for creativity and exploration. This could be a genre, an emotion, a setting, a character archetype, or any other general category that helps provide some structure and direction to the model's outputs.
 
-**For example**:
+  **For example**:
 
-```md
-Generate a series of short story ideas that explore the theme of "unexpected connections" across different genres and settings. For each idea, provide a brief premise, a cast of characters, and a central conflict or question that drives the narrative. The stories should span a range of tones and styles, from lighthearted and comedic to dark and suspenseful. Feel free to be as creative and imaginative as you like, but make sure each idea has a clear hook and enough substance to be developed into a full story.
-```
+  ```md
+  Generate a series of short story ideas that explore the theme of "unexpected connections" across different genres and settings. For each idea, provide a brief premise, a cast of characters, and a central conflict or question that drives the narrative. The stories should span a range of tones and styles, from lighthearted and comedic to dark and suspenseful. Feel free to be as creative and imaginative as you like, but make sure each idea has a clear hook and enough substance to be developed into a full story.
+  ```
 
 - **Encourage exploration and novelty:** Use language that encourages the model to generate ideas that are unconventional, surprising, or outside the box. Emphasize the importance of originality, creativity, and pushing beyond obvious or clichéd responses. At the same time, provide enough constraints or guidelines to ensure that the outputs are still relevant and coherent.
 
@@ -889,26 +889,24 @@ In contrast to open-ended generation tasks, focused Q&A and knowledge retrieval 
 
 When designing prompts for focused Q&A and knowledge retrieval tasks, consider the following strategies:
 
-#### **Provide relevant context and background information:**
+- **Provide relevant context and background information:** Include any necessary context or background information in the prompt to help the model understand the scope and intent of the question. This could include definitions of key terms, historical or scientific context, or any other relevant details that will help the model provide a more accurate and comprehensive response.
 
-Include any necessary context or background information in the prompt to help the model understand the scope and intent of the question. This could include definitions of key terms, historical or scientific context, or any other relevant details that will help the model provide a more accurate and comprehensive response.
+  **For example**:
 
-**For example**:
+  ```md
+  Question: What is the difference between a virus and a bacterium?
 
-```md
-Question: What is the difference between a virus and a bacterium?
+  Context: Viruses and bacteria are both types of microorganisms that can cause disease in humans and other living things. However, they have some key differences in terms of their structure, reproduction, and how they are treated.
 
-Context: Viruses and bacteria are both types of microorganisms that can cause disease in humans and other living things. However, they have some key differences in terms of their structure, reproduction, and how they are treated.
+  To answer this question, please provide a detailed comparison of viruses and bacteria, including:
 
-To answer this question, please provide a detailed comparison of viruses and bacteria, including:
+  - Their basic structure and composition (e.g., DNA vs. RNA, presence of cell wall, etc.)
+  - How they reproduce and spread (e.g., lytic vs. lysogenic cycle, binary fission, etc.)
+  - The types of diseases they typically cause and how they affect the body
+  - How they are treated and prevented (e.g., antibiotics, vaccines, hygiene practices)
 
-- Their basic structure and composition (e.g., DNA vs. RNA, presence of cell wall, etc.)
-- How they reproduce and spread (e.g., lytic vs. lysogenic cycle, binary fission, etc.)
-- The types of diseases they typically cause and how they affect the body
-- How they are treated and prevented (e.g., antibiotics, vaccines, hygiene practices)
-
-Use clear and concise language that is accessible to a general audience, but feel free to include technical terms and concepts where appropriate. Provide examples to illustrate key points, and use analogies or comparisons to help explain complex ideas. The goal is to provide a comprehensive and scientifically accurate answer that helps the reader understand the fundamental differences between these two types of microorganisms.
-```
+  Use clear and concise language that is accessible to a general audience, but feel free to include technical terms and concepts where appropriate. Provide examples to illustrate key points, and use analogies or comparisons to help explain complex ideas. The goal is to provide a comprehensive and scientifically accurate answer that helps the reader understand the fundamental differences between these two types of microorganisms.
+  ```
 
 - **Ask specific, targeted questions:** Frame your questions in a way that is clear, specific, and unambiguous, to help the model focus its response on the most relevant information. Avoid asking overly broad or open-ended questions that could lead to tangential or irrelevant outputs. Use precise language and terminology to signal the type of information you are looking for.
 
