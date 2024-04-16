@@ -14,21 +14,13 @@ In many ways, prompt engineering is similar to the art of human communication an
 
 Prompt engineering is not merely about asking the right questions or providing clever instructions; it's about providing the necessary context, guidance, and constraints to steer the model towards the desired output. A well-crafted prompt can make the difference between a generic, irrelevant response and a highly targeted, insightful one. By understanding the intricacies of prompt design, you can:
 
-### 1. Improve the quality and relevance of generated responses:
+1. **Improve the quality and relevance of generated responses**: Well-designed prompts help focus the model's attention on the most important aspects of the task at hand, reducing the likelihood of irrelevant or off-topic responses. By providing clear guidance and constraints, prompts can help ensure that the generated outputs are coherent, fluent, and relevant to the user's needs.
 
-Well-designed prompts help focus the model's attention on the most important aspects of the task at hand, reducing the likelihood of irrelevant or off-topic responses. By providing clear guidance and constraints, prompts can help ensure that the generated outputs are coherent, fluent, and relevant to the user's needs.
+2. **Reduce ambiguity and increase specificity in model outputs**: Ambiguous or vague prompts can lead to equally ambiguous or vague responses from the model. By contrast, specific and detailed prompts can help elicit more precise and targeted outputs, reducing the need for clarification or follow-up questions.
 
-### 2. Reduce ambiguity and increase specificity in model outputs:
+3. **Adapt LLMs to specific domains, tasks, and use cases**: While LLMs are trained on vast amounts of general-purpose data, they may not always have the specialized knowledge or context needed for specific domains or tasks. Prompt engineering allows developers and users to adapt LLMs to their specific needs by providing domain-specific examples, instructions, and constraints. This can help improve the model's performance and relevance for a wide range of applications, from customer support and content creation to research and analysis.
 
-Ambiguous or vague prompts can lead to equally ambiguous or vague responses from the model. By contrast, specific and detailed prompts can help elicit more precise and targeted outputs, reducing the need for clarification or follow-up questions.
-
-### 3. Adapt LLMs to specific domains, tasks, and use cases:
-
-While LLMs are trained on vast amounts of general-purpose data, they may not always have the specialized knowledge or context needed for specific domains or tasks. Prompt engineering allows developers and users to adapt LLMs to their specific needs by providing domain-specific examples, instructions, and constraints. This can help improve the model's performance and relevance for a wide range of applications, from customer support and content creation to research and analysis.
-
-### 4. Enhance the efficiency and effectiveness of human-AI collaboration:
-
-Prompt engineering is not just about optimizing the model's performance in isolation, but rather about facilitating more efficient and effective collaboration between humans and AI systems. Well-designed prompts can help users communicate their intent and goals more clearly to the model, reducing the need for trial-and-error or manual intervention. At the same time, prompts can help the model provide more actionable and informative outputs that can be easily integrated into human decision-making processes.
+4. **Enhance the efficiency and effectiveness of human-AI collaboration**: Prompt engineering is not just about optimizing the model's performance in isolation, but rather about facilitating more efficient and effective collaboration between humans and AI systems. Well-designed prompts can help users communicate their intent and goals more clearly to the model, reducing the need for trial-and-error or manual intervention. At the same time, prompts can help the model provide more actionable and informative outputs that can be easily integrated into human decision-making processes.
 
 As these examples illustrate, prompt engineering is a critical capability for anyone looking to harness the power of LLMs for real-world applications. Whether you are a developer building AI-powered products and services, a researcher exploring new frontiers in natural language processing, or an end-user seeking to get the most out of tools like Claude and GPT-4, mastering the art and science of prompt engineering is essential for success.
 
@@ -48,11 +40,11 @@ The foundation of effective prompt engineering is clarity and specificity. LLMs 
 
 To achieve clarity and specificity, consider the following:
 
-#### Provide relevant context:
+**Provide relevant context:**
 
 Give the model enough background information to understand the task at hand. This could include domain-specific knowledge, task requirements, or any other contextual details that help frame the problem. The more context you provide, the more likely the model is to generate a relevant and accurate response.
 
-**For example**, instead of simply asking, `"What are the key factors that contribute to climate change?"`, you could provide additional context like:
+_**For example**, instead of simply asking, `"What are the key factors that contribute to climate change?"`, you could provide additional context like:_
 
 ```md
 Climate change is one of the most pressing issues facing our planet today. It refers to the long-term shift in global weather patterns and temperatures, primarily caused by human activities that increase greenhouse gas emissions. To better understand the root causes of climate change, please explain the key factors that contribute to this phenomenon, including:
@@ -66,11 +58,11 @@ Please provide a clear and concise explanation that is accessible to a general a
 
 By providing this additional context, you give the model a much clearer sense of what information you are looking for, and what level of detail and complexity is appropriate for the response.
 
-#### Use precise language:
+**Use precise language:**
 
 Avoid vague or ambiguous terms that could be interpreted in multiple ways. Use specific, concrete language that leaves little room for misinterpretation. This is especially important when dealing with technical or domain-specific terminology, where even small differences in wording can lead to very different outputs.
 
-**For example**, instead of asking `"Can you explain how machine learning works?"`, you could be more specific and say:
+_**For example**, instead of asking `"Can you explain how machine learning works?"`, you could be more specific and say:_
 
 ```md
 Please provide a high-level overview of the key concepts and techniques involved in supervised machine learning, including:
@@ -85,33 +77,35 @@ Assume that the reader has a basic understanding of programming and mathematics,
 
 By using more precise language and breaking down the request into specific sub-topics, you make it much easier for the model to understand exactly what information you are looking for, and to generate a response that is both relevant and informative.
 
-#### Break down complex tasks:
+**Break down complex tasks:**
 
 If you're dealing with a multi-step problem or a complex task, break it down into smaller, more manageable sub-tasks. This helps the model understand the logical flow and generate more targeted responses for each step in the process.
 
-**For example**, instead of asking `"How do I build a recommendation system?"`, you could break it down into a series of smaller, more specific prompts like:
+_**For example**, instead of asking `"How do I build a recommendation system?"`, you could break it down into a series of smaller, more specific prompts like:_
 
 ```md
+# Task
+
 To build a recommendation system, we'll need to follow a series of steps. For each step, please provide a brief explanation of the key concepts and techniques involved, along with any relevant examples or best practices.
 
-Step 1: Data collection and preprocessing
+## Step 1: Data collection and preprocessing
 
 - What are the main types of data that are typically used in recommendation systems, and how are they collected and stored?
 - What are some common preprocessing techniques that are applied to this data, such as normalization, feature scaling, and handling missing values?
 
-Step 2: Collaborative filtering
+## Step 2: Collaborative filtering
 
 - What is the basic idea behind collaborative filtering, and how does it differ from content-based filtering?
 - What are some common algorithms used for collaborative filtering, such as matrix factorization and neighborhood-based methods?
 - How do these algorithms handle the cold-start problem, where new users or items have no prior ratings or interactions?
 
-Step 3: Evaluation and testing
+## Step 3: Evaluation and testing
 
 - What are some common metrics used to evaluate the performance of recommendation systems, such as precision, recall, and NDCG?
 - How can we split our data into training, validation, and test sets to avoid overfitting and get a realistic estimate of model performance?
 - What are some best practices for conducting user studies and A/B tests to compare different recommendation algorithms and configurations?
 
-Step 4: Deployment and scaling
+## Step 4: Deployment and scaling
 
 - What are some common architectures and frameworks used for deploying recommendation systems in production, such as microservices and serverless computing?
 - How can we handle the challenges of scalability and real-time performance as the number of users and items grows over time?
@@ -126,11 +120,11 @@ Organizing your prompts in a clear, structured format can significantly improve 
 
 Some effective techniques for structuring prompts include:
 
-#### Bullet points or numbered lists:
+**Bullet points or numbered lists:**
 
 Use bullet points or numbered lists to outline specific steps, requirements, or key points. This helps break down the information into easily digestible chunks and provides a clear hierarchy and sequence for the model to follow.
 
-**For example**, instead of asking `"What are some tips for improving sleep quality?"`, you could structure your prompt like this:
+_**For example**, instead of asking `"What are some tips for improving sleep quality?"`, you could structure your prompt like this:_
 
 ```md
 Getting a good night's sleep is essential for physical and mental health. Please provide a list of practical tips for improving sleep quality, covering the following areas:
@@ -155,11 +149,11 @@ Please provide clear and concise explanations for each tip, along with any relev
 
 By structuring the prompt in this way, you make it much easier for the model to generate a well-organized and comprehensive response that covers all the key aspects of improving sleep quality.
 
-#### Sections with clear headings:
+**Sections with clear headings:**
 
 Divide your prompt into distinct sections with clear, descriptive headings. This allows the model to compartmentalize the information and generate responses that address each section separately, while still maintaining an overall coherence and flow.
 
-**For example**, instead of asking `"How do I create a budget and stick to it?"`, you could structure your prompt like this:
+_**For example**, instead of asking `"How do I create a budget and stick to it?"`, you could structure your prompt like this:_
 
 ```md
 Creating and sticking to a budget is an important skill for managing personal finances and achieving long-term financial goals. Please provide a step-by-step guide to creating and implementing a budget, with clear explanations and examples for each section:
@@ -169,17 +163,17 @@ Creating and sticking to a budget is an important skill for managing personal fi
 - How can we gather and organize all the necessary information about our income, expenses, debts, and assets?
 - What tools and techniques can we use to track our spending and identify areas where we may be overspending or have room for improvement?
 
-  # Section 2: Setting Financial Goals
+# Section 2: Setting Financial Goals
 
 - How can we define clear, specific, and measurable financial goals for the short-term and long-term, such as saving for an emergency fund, paying off debt, or planning for retirement?
 - What are some strategies for prioritizing and balancing multiple financial goals, based on our values and life circumstances?
 
-  # Section 3: Creating a Budget Plan
+# Section 3: Creating a Budget Plan
 
 - How can we allocate our income across different expense categories, such as housing, food, transportation, and entertainment, based on our financial goals and spending habits?
 - What are some tips for finding ways to reduce expenses and increase income, without sacrificing our quality of life or financial security?
 
-  # Section 4: Implementing and Adjusting the Budget
+# Section 4: Implementing and Adjusting the Budget
 
 - What are some best practices for tracking our actual spending against our budget plan, and identifying any variances or areas for improvement?
 - How can we stay motivated and accountable to our budget over time, through techniques like regular check-ins, rewards, and support from family and friends?
@@ -190,11 +184,11 @@ Please provide clear and concise explanations for each section, along with relev
 
 By dividing the prompt into clear sections with descriptive headings, you make it much easier for the model to generate a well-structured and informative response that covers all the key steps in creating and sticking to a budget.
 
-#### Consistent formatting:
+**Consistent formatting:**
 
 Maintain a consistent format throughout your prompts, using the same style for headings, bullet points, and other structural elements. This helps create a sense of coherence and clarity, making it easier for the model to understand the relationships and hierarchy between different parts of the prompt.
 
-**For example**, instead of mixing different formatting styles like this:
+_**For example**, instead of mixing different formatting styles like this:_
 
 ```md
 Please write a blog post about the benefits of meditation.
@@ -209,7 +203,7 @@ Include the following points:
   > > Increases self-awareness and mindfulness
 ```
 
-You could use a **consistent** formatting style like this:
+_You could use a **consistent** formatting style like this:_
 
 ```md
 Please write a blog post about the benefits of meditation, covering the following points:
@@ -234,11 +228,11 @@ Clearly stating what you expect from the model in your prompt is essential for g
 
 To provide effective instructions, consider the following:
 
-#### Specify the desired format:
+**Specify the desired format:**
 
 Clearly indicate the expected format of the response, such as a paragraph, a list, a table, or any other structured format. This helps the model understand how to organize and present the information in a way that meets your needs.
 
-**For example**, instead of simply asking "Can you summarize this article for me?", you could provide more specific instructions like:
+**For example**, instead of simply asking `"Can you summarize this article for me?"`, you could provide more specific instructions like:
 
 ```md
 Please provide a summary of the following article, focusing on the key points and main takeaways:
@@ -256,7 +250,7 @@ Please aim for a total summary length of around 200-300 words, using clear and c
 
 By providing these **specific instructions**, you make it much easier for the model to generate a summary that meets your expectations in terms of **format, content, and length**.
 
-#### Define the style and tone:
+**Define the style and tone:**
 
 If you have specific preferences for the style or tone of the response, make sure to explicitly mention them in the prompt. This could include things like formality level, **writing style** _(e.g., persuasive, informative, conversational)_, or **emotional tone** _(e.g., friendly, authoritative, humorous)_.
 
@@ -279,7 +273,7 @@ Please proofread the email carefully before sending to ensure there are no spell
 
 By providing these **specific instructions** around **tone, style, and formatting**, you help the model generate an email that is appropriate and effective for the given **context and audience**.
 
-#### Set length constraints:
+**Set length constraints:**
 
 If applicable, provide guidelines for the desired length of the response, whether in terms of word count, number of sentences or paragraphs, or any other relevant measure. Length constraints can help ensure that the model generates a response that is concise and focused, without including unnecessary or irrelevant information.
 
@@ -308,7 +302,7 @@ Providing examples or demonstrations in your prompt can significantly improve th
 
 Here are some effective ways to incorporate examples and demonstrations into your prompts:
 
-#### Sample inputs and outputs:
+**Sample inputs and outputs:
 
 Include sample inputs and their corresponding ideal outputs to illustrate the desired format and content of the response. This is particularly useful for tasks like data transformation, format conversion, or any other scenario where the model needs to mimic a specific pattern or structure.
 
@@ -338,7 +332,7 @@ Now, please provide SQL queries and explanations for the following questions:
 
 By providing these examples of input questions and their corresponding SQL queries and explanations, you give the model a clear template to follow and a concrete sense of what a good response should look like.
 
-#### Step-by-step walkthroughs:
+**Step-by-step walkthroughs:
 
 For complex, multi-step tasks, provide a detailed walkthrough that breaks down the process into individual steps, demonstrating each step with an example. This helps the model understand the logical progression and dependencies between different parts of the task, and provides a roadmap for generating a complete and coherent response.
 
@@ -407,7 +401,7 @@ Please implement the complete `fibonacci(n)` function based on this walkthrough,
 
 By providing this detailed walkthrough of the Fibonacci function implementation, you break down the problem into clear and manageable steps, and give the model a concrete roadmap to follow in generating its own response. The examples at each step help illustrate the expected code structure and logic, making it easier for the model to produce a complete and correct implementation.
 
-#### Edge cases and exceptions:
+**Edge cases and exceptions:
 
 Highlight any edge cases, exceptions, or unusual scenarios that the model should be aware of and provide examples of how to handle them. This helps ensure that the generated response is robust and comprehensive, accounting for the full range of possible inputs and outputs.
 
@@ -452,7 +446,7 @@ Prompt engineering is an iterative process that involves continuous refinement a
 
 The iterative refinement process typically involves the following steps:
 
-#### 1. Start with a basic prompt:
+**1. Start with a basic prompt:
 
 Begin with a simple, high-level prompt that captures the core essence of the task or question you want the model to address. This serves as a starting point for further refinement and optimization.
 
@@ -471,7 +465,7 @@ Use a clear and engaging writing style that appeals to a general audience, and p
 
 This initial prompt provides a general overview of the topic and requirements, but leaves room for the model to generate a relatively broad and high-level response.
 
-#### 2. Analyze the model's response:
+**2. Analyze the model's response:
 
 Carefully review the model's output and assess its quality, relevance, and coherence. Look for areas where the response meets your expectations, as well as areas where it falls short or could be improved.
 
@@ -483,7 +477,7 @@ Carefully review the model's output and assess its quality, relevance, and coher
 
 By identifying these specific strengths and weaknesses, you can start to formulate targeted improvements to the prompt that will help guide the model towards a better response.
 
-#### 3. Refine the prompt:
+**3. Refine the prompt:
 
 Based on your analysis of the model's response, make specific modifications to the prompt that address the identified issues and guide the model towards the desired output. This could involve adding more context, rephrasing instructions, providing additional examples, or adjusting any other aspects of the prompt.
 
@@ -506,7 +500,7 @@ End with a compelling conclusion that summarizes the main points and leaves the 
 
 This refined prompt provides more specific guidance on the content and structure of the essay, with a greater emphasis on the economic and social benefits of renewable energy. It also includes more detailed instructions on the use of evidence and examples, and the importance of a clear and persuasive writing style.
 
-#### 4. Re-evaluate the response:
+**4. Re-evaluate the response:
 
 Generate a new response using the refined prompt, and evaluate its quality and effectiveness compared to the initial response. Assess whether the changes to the prompt have led to meaningful improvements in the relevance, coherence, and persuasiveness of the essay.
 
@@ -526,7 +520,7 @@ Providing explicit instructions is essential for guiding the model towards the d
 
 Consider the following when providing instructions:
 
-#### Specify the desired format:
+**Specify the desired format:
 
 Clearly indicate the expected format of the response, such as a paragraph, a list, a table, or any other structured format. This helps the model generate outputs that align with your requirements and makes it easier for you to process and use the generated information.
 
@@ -554,7 +548,7 @@ Please aim for a concise but comprehensive overview that highlights the main ide
 
 By specifying the desired format in this way, you make it much easier for the model to generate a well-structured and informative response that covers all the key steps in the design thinking process.
 
-#### Define the style and tone:
+**Define the style and tone:
 
 If you have specific preferences for the style or tone of the response, make sure to explicitly mention them in the prompt. This could include things like formality level, writing style (e.g., persuasive, informative, conversational), or any other stylistic guidelines that are important for your use case.
 
@@ -574,7 +568,7 @@ Please aim for a description length of around 200-300 words, with short paragrap
 
 By defining the style and tone in this way, you give the model a clear sense of what kind of language and messaging to use in the product description, and how to structure the information for maximum impact and persuasiveness.
 
-#### Set length constraints:
+**Set length constraints:
 
 If applicable, provide guidelines for the desired length of the response, either in terms of word count, number of sentences, or any other relevant measure. Length constraints can help keep the model's output focused and concise, and ensure that it meets your specific needs and requirements.
 
@@ -601,7 +595,7 @@ Providing examples or demonstrations can be a powerful way to guide the model's 
 
 Here are a few ways to incorporate examples and demonstrations into your prompts:
 
-#### Sample inputs and outputs:
+**Sample inputs and outputs:
 
 Include sample inputs and their corresponding ideal outputs to illustrate the expected format and content of the response. This is particularly useful for tasks like data transformation, format conversion, or any other scenario where the model needs to mimic a specific pattern or structure.
 
@@ -644,7 +638,7 @@ Frank,40,Berlin
 
 By providing a concrete example of the input and output formats, you make it much easier for the model to understand exactly what kind of transformation you are looking for, and to generate a response that follows the same pattern and structure.
 
-#### Step-by-step walkthroughs:
+**Step-by-step walkthroughs:
 
 For complex, multi-step tasks, provide a detailed walkthrough that breaks down the process into individual steps and demonstrates each step with an example. This can help the model understand the logical flow and dependencies between different parts of the task, and generate a more coherent and well-structured response.
 
@@ -717,7 +711,7 @@ Please aim to provide a comprehensive and beginner-friendly guide that covers al
 
 By breaking down the process into clear steps and providing concrete examples of the code and commands needed for each step, you make it much easier for the model to generate a detailed and informative guide that walks readers through the entire process of creating a Flask web application from scratch.
 
-#### Edge cases and exceptions:
+**Edge cases and exceptions:
 
 Highlight any edge cases, exceptions, or unusual scenarios that the model should be aware of when generating its response. Provide examples of how to handle these cases or what kind of output to produce in these situations, to ensure that the model generates appropriate and robust responses even in non-standard or unexpected scenarios.
 
@@ -860,25 +854,25 @@ Incorporating domain-specific knowledge into your prompts can significantly enha
 
 To effectively incorporate domain-specific knowledge into your prompts, consider the following strategies:
 
-#### Use domain-specific terminology and jargon:
+**Use domain-specific terminology and jargon:
 
 Include key terms, acronyms, and phrases that are commonly used in the target domain, even if they may not be familiar to a general audience. This signals to the model that it should generate responses that are tailored to the specific language and conventions of that field.
 
 **For example**, if you're generating prompts for a medical diagnosis task, you might include terms like "differential diagnosis", "pathognomonic", "iatrogenic", "nosocomial", etc. to orient the model towards the specialized language and concepts used by medical professionals.
 
-#### Reference domain-specific frameworks, models, or methodologies:
+**Reference domain-specific frameworks, models, or methodologies:
 
 If the target domain has well-established frameworks, models, or methodologies that are widely used by experts and practitioners, consider explicitly referencing these in your prompts. This can help guide the model towards generating responses that are consistent with accepted best practices and standards in that field.
 
 **For example**, if you're generating prompts for a software development task, you might reference specific programming languages, libraries, design patterns, or development methodologies (e.g., Agile, Scrum, Test-Driven Development) to ensure that the model's responses align with current industry practices.
 
-#### Provide domain-specific examples or case studies:
+**Provide domain-specific examples or case studies:
 
 Including concrete examples or case studies from the target domain can help anchor the model's responses in real-world scenarios and applications. By showing the model what successful outputs look like in a particular field, you give it a clear template to follow and adapt to new situations.
 
 **For example**, if you're generating prompts for a legal analysis task, you might provide examples of actual court cases, legal briefs, or judicial opinions that illustrate the kind of reasoning, argumentation, and writing style that is expected in that domain.
 
-#### Incorporate domain-specific rules, regulations, or guidelines:
+**Incorporate domain-specific rules, regulations, or guidelines:
 
 Many fields have specific rules, regulations, or guidelines that govern professional conduct, ethical decision-making, or quality standards. By explicitly incorporating these into your prompts, you can help ensure that the model's responses are not only accurate and relevant, but also compliant with the norms and expectations of that domain.
 
@@ -941,7 +935,7 @@ When designing prompts for open-ended generation tasks, consider the following s
 
 ---
 
-#### Provide a general theme, topic, or inspiration:
+**Provide a general theme, topic, or inspiration:
 
 Give the model a broad starting point or source of inspiration to anchor its generation process, without being overly specific or restrictive. This could be a genre, a mood, an image, a question, or any other open-ended prompt that allows for a wide range of interpretations and responses.
 
@@ -953,7 +947,7 @@ Imagine a world where humans have developed the ability to communicate telepathi
 
 ---
 
-#### Encourage exploration and creativity:
+**Encourage exploration and creativity:
 
 Use language and instructions that encourage the model to generate diverse, original, and imaginative responses. Avoid being too prescriptive or limiting in your prompts, and instead focus on providing a framework or context that allows the model to explore multiple possibilities and perspectives.
 
@@ -963,7 +957,7 @@ Use language and instructions that encourage the model to generate diverse, orig
 Choose a common household object and write a poem that personifies it and explores its "inner life" and experiences. Feel free to be playful, surreal, or philosophical in your approach.
 ```
 
-#### Provide constraints or challenges:
+**Provide constraints or challenges:
 
 While open-ended generation tasks typically involve a high degree of creative freedom, providing some constraints or challenges can help guide the model's output in interesting and productive directions. These constraints could relate to things like form, style, perspective, or theme, and can help push the model to generate more unique and engaging responses.
 
@@ -973,7 +967,7 @@ While open-ended generation tasks typically involve a high degree of creative fr
 Write a short story that takes place entirely within a single room, with only two characters who are unable to leave. Explore the dynamics of their relationship and the ways in which the confined setting shapes their interactions and emotions.
 ```
 
-#### Iterate and refine based on the model's output:
+**Iterate and refine based on the model's output:
 
 Open-ended generation tasks often involve a degree of unpredictability and serendipity, and the model's initial responses may not always align with your intended vision or goals. Be prepared to iterate and refine your prompts based on the model's output, using its responses as inspiration for new directions or challenges.
 
@@ -991,7 +985,7 @@ Focused Q&A and knowledge retrieval tasks involve using the model to provide spe
 
 When designing prompts for focused Q&A and knowledge retrieval tasks, consider the following strategies:
 
-#### Be specific and targeted in your questions:
+**Be specific and targeted in your questions:
 
 Ask clear, concise, and specific questions that leave little room for ambiguity or misinterpretation. Avoid overly broad or open-ended questions that could lead to vague or irrelevant responses.
 
@@ -1007,7 +1001,7 @@ What can you tell me about renewable energy?
 What are the three most common types of renewable energy sources, and how do they work to generate electricity?
 ```
 
-#### Provide context and background information:
+**Provide context and background information:
 
 Include any relevant context, definitions, or background information that can help the model understand the scope and focus of your question. This can include things like timeframes, locations, specific examples, or domain-specific terminology.
 
@@ -1017,7 +1011,7 @@ Include any relevant context, definitions, or background information that can he
 In the context of the ongoing global efforts to mitigate climate change, explain the role that carbon pricing mechanisms like cap-and-trade systems and carbon taxes can play in reducing greenhouse gas emissions. Provide specific examples of how these mechanisms have been implemented in different countries or regions.
 ```
 
-#### Specify the format and scope of the response:
+**Specify the format and scope of the response:
 
 Clearly indicate the desired format, length, and level of detail for the model's response. This can help ensure that the output is concise, focused, and relevant to your needs.
 
@@ -1027,7 +1021,7 @@ Clearly indicate the desired format, length, and level of detail for the model's
 Provide a brief summary of the key events and turning points of the American Civil War, focusing on the political, social, and military factors that shaped the conflict. Your summary should be around 500 words long and should be written in a clear, objective, and accessible style suitable for a high school history textbook.
 ```
 
-#### Use follow-up questions or prompts to refine the response:
+**Use follow-up questions or prompts to refine the response:
 
 If the model's initial response is incomplete, unclear, or off-topic, don't hesitate to use follow-up questions or prompts to clarify your needs and guide the model towards a more targeted and relevant output.
 
@@ -1045,7 +1039,7 @@ Task-oriented instruction tasks involve using the model to provide step-by-step 
 
 When designing prompts for task-oriented instruction tasks, consider the following strategies:
 
-#### Break down the task into clear steps:
+**Break down the task into clear steps:
 
 Provide a clear, logical, and sequential breakdown of the task into its component steps or stages. Use numbered lists, bullet points, or other formatting techniques to make the steps easy to follow and understand.
 
@@ -1065,7 +1059,7 @@ Provide a step-by-step guide for changing a flat tire on a car, assuming that th
 For each step, provide clear and concise instructions, along with any relevant safety warnings or tips.
 ```
 
-#### Use examples and analogies to clarify complex concepts:
+**Use examples and analogies to clarify complex concepts:
 
 If the task involves complex or technical concepts, use examples, analogies, or metaphors to help make the information more accessible and understandable to a general audience.
 
@@ -1075,7 +1069,7 @@ If the task involves complex or technical concepts, use examples, analogies, or 
 Explain the concept of "proof of work" in the context of blockchain technology and cryptocurrency mining. Use an analogy or metaphor to help illustrate how this process works and why it is important for maintaining the security and integrity of the blockchain ledger.
 ```
 
-#### Anticipate common questions or challenges:
+**Anticipate common questions or challenges:
 
 Think about the common questions, misconceptions, or challenges that someone might encounter when attempting to complete the task, and proactively address them in your prompt or instructions.
 
@@ -1092,7 +1086,7 @@ Provide a recipe and instructions for making a basic sourdough bread from scratc
 Provide clear and reassuring guidance to help the reader feel confident and successful in their sourdough baking journey.
 ```
 
-#### Provide resources for further learning or support:
+**Provide resources for further learning or support:
 
 If the task is complex or open-ended, consider providing additional resources or references that the reader can use to deepen their understanding or seek further support if needed.
 
@@ -1118,7 +1112,7 @@ Roleplay and persona-based interaction tasks involve using the model to engage i
 
 When designing prompts for roleplay and persona-based interaction tasks, consider the following strategies:
 
-#### Establish the character and context:
+**Establish the character and context:
 
 Clearly define the character or persona that the model will be assuming, including their background, personality, knowledge, and goals. Provide any relevant context or scenario details to help ground the interaction in a specific time, place, or situation.
 
@@ -1132,7 +1126,7 @@ A young human named Finn has come to seek your guidance, as they are feeling los
 Speak in a voice that is ancient and ethereal, yet warm and compassionate. Use metaphors and parables drawn from the natural world to illustrate your points. Avoid giving overly specific advice or directives, and instead focus on helping Finn to trust their own intuition and find their own path forward.
 ```
 
-#### Provide guidelines for interaction:
+**Provide guidelines for interaction:
 
 Establish any rules, boundaries, or guidelines for how the model should interact with the user in the given scenario. This can include things like tone, language, level of formality, or specific do's and don'ts for the conversation.
 
@@ -1155,7 +1149,7 @@ When interacting with customers, please adhere to the following guidelines:
 Speak in a tone that is warm, professional, and empathetic. Use simple and clear language, and avoid jargon or technical terms that the customer may not understand. Aim to create a positive and helpful experience that leaves the customer feeling valued and satisfied with the interaction.
 ```
 
-#### Allow for flexibility and adaptability:
+**Allow for flexibility and adaptability:
 
 While it's important to establish clear guidelines and boundaries for the interaction, be open to allowing the model to adapt and respond naturally to the user's input and choices. Encourage the model to use its own knowledge and creativity to generate responses that are contextually appropriate and engaging.
 
@@ -1176,7 +1170,7 @@ Feel free to ask follow-up questions based on Alex's responses, and to offer you
 Speak in a tone that is friendly, encouraging, and constructive. Use positive reinforcement and specific feedback to help Alex feel motivated and confident in their writing. Adapt your approach based on Alex's level of engagement and comfort with the process, and be open to taking the conversation in unexpected or unconventional directions if that's where their creativity leads.
 ```
 
-#### Reflect and learn from the interaction:
+**Reflect and learn from the interaction:
 
 After the roleplay or interaction is complete, take time to reflect on how it went and what insights or lessons can be drawn from the experience. Use this reflection to refine and improve your prompts and guidelines for future interactions.
 
@@ -1202,7 +1196,7 @@ Code generation and analysis tasks involve using the model to write, understand,
 
 When designing prompts for code generation and analysis tasks, consider the following strategies:
 
-#### Specify the language and version:
+**Specify the language and version:
 
 Clearly indicate the programming language and version that the model should use, as well as any relevant libraries, frameworks, or tools. This helps ensure that the generated code is compatible and up-to-date with current standards and practices.
 
@@ -1212,7 +1206,7 @@ Clearly indicate the programming language and version that the model should use,
 Please generate a Python function that takes a list of integers as input and returns a new list containing only the prime numbers from the original list. Use Python 3.x syntax and avoid any external libraries or dependencies.
 ```
 
-#### Provide clear requirements and constraints:
+**Provide clear requirements and constraints:
 
 Define the specific inputs, outputs, and functionality that the generated code should have. Include any constraints or limitations that the code must adhere to, such as time or space complexity, error handling, or edge cases.
 
@@ -1229,7 +1223,7 @@ Write a JavaScript function that takes a string as input and returns the longest
 Please include comments explaining the approach and reasoning behind your code.
 ```
 
-#### Offer examples and test cases:
+**Offer examples and test cases:
 
 Provide examples of what the code should do, including sample inputs and expected outputs. If applicable, include test cases that cover a range of scenarios and edge cases to help verify the correctness and robustness of the generated code.
 
@@ -1255,7 +1249,7 @@ Output: [42]
 Please make sure to test your function against these examples, as well as any additional edge cases or scenarios that you think are important to cover.
 ```
 
-#### Explain and document the code:
+**Explain and document the code:
 
 Ask the model to include comments, docstrings, or other documentation that explains what the code does, how it works, and why certain design choices were made. This can be especially helpful for complex or non-obvious code snippets.
 
@@ -1269,7 +1263,7 @@ Please include detailed comments explaining how the decorator works, what data s
 Also provide an example of how to use the decorator on a simple function, such as one that computes the nth Fibonacci number, and show how it improves performance for repeated calls with the same input.
 ```
 
-#### Review and refine the code:
+**Review and refine the code:
 
 Once the model has generated the requested code, review it carefully for correctness, efficiency, and style. If needed, ask the model to refine or improve the code based on your feedback or additional requirements.
 
