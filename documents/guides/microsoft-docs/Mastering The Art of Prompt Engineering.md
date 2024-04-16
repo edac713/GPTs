@@ -81,20 +81,24 @@ By using more precise language and breaking down the request into specific sub-t
   To build a recommendation system, we'll need to follow a series of steps. For each step, please provide a brief explanation of the key concepts and techniques involved, along with any relevant examples or best practices.
 
   Step 1: Data collection and preprocessing
+
   - What are the main types of data that are typically used in recommendation systems, and how are they collected and stored?
   - What are some common preprocessing techniques that are applied to this data, such as normalization, feature scaling, and handling missing values?
 
   Step 2: Collaborative filtering
+
   - What is the basic idea behind collaborative filtering, and how does it differ from content-based filtering?
   - What are some common algorithms used for collaborative filtering, such as matrix factorization and neighborhood-based methods?
   - How do these algorithms handle the cold-start problem, where new users or items have no prior ratings or interactions?
 
   Step 3: Evaluation and testing
+
   - What are some common metrics used to evaluate the performance of recommendation systems, such as precision, recall, and NDCG?
   - How can we split our data into training, validation, and test sets to avoid overfitting and get a realistic estimate of model performance?
   - What are some best practices for conducting user studies and A/B tests to compare different recommendation algorithms and configurations?
 
   Step 4: Deployment and scaling
+
   - What are some common architectures and frameworks used for deploying recommendation systems in production, such as microservices and serverless computing?
   - How can we handle the challenges of scalability and real-time performance as the number of users and items grows over time?
   - What are some strategies for monitoring and updating the recommendation system over time, based on user feedback and changing trends in the data?
@@ -116,14 +120,17 @@ Some effective techniques for structuring prompts include:
   Getting a good night's sleep is essential for physical and mental health. Please provide a list of practical tips for improving sleep quality, covering the following areas:
 
   1. Sleep environment
+
   - How can we optimize our bedroom environment for better sleep, in terms of factors like temperature, lighting, and noise levels?
   - What are some recommended bedding and mattress options for different sleep preferences and needs?
 
   2. Sleep routine
+
   - What are some good habits to incorporate into our daily routine to promote better sleep, such as regular exercise, avoiding caffeine and alcohol, and winding down before bed?
   - How can we establish a consistent sleep schedule and stick to it, even on weekends and holidays?
 
   3. Stress management
+
   - What are some relaxation techniques and mindfulness practices that can help reduce stress and anxiety before bed, such as deep breathing, progressive muscle relaxation, and meditation?
   - How can we manage racing thoughts and worries that keep us awake at night, through techniques like journaling, cognitive reframing, and visualization?
 
@@ -140,18 +147,22 @@ By structuring the prompt in this way, you make it much easier for the model to 
   Creating and sticking to a budget is an important skill for managing personal finances and achieving long-term financial goals. Please provide a step-by-step guide to creating and implementing a budget, with clear explanations and examples for each section:
 
   # Section 1: Assessing Your Financial Situation
+
   - How can we gather and organize all the necessary information about our income, expenses, debts, and assets?
   - What tools and techniques can we use to track our spending and identify areas where we may be overspending or have room for improvement?
 
   # Section 2: Setting Financial Goals
+
   - How can we define clear, specific, and measurable financial goals for the short-term and long-term, such as saving for an emergency fund, paying off debt, or planning for retirement?
   - What are some strategies for prioritizing and balancing multiple financial goals, based on our values and life circumstances?
 
   # Section 3: Creating a Budget Plan
+
   - How can we allocate our income across different expense categories, such as housing, food, transportation, and entertainment, based on our financial goals and spending habits?
   - What are some tips for finding ways to reduce expenses and increase income, without sacrificing our quality of life or financial security?
 
   # Section 4: Implementing and Adjusting the Budget
+
   - What are some best practices for tracking our actual spending against our budget plan, and identifying any variances or areas for improvement?
   - How can we stay motivated and accountable to our budget over time, through techniques like regular check-ins, rewards, and support from family and friends?
   - What are some strategies for adjusting our budget plan as needed, based on changes in our income, expenses, or financial goals?
@@ -169,9 +180,11 @@ By dividing the prompt into clear sections with descriptive headings, you make i
   Please write a blog post about the benefits of meditation. Include the following points:
 
   - Reduces stress and anxiety
+
   * Improves focus and concentration
+
   - Enhances emotional well-being
-  >> Increases self-awareness and mindfulness
+    > > Increases self-awareness and mindfulness
   ```
 
   You could use a **consistent** formatting style like this:
@@ -277,7 +290,7 @@ Here are some effective ways to incorporate examples and demonstrations into you
   Example question: How many orders were placed by customers in the state of California?
 
   Example query:
-  SELECT COUNT(*)
+  SELECT COUNT(\*)
   FROM orders o
   JOIN customers c ON o.customer_id = c.customer_id
   WHERE c.state = 'CA';
@@ -305,11 +318,13 @@ By providing these examples of input questions and their corresponding SQL queri
   Here's a step-by-step walkthrough of how to implement this function:
 
   Step 1: Define the base cases.
+
   - If `n` is 0, return an empty list `[]`.
   - If `n` is 1, return a list with a single element `[0]`.
   - If `n` is 2, return a list with two elements `[0, 1]`.
 
   Example:
+
   ```python
   if n == 0:
       return []
@@ -317,7 +332,7 @@ By providing these examples of input questions and their corresponding SQL queri
       return [0]
   elif n == 2:
       return [0, 1]
-  ````
+  ```
 
   Step 2: Initialize variables to store the sequence.
 
@@ -375,22 +390,22 @@ By providing this detailed walkthrough of the Fibonacci function implementation,
   In addition to the basic validation criteria, please make sure your function handles the following edge cases and exceptions:
 
   1. Empty string: Return `False`.
-    Example: `""` -> `False`
+     Example: `""` -> `False`
 
   2. String with multiple `@` symbols: Return `False`.
-    Example: `"john@doe@example.com"` -> `False`
+     Example: `"john@doe@example.com"` -> `False`
 
   3. String with no `.` after the `@`: Return `False`.
-    Example: `"john@example"` -> `False`
+     Example: `"john@example"` -> `False`
 
   4. String with a `.` immediately before or after the `@`: Return `False`.
-    Example: `"john.@example.com"` -> `False`, `"john@.example.com"` -> `False`
+     Example: `"john.@example.com"` -> `False`, `"john@.example.com"` -> `False`
 
   5. String with invalid characters: Return `False`.
-    Example: `"john!doe@example.com"` -> `False`, `"john doe@example.com"` -> `False`
+     Example: `"john!doe@example.com"` -> `False`, `"john doe@example.com"` -> `False`
 
   6. String with a top-level domain that is too short or too long: Return `False`.
-    Example: `"john@example.c"` -> `False`, `"john@example.abcdefg"` -> `False`
+     Example: `"john@example.c"` -> `False`, `"john@example.abcdefg"` -> `False`
 
   Please implement the `is_valid_email(email)` function based on these requirements, and provide some example usage of the function with different input strings, including both valid and invalid email addresses. Also, discuss any additional edge cases or exceptions that your function handles, and explain your reasoning for including them.
   ```
@@ -590,6 +605,7 @@ By providing a concrete example of the input and output formats, you make it muc
 
   - Explanation: Before we can start building our web application, we need to install the Flask framework on our computer. This can be done using pip, the package installer for Python.
   - Example: Open a terminal or command prompt and run the following command to install Flask:
+
   ```
   pip install flask
   ```
@@ -616,24 +632,30 @@ By providing a concrete example of the input and output formats, you make it muc
 
   - Explanation: To run our Flask application, we simply need to execute the `app.py` file using Python. This will start a development server that listens for incoming requests on a specific port (default is 5000).
   - Example: Open a terminal or command prompt, navigate to the directory where `app.py` is located, and run the following command:
+
   ```
   python app.py
   ```
+
   You should see output similar to:
+
   ```
    * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
   ```
+
   Open a web browser and navigate to `http://localhost:5000` to see the "Hello, World!" message.
 
   Step 4: Adding more routes and functionality
 
   - Explanation: Now that we have a basic Flask application up and running, we can start adding more routes and functionality to it. **For example**, let's create a new route that accepts a name parameter and returns a personalized greeting.
   - Example: Modify the `app.py` file to include the following code:
+
   ```python
   @app.route('/hello/<name>')
   def hello_name(name):
       return f'Hello, {name}!'
   ```
+
   Save the file and restart the Flask server. Now, navigate to `http://localhost:5000/hello/Alice` in your web browser, and you should see the message "Hello, Alice!".
 
   [Continue with additional steps as needed]
