@@ -10,23 +10,23 @@ Effective prompt engineering requires a deep understanding of how LLMs work, inc
 
 In many ways, prompt engineering is similar to the art of human communication and persuasion. Just as a skilled orator or writer knows how to craft their message in a way that resonates with their audience and achieves their intended goals, a skilled prompt engineer knows how to design prompts that effectively leverage the capabilities of LLMs to generate high-quality, relevant, and valuable outputs.
 
-### Why Prompt Engineering Matters
+## Why Prompt Engineering Matters
 
 Prompt engineering is not merely about asking the right questions or providing clever instructions; it's about providing the necessary context, guidance, and constraints to steer the model towards the desired output. A well-crafted prompt can make the difference between a generic, irrelevant response and a highly targeted, insightful one. By understanding the intricacies of prompt design, you can:
 
-#### 1. Improve the quality and relevance of generated responses:
+### 1. Improve the quality and relevance of generated responses:
 
 Well-designed prompts help focus the model's attention on the most important aspects of the task at hand, reducing the likelihood of irrelevant or off-topic responses. By providing clear guidance and constraints, prompts can help ensure that the generated outputs are coherent, fluent, and relevant to the user's needs.
 
-#### 2. Reduce ambiguity and increase specificity in model outputs:
+### 2. Reduce ambiguity and increase specificity in model outputs:
 
 Ambiguous or vague prompts can lead to equally ambiguous or vague responses from the model. By contrast, specific and detailed prompts can help elicit more precise and targeted outputs, reducing the need for clarification or follow-up questions.
 
-#### 3. Adapt LLMs to specific domains, tasks, and use cases:
+### 3. Adapt LLMs to specific domains, tasks, and use cases:
 
 While LLMs are trained on vast amounts of general-purpose data, they may not always have the specialized knowledge or context needed for specific domains or tasks. Prompt engineering allows developers and users to adapt LLMs to their specific needs by providing domain-specific examples, instructions, and constraints. This can help improve the model's performance and relevance for a wide range of applications, from customer support and content creation to research and analysis.
 
-#### 4. Enhance the efficiency and effectiveness of human-AI collaboration:
+### 4. Enhance the efficiency and effectiveness of human-AI collaboration:
 
 Prompt engineering is not just about optimizing the model's performance in isolation, but rather about facilitating more efficient and effective collaboration between humans and AI systems. Well-designed prompts can help users communicate their intent and goals more clearly to the model, reducing the need for trial-and-error or manual intervention. At the same time, prompts can help the model provide more actionable and informative outputs that can be easily integrated into human decision-making processes.
 
@@ -52,7 +52,7 @@ To achieve clarity and specificity, consider the following:
 
 Give the model enough background information to understand the task at hand. This could include domain-specific knowledge, task requirements, or any other contextual details that help frame the problem. The more context you provide, the more likely the model is to generate a relevant and accurate response.
 
-**For example**, instead of simply asking `"What are the key factors that contribute to climate change?"`, you could provide additional context like:
+**For example**, instead of simply asking, `"What are the key factors that contribute to climate change?"`, you could provide additional context like:
 
 ```md
 Climate change is one of the most pressing issues facing our planet today. It refers to the long-term shift in global weather patterns and temperatures, primarily caused by human activities that increase greenhouse gas emissions. To better understand the root causes of climate change, please explain the key factors that contribute to this phenomenon, including:
@@ -70,7 +70,7 @@ By providing this additional context, you give the model a much clearer sense of
 
 Avoid vague or ambiguous terms that could be interpreted in multiple ways. Use specific, concrete language that leaves little room for misinterpretation. This is especially important when dealing with technical or domain-specific terminology, where even small differences in wording can lead to very different outputs.
 
-**For example**, instead of asking _"Can you explain how machine learning works?"_, you could be more specific and say:
+**For example**, instead of asking `"Can you explain how machine learning works?"`, you could be more specific and say:
 
 ```md
 Please provide a high-level overview of the key concepts and techniques involved in supervised machine learning, including:
@@ -89,7 +89,7 @@ By using more precise language and breaking down the request into specific sub-t
 
 If you're dealing with a multi-step problem or a complex task, break it down into smaller, more manageable sub-tasks. This helps the model understand the logical flow and generate more targeted responses for each step in the process.
 
-**For example**, instead of asking _"How do I build a recommendation system?"_, you could break it down into a series of smaller, more specific prompts like:
+**For example**, instead of asking `"How do I build a recommendation system?"`, you could break it down into a series of smaller, more specific prompts like:
 
 ```md
 To build a recommendation system, we'll need to follow a series of steps. For each step, please provide a brief explanation of the key concepts and techniques involved, along with any relevant examples or best practices.
@@ -130,7 +130,7 @@ Some effective techniques for structuring prompts include:
 
 Use bullet points or numbered lists to outline specific steps, requirements, or key points. This helps break down the information into easily digestible chunks and provides a clear hierarchy and sequence for the model to follow.
 
-**For example**, instead of asking _"What are some tips for improving sleep quality?"_, you could structure your prompt like this:
+**For example**, instead of asking `"What are some tips for improving sleep quality?"`, you could structure your prompt like this:
 
 ```md
 Getting a good night's sleep is essential for physical and mental health. Please provide a list of practical tips for improving sleep quality, covering the following areas:
@@ -159,7 +159,7 @@ By structuring the prompt in this way, you make it much easier for the model to 
 
 Divide your prompt into distinct sections with clear, descriptive headings. This allows the model to compartmentalize the information and generate responses that address each section separately, while still maintaining an overall coherence and flow.
 
-**For example**, instead of asking _"How do I create a budget and stick to it?"_, you could structure your prompt like this:
+**For example**, instead of asking `"How do I create a budget and stick to it?"`, you could structure your prompt like this:
 
 ```md
 Creating and sticking to a budget is an important skill for managing personal finances and achieving long-term financial goals. Please provide a step-by-step guide to creating and implementing a budget, with clear explanations and examples for each section:
@@ -197,7 +197,9 @@ Maintain a consistent format throughout your prompts, using the same style for h
 **For example**, instead of mixing different formatting styles like this:
 
 ```md
-Please write a blog post about the benefits of meditation. Include the following points:
+Please write a blog post about the benefits of meditation.
+
+Include the following points:
 
 - Reduces stress and anxiety
 
@@ -258,7 +260,7 @@ By providing these **specific instructions**, you make it much easier for the mo
 
 If you have specific preferences for the style or tone of the response, make sure to explicitly mention them in the prompt. This could include things like formality level, **writing style** _(e.g., persuasive, informative, conversational)_, or **emotional tone** _(e.g., friendly, authoritative, humorous)_.
 
-**For example**, instead of asking _"Can you write an email to my boss about the project update?"_, you could provide more specific guidance like:
+**For example**, instead of asking `"Can you write an email to my boss about the project update?"`, you could provide more specific guidance like:
 
 ```md
 Please draft an email to my boss, Sarah Johnson, providing an update on the XYZ project. The email should cover the following points:
@@ -281,7 +283,7 @@ By providing these **specific instructions** around **tone, style, and formattin
 
 If applicable, provide guidelines for the desired length of the response, whether in terms of word count, number of sentences or paragraphs, or any other relevant measure. Length constraints can help ensure that the model generates a response that is concise and focused, without including unnecessary or irrelevant information.
 
-**For example**, instead of asking _"Can you explain the concept of quantum computing?"_, you could provide more specific length guidelines like:
+**For example**, instead of asking `"Can you explain the concept of quantum computing?"`, you could provide more specific length guidelines like:
 
 ```md
 Please provide a brief introduction to the concept of quantum computing, covering the following points:
@@ -528,7 +530,7 @@ Consider the following when providing instructions:
 
 Clearly indicate the expected format of the response, such as a paragraph, a list, a table, or any other structured format. This helps the model generate outputs that align with your requirements and makes it easier for you to process and use the generated information.
 
-**For example**, instead of simply asking _"What are the key steps in the design thinking process?"_, you could specify the desired format like this:
+**For example**, instead of simply asking `"What are the key steps in the design thinking process?"`, you could specify the desired format like this:
 
 ```md
 Please provide an overview of the key steps in the design thinking process, using the following format:
@@ -556,7 +558,7 @@ By specifying the desired format in this way, you make it much easier for the mo
 
 If you have specific preferences for the style or tone of the response, make sure to explicitly mention them in the prompt. This could include things like formality level, writing style (e.g., persuasive, informative, conversational), or any other stylistic guidelines that are important for your use case.
 
-**For example**, instead of simply asking _"Write a product description for a new smartphone"_, you could define the style and tone like this:
+**For example**, instead of simply asking `"Write a product description for a new smartphone"`, you could define the style and tone like this:
 
 ```md
 Please write a product description for our latest smartphone model, the XYZ Pro. The description should:
@@ -576,7 +578,7 @@ By defining the style and tone in this way, you give the model a clear sense of 
 
 If applicable, provide guidelines for the desired length of the response, either in terms of word count, number of sentences, or any other relevant measure. Length constraints can help keep the model's output focused and concise, and ensure that it meets your specific needs and requirements.
 
-**For example**, instead of simply asking _"Summarize the main points of this research paper"_, you could set length constraints like this:
+**For example**, instead of simply asking `"Summarize the main points of this research paper"`, you could set length constraints like this:
 
 ```md
 Please provide a summary of the key findings and conclusions from the attached research paper on the effects of social media use on mental health. The summary should:
@@ -603,7 +605,7 @@ Here are a few ways to incorporate examples and demonstrations into your prompts
 
 Include sample inputs and their corresponding ideal outputs to illustrate the expected format and content of the response. This is particularly useful for tasks like data transformation, format conversion, or any other scenario where the model needs to mimic a specific pattern or structure.
 
-**For example**, instead of simply asking _"Please convert the following CSV data into a JSON format"_, you could provide sample inputs and outputs like this:
+**For example**, instead of simply asking `"Please convert the following CSV data into a JSON format"`, you could provide sample inputs and outputs like this:
 
 ```md
 Please convert the following CSV data into a JSON format, using the provided example as a reference:
@@ -646,7 +648,7 @@ By providing a concrete example of the input and output formats, you make it muc
 
 For complex, multi-step tasks, provide a detailed walkthrough that breaks down the process into individual steps and demonstrates each step with an example. This can help the model understand the logical flow and dependencies between different parts of the task, and generate a more coherent and well-structured response.
 
-**For example**, instead of simply asking _"How do I create a simple web application using Flask?"_, you could provide a step-by-step walkthrough like this:
+**For example**, instead of simply asking `"How do I create a simple web application using Flask?"`, you could provide a step-by-step walkthrough like this:
 
 ````md
 Please provide a step-by-step guide to creating a simple web application using the Flask framework in Python. For each step, include a brief explanation of what the step involves, along with a concrete example of the code or commands needed to complete that step.
@@ -719,7 +721,7 @@ By breaking down the process into clear steps and providing concrete examples of
 
 Highlight any edge cases, exceptions, or unusual scenarios that the model should be aware of when generating its response. Provide examples of how to handle these cases or what kind of output to produce in these situations, to ensure that the model generates appropriate and robust responses even in non-standard or unexpected scenarios.
 
-**For example**, instead of simply asking _"Write a function that calculates the factorial of a given number"_, you could highlight edge cases and exceptions like this:
+**For example**, instead of simply asking `"Write a function that calculates the factorial of a given number"`, you could highlight edge cases and exceptions like this:
 
 ````md
 Please write a Python function that calculates the factorial of a given non-negative integer n. The factorial of n, denoted as n!, is the product of all positive integers less than or equal to n. **For example**, 5! = 5 _ 4 _ 3 _ 2 _ 1 = 120.
@@ -929,191 +931,6 @@ By combining the power of large language models with the depth and nuance of dom
 
 ## Strategies for Different Use Cases
 
-While the key principles and techniques of prompt engineering are broadly applicable across a wide range of tasks and domains, the specific strategies and approaches you use will necessarily vary depending on the unique goals, constraints, and characteristics of each use case. In this section, we'll explore some common use cases for large language models and discuss targeted strategies for designing effective prompts in each context.
-
-### 1. Open-Ended Generation
-
-Open-ended generation tasks are those in which the model is given a relatively broad or unstructured prompt and asked to generate novel content or ideas in response. This could include things like creative writing, brainstorming, ideation, or any other scenario where the goal is to explore a wide range of possibilities and generate diverse, original outputs.
-
-When designing prompts for open-ended generation tasks, consider the following strategies:
-
-#### Provide a general theme, topic, or inspiration:
-
-Give the model a high-level concept, theme, or topic to anchor its generation process, while still allowing plenty of room for creativity and exploration. This could be a genre, an emotion, a setting, a character archetype, or any other general category that helps provide some structure and direction to the model's outputs.
-
-**For example**:
-
-```md
-Generate a series of short story ideas that explore the theme of "unexpected connections" across different genres and settings. For each idea, provide a brief premise, a cast of characters, and a central conflict or question that drives the narrative. The stories should span a range of tones and styles, from lighthearted and comedic to dark and suspenseful. Feel free to be as creative and imaginative as you like, but make sure each idea has a clear hook and enough substance to be developed into a full story.
-```
-
-#### Encourage exploration and novelty:
-
-Use language that encourages the model to generate ideas that are unconventional, surprising, or outside the box. Emphasize the importance of originality, creativity, and pushing beyond obvious or clichéd responses. At the same time, provide enough constraints or guidelines to ensure that the outputs are still relevant and coherent.
-
-**For example**:
-
-```md
-Imagine that you are a mad scientist who has been tasked with inventing a series of new and unusual gadgets or devices for everyday life. These inventions should be unlike anything that currently exists in the real world, and should challenge our assumptions about what is possible or practical. For each invention, provide a brief description of its function, its key features or components, and how it would be used in daily life. The more unconventional and imaginative the better - but make sure each invention has a clear purpose and could conceivably be built using advanced technology. Let your creativity run wild!
-```
-
-#### Provide multiple angles or perspectives:
-
-Ask the model to generate ideas from multiple different angles or perspectives, to ensure a diversity of outputs and stimulate creative thinking. This could involve looking at a problem or question through different lenses, considering alternative scenarios or outcomes, or exploring a topic from the point of view of different stakeholders or users.
-
-**For example**:
-
-```md
-We are developing a new public park in the heart of a bustling city, and we want to make sure it serves the needs and interests of a wide range of community members. Generate a list of potential park features, amenities, and programming ideas that would appeal to different user groups, such as:
-
-- Young children and families
-- Teenagers and young adults
-- Seniors and retirees
-- Athletes and fitness enthusiasts
-- Nature lovers and environmentalists
-- Artists and creatives
-
-For each user group, provide at least three distinct ideas that cater to their specific needs and preferences. Consider factors such as accessibility, safety, socialization, learning, and enjoyment. The goal is to create a vibrant and inclusive space that offers something for everyone in the community.
-```
-
-By providing a general theme or inspiration, encouraging exploration and novelty, and prompting the model to consider multiple angles or perspectives, you can guide the generation process towards outputs that are creative, diverse, and relevant to the task at hand. The key is to strike a balance between providing enough structure and direction to keep the model on track, while still allowing ample room for originality and surprise in the generated content.
-
-### 2. Focused Q&A and Knowledge Retrieval
-
-In contrast to open-ended generation tasks, focused Q&A and knowledge retrieval tasks involve prompting the model to provide specific, factual information in response to a targeted question or query. This could include things like answering questions about a particular topic or domain, retrieving relevant information from a knowledge base, or providing explanations or definitions for complex concepts.
-
-When designing prompts for focused Q&A and knowledge retrieval tasks, consider the following strategies:
-
-#### Provide relevant context and background information:
-
-Include any necessary context or background information in the prompt to help the model understand the scope and intent of the question. This could include definitions of key terms, historical or scientific context, or any other relevant details that will help the model provide a more accurate and comprehensive response.
-
-**For example**:
-
-```md
-Question: What is the difference between a virus and a bacterium?
-
-Context: Viruses and bacteria are both types of microorganisms that can cause disease in humans and other living things. However, they have some key differences in terms of their structure, reproduction, and how they are treated.
-
-To answer this question, please provide a detailed comparison of viruses and bacteria, including:
-
-- Their basic structure and composition (e.g., DNA vs. RNA, presence of cell wall, etc.)
-- How they reproduce and spread (e.g., lytic vs. lysogenic cycle, binary fission, etc.)
-- The types of diseases they typically cause and how they affect the body
-- How they are treated and prevented (e.g., antibiotics, vaccines, hygiene practices)
-
-Use clear and concise language that is accessible to a general audience, but feel free to include technical terms and concepts where appropriate. Provide examples to illustrate key points, and use analogies or comparisons to help explain complex ideas. The goal is to provide a comprehensive and scientifically accurate answer that helps the reader understand the fundamental differences between these two types of microorganisms.
-```
-
-#### Ask specific, targeted questions:
-
-Frame your questions in a way that is clear, specific, and unambiguous, to help the model focus its response on the most relevant information. Avoid asking overly broad or open-ended questions that could lead to tangential or irrelevant outputs. Use precise language and terminology to signal the type of information you are looking for.
-
-**For example**:
-
-````md
-Question: What was the primary cause of the stock market crash of 1929, and how did it contribute to the onset of the Great Depression?
-
-Please provide a concise and focused answer that addresses the following points:
-
-```
-who is falsely accused of raping a white woman named Mayella Ewell. Despite facing intense pressure and threats from the community, Atticus remains committed to providing Tom with a fair trial and exposing the truth of what really happened. Through the eyes of Scout and Jem, the reader sees the deep-seated racial prejudice and injustice that pervades Maycomb society, as well as the courage and integrity of those who stand up against it.
-
-In addition to the trial of Tom Robinson, the novel also explores the mysterious character of Boo Radley, a reclusive neighbor who becomes a source of fascination and fear for the Finch children. As the story progresses, Scout and Jem learn important lessons about empathy, compassion, and the dangers of judging others based on rumors and stereotypes.
-
-One of the key themes of "To Kill a Mockingbird" is the coexistence of good and evil, and the need for moral courage in the face of injustice. Atticus serves as a moral compass for his children and the community, teaching them the importance of standing up for what is right, even when it is difficult or unpopular. The novel also explores the loss of innocence, as Scout and Jem confront the harsh realities of racism, prejudice, and violence in their town.
-
-Another important theme is the power of education and literacy as a means of empowerment and social change. Atticus encourages his children to read, think critically, and question the status quo, even as they face resistance from those who cling to traditional ways of thinking.
-
-Throughout the novel, Lee uses vivid and poetic language to paint a rich and nuanced portrait of Southern life in the 1930s. The characters are complex and multi-dimensional, and the story is filled with moments of humor, heartbreak, and hope.
-
-Upon its publication, "To Kill a Mockingbird" was an immediate success, winning the Pulitzer Prize for Fiction in 1961. It has since become a staple of high school curricula and has been translated into more than 40 languages. The novel's enduring popularity is a testament to its timeless themes and its powerful message about the importance of standing up for justice and equality in the face of adversity.
-
-In conclusion, "To Kill a Mockingbird" is a masterful work of American literature that explores some of the most pressing social and moral issues of its time, and continues to resonate with readers today. Through the story of Scout, Jem, and Atticus Finch, Harper Lee offers a poignant and powerful commentary on the human condition, and the enduring struggle for justice and dignity in a complex and often troubled world.
-```
-
-Analysis:
-The revised summary is much more comprehensive and detailed, covering all the key elements requested in the prompt. It provides a clear overview of the setting, characters, plot, themes, and significance of the novel, using specific examples and quotes to support its points. The language is accessible but also sophisticated, capturing the complexity and nuance of the novel's ideas and themes.
-````
-
-This example demonstrates how the iterative refinement process can help you arrive at a prompt that elicits a high-quality, informative, and engaging response from the model. By starting with a basic prompt and then progressively refining it based on the model's output and your own analysis, you can guide the model towards generating the kind of response that best meets your needs and expectations.
-
-Of course, the specific steps and techniques involved in the iterative refinement process will vary depending on the task, domain, and use case. But the general principles of starting with a basic prompt, analyzing the model's response, refining the prompt based on that analysis, and repeating the process until you achieve the desired output, remain the same.
-
-By embracing the iterative nature of prompt engineering and approaching it as an ongoing dialogue with the model, you can unlock the full potential of tools like Claude and GPT-4, and generate high-quality, insightful, and engaging responses across a wide range of domains and applications.
-
-### 6. Domain-Specific Knowledge
-
-Incorporating domain-specific knowledge into your prompts is another powerful way to guide the model towards generating more accurate, relevant, and valuable responses. By providing the model with the key concepts, frameworks, and terminology specific to your domain, you can help it understand the nuances and complexities of the task at hand, and produce outputs that are more closely aligned with the expectations and needs of your target audience.
-
-When incorporating domain-specific knowledge into your prompts, consider the following strategies:
-
-#### Use domain-specific terminology:
-
-Include relevant technical terms, jargon, or acronyms that are commonly used in your domain. This helps signal to the model that you are looking for a response that is grounded in the specific language and conventions of your field.
-
-**For example**, if you are asking the model to generate a report on the financial performance of a company, you might use terms like "revenue", "EBITDA", "cash flow", "balance sheet", and "earnings per share" to indicate that you are expecting a response that is informed by standard accounting and finance principles.
-
-#### Reference domain-specific frameworks or models:
-
-If your domain relies on particular theoretical frameworks, conceptual models, or methodologies, make sure to explicitly reference them in your prompts. This helps guide the model towards generating responses that are consistent with the established best practices and approaches in your field.
-
-**For example**, if you are asking the model to analyze a business case study, you might reference frameworks like Porter's Five Forces, the SWOT analysis, or the Business Model Canvas to provide a clear structure and focus for the model's response.
-
-#### Provide domain-specific examples or case studies:
-
-Including concrete examples or case studies from your domain can help anchor the model's response in real-world scenarios and applications. By showing the model how the concepts and principles of your domain are applied in practice, you can help it generate more relevant and actionable insights and recommendations.
-
-**For example**, if you are asking the model to provide guidance on effective leadership strategies, you might include brief examples or case studies of successful leaders in your industry, highlighting the specific approaches and techniques they used to achieve their goals.
-
-Here's an example of how you might incorporate domain-specific knowledge into a prompt for generating a SWOT analysis for a new product launch:
-
-```md
-Please conduct a SWOT (Strengths, Weaknesses, Opportunities, Threats) analysis for the launch of our new product, the XYZ Widget. The XYZ Widget is a smart home device that allows users to control their lighting, temperature, and security systems using voice commands and a mobile app.
-
-When conducting your analysis, please consider the following domain-specific factors:
-
-Strengths:
-
-- The XYZ Widget uses advanced AI and natural language processing technologies to provide a seamless and intuitive user experience
-- The device integrates with a wide range of existing smart home platforms and devices, making it easy for users to add it to their existing setups
-- The company has a strong brand reputation in the smart home industry, with a loyal customer base and positive reviews for its previous products
-
-Weaknesses:
-
-- The XYZ Widget is priced at the higher end of the market, which may limit its appeal to budget-conscious consumers
-- The device requires a reliable internet connection and may not function properly in areas with poor connectivity
-- The company is relatively new to the voice control and AI space, and may face challenges in competing with more established players like Amazon and Google
-
-Opportunities:
-
-- The smart home market is growing rapidly, with increasing demand for devices that offer convenience, energy efficiency, and security benefits
-- The XYZ Widget's advanced AI capabilities and integration with multiple platforms could help it stand out in a crowded market and attract tech-savvy early adopters
-- The company could explore partnerships with home builders, real estate developers, and other industry players to expand its distribution channels and reach new customers
-
-Threats:
-
-- The smart home industry is highly competitive, with many well-established brands and startups vying for market share
-- Concerns about privacy and data security could make some consumers hesitant to adopt smart home devices, particularly those with always-on microphones and cameras
-- Rapid technological advances in areas like AI, 5G, and edge computing could disrupt the market and make the XYZ Widget's features and capabilities obsolete in the near future
-
-Please organize your analysis into clear sections for each of the four SWOT categories, and provide specific examples and evidence to support your points. Aim for a length of around 500-750 words, and use a professional but accessible tone that is appropriate for an executive audience.
-```
-
-In this example, the prompt incorporates several types of domain-specific knowledge, including:
-
-- **Technical terms and concepts** related to smart home devices and AI, such as "natural language processing" and "edge computing"
-- **Industry-specific factors and trends**, such as the growth of the smart home market and the importance of integration with existing platforms
-- **Competitive landscape and market positioning considerations**, such as the threat of established players and the opportunity to differentiate through advanced features and partnerships
-
-By providing this domain-specific context and guidance, the prompt helps the model generate a SWOT analysis that is grounded in the realities and challenges of the smart home industry, and that provides relevant and actionable insights for the company's product launch strategy.
-
-Of course, the specific types and sources of domain-specific knowledge that you incorporate into your prompts will vary depending on the nature of your task, audience, and goals. But the general principle of using domain-specific language, frameworks, examples, and context to guide the model towards more relevant and valuable responses remains the same.
-
-By taking the time to research and understand the key concepts, terminology, and best practices of your domain, and incorporating them into your prompts in a thoughtful and strategic way, you can significantly enhance the quality and impact of the model's outputs, and unlock new possibilities for insight, innovation, and value creation.
-
-## Strategies for Different Use Cases
-
 While the key principles and techniques of prompt engineering are broadly applicable across a wide range of domains and applications, the specific strategies and approaches you use will vary depending on the nature of your task, audience, and goals. In this section, we'll explore some common use cases for prompt engineering, and provide guidance and examples for how to approach each one.
 
 ### 1. Open-Ended Generation
@@ -1121,6 +938,8 @@ While the key principles and techniques of prompt engineering are broadly applic
 Open-ended generation tasks involve using the model to produce creative, exploratory, or imaginative outputs based on a relatively broad or loosely defined prompt. These tasks can range from story writing and poetry to ideation and brainstorming, and often involve giving the model a high degree of freedom to generate diverse and unexpected responses.
 
 When designing prompts for open-ended generation tasks, consider the following strategies:
+
+---
 
 #### Provide a general theme, topic, or inspiration:
 
@@ -1131,6 +950,8 @@ Give the model a broad starting point or source of inspiration to anchor its gen
 ```md
 Imagine a world where humans have developed the ability to communicate telepathically. Write a short story exploring the social, cultural, and ethical implications of this new form of communication.
 ```
+
+---
 
 #### Encourage exploration and creativity:
 
