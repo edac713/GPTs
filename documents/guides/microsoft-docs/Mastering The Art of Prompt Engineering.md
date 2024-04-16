@@ -42,63 +42,63 @@ To achieve clarity and specificity, consider the following:
 
 - **Provide relevant context:** Give the model enough background information to understand the task at hand. This could include domain-specific knowledge, task requirements, or any other contextual details that help frame the problem. The more context you provide, the more likely the model is to generate a relevant and accurate response.
 
-**For example**, instead of simply asking _"What are the key factors that contribute to climate change?"_, you could provide additional context like:
+  **For example**, instead of simply asking _"What are the key factors that contribute to climate change?"_, you could provide additional context like:
 
-```
-Climate change is one of the most pressing issues facing our planet today. It refers to the long-term shift in global weather patterns and temperatures, primarily caused by human activities that increase greenhouse gas emissions. To better understand the root causes of climate change, please explain the key factors that contribute to this phenomenon, including:
+  ```md
+  Climate change is one of the most pressing issues facing our planet today. It refers to the long-term shift in global weather patterns and temperatures, primarily caused by human activities that increase greenhouse gas emissions. To better understand the root causes of climate change, please explain the key factors that contribute to this phenomenon, including:
 
-1. The main sources of greenhouse gas emissions, such as fossil fuel combustion, deforestation, and industrial processes.
-2. The role of feedback loops and tipping points in amplifying the effects of climate change over time.
-3. The influence of natural climate variability and other external forcings on global temperature trends.
+  1. The main sources of greenhouse gas emissions, such as fossil fuel combustion, deforestation, and industrial processes.
+  2. The role of feedback loops and tipping points in amplifying the effects of climate change over time.
+  3. The influence of natural climate variability and other external forcings on global temperature trends.
 
-Please provide a clear and concise explanation that is accessible to a general audience, while still maintaining scientific accuracy and rigor.
-```
+  Please provide a clear and concise explanation that is accessible to a general audience, while still maintaining scientific accuracy and rigor.
+  ```
 
 By providing this additional context, you give the model a much clearer sense of what information you are looking for, and what level of detail and complexity is appropriate for the response.
 
 - **Use precise language:** Avoid vague or ambiguous terms that could be interpreted in multiple ways. Use specific, concrete language that leaves little room for misinterpretation. This is especially important when dealing with technical or domain-specific terminology, where even small differences in wording can lead to very different outputs.
 
-**For example**, instead of asking _"Can you explain how machine learning works?"_, you could be more specific and say:
+  **For example**, instead of asking _"Can you explain how machine learning works?"_, you could be more specific and say:
 
-```
-Please provide a high-level overview of the key concepts and techniques involved in supervised machine learning, including:
+  ```md
+  Please provide a high-level overview of the key concepts and techniques involved in supervised machine learning, including:
 
-1. The difference between training, validation, and test datasets, and how they are used in the machine learning workflow.
-2. The role of features and labels in representing input data and desired outputs, respectively.
-3. The process of training a model using an optimization algorithm to minimize a loss function over the training data.
-4. The use of techniques like cross-validation and regularization to prevent overfitting and improve model generalization.
+  1. The difference between training, validation, and test datasets, and how they are used in the machine learning workflow.
+  2. The role of features and labels in representing input data and desired outputs, respectively.
+  3. The process of training a model using an optimization algorithm to minimize a loss function over the training data.
+  4. The use of techniques like cross-validation and regularization to prevent overfitting and improve model generalization.
 
-Assume that the reader has a basic understanding of programming and mathematics, but may not be familiar with the specific terminology and concepts used in machine learning.
-```
+  Assume that the reader has a basic understanding of programming and mathematics, but may not be familiar with the specific terminology and concepts used in machine learning.
+  ```
 
 By using more precise language and breaking down the request into specific sub-topics, you make it much easier for the model to understand exactly what information you are looking for, and to generate a response that is both relevant and informative.
 
 - **Break down complex tasks:** If you're dealing with a multi-step problem or a complex task, break it down into smaller, more manageable sub-tasks. This helps the model understand the logical flow and generate more targeted responses for each step in the process.
 
-**For example**, instead of asking _"How do I build a recommendation system?"_, you could break it down into a series of smaller, more specific prompts like:
+  **For example**, instead of asking _"How do I build a recommendation system?"_, you could break it down into a series of smaller, more specific prompts like:
 
-```
-To build a recommendation system, we'll need to follow a series of steps. For each step, please provide a brief explanation of the key concepts and techniques involved, along with any relevant examples or best practices.
+  ```md
+  To build a recommendation system, we'll need to follow a series of steps. For each step, please provide a brief explanation of the key concepts and techniques involved, along with any relevant examples or best practices.
 
-Step 1: Data collection and preprocessing
-- What are the main types of data that are typically used in recommendation systems, and how are they collected and stored?
-- What are some common preprocessing techniques that are applied to this data, such as normalization, feature scaling, and handling missing values?
+  Step 1: Data collection and preprocessing
+  - What are the main types of data that are typically used in recommendation systems, and how are they collected and stored?
+  - What are some common preprocessing techniques that are applied to this data, such as normalization, feature scaling, and handling missing values?
 
-Step 2: Collaborative filtering
-- What is the basic idea behind collaborative filtering, and how does it differ from content-based filtering?
-- What are some common algorithms used for collaborative filtering, such as matrix factorization and neighborhood-based methods?
-- How do these algorithms handle the cold-start problem, where new users or items have no prior ratings or interactions?
+  Step 2: Collaborative filtering
+  - What is the basic idea behind collaborative filtering, and how does it differ from content-based filtering?
+  - What are some common algorithms used for collaborative filtering, such as matrix factorization and neighborhood-based methods?
+  - How do these algorithms handle the cold-start problem, where new users or items have no prior ratings or interactions?
 
-Step 3: Evaluation and testing
-- What are some common metrics used to evaluate the performance of recommendation systems, such as precision, recall, and NDCG?
-- How can we split our data into training, validation, and test sets to avoid overfitting and get a realistic estimate of model performance?
-- What are some best practices for conducting user studies and A/B tests to compare different recommendation algorithms and configurations?
+  Step 3: Evaluation and testing
+  - What are some common metrics used to evaluate the performance of recommendation systems, such as precision, recall, and NDCG?
+  - How can we split our data into training, validation, and test sets to avoid overfitting and get a realistic estimate of model performance?
+  - What are some best practices for conducting user studies and A/B tests to compare different recommendation algorithms and configurations?
 
-Step 4: Deployment and scaling
-- What are some common architectures and frameworks used for deploying recommendation systems in production, such as microservices and serverless computing?
-- How can we handle the challenges of scalability and real-time performance as the number of users and items grows over time?
-- What are some strategies for monitoring and updating the recommendation system over time, based on user feedback and changing trends in the data?
-```
+  Step 4: Deployment and scaling
+  - What are some common architectures and frameworks used for deploying recommendation systems in production, such as microservices and serverless computing?
+  - How can we handle the challenges of scalability and real-time performance as the number of users and items grows over time?
+  - What are some strategies for monitoring and updating the recommendation system over time, based on user feedback and changing trends in the data?
+  ```
 
 By breaking down the task into smaller, more focused prompts, you make it much easier for the model to provide a comprehensive and well-structured response that covers all the key aspects of building a recommendation system.
 
