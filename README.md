@@ -2,6 +2,15 @@
 
 ChatGPT now supports "Custom GPTs" which package a custom system message, various modalities to supoort it, and pre-filled files for retrieval-augmented generation (RAG).
 
+# RESOURCES AND REFERENCES
+
+- Comprehensive prompt engineering guides, tutorials, and case studies, covering fundamental concepts, advanced techniques, and domain-specific applications
+- Curated repositories of high-quality prompts across various tasks, domains, and model architectures, serving as inspiration and starting points for prompt development
+- Prompt engineering communities, forums, and workshops for knowledge sharing, collaboration, and networking with experts and practitioners in the field
+- Research papers, blog posts, and presentations on the latest advancements, methodologies, and findings in prompt engineering and related areas of natural language processing and machine learning
+- Domain-specific resources, including knowledge bases, datasets, ontologies, and best practices, to inform the creation of specialized, context-rich prompts
+- AI ethics frameworks, guidelines, and case studies to ensure the responsible development and deployment of prompts and language models in real-world applications
+
 > [!WARNING]
 > "GPTs" use a separate model (`gpt-4-gizmo`) with its own usage limit. That message limit is **shared between all "Custom GPTs"**, and has a 32k context size.
 >
