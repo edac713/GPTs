@@ -2,9 +2,12 @@
 
 Documentation puts useful information inside other people’s heads. Follow these tips to write better documentation:
 
-## Make docs easy to skim
+1. **Make docs easy to skim**: Few readers read linearly from top to bottom. They’ll jump around, trying to assess which bit solves their problem, if any. To reduce their search time and increase their odds of success, make docs easy to skim.
+2. **Write well**: Badly written text is taxing to read. Minimize the tax on readers by writing well.
+3. **Be broadly helpful**: People come to documentation with varying levels of knowledge, language proficiency, and patience. Even if we target experienced developers, we should try to write docs helpful to everyone.
+4. **
 
-Few readers read linearly from top to bottom. They’ll jump around, trying to assess which bit solves their problem, if any. To reduce their search time and increase their odds of success, make docs easy to skim.
+## Make docs easy to skim
 
 ### Split content into sections with titles
 
@@ -44,8 +47,6 @@ Don’t be afraid to bold **important** text to help readers find it.
 
 ## Write well
 
-Badly written text is taxing to read. Minimize the tax on readers by writing well.
-
 ### Keep sentences simple
 
 Split long sentences into two. Cut adverbs. Cut unnecessary words and phrases. Use the imperative mood, if applicable. Do what writing books tell you.
@@ -71,8 +72,6 @@ Human brains are amazing pattern matchers. Inconsistencies will annoy or distrac
 Avoid sentences like “Now you probably want to understand how to call a function” or “Next, you’ll need to learn to call a function.” Both examples presume a reader’s state of mind, which may annoy them or burn our credibility. Use phrases that avoid presuming the reader’s state. E.g., “To call a function, …”
 
 ## Be broadly helpful
-
-People come to documentation with varying levels of knowledge, language proficiency, and patience. Even if we target experienced developers, we should try to write docs helpful to everyone.
 
 ### Write simply
 
