@@ -2,7 +2,7 @@
 
 ChatGPT now supports "Custom GPTs" which package a custom system message, various modalities to supoort it, and pre-filled files for retrieval-augmented generation (RAG).
 
-# RESOURCES AND REFERENCES
+## RESOURCES AND REFERENCES
 
 - Comprehensive prompt engineering guides, tutorials, and case studies, covering fundamental concepts, advanced techniques, and domain-specific applications
 - Curated repositories of high-quality prompts across various tasks, domains, and model architectures, serving as inspiration and starting points for prompt development
