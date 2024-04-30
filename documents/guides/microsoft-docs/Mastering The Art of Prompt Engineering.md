@@ -1,6 +1,6 @@
 # Mastering the Art of Prompt Engineering: A Comprehensive Guide
 
-## Introduction
+## 1 Introduction
 
 In the rapidly evolving landscape of artificial intelligence, prompt engineering has emerged as a critical skill for unlocking the full potential of large language models (LLMs) like Claude and GPT-4. Prompt engineering is the art and science of designing effective prompts that elicit high-quality, relevant, and coherent responses from these powerful AI systems. As LLMs continue to advance in their capabilities, mastering prompt engineering becomes increasingly essential for harnessing their potential across a wide range of applications, from creative writing and knowledge retrieval to task automation and decision support.
 
@@ -10,7 +10,7 @@ Effective prompt engineering requires a deep understanding of how LLMs work, inc
 
 In many ways, prompt engineering is similar to the art of human communication and persuasion. Just as a skilled orator or writer knows how to craft their message in a way that resonates with their audience and achieves their intended goals, a skilled prompt engineer knows how to design prompts that effectively leverage the capabilities of LLMs to generate high-quality, relevant, and valuable outputs.
 
-## Why Prompt Engineering Matters
+## 2 Why Prompt Engineering Matters
 
 Prompt engineering is not merely about asking the right questions or providing clever instructions; it's about providing the necessary context, guidance, and constraints to steer the model towards the desired output. A well-crafted prompt can make the difference between a generic, irrelevant response and a highly targeted, insightful one. By understanding the intricacies of prompt design, you can:
 
@@ -30,21 +30,21 @@ Moreover, as LLMs continue to advance in their sophistication and versatility, t
 
 Ultimately, the success of prompt engineering will depend on our ability to build bridges between the worlds of AI and human experience, to foster a spirit of collaboration and shared purpose between humans and machines, and to always keep the needs and values of real people at the center of our work. By embracing these challenges and opportunities with creativity, empathy, and a deep sense of responsibility, we can help ensure that the future of AI is one of hope, possibility, and positive impact for all.
 
-## Key Principles of Effective Prompts
+## 3 Key Principles of Effective Prompts
 
 Crafting effective prompts is both an art and a science, requiring a deep understanding of the underlying principles that govern LLM behavior, as well as a keen sense of how to structure and present information in a way that elicits the desired response. In this section, we'll explore some of the key principles of effective prompt engineering, and provide concrete examples and best practices for putting these principles into action.
 
-### 1. Clarity and Specificity
+### 3.1 Clarity and Specificity
 
 The foundation of effective prompt engineering is clarity and specificity. LLMs are incredibly powerful tools, but they are not mind readers. They rely on the information provided in the prompt to generate relevant and coherent responses. Therefore, it's crucial to be as clear and specific as possible when formulating your prompts.
 
 To achieve clarity and specificity, consider the following:
 
-**Provide relevant context:**
+#### 3.1.1 Provide Relevant Context
 
 Give the model enough background information to understand the task at hand. This could include domain-specific knowledge, task requirements, or any other contextual details that help frame the problem. The more context you provide, the more likely the model is to generate a relevant and accurate response.
 
-_**For example**, instead of simply asking, `"What are the key factors that contribute to climate change?"`, you could provide additional context like:_
+**For example**, instead of simply asking, `"What are the key factors that contribute to climate change?"`, you could provide additional context like:_
 
 ```md
 Climate change is one of the most pressing issues facing our planet today. It refers to the long-term shift in global weather patterns and temperatures, primarily caused by human activities that increase greenhouse gas emissions. To better understand the root causes of climate change, please explain the key factors that contribute to this phenomenon, including:
@@ -58,7 +58,7 @@ Please provide a clear and concise explanation that is accessible to a general a
 
 By providing this additional context, you give the model a much clearer sense of what information you are looking for, and what level of detail and complexity is appropriate for the response.
 
-**Use precise language:**
+#### 3.1.2 Use precise language
 
 Avoid vague or ambiguous terms that could be interpreted in multiple ways. Use specific, concrete language that leaves little room for misinterpretation. This is especially important when dealing with technical or domain-specific terminology, where even small differences in wording can lead to very different outputs.
 
@@ -77,7 +77,7 @@ Assume that the reader has a basic understanding of programming and mathematics,
 
 By using more precise language and breaking down the request into specific sub-topics, you make it much easier for the model to understand exactly what information you are looking for, and to generate a response that is both relevant and informative.
 
-**Break down complex tasks:**
+#### Break down complex tasks
 
 If you're dealing with a multi-step problem or a complex task, break it down into smaller, more manageable sub-tasks. This helps the model understand the logical flow and generate more targeted responses for each step in the process.
 
@@ -120,7 +120,7 @@ Organizing your prompts in a clear, structured format can significantly improve 
 
 Some effective techniques for structuring prompts include:
 
-**Bullet points or numbered lists:**
+#### Bullet points or numbered lists
 
 Use bullet points or numbered lists to outline specific steps, requirements, or key points. This helps break down the information into easily digestible chunks and provides a clear hierarchy and sequence for the model to follow.
 
@@ -149,7 +149,7 @@ Please provide clear and concise explanations for each tip, along with any relev
 
 By structuring the prompt in this way, you make it much easier for the model to generate a well-organized and comprehensive response that covers all the key aspects of improving sleep quality.
 
-**Sections with clear headings:**
+#### Sections with clear headings
 
 Divide your prompt into distinct sections with clear, descriptive headings. This allows the model to compartmentalize the information and generate responses that address each section separately, while still maintaining an overall coherence and flow.
 
@@ -184,7 +184,7 @@ Please provide clear and concise explanations for each section, along with relev
 
 By dividing the prompt into clear sections with descriptive headings, you make it much easier for the model to generate a well-structured and informative response that covers all the key steps in creating and sticking to a budget.
 
-**Consistent formatting:**
+#### Consistent formatting
 
 Maintain a consistent format throughout your prompts, using the same style for headings, bullet points, and other structural elements. This helps create a sense of coherence and clarity, making it easier for the model to understand the relationships and hierarchy between different parts of the prompt.
 
@@ -228,7 +228,7 @@ Clearly stating what you expect from the model in your prompt is essential for g
 
 To provide effective instructions, consider the following:
 
-**Specify the desired format:**
+#### Specify the desired format
 
 Clearly indicate the expected format of the response, such as a paragraph, a list, a table, or any other structured format. This helps the model understand how to organize and present the information in a way that meets your needs.
 
@@ -250,7 +250,7 @@ Please aim for a total summary length of around 200-300 words, using clear and c
 
 By providing these **specific instructions**, you make it much easier for the model to generate a summary that meets your expectations in terms of **format, content, and length**.
 
-**Define the style and tone:**
+#### Define the style and tone
 
 If you have specific preferences for the style or tone of the response, make sure to explicitly mention them in the prompt. This could include things like formality level, **writing style** _(e.g., persuasive, informative, conversational)_, or **emotional tone** _(e.g., friendly, authoritative, humorous)_.
 
@@ -273,7 +273,7 @@ Please proofread the email carefully before sending to ensure there are no spell
 
 By providing these **specific instructions** around **tone, style, and formatting**, you help the model generate an email that is appropriate and effective for the given **context and audience**.
 
-**Set length constraints:**
+#### Set length constraints
 
 If applicable, provide guidelines for the desired length of the response, whether in terms of word count, number of sentences or paragraphs, or any other relevant measure. Length constraints can help ensure that the model generates a response that is concise and focused, without including unnecessary or irrelevant information.
 
@@ -302,7 +302,7 @@ Providing examples or demonstrations in your prompt can significantly improve th
 
 Here are some effective ways to incorporate examples and demonstrations into your prompts:
 
-**Sample inputs and outputs:
+#### Sample inputs and outputs
 
 Include sample inputs and their corresponding ideal outputs to illustrate the desired format and content of the response. This is particularly useful for tasks like data transformation, format conversion, or any other scenario where the model needs to mimic a specific pattern or structure.
 
@@ -332,18 +332,22 @@ Now, please provide SQL queries and explanations for the following questions:
 
 By providing these examples of input questions and their corresponding SQL queries and explanations, you give the model a clear template to follow and a concrete sense of what a good response should look like.
 
-**Step-by-step walkthroughs:
+#### Step-by-step walkthroughs
 
 For complex, multi-step tasks, provide a detailed walkthrough that breaks down the process into individual steps, demonstrating each step with an example. This helps the model understand the logical progression and dependencies between different parts of the task, and provides a roadmap for generating a complete and coherent response.
 
 **For example**, if you're asking the model to write a program that calculates the Fibonacci sequence up to a given number of terms, you could provide a step-by-step walkthrough like:
 
 ````md
+# Task
+
 Please write a Python function that takes an integer `n` as input and returns a list of the first `n` Fibonacci numbers. The Fibonacci sequence is a series of numbers where each number is the sum of the two preceding ones, usually starting with 0 and 1.
+
+# Step-By-Step Instructions
 
 Here's a step-by-step walkthrough of how to implement this function:
 
-Step 1: Define the base cases.
+## Step 1: Define the base cases.
 
 - If `n` is 0, return an empty list `[]`.
 - If `n` is 1, return a list with a single element `[0]`.
@@ -360,7 +364,7 @@ elif n == 2:
     return [0, 1]
 ```
 
-Step 2: Initialize variables to store the sequence.
+## Step 2: Initialize variables to store the sequence.
 
 - Create a list `fib` with the first two numbers `[0, 1]`.
 - Initialize a counter `i` to 2, since the first two numbers are already in the list.
@@ -372,7 +376,7 @@ fib = [0, 1]
 i = 2
 ```
 
-Step 3: Use a loop to generate the remaining numbers.
+## Step 3: Use a loop to generate the remaining numbers.
 
 - While `i` is less than `n`, append the sum of the last two numbers in `fib` to the end of the list.
 - Increment `i` by 1 and repeat until `i` equals `n`.
@@ -385,7 +389,7 @@ while i < n:
    i += 1
 ```
 
-Step 4: Return the list of Fibonacci numbers.
+## Step 4: Return the list of Fibonacci numbers.
 
 - After the loop ends, the `fib` list will contain the first `n` Fibonacci numbers.
 - Return `fib` as the output of the function.
@@ -401,14 +405,14 @@ Please implement the complete `fibonacci(n)` function based on this walkthrough,
 
 By providing this detailed walkthrough of the Fibonacci function implementation, you break down the problem into clear and manageable steps, and give the model a concrete roadmap to follow in generating its own response. The examples at each step help illustrate the expected code structure and logic, making it easier for the model to produce a complete and correct implementation.
 
-**Edge cases and exceptions:
+#### Edge cases and exceptions
 
 Highlight any edge cases, exceptions, or unusual scenarios that the model should be aware of and provide examples of how to handle them. This helps ensure that the generated response is robust and comprehensive, accounting for the full range of possible inputs and outputs.
 
 **For example**, if you're asking the model to write a function that validates email addresses, you could provide examples of edge cases like:
 
 ```md
-Please write a Python function that takes a string as input and returns `True` if the string is a valid email address, and `False` otherwise. A valid email address should meet the following criteria:
+Write a Python function that takes a string as input and returns `True` if the string is a valid email address, and `False` otherwise. A valid email address should meet the following criteria:
 
 - Contains exactly one `@` symbol.
 - Contains at least one `.` symbol after the `@`.
@@ -435,7 +439,7 @@ In addition to the basic validation criteria, please make sure your function han
 6. String with a top-level domain that is too short or too long: Return `False`.
    Example: `"john@example.c"` -> `False`, `"john@example.abcdefg"` -> `False`
 
-Please implement the `is_valid_email(email)` function based on these requirements, and provide some example usage of the function with different input strings, including both valid and invalid email addresses. Also, discuss any additional edge cases or exceptions that your function handles, and explain your reasoning for including them.
+Implement the `is_valid_email(email)` function based on these requirements, and provide some example usage of the function with different input strings, including both valid and invalid email addresses. Also, discuss any additional edge cases or exceptions that your function handles, and explain your reasoning for including them.
 ```
 
 By providing these examples of edge cases and exceptions, you help the model create a more robust and comprehensive email validation function that goes beyond just the basic requirements. The specific examples for each edge case make it clear what the expected behavior should be, and prompt the model to think critically about other potential issues that could arise.
@@ -446,7 +450,7 @@ Prompt engineering is an iterative process that involves continuous refinement a
 
 The iterative refinement process typically involves the following steps:
 
-**1. Start with a basic prompt:
+#### 1. Start with a basic prompt
 
 Begin with a simple, high-level prompt that captures the core essence of the task or question you want the model to address. This serves as a starting point for further refinement and optimization.
 
@@ -465,7 +469,7 @@ Use a clear and engaging writing style that appeals to a general audience, and p
 
 This initial prompt provides a general overview of the topic and requirements, but leaves room for the model to generate a relatively broad and high-level response.
 
-**2. Analyze the model's response:
+#### 2. Analyze the model's response
 
 Carefully review the model's output and assess its quality, relevance, and coherence. Look for areas where the response meets your expectations, as well as areas where it falls short or could be improved.
 
@@ -477,7 +481,7 @@ Carefully review the model's output and assess its quality, relevance, and coher
 
 By identifying these specific strengths and weaknesses, you can start to formulate targeted improvements to the prompt that will help guide the model towards a better response.
 
-**3. Refine the prompt:
+#### 3. Refine the prompt
 
 Based on your analysis of the model's response, make specific modifications to the prompt that address the identified issues and guide the model towards the desired output. This could involve adding more context, rephrasing instructions, providing additional examples, or adjusting any other aspects of the prompt.
 
@@ -500,7 +504,7 @@ End with a compelling conclusion that summarizes the main points and leaves the 
 
 This refined prompt provides more specific guidance on the content and structure of the essay, with a greater emphasis on the economic and social benefits of renewable energy. It also includes more detailed instructions on the use of evidence and examples, and the importance of a clear and persuasive writing style.
 
-**4. Re-evaluate the response:
+#### 4. Re-evaluate the response
 
 Generate a new response using the refined prompt, and evaluate its quality and effectiveness compared to the initial response. Assess whether the changes to the prompt have led to meaningful improvements in the relevance, coherence, and persuasiveness of the essay.
 
@@ -520,7 +524,7 @@ Providing explicit instructions is essential for guiding the model towards the d
 
 Consider the following when providing instructions:
 
-**Specify the desired format:
+#### Specify the desired format
 
 Clearly indicate the expected format of the response, such as a paragraph, a list, a table, or any other structured format. This helps the model generate outputs that align with your requirements and makes it easier for you to process and use the generated information.
 
