@@ -1,0 +1,101 @@
+# Document Index
+
+This index lists the Markdown files in the `documents` folder.
+
+- [2AFC Prompting of Large Multimodal Models  for Image Quality Assessment (1).md](2AFC Prompting of Large Multimodal Models  for Image Quality Assessment (1).md) - 2AFC Prompting of Large Multimodal Models for Image Quality Assessment
+- [ALLaVA -- HARNESSING GPT4V-SYNTHESIZED DATA.md](ALLaVA -- HARNESSING GPT4V-SYNTHESIZED DATA.md) - ALLAVA: HARNESSING GPT4V-SYNTHESIZED DATA FOR A LITE VISION-LANGUAGE MODEL
+- [Additional Readings.md](Additional Readings.md) - Additional Readings
+- [Assistants tools - OpenAI API.md](Assistants tools - OpenAI API.md) - Tools
+- [Authentication - OpenAI API.md](Authentication - OpenAI API.md) - Plugin authentication
+- [Automatic Prompt Engineer (APE).md](Automatic Prompt Engineer (APE).md) - Automatic Prompt Engineer (APE)
+- [Automatic Reasoning and Tool-use (ART).md](Automatic Reasoning and Tool-use (ART).md) - Automatic Reasoning and Tool-use (ART)
+- [Basics of Prompting.md](Basics of Prompting.md) - Basics of Prompting
+- [Best practices for prompt engineering with the OpenAI API.md](Best practices for prompt engineering with the OpenAI API.md) - Best practices for prompt engineering with the OpenAI API
+- [Brevity_By_Churchill.md](Brevity_By_Churchill.md) - Brevity by Churchill
+- [COGNITIVE BIAS CODEX.md](COGNITIVE BIAS CODEX.md) - COGNITIVE BIAS CODEX
+- [Cade_Wilson_Resume.md](Cade_Wilson_Resume.md) - Wyatt Wilson
+- [Chain-of-Thought Prompting.md](Chain-of-Thought Prompting.md) - Chain-of-Thought Prompting
+- [ChatGPT Prompt Engineering.md](ChatGPT Prompt Engineering.md) - ChatGPT Prompt Engineering
+- [Creating a GPT - OpenAI Help Center.md](Creating a GPT - OpenAI Help Center.md) - Creating a GPT
+- [Directional Stimulus Prompting.md](Directional Stimulus Prompting.md) - Directional Stimulus Prompting
+- [Elements of a Prompt.md](Elements of a Prompt.md) - Elements of a Prompt
+- [Emotional_Prompts.md](Emotional_Prompts.md) - Emotional Prompts
+- [Examples of Prompts.md](Examples of Prompts.md) - Examples of Prompts
+- [Export data v3.md](Export data v3.md) - Logic Puzzle: Cat in Hat
+- [Few-Shot Prompting.md](Few-Shot Prompting.md) - Few-Shot Prompting
+- [File uploads FAQ _ OpenAI Help Center.md](File uploads FAQ _ OpenAI Help Center.md) - File uploads FAQ
+- [Function Calling with LLMs.md](Function Calling with LLMs.md) - Function Calling with LLMs
+- [GPT Builder - OpenAI Help Center.md](GPT Builder - OpenAI Help Center.md) - GPT Builder
+- [General Tips for Designing Prompts.md](General Tips for Designing Prompts.md) - General Tips for Designing Prompts
+- [Generated Knowledge Prompting.md](Generated Knowledge Prompting.md) - Generated Knowledge Prompting
+- [Generating Data.md](Generating Data.md) - Generating Data
+- [Generating Synthetic Dataset for RAG.md](Generating Synthetic Dataset for RAG.md) - Generating Synthetic Dataset for RAG
+- [Getting started - OpenAI API.md](Getting started - OpenAI API.md) - Getting started
+- [Graduate Job Classification Case Study.md](Graduate Job Classification Case Study.md) - Graduate Job Classification Case Study
+- [How to transfigure wireframes into HTML - HTMHell.md](How to transfigure wireframes into HTML - HTMHell.md) - How to transfigure wireframes into HTML
+- [How to work with LLMs.md](How to work with LLMs.md) - How to work with large language models
+- [INDEX.md](INDEX.md) - Document Index
+- [Image inputs for ChatGPT - FAQ _ OpenAI Help Center.md](Image inputs for ChatGPT - FAQ _ OpenAI Help Center.md) - Image inputs for ChatGPT - FAQ
+- [LLM Agents.md](LLM Agents.md) - LLM Agents
+- [Large Language Models ARE Human-Level PROMPT ENGINEERS.md](Large Language Models ARE Human-Level PROMPT ENGINEERS.md) - Large Language Models ARE Human-Level PROMPT ENGINEERS
+- [MAGNIFIC AI.md](MAGNIFIC AI.md) - MAGNIFIC AI
+- [Magnific AI GPT.md](Magnific AI GPT.md) - Magnific AI System Message v0
+- [Magnific AI v0.md](Magnific AI v0.md) - Magnific AI v0
+- [Memory FAQ_OpenAI Help Center.md](Memory FAQ_OpenAI Help Center.md) - Memory FAQ
+- [Message Rephraser GPT Instructions.md](Message Rephraser GPT Instructions.md) - Message Rephraser GPT Instructions
+- [Metaprompt.md](Metaprompt.md) - Metaprompt: Prompt Engineering Tool
+- [Models - OpenAI API.md](Models - OpenAI API.md) - Models
+- [Multimodal CoT Prompting.md](Multimodal CoT Prompting.md) - Multimodal CoT Prompting
+- [PAL (Program-Aided Language Models).md](PAL (Program-Aided Language Models).md) - PAL (Program-Aided Language Models)
+- [Papers.md](Papers.md) - Papers
+- [Prompt Chaining.md](Prompt Chaining.md) - Prompt Chaining
+- [Prompt Engineering - Lil'Log.md](Prompt Engineering - Lil'Log.md) - Prompt Engineering
+- [Prompt Function.md](Prompt Function.md) - Prompt Function
+- [Prompt engineering - OpenAI API.md](Prompt engineering - OpenAI API.md) - Prompt engineering
+- [README.md](README.md) - Documents
+- [ReAct Prompting.md](ReAct Prompting.md) - ReAct Prompting
+- [Retrieval Augmented Generation (RAG) and Semantic Search for GPTs.md](Retrieval Augmented Generation (RAG) and Semantic Search for GPTs.md) - Retrieval Augmented Generation (RAG) and Semantic Search for GPTs
+- [Retrieval Augmented Generation (RAG) for LLMs.md](Retrieval Augmented Generation (RAG) for LLMs.md) - Retrieval Augmented Generation (RAG) for LLMs
+- [Retrieval Augmented Generation (RAG).md](Retrieval Augmented Generation (RAG).md) - Retrieval Augmented Generation (RAG)
+- [Scaling Language Models to 128k Context through Multi-Agent Collaboration.md](Scaling Language Models to 128k Context through Multi-Agent Collaboration.md) - LONGAgent: Scaling Language Models to 128k Context through Multi-Agent Collaboration
+- [Screenshot-to-code.md](Screenshot-to-code.md) - Screenshot-to-code
+- [Self-Consistency.md](Self-Consistency.md) - Self-Consistency
+- [Sora.md](Sora.md) - Sora: Creating video from text
+- [Systems Thinking Notes v1.md](Systems Thinking Notes v1.md) - USER = """
+- [Text generation - OpenAI API.md](Text generation - OpenAI API.md) - Text generation models
+- [Tools & Libraries.md](Tools & Libraries.md) - Tools & Libraries
+- [Topic Explorer.md](Topic Explorer.md) - Variables:
+- [Tree of Thoughts (ToT).md](Tree of Thoughts (ToT).md) - Tree of Thoughts (ToT)
+- [Vision-Flan.md](Vision-Flan.md) - Vision-Flan: Scaling Human-Labeled Tasks in Visual Instruction Tuning
+- [Visual Interpretation to Code Generation.md](Visual Interpretation to Code Generation.md) - Given the detailed objectives and aspirations you've outlined, we'll now proceed with an exploration of the capabilities, methodologies, and potential innovations that could contribute to realizing a system like the envisioned Custom GPT-4V. This exploration is grounded in the integration of AI's visual interpretation abilities with web development processes, aiming to transform mid-fidelity wireframes into precise, high-fidelity HTML code. Here's how this translates into actionable insights and potential research directions:
+- [What Makes Documentation Good.md](What Makes Documentation Good.md) - What makes documentation good
+- [What is the @mentions feature for GPTs.md](What is the @mentions feature for GPTs.md) - What is the @mentions feature for GPTs?
+- [Zero-Shot Prompting.md](Zero-Shot Prompting.md) - Zero-Shot Prompting
+- [api-reference.md](api-reference.md) - Introduction
+- [chatgpt_python_packages.md](chatgpt_python_packages.md) - ChatGPT Python Packages
+- [claude_convo_v0.md](claude_convo_v0.md) - Customizing an AI assistant's system prompt and response behavior
+- [coding.en.md](coding.en.md) - Generating Code
+- [creating prompts that elicit detailed and nuanced responses.md](creating prompts that elicit detailed and nuanced responses.md) - Key Insights
+- [gpt-4-vision-preview.md](gpt-4-vision-preview.md) - Vision
+- [prompts-advanced-usage.md](prompts-advanced-usage.md) - Advanced Prompting
+- [prompts-adversarial.md](prompts-adversarial.md) - Adversarial Prompting
+- [prompts-applications.md](prompts-applications.md) - Prompt Applications
+- [prompts-basic-usage.md](prompts-basic-usage.md) - Basic Prompting
+- [prompts-chatgpt.md](prompts-chatgpt.md) - ChatGPT Prompt Engineering
+- [prompts-intro.md](prompts-intro.md) - Prompting Introduction
+- [prompts-miscellaneous.md](prompts-miscellaneous.md) - Miscellaneous Topics
+- [prompts-reliability.md](prompts-reliability.md) - Reliability
+- [related_resources.md](related_resources.md) - Related resources from around the web
+- [techniques_to_improve_reliability.md](techniques_to_improve_reliability.md) - Techniques to improve reliability
+- [text_comparison_examples.md](text_comparison_examples.md) - Text comparison examples
+- [exported_data/ChatGPT Conversation Properties.md](exported_data/ChatGPT Conversation Properties.md) - ChatGPT Conversation Properties
+- [exported_data/JSON Key Property Chat Data Table.md](exported_data/JSON Key Property Chat Data Table.md) - This table represents a detailed breakdown of the JSON code block provided. Each key is accompanied by its actual value from the JSON, as well as an explanation tailored for clarity. If there are further details or additional parts of the JSON structure that you would like to explore, please let me know, and we can continue the breakdown.
+- [exported_data/JsonDialogue Explorer (JDE).md](exported_data/JsonDialogue Explorer (JDE).md) - JSON Dialog Explorer (JDE) Instructions
+- [exported_data/api-reference.md](exported_data/api-reference.md) - Introduction
+- [exported_data/conversation_v1.md](exported_data/conversation_v1.md) - This table represents a detailed breakdown of the JSON code block provided. Each key is accompanied by its actual value from the JSON, as well as an explanation tailored for clarity.
+- [exported_data/export_v0.md](exported_data/export_v0.md) - This table represents a detailed breakdown of the JSON code block provided. Each key is accompanied by its actual value from the JSON, as well as an explanation tailored for clarity. If there are further details or additional parts of the JSON structure that you would like to explore, please let me know, and we can continue the breakdown.
+- [papers/Active-Prompt.md](papers/Active-Prompt.md) - Active-Prompt
+- [guides/microsoft-docs/# MISSION.md](guides/microsoft-docs/# MISSION.md) - MISSION
+- [guides/microsoft-docs/ChatGPT Instruction Writer.md](guides/microsoft-docs/ChatGPT Instruction Writer.md) - <SYSTEM> = """
+- [guides/microsoft-docs/Mastering The Art of Prompt Engineering.md](guides/microsoft-docs/Mastering The Art of Prompt Engineering.md) - Mastering the Art of Prompt Engineering: A Comprehensive Guide
+- [guides/microsoft-docs/intro-to-prompt-engineering.md](guides/microsoft-docs/intro-to-prompt-engineering.md) - ---
